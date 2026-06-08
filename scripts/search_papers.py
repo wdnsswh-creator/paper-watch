@@ -336,33 +336,158 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     ).lower()
 
     if any(term in text for term in EXCLUDE_TERMS):
-        return "D", "排除：主题更接近医学、人体、动物或非土壤氮循环研究。", "08_低相关暂存"
+        return "D", "排除：主题更接近医学、食品、动物、工业或非土壤湿地氮循环研究。", "08_低相关暂存"
 
-    a_score = sum(1 for term in A_TERMS if term in text)
-    b_score = sum(1 for term in B_TERMS if term in text)
+    ecosystem_terms = [
+        "wetland",
+        "salt marsh",
+        "coastal",
+        "estuarine",
+        "tidal",
+        "sediment",
+        "saline",
+        "salinity",
+        "yellow river delta",
+        "spartina",
+        "phragmites",
+        "suaeda",
+        "tamarix",
+        "halophyte",
+    ]
 
-    if a_score >= 2 and b_score >= 1:
+    soil_terms = [
+        "soil",
+        "rhizosphere",
+        "sediment",
+    ]
+
+    microbe_terms = [
+        "microbial",
+        "microorganism",
+        "bacterial",
+        "bacteria",
+        "fungal",
+        "fungi",
+        "archaea",
+        "community",
+        "microbiome",
+    ]
+
+    nitrogen_terms = [
+        "nitrogen",
+        "nitrification",
+        "denitrification",
+        "dnra",
+        "nitrate reduction",
+        "nitrogen fixation",
+        "ammonia oxidation",
+        "ammonium",
+        "nitrate",
+        "nitrite",
+        "nitrous oxide",
+        "n2o",
+    ]
+
+    addition_terms = [
+        "nitrogen addition",
+        "nitrogen deposition",
+        "nitrogen enrichment",
+        "nitrogen loading",
+        "fertilization",
+        "fertilizer",
+        "nitrate enrichment",
+        "ammonium addition",
+        "nitrate addition",
+        "long-term fertilization",
+    ]
+
+    function_terms = [
+        "functional gene",
+        "functional genes",
+        "metagenomic",
+        "metagenomics",
+        "shotgun",
+        "kegg",
+        "faprotax",
+        "functional potential",
+        "nitrogen metabolism",
+        "carbon-nitrogen cycling",
+        "amoa",
+        "hao",
+        "nirk",
+        "nirs",
+        "norb",
+        "norc",
+        "nosz",
+        "nrfa",
+        "nifh",
+        "nifd",
+        "nifk",
+        "napa",
+        "narg",
+        "nxra",
+        "nxrb",
+        "urec",
+    ]
+
+    vegetation_terms = [
+        "spartina alterniflora",
+        "spartina",
+        "phragmites australis",
+        "suaeda salsa",
+        "tamarix chinensis",
+        "halophyte",
+        "plant invasion",
+        "invasive plant",
+    ]
+
+    ecosystem_score = sum(1 for term in ecosystem_terms if term in text)
+    soil_score = sum(1 for term in soil_terms if term in text)
+    microbe_score = sum(1 for term in microbe_terms if term in text)
+    nitrogen_score = sum(1 for term in nitrogen_terms if term in text)
+    addition_score = sum(1 for term in addition_terms if term in text)
+    function_score = sum(1 for term in function_terms if term in text)
+    vegetation_score = sum(1 for term in vegetation_terms if term in text)
+
+    # A 类：最贴近你的博士论文
+    if (
+        soil_score >= 1
+        and microbe_score >= 1
+        and nitrogen_score >= 1
+        and function_score >= 1
+        and (ecosystem_score >= 1 or addition_score >= 1 or vegetation_score >= 1)
+    ):
         return (
             "A",
-            "高度相关：同时涉及滨海/盐碱湿地、宏基因组或土壤氮循环功能基因，并与氮循环过程有关。",
+            "高度相关：同时包含土壤/沉积物、微生物、氮循环过程和土壤氮循环功能基因/宏基因组/功能预测，并与湿地、氮添加或典型湿地植被相关。",
             "03_土壤氮循环功能基因",
         )
 
-    if a_score >= 1 and b_score >= 1:
+    # B 类：适合讨论机制
+    if (
+        soil_score >= 1
+        and microbe_score >= 1
+        and nitrogen_score >= 1
+        and (ecosystem_score >= 1 or addition_score >= 1 or vegetation_score >= 1)
+    ):
         return (
             "B",
-            "中等相关：涉及土壤氮循环、氮添加、硝化、反硝化、DNRA 或固氮过程，可用于讨论机制。",
+            "中等相关：涉及土壤/湿地微生物与氮循环过程，可用于讨论氮添加、盐度梯度、植被或微生物群落变化机制。",
             "07_讨论部分可引用文献",
         )
 
-    if b_score >= 1:
+    # C 类：背景文献
+    if (
+        nitrogen_score >= 1
+        and (microbe_score >= 1 or ecosystem_score >= 1 or vegetation_score >= 1)
+    ):
         return (
             "C",
-            "间接相关：与氮循环或土壤微生物过程有关，可作为引言或背景文献。",
+            "间接相关：涉及氮循环、微生物群落或湿地环境，可作为引言、背景或补充阅读文献。",
             "08_低相关暂存",
         )
 
-    return "D", "排除：与当前博士论文主题相关度较低。", "08_低相关暂存"
+    return "D", "排除：缺少土壤/湿地、微生物、氮循环或功能基因等核心要素。", "08_低相关暂存"
 
 
 def deduplicate_records(records: List[Dict]) -> List[Dict]:
