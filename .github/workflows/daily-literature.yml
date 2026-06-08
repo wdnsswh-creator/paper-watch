@@ -1,0 +1,38 @@
+name: Daily Literature Tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run-literature-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run literature tracker
+        run: |
+          python scripts/search_papers.py --mailto wdnsswh@gmail.com
+
+      - name: Commit output files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/
+          git commit -m "Update daily literature results" || echo "No changes to commit"
+          git push
