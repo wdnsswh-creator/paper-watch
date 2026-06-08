@@ -159,27 +159,72 @@ def save_seen_dois(dois: set) -> None:
             f.write(doi + "\n")
 
 
-def build_queries(keywords: List[str], max_queries: int = 8) -> List[str]:
+def build_queries(keywords: List[str], max_queries: int = 35) -> List[str]:
+    """
+    Build high-precision search queries.
+
+    The logic is:
+    ecosystem context + microbial object + nitrogen process + functional gene/method.
+    This avoids retrieving irrelevant papers that only contain broad words such as
+    nitrogen, microbial, plant, or soil.
+    """
+
     preferred = [
-        "coastal wetland nitrogen cycling",
-        "soil nitrogen cycling functional genes",
-        "metagenomics nitrogen cycling soil",
-        "nitrogen addition wetland soil",
-        "nitrification denitrification DNRA nitrogen fixation",
-        "amoA nirK nirS nosZ nrfA nifH soil",
-        "saline-alkali soil nitrogen cycling",
-        "Yellow River Delta wetland nitrogen cycling",
+        # Most relevant to the user's doctoral topic
+        "coastal wetland soil nitrogen cycling functional genes",
+        "salt marsh microbial nitrogen cycling functional genes",
+        "wetland soil microbial community nitrogen cycling functional genes",
+        "soil metagenomics nitrogen cycling functional genes",
+        "metagenomic analysis nitrogen-cycle functional genes soil microorganisms",
+
+        # Nitrogen addition / deposition
+        "nitrogen addition soil microbial community functional genes",
+        "nitrogen deposition microbial communities carbon-nitrogen cycling functional genes",
+        "nitrogen addition gradient soil nitrogen cycling functional genes",
+        "different nitrogen addition levels soil microbial community nitrogen cycling",
+        "nitrogen enrichment wetland soil microbial nitrogen cycling",
+
+        # Nitrogen forms
+        "ammonium addition soil nitrogen cycling functional genes",
+        "nitrate addition soil nitrogen cycling functional genes",
+        "ammonium versus nitrate soil microbial nitrogen cycling",
+        "different nitrogen forms soil microbial functional genes",
+        "NH4 addition NO3 addition wetland soil microbial nitrogen cycling",
+
+        # Wetland / salt marsh / land-sea interface
+        "salt marsh nitrogen cycling where land meets sea",
+        "salt marsh sediment bacteria external nutrient inputs",
+        "coastal wetland microbial community nitrogen cycling",
+        "estuarine wetland soil microbial nitrogen cycling",
+        "Yellow River Delta wetland microbial community nitrogen cycling",
+        "salinity gradient soil microbial community nitrogen cycling",
+
+        # Vegetation and invasion
+        "Spartina alterniflora invasion soil microbial community nitrogen cycling",
+        "Spartina alterniflora invasion nitrogen cycling functional genes",
+        "salt marsh invasion Spartina alterniflora microbial nitrogen cycling",
+        "Phragmites australis Suaeda salsa Tamarix chinensis soil microbial community",
+        "halophyte rhizosphere soil nitrogen cycling functional genes",
+
+        # Functional genes and processes
+        "amoA hao nirK nirS norB norC nosZ nrfA nifH soil",
+        "nitrification denitrification DNRA nitrogen fixation functional genes soil",
+        "ammonia oxidation nitrate reduction denitrification wetland soil",
+        "FAPROTAX nitrogen cycling wetland soil microbial community",
+        "KEGG nitrogen metabolism soil metagenomics",
     ]
 
     merged = preferred + keywords
+
     result = []
     for q in merged:
-        if q not in result:
+        q = q.strip()
+        if q and q not in result:
             result.append(q)
         if len(result) >= max_queries:
             break
-    return result
 
+    return result
 
 def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) -> List[Dict]:
     from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
