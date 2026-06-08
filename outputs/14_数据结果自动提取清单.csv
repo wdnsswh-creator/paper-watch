@@ -1,0 +1,10 @@
+数据文件名,识别到的指标,识别到的处理,识别到的功能基因,均值列,SE/SD 列,P 值列,显著性字母列,脚本能否用于写结果段,备注
+data/Correlation_Coefficient.csv,相关性热图,,,,,,,是,可用于生成结果段
+data/Correlation_Pvalue.csv,相关性热图,,,,,,,是,可用于生成结果段
+data/Figure_Process_Gene_Bubble_Heatmap_Data.csv,氮循环模块；Nitrification；Denitrification；DNRA；Ammonia assimilation；Nitrogen fixation；Urea decomposition,CK1；CK2；NH1；NH2；NH3；NO1；NO2；NO3,hao；nirK；nirS；norB；norC；nosZ；nrfA；nrfH；gltB；gltD；nifD；nifH；nifK；ureA；ureB；ureC,Mean,,,,是,可用于生成结果段
+data/Figure_Process_Module_Abundance_Data.csv,氮循环模块；Nitrification；Denitrification；DNRA；Ammonia assimilation；Nitrogen fixation；Urea decomposition,CK1；CK2；NH1；NH2；NH3；NO1；NO2；NO3,,Mean,SD,,,是,可用于生成结果段
+data/Nitrogen_Function_Barplot_Data_With_Letters.csv,土壤氮循环功能基因丰度,CK1；CK2；NH1；NH2；NH3；NO1；NO2；NO3,hao；nifD；nifH；nifK；nirK；nirS；norB；norC；nosZ；nrfA,Mean,SD,,Letter,是,可用于生成结果段
+data/Nitrogen_Function_Barplot_Pvalues.csv,相关性热图,NH1；NH2；NH3；NO1；NO2；NO3,hao；nifD；nifH；nifK；nirK；nirS；norB；norC；nosZ；nrfA,,,P_value,,是,可用于生成结果段
+data/RDA_Useful_Results.xlsx,RDA,,,,,Pr(>F),,是,可用于生成结果段
+data/ThreeGroups_FunctionalGenes_ANOSIM.csv,ANOSIM,,,,,Significance_P,,是,可用于生成结果段
+data/ThreeGroups_FunctionalGenes_PERMANOVA.csv,PERMANOVA,,,,,Pr(>F),,是,可用于生成结果段
