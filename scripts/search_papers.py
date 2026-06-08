@@ -4,22 +4,25 @@
 """
 Daily Literature Tracker
 
-This script searches OpenAlex for papers related to soil nitrogen cycling,
-classifies them into A/B/C/D relevance levels, and exports:
+Purpose:
+Search OpenAlex for papers related to wetland soil microorganisms,
+nitrogen addition, different nitrogen forms, nitrogen cycling processes,
+and soil nitrogen cycling functional genes.
 
+Outputs:
 1. output/daily_papers.md
 2. output/daily_papers.ris
 3. output/seen_dois.txt
 
-It does not download PDFs.
-It does not log in to Web of Science or any school account.
-It does not connect to Zotero API.
+Safety:
+- Does not download PDFs.
+- Does not log in to Web of Science or any school account.
+- Does not connect to Zotero API.
 """
 
 import argparse
 import datetime as dt
 import html
-import os
 import re
 import time
 from pathlib import Path
@@ -37,45 +40,6 @@ SEEN_DOIS_PATH = OUTPUT_DIR / "seen_dois.txt"
 MD_PATH = OUTPUT_DIR / "daily_papers.md"
 RIS_PATH = OUTPUT_DIR / "daily_papers.ris"
 
-
-A_TERMS = [
-    "coastal wetland",
-    "salt marsh",
-    "saline wetland",
-    "saline-alkali",
-    "yellow river delta",
-    "metagenomic",
-    "metagenomics",
-    "nitrogen cycling gene",
-    "nitrogen cycling functional gene",
-    "functional gene",
-    "amoa",
-    "hao",
-    "nirk",
-    "nirs",
-    "norb",
-    "norc",
-    "nosz",
-    "nrfa",
-    "nifh",
-    "nifd",
-    "nifk",
-]
-
-B_TERMS = [
-    "nitrogen addition",
-    "ammonium addition",
-    "nitrate addition",
-    "nh4",
-    "no3",
-    "nitrification",
-    "denitrification",
-    "dnra",
-    "nitrogen fixation",
-    "mineralization",
-    "soil nitrogen",
-    "wetland soil",
-]
 
 EXCLUDE_TERMS = [
     # Medical / clinical / animal
@@ -123,6 +87,7 @@ EXCLUDE_TERMS = [
     "summer snowflake",
     "microbacterium algeriense",
 ]
+
 
 def clean_text(value: Optional[str]) -> str:
     if not value:
@@ -179,12 +144,14 @@ def check_skill_file() -> None:
 def load_seen_dois() -> set:
     if not SEEN_DOIS_PATH.exists():
         return set()
+
     with open(SEEN_DOIS_PATH, "r", encoding="utf-8") as f:
         return {line.strip().lower() for line in f if line.strip()}
 
 
 def save_seen_dois(dois: set) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
     with open(SEEN_DOIS_PATH, "w", encoding="utf-8") as f:
         for doi in sorted(dois):
             f.write(doi + "\n")
@@ -194,8 +161,9 @@ def build_queries(keywords: List[str], max_queries: int = 35) -> List[str]:
     """
     Build high-precision search queries.
 
-    The logic is:
-    ecosystem context + microbial object + nitrogen process + functional gene/method.
+    Logic:
+    ecosystem context + microbial object + nitrogen process + functional gene / method.
+
     This avoids retrieving irrelevant papers that only contain broad words such as
     nitrogen, microbial, plant, or soil.
     """
@@ -257,6 +225,20 @@ def build_queries(keywords: List[str], max_queries: int = 35) -> List[str]:
 
     return result
 
+
+def inverted_abstract_to_text(index: Optional[Dict[str, List[int]]]) -> str:
+    if not index:
+        return ""
+
+    words = []
+    for word, positions in index.items():
+        for pos in positions:
+            words.append((pos, word))
+
+    words.sort(key=lambda x: x[0])
+    return clean_text(" ".join(word for _, word in words))
+
+
 def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) -> List[Dict]:
     from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
 
@@ -276,6 +258,7 @@ def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) ->
     data = response.json()
 
     records = []
+
     for item in data.get("results", []):
         title = clean_text(item.get("title"))
         year = item.get("publication_year") or ""
@@ -314,17 +297,6 @@ def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) ->
     return records
 
 
-def inverted_abstract_to_text(index: Optional[Dict[str, List[int]]]) -> str:
-    if not index:
-        return ""
-    words = []
-    for word, positions in index.items():
-        for pos in positions:
-            words.append((pos, word))
-    words.sort(key=lambda x: x[0])
-    return clean_text(" ".join(word for _, word in words))
-
-
 def classify_record(record: Dict) -> Tuple[str, str, str]:
     text = " ".join(
         [
@@ -336,7 +308,11 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     ).lower()
 
     if any(term in text for term in EXCLUDE_TERMS):
-        return "D", "排除：主题更接近医学、食品、动物、工业或非土壤湿地氮循环研究。", "08_低相关暂存"
+        return (
+            "D",
+            "排除：主题更接近医学、食品、动物、工业或非土壤湿地氮循环研究。",
+            "08_低相关暂存",
+        )
 
     ecosystem_terms = [
         "wetland",
@@ -449,7 +425,6 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     function_score = sum(1 for term in function_terms if term in text)
     vegetation_score = sum(1 for term in vegetation_terms if term in text)
 
-    # A 类：最贴近你的博士论文
     if (
         soil_score >= 1
         and microbe_score >= 1
@@ -463,7 +438,6 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
             "03_土壤氮循环功能基因",
         )
 
-    # B 类：适合讨论机制
     if (
         soil_score >= 1
         and microbe_score >= 1
@@ -476,7 +450,6 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
             "07_讨论部分可引用文献",
         )
 
-    # C 类：背景文献
     if (
         nitrogen_score >= 1
         and (microbe_score >= 1 or ecosystem_score >= 1 or vegetation_score >= 1)
@@ -487,24 +460,31 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
             "08_低相关暂存",
         )
 
-    return "D", "排除：缺少土壤/湿地、微生物、氮循环或功能基因等核心要素。", "08_低相关暂存"
+    return (
+        "D",
+        "排除：缺少土壤/湿地、微生物、氮循环或功能基因等核心要素。",
+        "08_低相关暂存",
+    )
 
 
 def deduplicate_records(records: List[Dict]) -> List[Dict]:
     seen = set()
     output = []
+
     for r in records:
         key = r.get("doi") or r.get("title", "").lower()
         if not key or key in seen:
             continue
         seen.add(key)
         output.append(r)
+
     return output
 
 
 def write_markdown(records: List[Dict], all_count: int) -> None:
     today = dt.date.today().isoformat()
     grouped = {"A": [], "B": [], "C": []}
+
     for r in records:
         if r["level"] in grouped:
             grouped[r["level"]].append(r)
@@ -514,7 +494,7 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
     lines.append("")
     lines.append(f"检索日期：{today}")
     lines.append("")
-    lines.append(f"新增文献总数：{all_count}")
+    lines.append(f"检索去重后文献总数：{all_count}")
     lines.append("")
     lines.append(f"写入结果文献数：{len(records)}")
     lines.append("")
@@ -534,6 +514,7 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
     for level in ["A", "B", "C"]:
         lines.append(f"## {section_names[level]}")
         lines.append("")
+
         if not grouped[level]:
             lines.append("今日暂无。")
             lines.append("")
@@ -547,15 +528,19 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
             lines.append(f"- 期刊：{r.get('journal', '')}")
             lines.append(f"- DOI：{r.get('doi', '')}")
             lines.append(f"- URL：{r.get('url', '')}")
+            lines.append(f"- 触发检索词：{r.get('query', '')}")
             lines.append(f"- 建议 Zotero collection：{r.get('collection', '')}")
             lines.append(f"- 推荐理由：{r.get('reason', '')}")
+
             abstract = r.get("abstract", "")
             if len(abstract) > 1200:
                 abstract = abstract[:1200] + "..."
+
             lines.append(f"- 摘要核心内容：{abstract}")
             lines.append("")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
     with open(MD_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
@@ -596,7 +581,7 @@ def write_ris(records: List[Dict]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--mailto", default="", help="Your email for polite OpenAlex API usage.")
-    parser.add_argument("--days", type=int, default=14, help="Search papers published in recent N days.")
+    parser.add_argument("--days", type=int, default=365, help="Search papers published in recent N days.")
     parser.add_argument("--limit", type=int, default=50, help="Max records per query.")
     args = parser.parse_args()
 
@@ -611,6 +596,7 @@ def main() -> None:
 
     for query in queries:
         print(f"Searching OpenAlex: {query}")
+
         try:
             records = search_openalex(query, args.mailto, args.days, args.limit)
             all_records.extend(records)
@@ -622,8 +608,10 @@ def main() -> None:
     all_records = deduplicate_records(all_records)
 
     new_records = []
+
     for record in all_records:
         doi = normalize_doi(record.get("doi"))
+
         if doi and doi in seen_dois:
             continue
 
@@ -642,7 +630,7 @@ def main() -> None:
     write_ris(new_records)
     save_seen_dois(seen_dois)
 
-    print(f"Done.")
+    print("Done.")
     print(f"Markdown: {MD_PATH}")
     print(f"RIS: {RIS_PATH}")
     print(f"Seen DOIs: {SEEN_DOIS_PATH}")
