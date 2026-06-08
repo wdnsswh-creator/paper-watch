@@ -1,0 +1,129 @@
+"Process","Gene_label","Group","Group_label","System","Mean","LogMean"
+"Nitrification","hao","CK1","CK1","NH system",1412,3.15014216184856
+"Nitrification","hao","CK2","CK2","NO system",1168,3.06781451116184
+"Nitrification","hao","NH1","NH_Low","NH system",1532,3.18554215485437
+"Nitrification","hao","NH2","NH_Mid","NH system",1016,3.00732095292274
+"Nitrification","hao","NH3","NH_High","NH system",1393.33333333333,3.14436660986097
+"Nitrification","hao","NO1","NO_Low","NO system",994.666666666667,2.99811396788447
+"Nitrification","hao","NO2","NO_Mid","NO system",1764,3.24674470972384
+"Nitrification","hao","NO3","NO_High","NO system",1510.66666666667,3.17945603667645
+"Denitrification","nirK","CK1","CK1","NH system",3244,3.51121470113639
+"Denitrification","nirK","CK2","CK2","NO system",2604,3.41580772763554
+"Denitrification","nirK","NH1","NH_Low","NH system",4524,3.65561858354122
+"Denitrification","nirK","NH2","NH_Mid","NH system",3946.66666666667,3.59634047456017
+"Denitrification","nirK","NH3","NH_High","NH system",4648,3.66735954618309
+"Denitrification","nirK","NO1","NO_Low","NO system",2732,3.43663963169266
+"Denitrification","nirK","NO2","NO_Mid","NO system",4709.33333333333,3.67305164167347
+"Denitrification","nirK","NO3","NO_High","NO system",3729.33333333333,3.57174764102027
+"Denitrification","nirS","CK1","CK1","NH system",1418.66666666667,3.15218638535409
+"Denitrification","nirS","CK2","CK2","NO system",1222.66666666667,3.08766312978432
+"Denitrification","nirS","NH1","NH_Low","NH system",1613.33333333333,3.20799321432688
+"Denitrification","nirS","NH2","NH_Mid","NH system",1738.66666666667,3.2404660421358
+"Denitrification","nirS","NH3","NH_High","NH system",1412,3.15014216184856
+"Denitrification","nirS","NO1","NO_Low","NO system",1129.33333333333,3.05320653505842
+"Denitrification","nirS","NO2","NO_Mid","NO system",1697.33333333333,3.23002293362278
+"Denitrification","nirS","NO3","NO_High","NO system",1358.66666666667,3.13343245059743
+"Denitrification","norB","CK1","CK1","NH system",1140,3.05728564441821
+"Denitrification","norB","CK2","CK2","NO system",1149.33333333333,3.06082370457182
+"Denitrification","norB","NH1","NH_Low","NH system",1454.66666666667,3.16306193720168
+"Denitrification","norB","NH2","NH_Mid","NH system",1374.66666666667,3.13851321415775
+"Denitrification","norB","NH3","NH_High","NH system",1140,3.05728564441821
+"Denitrification","norB","NO1","NO_Low","NO system",1084,3.03542973818455
+"Denitrification","norB","NO2","NO_Mid","NO system",1418.66666666667,3.15218638535409
+"Denitrification","norB","NO3","NO_High","NO system",1633.33333333333,3.21334063852652
+"Denitrification","norC","CK1","CK1","NH system",173.333333333333,2.24138043414761
+"Denitrification","norC","CK2","CK2","NO system",143.333333333333,2.1593666416337
+"Denitrification","norC","NH1","NH_Low","NH system",160,2.20682587603185
+"Denitrification","norC","NH2","NH_Mid","NH system",168,2.22788670461367
+"Denitrification","norC","NH3","NH_High","NH system",146.666666666667,2.16928247150341
+"Denitrification","norC","NO1","NO_Low","NO system",126.666666666667,2.10607751924896
+"Denitrification","norC","NO2","NO_Mid","NO system",137.333333333333,2.14092684199243
+"Denitrification","norC","NO3","NO_High","NO system",161.333333333333,2.21040770649497
+"Denitrification","nosZ","CK1","CK1","NH system",1374.66666666667,3.13851321415775
+"Denitrification","nosZ","CK2","CK2","NO system",1398.66666666667,3.14602461991828
+"Denitrification","nosZ","NH1","NH_Low","NH system",1852,3.2678754193189
+"Denitrification","nosZ","NH2","NH_Mid","NH system",1721.33333333333,3.236117206826
+"Denitrification","nosZ","NH3","NH_High","NH system",2076,3.3174364965351
+"Denitrification","nosZ","NO1","NO_Low","NO system",1218.66666666667,3.08624115476695
+"Denitrification","nosZ","NO2","NO_Mid","NO system",1994.66666666667,3.30008800342602
+"Denitrification","nosZ","NO3","NO_High","NO system",1429.33333333333,3.15543725981301
+"DNRA","nrfA","CK1","CK1","NH system",281.333333333333,2.45076215561104
+"DNRA","nrfA","CK2","CK2","NO system",260,2.41664050733828
+"DNRA","nrfA","NH1","NH_Low","NH system",328.666666666667,2.51807503687752
+"DNRA","nrfA","NH2","NH_Mid","NH system",286,2.45788189673399
+"DNRA","nrfA","NH3","NH_High","NH system",358.666666666667,2.55590018996325
+"DNRA","nrfA","NO1","NO_Low","NO system",264,2.42324587393681
+"DNRA","nrfA","NO2","NO_Mid","NO system",393.333333333333,2.59586348990827
+"DNRA","nrfA","NO3","NO_High","NO system",345.333333333333,2.53949429283752
+"DNRA","nrfH","CK1","CK1","NH system",205.333333333333,2.31456939430046
+"DNRA","nrfH","CK2","CK2","NO system",172.666666666667,2.23971646857986
+"DNRA","nrfH","NH1","NH_Low","NH system",284,2.45484486000851
+"DNRA","nrfH","NH2","NH_Mid","NH system",192,2.28555730900777
+"DNRA","nrfH","NH3","NH_High","NH system",264.666666666667,2.42433706667645
+"DNRA","nrfH","NO1","NO_Low","NO system",140,2.14921911265538
+"DNRA","nrfH","NO2","NO_Mid","NO system",248,2.39619934709574
+"DNRA","nrfH","NO3","NO_High","NO system",217.333333333333,2.33912004527212
+"Ammonia assimilation","gltB","CK1","CK1","NH system",4300,3.63356944255409
+"Ammonia assimilation","gltB","CK2","CK2","NO system",3192,3.50419891853945
+"Ammonia assimilation","gltB","NH1","NH_Low","NH system",4714.66666666667,3.6735430988099
+"Ammonia assimilation","gltB","NH2","NH_Mid","NH system",3890,3.59006123080374
+"Ammonia assimilation","gltB","NH3","NH_High","NH system",4420,3.64552051490587
+"Ammonia assimilation","gltB","NO1","NO_Low","NO system",4129.33333333333,3.61598510225824
+"Ammonia assimilation","gltB","NO2","NO_Mid","NO system",4646.66666666667,3.66723497264852
+"Ammonia assimilation","gltB","NO3","NO_High","NO system",3980,3.5999921775841
+"Ammonia assimilation","gltD","CK1","CK1","NH system",2886,3.46044678388072
+"Ammonia assimilation","gltD","CK2","CK2","NO system",2215.33333333333,3.34563507823173
+"Ammonia assimilation","gltD","NH1","NH_Low","NH system",3314,3.52048353274079
+"Ammonia assimilation","gltD","NH2","NH_Mid","NH system",2883.33333333333,3.46004544899537
+"Ammonia assimilation","gltD","NH3","NH_High","NH system",3085.33333333333,3.48944282937765
+"Ammonia assimilation","gltD","NO1","NO_Low","NO system",2374,3.37566361396089
+"Ammonia assimilation","gltD","NO2","NO_Mid","NO system",2998.66666666667,3.4770729970962
+"Ammonia assimilation","gltD","NO3","NO_High","NO system",2871.33333333333,3.45823483822591
+"Nitrogen fixation","nifD","CK1","CK1","NH system",76.6666666666667,1.89023466630636
+"Nitrogen fixation","nifD","CK2","CK2","NO system",130.666666666667,2.1194758409068
+"Nitrogen fixation","nifD","NH1","NH_Low","NH system",76.6666666666667,1.89023466630636
+"Nitrogen fixation","nifD","NH2","NH_Mid","NH system",78.6666666666667,1.90127664622848
+"Nitrogen fixation","nifD","NH3","NH_High","NH system",61.3333333333333,1.79472035181684
+"Nitrogen fixation","nifD","NO1","NO_Low","NO system",86,1.93951925261862
+"Nitrogen fixation","nifD","NO2","NO_Mid","NO system",75.3333333333333,1.88271422762023
+"Nitrogen fixation","nifD","NO3","NO_High","NO system",70.6666666666667,1.85531720519594
+"Nitrogen fixation","nifH","CK1","CK1","NH system",178.666666666667,2.25446751046708
+"Nitrogen fixation","nifH","CK2","CK2","NO system",248,2.39619934709574
+"Nitrogen fixation","nifH","NH1","NH_Low","NH system",208,2.32014628611105
+"Nitrogen fixation","nifH","NH2","NH_Mid","NH system",180.666666666667,2.25927524755698
+"Nitrogen fixation","nifH","NH3","NH_High","NH system",172.666666666667,2.23971646857986
+"Nitrogen fixation","nifH","NO1","NO_Low","NO system",189.333333333333,2.27951485352619
+"Nitrogen fixation","nifH","NO2","NO_Mid","NO system",202,2.30749603791321
+"Nitrogen fixation","nifH","NO3","NO_High","NO system",197.333333333333,2.29739571100889
+"Nitrogen fixation","nifK","CK1","CK1","NH system",150.666666666667,2.18089014193745
+"Nitrogen fixation","nifK","CK2","CK2","NO system",258.666666666667,2.4144162029529
+"Nitrogen fixation","nifK","NH1","NH_Low","NH system",146,2.16731733474818
+"Nitrogen fixation","nifK","NH2","NH_Mid","NH system",117.333333333333,2.07310709833543
+"Nitrogen fixation","nifK","NH3","NH_High","NH system",143.333333333333,2.1593666416337
+"Nitrogen fixation","nifK","NO1","NO_Low","NO system",173.333333333333,2.24138043414761
+"Nitrogen fixation","nifK","NO2","NO_Mid","NO system",149.333333333333,2.1770552871583
+"Nitrogen fixation","nifK","NO3","NO_High","NO system",150.666666666667,2.18089014193745
+"Urea decomposition","ureA","CK1","CK1","NH system",696.666666666667,2.84364797361902
+"Urea decomposition","ureA","CK2","CK2","NO system",534.666666666667,2.72889462204368
+"Urea decomposition","ureA","NH1","NH_Low","NH system",646.666666666667,2.81135154588012
+"Urea decomposition","ureA","NH2","NH_Mid","NH system",534.666666666667,2.72889462204368
+"Urea decomposition","ureA","NH3","NH_High","NH system",630.666666666667,2.80048795958443
+"Urea decomposition","ureA","NO1","NO_Low","NO system",627.333333333333,2.79819009982215
+"Urea decomposition","ureA","NO2","NO_Mid","NO system",564,2.75204844781944
+"Urea decomposition","ureA","NO3","NO_High","NO system",568,2.75511226639507
+"Urea decomposition","ureB","CK1","CK1","NH system",112,2.05307844348342
+"Urea decomposition","ureB","CK2","CK2","NO system",59.3333333333333,1.78055732014952
+"Urea decomposition","ureB","NH1","NH_Low","NH system",77.3333333333333,1.89394660755207
+"Urea decomposition","ureB","NH2","NH_Mid","NH system",67.3333333333333,1.83463260633609
+"Urea decomposition","ureB","NH3","NH_High","NH system",69.3333333333333,1.84716120057803
+"Urea decomposition","ureB","NO1","NO_Low","NO system",62,1.79934054945358
+"Urea decomposition","ureB","NO2","NO_Mid","NO system",74.6666666666667,1.87890460247346
+"Urea decomposition","ureB","NO3","NO_High","NO system",67.3333333333333,1.83463260633609
+"Urea decomposition","ureC","CK1","CK1","NH system",83.3333333333333,1.92599926645616
+"Urea decomposition","ureC","CK2","CK2","NO system",56.6666666666667,1.76092484840913
+"Urea decomposition","ureC","NH1","NH_Low","NH system",76.6666666666667,1.89023466630636
+"Urea decomposition","ureC","NH2","NH_Mid","NH system",42,1.63346845557959
+"Urea decomposition","ureC","NH3","NH_High","NH system",48.6666666666667,1.69606501369261
+"Urea decomposition","ureC","NO1","NO_Low","NO system",44.6666666666667,1.65959931243674
+"Urea decomposition","ureC","NO2","NO_Mid","NO system",62,1.79934054945358
+"Urea decomposition","ureC","NO3","NO_High","NO system",48.6666666666667,1.69606501369261
