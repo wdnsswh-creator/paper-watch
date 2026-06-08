@@ -1,0 +1,36 @@
+name: Thesis Assistant
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  thesis-assistant:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl
+
+      - name: Run thesis assistant
+        run: |
+          python scripts/analyze_project.py
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add outputs/
+          git commit -m "Update thesis assistant outputs" || echo "No changes to commit"
+          git push
