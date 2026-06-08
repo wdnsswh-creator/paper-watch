@@ -1,29 +1,101 @@
-main_topic:
-  - coastal wetland nitrogen cycling
-  - saline-alkali soil nitrogen cycling
-  - nitrogen addition wetland soil
-  - soil nitrogen transformation
-  - metagenomics nitrogen cycling
+core_high_precision:
   - soil nitrogen cycling functional genes
+  - nitrogen-cycle functional genes in soil
+  - microbial functional genes involved in nitrogen cycling
+  - soil microbial nitrogen cycling genes
+  - soil metagenomic analysis nitrogen-cycle functional genes
+  - metagenomics nitrogen cycling functional genes
+  - shotgun metagenomics soil nitrogen cycling
+  - microbial communities and carbon-nitrogen cycling functional genes
+  - microorganisms involved in nitrogen-cycle processes
+  - functional genes and microorganisms involved in nitrogen-cycle processes
+
+wetland_saltmarsh_context:
+  - coastal wetland soil nitrogen cycling
+  - salt marsh nitrogen cycling
+  - tidal wetland nitrogen cycling
+  - estuarine wetland nitrogen cycling
+  - coastal saline wetland microbial nitrogen cycling
+  - wetland soil microbial nitrogen cycling
+  - salt marsh sediment nitrogen cycling
+  - coastal wetland soil microbial community functional genes
+  - salt marsh microbial community nitrogen cycling
+  - land-sea interface nitrogen cycling
+  - where land meets sea nitrogen cycling
+  - Yellow River Delta coastal wetland microbial community
+  - Yellow River Delta wetland nitrogen cycling
+  - Yellow River Delta saline soil microbial community
+  - Yellow River Delta soil microbial functional potential
+
+nitrogen_addition_and_deposition:
+  - nitrogen addition soil microbial community
+  - nitrogen addition soil nitrogen cycling functional genes
+  - nitrogen addition microbial functional genes
+  - nitrogen addition metagenomics soil
+  - nitrogen deposition microbial community functional genes
+  - nitrogen deposition carbon-nitrogen cycling functional genes
+  - nitrogen enrichment wetland soil microbial community
+  - nitrogen loading salt marsh microbial community
+  - nitrate enrichment salt marsh sediment microbial community
+  - long-term nitrogen addition soil microbial functional genes
+  - long-term fertilization ammonia oxidizers salt marsh
+  - external nutrient inputs salt marsh sediment bacteria
+  - nutrient enrichment salt marsh microbial community
+  - fertilization effects soil nitrogen cycling genes
 
 nitrogen_forms:
-  - ammonium addition
-  - nitrate addition
-  - NH4 addition
-  - NO3 addition
-  - NH4+-N
-  - NO3--N
+  - ammonium addition soil microbial community
+  - nitrate addition soil microbial community
+  - ammonium addition soil nitrogen cycling functional genes
+  - nitrate addition soil nitrogen cycling functional genes
+  - ammonium versus nitrate soil microbial nitrogen cycling
+  - different nitrogen forms soil microbial community
+  - different nitrogen forms nitrogen cycling functional genes
+  - nitrogen form effects on soil microbial functional genes
+  - NH4 addition soil nitrogen cycling
+  - NO3 addition soil nitrogen cycling
+  - NH4+-N addition microbial nitrogen cycling
+  - NO3--N addition microbial nitrogen cycling
+  - ammonium nitrate addition wetland soil microbial community
 
-processes:
+nitrogen_levels_gradient:
+  - nitrogen addition gradient soil microbial community
+  - nitrogen addition levels soil microbial functional genes
+  - low medium high nitrogen addition soil microbial community
+  - different nitrogen addition levels wetland soil
+  - nitrogen deposition gradient microbial community
+  - nitrogen enrichment gradient soil nitrogen cycling
+  - nitrogen dose effects soil microbial functional genes
+  - nitrogen input gradient wetland soil microbial community
+
+nitrogen_processes:
   - nitrification
   - denitrification
+  - dissimilatory nitrate reduction to ammonium
   - DNRA
   - nitrogen fixation
-  - mineralization
+  - nitrogen mineralization
+  - nitrate reduction
+  - nitrite oxidation
+  - ammonia oxidation
+  - aerobic ammonia oxidation
+  - anaerobic ammonia oxidation
+  - anammox
+  - nitrous oxide reduction
+  - nitrogen transformation
+  - soil nitrogen transformation
+  - nitrogen metabolism
+  - KEGG nitrogen metabolism
+  - KEGG nitrogen cycle
 
-genes:
+target_genes:
   - amoA
+  - pmoA-amoA
+  - pmoB-amoB
+  - pmoC-amoC
   - hao
+  - napA
+  - narG
   - nirK
   - nirS
   - norB
@@ -33,9 +105,71 @@ genes:
   - nifH
   - nifD
   - nifK
+  - nxrA
+  - nxrB
+  - ureC
 
-region:
-  - Yellow River Delta
-  - coastal wetland
-  - saline wetland
-  - salt marsh
+microbial_community_methods:
+  - soil microbial community
+  - soil bacterial community
+  - soil fungal community
+  - bacterial and fungal communities
+  - microbial diversity
+  - microbial community structure
+  - microbial community composition
+  - rhizosphere microbial community
+  - microbial functional potential
+  - functional prediction
+  - FAPROTAX
+  - FUNGuild
+  - high-throughput sequencing
+  - 16S rRNA sequencing
+  - ITS sequencing
+  - metagenomic sequencing
+  - shotgun metagenomic sequencing
+  - functional annotation
+  - microbial co-occurrence network
+  - bacterial fungal co-occurrence network
+  - microbial network complexity
+
+vegetation_and_invasion:
+  - Spartina alterniflora
+  - Spartina alterniflora invasion
+  - invasive Spartina alterniflora
+  - salt marsh invasion by Spartina alterniflora
+  - wetland plant invasion soil microbial community
+  - invasive plant soil nitrogen cycling
+  - Phragmites australis
+  - Suaeda salsa
+  - Tamarix chinensis
+  - halophyte rhizosphere soil
+  - salt-tolerant vegetation soil microbial community
+  - typical vegetation coastal wetland
+  - wetland vegetation soil nitrogen cycling
+  - rhizosphere soil nitrogen cycling functional genes
+
+environmental_drivers:
+  - soil salinity microbial community
+  - salinity gradient soil microbial community
+  - salinity gradient nitrogen cycling
+  - saline-alkali soil microbial community
+  - saline soil nitrogen cycling
+  - coastal salinity gradient microbial community
+  - soil electrical conductivity microbial community
+  - soil pH nitrogen cycling genes
+  - soil moisture microbial nitrogen cycling
+  - soil water content microbial community
+  - land sea gradient microbial community
+  - tidal gradient soil microbial community
+  - estuarine salinity gradient microbial community
+
+seed_titles:
+  - soil metagenomic analysis on changes of functional genes and microorganisms involved in nitrogen-cycle processes of acidified tea soils
+  - metagenomics reveals the response of desert steppe microbial communities and carbon-nitrogen cycling functional genes to nitrogen deposition
+  - salt marsh nitrogen cycling where land meets sea
+  - salt marsh sediment bacteria distribution response external nutrient inputs
+  - differential responses of ammonia-oxidizing archaea and bacteria to long-term fertilization in a New England salt marsh
+  - bacterial community assembly in a typical estuarine marsh with multiple environmental gradients
+  - microbial chemolithoautotrophs salt marsh sediment long-term nitrate enrichment
+  - effects of salt marsh invasion by Spartina alterniflora on sulfate-reducing bacteria
+  - sulfate reducer and sulfur oxidizer respond to Spartina alterniflora invasion
