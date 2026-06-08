@@ -2,13 +2,22 @@
 # -*- coding: utf-8 -*-
 
 """
-Daily Literature Tracker
+Smart Daily Literature Tracker
 
 Purpose:
-Search OpenAlex for papers related to wetland soil microorganisms,
-nitrogen addition, different nitrogen forms, nitrogen addition levels,
-nitrogen cycling processes, Spartina alterniflora / wetland vegetation,
-and soil nitrogen cycling functional genes.
+Search for papers similar to the user's research direction:
+wetland soil microorganisms, nitrogen addition, different nitrogen forms,
+nitrogen addition levels, Spartina alterniflora / wetland vegetation,
+nitrogen cycling processes, metagenomics, and soil nitrogen cycling functional genes.
+
+Main idea:
+This is not a strict keyword intersection filter.
+It is a similarity-oriented literature radar.
+
+Sources:
+1. OpenAlex API
+2. Semantic Scholar Graph API
+3. Crossref API
 
 Outputs:
 1. output/daily_papers.md
@@ -42,6 +51,19 @@ MD_PATH = OUTPUT_DIR / "daily_papers.md"
 RIS_PATH = OUTPUT_DIR / "daily_papers.ris"
 
 
+# 你认可的“方向样本”。这些不是必须完全同领域，但它们代表你想要的文献类型。
+SEED_TITLES = [
+    "Metagenomics reveals the response of desert steppe microbial communities and carbon-nitrogen cycling functional genes to nitrogen deposition",
+    "Soil metagenomic analysis on changes of functional genes and microorganisms involved in nitrogen-cycle processes of acidified tea soils",
+    "Salt marsh nitrogen cycling: where land meets sea",
+    "Salt marsh sediment bacteria: their distribution and response to external nutrient inputs",
+    "Differential responses of ammonia-oxidizing archaea and bacteria to long-term fertilization in a New England salt marsh",
+    "Microbial communities and carbon-nitrogen cycling functional genes respond to nitrogen deposition",
+    "Effects of Spartina alterniflora invasion on soil microbial community and nitrogen cycling",
+    "Metagenomic insights into nitrogen cycling functional genes in soil microbial communities",
+]
+
+
 EXCLUDE_TERMS = [
     # Medical / clinical / animal
     "human",
@@ -73,8 +95,7 @@ EXCLUDE_TERMS = [
     "cell feed",
     "probiotic",
 
-    # Clearly off-topic environmental / engineering directions
-    "freshwater methane filter",
+    # Clearly off-topic engineering / treatment systems
     "drinking water",
     "wastewater treatment plant",
     "activated sludge",
@@ -93,7 +114,7 @@ def clean_text(value: Optional[str]) -> str:
     if not value:
         return ""
     value = re.sub(r"<[^>]+>", " ", str(value))
-    value = html.unescape(value)
+    value = html.unescape(str(value))
     value = re.sub(r"\s+", " ", value).strip()
     return value
 
@@ -104,12 +125,14 @@ def normalize_doi(doi: Optional[str]) -> str:
     doi = doi.strip()
     doi = doi.replace("https://doi.org/", "")
     doi = doi.replace("http://doi.org/", "")
+    doi = doi.replace("doi:", "")
     return doi.lower()
 
 
 def load_keywords() -> List[str]:
     if not CONFIG_PATH.exists():
-        raise FileNotFoundError(f"Missing required file: {CONFIG_PATH}")
+        print(f"Warning: missing {CONFIG_PATH}. The script will use built-in seed titles and queries.")
+        return []
 
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
@@ -129,9 +152,6 @@ def load_keywords() -> List[str]:
     collect(data)
 
     keywords = [x.strip() for x in keywords if x and x.strip()]
-    if not keywords:
-        raise ValueError("No keywords found in config/keywords.yaml")
-
     return list(dict.fromkeys(keywords))
 
 
@@ -157,18 +177,26 @@ def save_seen_dois(dois: set) -> None:
             f.write(doi + "\n")
 
 
-def build_queries(keywords: List[str], max_queries: int = 45) -> List[str]:
+def build_queries(keywords: List[str], max_queries: int = 60) -> List[str]:
     """
-    Build broad but topic-focused search queries.
+    Build search queries.
 
-    The goal is not to find papers matching every single keyword.
-    The goal is to retrieve similar papers around:
-    wetland / salt marsh / soil / microorganisms / nitrogen addition /
-    nitrogen forms / nitrogen cycling / functional genes / vegetation invasion.
+    This version intentionally mixes:
+    1. seed-title-like queries,
+    2. mechanism queries,
+    3. ecosystem queries,
+    4. gene/process queries.
     """
 
     preferred = [
-        # Core topic: soil nitrogen cycling functional genes and metagenomics
+        # Seed-title-like queries
+        "Metagenomics reveals microbial communities carbon-nitrogen cycling functional genes nitrogen deposition",
+        "soil metagenomic analysis functional genes microorganisms nitrogen-cycle processes",
+        "functional genes microorganisms involved in nitrogen-cycle processes soil",
+        "microbial communities carbon-nitrogen cycling functional genes nitrogen deposition",
+        "metagenomics nitrogen deposition microbial communities functional genes",
+
+        # Core topic
         "soil nitrogen cycling functional genes",
         "nitrogen-cycle functional genes soil microorganisms",
         "soil microbial nitrogen cycling functional genes",
@@ -177,7 +205,7 @@ def build_queries(keywords: List[str], max_queries: int = 45) -> List[str]:
         "microorganisms involved in nitrogen-cycle processes",
         "carbon-nitrogen cycling functional genes microbial communities",
 
-        # Wetland / coastal wetland / salt marsh / land-sea interface
+        # Wetland / coastal wetland / salt marsh
         "coastal wetland soil nitrogen cycling",
         "wetland soil microbial nitrogen cycling",
         "salt marsh nitrogen cycling",
@@ -242,7 +270,7 @@ def build_queries(keywords: List[str], max_queries: int = 45) -> List[str]:
         "coastal salinity gradient microbial community",
     ]
 
-    merged = preferred + keywords
+    merged = SEED_TITLES + preferred + keywords
 
     result = []
     for q in merged:
@@ -269,20 +297,24 @@ def inverted_abstract_to_text(index: Optional[Dict[str, List[int]]]) -> str:
 
 
 def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) -> List[Dict]:
+    """
+    Search OpenAlex by query.
+    """
+
     from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
 
     params = {
         "search": query,
         "filter": f"from_publication_date:{from_date},type:article",
         "per-page": min(limit, 200),
-        "sort": "publication_date:desc",
+        "sort": "relevance_score:desc",
     }
 
     if mailto:
         params["mailto"] = mailto
 
     url = "https://api.openalex.org/works"
-    response = requests.get(url, params=params, timeout=40)
+    response = requests.get(url, params=params, timeout=45)
     response.raise_for_status()
     data = response.json()
 
@@ -320,19 +352,149 @@ def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) ->
                 "abstract": abstract,
                 "url": url_value,
                 "query": query,
+                "source": "OpenAlex",
             }
         )
 
     return records
 
 
-def classify_record(record: Dict) -> Tuple[str, str, str]:
+def search_semantic_scholar(query: str, days: int, limit: int) -> List[Dict]:
     """
-    Relevance classification based on weighted scoring.
+    Search Semantic Scholar by query.
+    Semantic Scholar is useful for semantically related papers.
+    """
 
-    This version is intentionally broader than strict AND matching.
-    It keeps papers that are similar to the user's topic, even if they do not
-    contain every target keyword at the same time.
+    current_year = dt.date.today().year
+    min_year = current_year - max(1, int(days / 365)) - 1
+
+    params = {
+        "query": query,
+        "limit": min(limit, 100),
+        "fields": "title,authors,year,venue,abstract,url,externalIds,publicationDate,citationCount,influentialCitationCount",
+        "year": f"{min_year}-",
+    }
+
+    url = "https://api.semanticscholar.org/graph/v1/paper/search"
+
+    try:
+        response = requests.get(url, params=params, timeout=45)
+        if response.status_code == 429:
+            print("Warning: Semantic Scholar rate limit. Skipping this query.")
+            return []
+        response.raise_for_status()
+    except Exception as exc:
+        print(f"Warning: Semantic Scholar query failed: {query}")
+        print(f"Reason: {exc}")
+        return []
+
+    data = response.json()
+    records = []
+
+    for item in data.get("data", []):
+        title = clean_text(item.get("title"))
+        if not title:
+            continue
+
+        external = item.get("externalIds") or {}
+        doi = normalize_doi(external.get("DOI"))
+
+        authors = []
+        for author in item.get("authors", []) or []:
+            name = author.get("name")
+            if name:
+                authors.append(clean_text(name))
+
+        records.append(
+            {
+                "title": title,
+                "authors": authors,
+                "year": str(item.get("year") or ""),
+                "journal": clean_text(item.get("venue") or ""),
+                "doi": doi,
+                "abstract": clean_text(item.get("abstract") or ""),
+                "url": item.get("url") or "",
+                "query": query,
+                "source": "Semantic Scholar",
+                "citation_count": item.get("citationCount") or 0,
+                "influential_citation_count": item.get("influentialCitationCount") or 0,
+            }
+        )
+
+    return records
+
+
+def search_crossref_by_title(title: str, limit: int = 5) -> List[Dict]:
+    """
+    Use Crossref to complement exact or near-exact seed title search.
+    """
+
+    params = {
+        "query.title": title,
+        "rows": limit,
+        "select": "title,author,published-print,published-online,container-title,DOI,abstract,URL",
+    }
+
+    url = "https://api.crossref.org/works"
+
+    try:
+        response = requests.get(url, params=params, timeout=45)
+        response.raise_for_status()
+    except Exception as exc:
+        print(f"Warning: Crossref query failed: {title}")
+        print(f"Reason: {exc}")
+        return []
+
+    data = response.json()
+    items = data.get("message", {}).get("items", [])
+
+    records = []
+
+    for item in items:
+        titles = item.get("title") or []
+        record_title = clean_text(titles[0]) if titles else ""
+        if not record_title:
+            continue
+
+        journal_list = item.get("container-title") or []
+        journal = clean_text(journal_list[0]) if journal_list else ""
+
+        year = ""
+        for key in ["published-print", "published-online"]:
+            date_parts = item.get(key, {}).get("date-parts")
+            if date_parts and date_parts[0]:
+                year = str(date_parts[0][0])
+                break
+
+        authors = []
+        for a in item.get("author", []) or []:
+            given = a.get("given", "")
+            family = a.get("family", "")
+            name = clean_text(f"{given} {family}")
+            if name:
+                authors.append(name)
+
+        records.append(
+            {
+                "title": record_title,
+                "authors": authors,
+                "year": year,
+                "journal": journal,
+                "doi": normalize_doi(item.get("DOI")),
+                "abstract": clean_text(item.get("abstract") or ""),
+                "url": item.get("URL") or "",
+                "query": title,
+                "source": "Crossref",
+            }
+        )
+
+    return records
+
+
+def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
+    """
+    Score record by similarity to the user's research direction.
+    This is intentionally broader than strict keyword matching.
     """
 
     text = " ".join(
@@ -345,11 +507,17 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     ).lower()
 
     if any(term in text for term in EXCLUDE_TERMS):
-        return (
-            "D",
-            "排除：主题更接近医学、食品、动物、工业或其他明显偏离土壤微生物/湿地氮循环方向的研究。",
-            "08_低相关暂存",
-        )
+        return -999, {"excluded": 1}
+
+    seed_signal_terms = [
+        "metagenomics reveals",
+        "soil metagenomic analysis",
+        "functional genes and microorganisms",
+        "carbon-nitrogen cycling functional genes",
+        "nitrogen-cycle processes",
+        "nitrogen deposition",
+        "salt marsh nitrogen cycling",
+    ]
 
     ecosystem_terms = [
         "wetland",
@@ -368,10 +536,14 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "land-sea",
         "land sea",
         "marsh",
+        "desert steppe",
+        "tea soil",
+        "acidified tea soil",
     ]
 
     soil_terms = [
         "soil",
+        "soils",
         "rhizosphere",
         "sediment",
         "sediments",
@@ -398,6 +570,7 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "nitrogen",
         "nitrogen cycling",
         "nitrogen cycle",
+        "nitrogen-cycle",
         "nitrogen transformation",
         "nitrification",
         "denitrification",
@@ -452,6 +625,7 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "nitrogen metabolism",
         "carbon-nitrogen cycling",
         "c-n cycling",
+        "carbon and nitrogen cycling",
         "amoa",
         "hao",
         "nirk",
@@ -499,72 +673,96 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "bacteria-fungi",
     ]
 
-    ecosystem_score = sum(1 for term in ecosystem_terms if term in text)
-    soil_score = sum(1 for term in soil_terms if term in text)
-    microbe_score = sum(1 for term in microbe_terms if term in text)
-    nitrogen_score = sum(1 for term in nitrogen_terms if term in text)
-    addition_score = sum(1 for term in addition_terms if term in text)
-    function_score = sum(1 for term in function_terms if term in text)
-    vegetation_score = sum(1 for term in vegetation_terms if term in text)
-    network_score = sum(1 for term in network_terms if term in text)
+    counts = {
+        "seed": sum(1 for term in seed_signal_terms if term in text),
+        "ecosystem": sum(1 for term in ecosystem_terms if term in text),
+        "soil": sum(1 for term in soil_terms if term in text),
+        "microbe": sum(1 for term in microbe_terms if term in text),
+        "nitrogen": sum(1 for term in nitrogen_terms if term in text),
+        "addition": sum(1 for term in addition_terms if term in text),
+        "function": sum(1 for term in function_terms if term in text),
+        "vegetation": sum(1 for term in vegetation_terms if term in text),
+        "network": sum(1 for term in network_terms if term in text),
+    }
 
-    total_score = (
-        ecosystem_score * 2
-        + soil_score * 2
-        + microbe_score * 2
-        + nitrogen_score * 3
-        + addition_score * 3
-        + function_score * 4
-        + vegetation_score * 2
-        + network_score * 1
+    score = (
+        counts["seed"] * 8
+        + counts["function"] * 5
+        + counts["nitrogen"] * 4
+        + counts["addition"] * 4
+        + counts["microbe"] * 3
+        + counts["soil"] * 3
+        + counts["ecosystem"] * 2
+        + counts["vegetation"] * 2
+        + counts["network"] * 1
     )
 
-    # A 类：强相关，不要求所有条件同时满足
-    if (
-        total_score >= 12
-        and nitrogen_score >= 1
-        and (microbe_score >= 1 or soil_score >= 1)
-        and (
-            function_score >= 1
-            or addition_score >= 1
-            or ecosystem_score >= 2
-            or vegetation_score >= 2
+    # Bonus: title-level match is more important than query-only match
+    title = record.get("title", "").lower()
+    if "metagenomic" in title or "metagenomics" in title:
+        score += 8
+    if "functional gene" in title or "functional genes" in title:
+        score += 8
+    if "nitrogen deposition" in title or "nitrogen addition" in title:
+        score += 6
+    if "nitrogen-cycle" in title or "nitrogen cycling" in title:
+        score += 6
+    if "salt marsh" in title or "wetland" in title:
+        score += 4
+    if "microbial communities" in title or "microbial community" in title:
+        score += 4
+
+    return score, counts
+
+
+def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
+    score, counts = score_record(record)
+
+    if score < 0:
+        return (
+            "D",
+            "排除：主题更接近医学、食品、动物、工业或其他明显偏离土壤微生物/湿地氮循环方向的研究。",
+            "08_低相关暂存",
+            score,
+            counts,
         )
-    ):
+
+    # A 类：与种子文献或研究主题高度相似
+    if score >= 22:
         return (
             "A",
-            "高度相关：与土壤微生物、氮循环、氮添加/氮沉降、土壤氮循环功能基因、湿地/盐沼或典型湿地植被中的多个方向高度重合，建议优先阅读。",
+            "高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。",
             "03_土壤氮循环功能基因",
+            score,
+            counts,
         )
 
     # B 类：相似研究，适合讨论和扩展阅读
-    if (
-        total_score >= 8
-        and (
-            nitrogen_score >= 1
-            or microbe_score >= 1
-            or ecosystem_score >= 1
-            or function_score >= 1
-        )
-    ):
+    if score >= 13:
         return (
             "B",
-            "中等相关：与用户课题在湿地、土壤微生物、氮循环、氮添加、植被或功能基因中的部分方向相似，可用于讨论或补充阅读。",
+            "中等相关：与用户课题在土壤微生物、氮循环、氮添加、功能基因、湿地环境或植被影响中的部分方向相似，可用于讨论或补充阅读。",
             "07_讨论部分可引用文献",
+            score,
+            counts,
         )
 
-    # C 类：背景相关，先留下，不直接丢掉
-    if total_score >= 5:
+    # C 类：背景相关
+    if score >= 8:
         return (
             "C",
             "间接相关：与湿地环境、微生物群落、氮循环、植被或土壤过程有一定联系，可作为背景文献暂存。",
             "08_低相关暂存",
+            score,
+            counts,
         )
 
     return (
         "D",
         "排除：与湿地、土壤微生物、氮循环、氮添加或土壤氮循环功能基因的关联较弱。",
         "08_低相关暂存",
+        score,
+        counts,
     )
 
 
@@ -573,7 +771,7 @@ def deduplicate_records(records: List[Dict]) -> List[Dict]:
     output = []
 
     for r in records:
-        key = r.get("doi") or r.get("title", "").lower()
+        key = normalize_doi(r.get("doi")) or r.get("title", "").lower()
         if not key or key in seen:
             continue
         seen.add(key)
@@ -621,9 +819,14 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
             lines.append("")
             continue
 
+        # Sort by similarity score
+        grouped[level].sort(key=lambda x: x.get("score", 0), reverse=True)
+
         for i, r in enumerate(grouped[level], 1):
             lines.append(f"### {i}. {r.get('title', '')}")
             lines.append("")
+            lines.append(f"- 来源：{r.get('source', '')}")
+            lines.append(f"- 相似度得分：{r.get('score', '')}")
             lines.append(f"- 作者：{', '.join(r.get('authors', [])[:6])}")
             lines.append(f"- 年份：{r.get('year', '')}")
             lines.append(f"- 期刊：{r.get('journal', '')}")
@@ -632,6 +835,7 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
             lines.append(f"- 触发检索词：{r.get('query', '')}")
             lines.append(f"- 建议 Zotero collection：{r.get('collection', '')}")
             lines.append(f"- 推荐理由：{r.get('reason', '')}")
+            lines.append(f"- 命中维度：{r.get('score_detail', {})}")
 
             abstract = r.get("abstract", "")
             if len(abstract) > 1200:
@@ -672,6 +876,10 @@ def write_ris(records: List[Dict]) -> None:
         if r.get("abstract"):
             lines.append(f"AB  - {escape_ris(r.get('abstract', ''))}")
 
+        # Put classification into notes
+        if r.get("level") or r.get("score"):
+            lines.append(f"N1  - Level: {r.get('level', '')}; Score: {r.get('score', '')}; Source: {r.get('source', '')}")
+
         lines.append("ER  -")
         lines.append("")
 
@@ -681,45 +889,48 @@ def write_ris(records: List[Dict]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--mailto",
-        default="",
-        help="Your email for polite OpenAlex API usage.",
-    )
-    parser.add_argument(
-        "--days",
-        type=int,
-        default=365,
-        help="Search papers published in recent N days.",
-    )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=20,
-        help="Max records per query.",
-    )
-
+    parser.add_argument("--mailto", default="", help="Your email for polite API usage.")
+    parser.add_argument("--days", type=int, default=1825, help="Search papers published in recent N days.")
+    parser.add_argument("--limit", type=int, default=20, help="Max records per query per source.")
+    parser.add_argument("--max-queries", type=int, default=60, help="Max queries to run.")
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     check_skill_file()
     keywords = load_keywords()
-    queries = build_queries(keywords)
+    queries = build_queries(keywords, max_queries=args.max_queries)
 
     seen_dois = load_seen_dois()
     all_records = []
 
+    # 1. Exact / near-exact seed title search through Crossref
+    print("Searching seed titles through Crossref...")
+    for title in SEED_TITLES:
+        all_records.extend(search_crossref_by_title(title, limit=5))
+        time.sleep(0.3)
+
+    # 2. OpenAlex + Semantic Scholar
     for query in queries:
         print(f"Searching OpenAlex: {query}")
-
         try:
             records = search_openalex(query, args.mailto, args.days, args.limit)
             all_records.extend(records)
-            time.sleep(0.5)
         except Exception as exc:
-            print(f"Warning: failed query: {query}")
+            print(f"Warning: OpenAlex failed query: {query}")
             print(f"Reason: {exc}")
+
+        time.sleep(0.3)
+
+        print(f"Searching Semantic Scholar: {query}")
+        try:
+            records = search_semantic_scholar(query, args.days, args.limit)
+            all_records.extend(records)
+        except Exception as exc:
+            print(f"Warning: Semantic Scholar failed query: {query}")
+            print(f"Reason: {exc}")
+
+        time.sleep(0.6)
 
     all_records = deduplicate_records(all_records)
 
@@ -731,16 +942,21 @@ def main() -> None:
         if doi and doi in seen_dois:
             continue
 
-        level, reason, collection = classify_record(record)
+        level, reason, collection, score, score_detail = classify_record(record)
         record["level"] = level
         record["reason"] = reason
         record["collection"] = collection
+        record["score"] = score
+        record["score_detail"] = score_detail
 
         if level != "D":
             new_records.append(record)
 
         if doi:
             seen_dois.add(doi)
+
+    # Sort all retained records by score
+    new_records.sort(key=lambda x: x.get("score", 0), reverse=True)
 
     write_markdown(new_records, len(all_records))
     write_ris(new_records)
