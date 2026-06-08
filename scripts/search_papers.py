@@ -6,7 +6,8 @@ Daily Literature Tracker
 
 Purpose:
 Search OpenAlex for papers related to wetland soil microorganisms,
-nitrogen addition, different nitrogen forms, nitrogen cycling processes,
+nitrogen addition, different nitrogen forms, nitrogen addition levels,
+nitrogen cycling processes, Spartina alterniflora / wetland vegetation,
 and soil nitrogen cycling functional genes.
 
 Outputs:
@@ -48,7 +49,6 @@ EXCLUDE_TERMS = [
     "clinical",
     "tumor",
     "cancer",
-    "disease",
     "diabetes",
     "insulin",
     "gut microbiome",
@@ -73,7 +73,7 @@ EXCLUDE_TERMS = [
     "cell feed",
     "probiotic",
 
-    # Obviously off-topic environmental directions
+    # Clearly off-topic environmental / engineering directions
     "freshwater methane filter",
     "drinking water",
     "wastewater treatment plant",
@@ -81,7 +81,7 @@ EXCLUDE_TERMS = [
     "aquaculture",
     "hydroponic",
 
-    # Off-topic organisms or settings
+    # Off-topic organisms or settings observed in previous results
     "insulin plant",
     "costus igneus",
     "summer snowflake",
@@ -157,60 +157,89 @@ def save_seen_dois(dois: set) -> None:
             f.write(doi + "\n")
 
 
-def build_queries(keywords: List[str], max_queries: int = 35) -> List[str]:
+def build_queries(keywords: List[str], max_queries: int = 45) -> List[str]:
     """
-    Build high-precision search queries.
+    Build broad but topic-focused search queries.
 
-    Logic:
-    ecosystem context + microbial object + nitrogen process + functional gene / method.
-
-    This avoids retrieving irrelevant papers that only contain broad words such as
-    nitrogen, microbial, plant, or soil.
+    The goal is not to find papers matching every single keyword.
+    The goal is to retrieve similar papers around:
+    wetland / salt marsh / soil / microorganisms / nitrogen addition /
+    nitrogen forms / nitrogen cycling / functional genes / vegetation invasion.
     """
 
     preferred = [
-        # Most relevant to the user's doctoral topic
-        "coastal wetland soil nitrogen cycling functional genes",
-        "salt marsh microbial nitrogen cycling functional genes",
-        "wetland soil microbial community nitrogen cycling functional genes",
-        "soil metagenomics nitrogen cycling functional genes",
-        "metagenomic analysis nitrogen-cycle functional genes soil microorganisms",
+        # Core topic: soil nitrogen cycling functional genes and metagenomics
+        "soil nitrogen cycling functional genes",
+        "nitrogen-cycle functional genes soil microorganisms",
+        "soil microbial nitrogen cycling functional genes",
+        "metagenomics nitrogen cycling functional genes",
+        "soil metagenomic analysis nitrogen-cycle processes",
+        "microorganisms involved in nitrogen-cycle processes",
+        "carbon-nitrogen cycling functional genes microbial communities",
 
-        # Nitrogen addition / deposition
-        "nitrogen addition soil microbial community functional genes",
-        "nitrogen deposition microbial communities carbon-nitrogen cycling functional genes",
-        "nitrogen addition gradient soil nitrogen cycling functional genes",
-        "different nitrogen addition levels soil microbial community nitrogen cycling",
-        "nitrogen enrichment wetland soil microbial nitrogen cycling",
+        # Wetland / coastal wetland / salt marsh / land-sea interface
+        "coastal wetland soil nitrogen cycling",
+        "wetland soil microbial nitrogen cycling",
+        "salt marsh nitrogen cycling",
+        "salt marsh microbial nitrogen cycling",
+        "salt marsh sediment nitrogen cycling",
+        "tidal wetland microbial nitrogen cycling",
+        "estuarine wetland nitrogen cycling",
+        "coastal saline wetland microbial community",
+        "land sea interface nitrogen cycling",
+        "Yellow River Delta wetland microbial community",
+        "Yellow River Delta soil microbial nitrogen cycling",
 
-        # Nitrogen forms
-        "ammonium addition soil nitrogen cycling functional genes",
-        "nitrate addition soil nitrogen cycling functional genes",
+        # Nitrogen addition / deposition / enrichment
+        "nitrogen addition soil microbial community",
+        "nitrogen addition soil nitrogen cycling functional genes",
+        "nitrogen addition microbial functional genes",
+        "nitrogen deposition microbial communities functional genes",
+        "nitrogen deposition carbon-nitrogen cycling functional genes",
+        "nitrogen enrichment wetland soil microbial community",
+        "nitrogen loading salt marsh microbial community",
+        "nutrient enrichment salt marsh microbial community",
+        "long-term nitrogen addition soil microbial community",
+
+        # Nitrogen forms and levels
+        "ammonium addition soil microbial community",
+        "nitrate addition soil microbial community",
+        "ammonium addition soil nitrogen cycling",
+        "nitrate addition soil nitrogen cycling",
         "ammonium versus nitrate soil microbial nitrogen cycling",
-        "different nitrogen forms soil microbial functional genes",
-        "NH4 addition NO3 addition wetland soil microbial nitrogen cycling",
+        "different nitrogen forms soil microbial community",
+        "different nitrogen forms nitrogen cycling functional genes",
+        "nitrogen addition gradient soil microbial community",
+        "nitrogen addition levels soil microbial functional genes",
+        "low medium high nitrogen addition soil microbial community",
 
-        # Wetland / salt marsh / land-sea interface
-        "salt marsh nitrogen cycling where land meets sea",
-        "salt marsh sediment bacteria external nutrient inputs",
-        "coastal wetland microbial community nitrogen cycling",
-        "estuarine wetland soil microbial nitrogen cycling",
-        "Yellow River Delta wetland microbial community nitrogen cycling",
-        "salinity gradient soil microbial community nitrogen cycling",
-
-        # Vegetation and invasion
-        "Spartina alterniflora invasion soil microbial community nitrogen cycling",
-        "Spartina alterniflora invasion nitrogen cycling functional genes",
-        "salt marsh invasion Spartina alterniflora microbial nitrogen cycling",
-        "Phragmites australis Suaeda salsa Tamarix chinensis soil microbial community",
-        "halophyte rhizosphere soil nitrogen cycling functional genes",
-
-        # Functional genes and processes
-        "amoA hao nirK nirS norB norC nosZ nrfA nifH soil",
-        "nitrification denitrification DNRA nitrogen fixation functional genes soil",
+        # Processes and genes
+        "nitrification denitrification DNRA nitrogen fixation functional genes",
         "ammonia oxidation nitrate reduction denitrification wetland soil",
-        "FAPROTAX nitrogen cycling wetland soil microbial community",
+        "amoA hao nirK nirS norB norC nosZ nrfA nifH soil",
+        "nrfA nosZ nirK nirS wetland soil nitrogen cycling",
         "KEGG nitrogen metabolism soil metagenomics",
+        "FAPROTAX nitrogen cycling wetland soil microbial community",
+
+        # Vegetation, invasion and rhizosphere
+        "Spartina alterniflora invasion soil microbial community",
+        "Spartina alterniflora invasion nitrogen cycling",
+        "Spartina alterniflora soil nitrogen cycling functional genes",
+        "salt marsh invasion Spartina alterniflora microbial community",
+        "wetland plant invasion soil microbial community nitrogen cycling",
+        "Phragmites australis soil microbial nitrogen cycling",
+        "Suaeda salsa soil microbial community nitrogen cycling",
+        "Tamarix chinensis soil microbial community",
+        "halophyte rhizosphere soil nitrogen cycling",
+        "salt-tolerant vegetation soil microbial community",
+
+        # Environmental drivers
+        "salinity gradient soil microbial community nitrogen cycling",
+        "saline-alkali soil microbial community nitrogen cycling",
+        "soil salinity nitrogen cycling functional genes",
+        "soil pH salinity microbial nitrogen cycling",
+        "soil moisture microbial nitrogen cycling wetland",
+        "coastal salinity gradient microbial community",
     ]
 
     merged = preferred + keywords
@@ -298,6 +327,14 @@ def search_openalex(query: str, mailto: Optional[str], days: int, limit: int) ->
 
 
 def classify_record(record: Dict) -> Tuple[str, str, str]:
+    """
+    Relevance classification based on weighted scoring.
+
+    This version is intentionally broader than strict AND matching.
+    It keeps papers that are similar to the user's topic, even if they do not
+    contain every target keyword at the same time.
+    """
+
     text = " ".join(
         [
             record.get("title", ""),
@@ -310,50 +347,62 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     if any(term in text for term in EXCLUDE_TERMS):
         return (
             "D",
-            "排除：主题更接近医学、食品、动物、工业或非土壤湿地氮循环研究。",
+            "排除：主题更接近医学、食品、动物、工业或其他明显偏离土壤微生物/湿地氮循环方向的研究。",
             "08_低相关暂存",
         )
 
     ecosystem_terms = [
         "wetland",
+        "coastal wetland",
         "salt marsh",
-        "coastal",
+        "tidal marsh",
         "estuarine",
-        "tidal",
+        "estuary",
+        "coastal",
         "sediment",
         "saline",
         "salinity",
+        "saline-alkali",
+        "salt-affected",
         "yellow river delta",
-        "spartina",
-        "phragmites",
-        "suaeda",
-        "tamarix",
-        "halophyte",
+        "land-sea",
+        "land sea",
+        "marsh",
     ]
 
     soil_terms = [
         "soil",
         "rhizosphere",
         "sediment",
+        "sediments",
     ]
 
     microbe_terms = [
         "microbial",
         "microorganism",
+        "microorganisms",
         "bacterial",
         "bacteria",
         "fungal",
         "fungi",
         "archaea",
-        "community",
         "microbiome",
+        "microbial community",
+        "bacterial community",
+        "fungal community",
+        "community structure",
+        "microbial diversity",
     ]
 
     nitrogen_terms = [
         "nitrogen",
+        "nitrogen cycling",
+        "nitrogen cycle",
+        "nitrogen transformation",
         "nitrification",
         "denitrification",
         "dnra",
+        "dissimilatory nitrate reduction",
         "nitrate reduction",
         "nitrogen fixation",
         "ammonia oxidation",
@@ -362,6 +411,7 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "nitrite",
         "nitrous oxide",
         "n2o",
+        "mineralization",
     ]
 
     addition_terms = [
@@ -369,25 +419,39 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "nitrogen deposition",
         "nitrogen enrichment",
         "nitrogen loading",
+        "nitrogen input",
+        "nutrient enrichment",
         "fertilization",
         "fertilizer",
         "nitrate enrichment",
         "ammonium addition",
         "nitrate addition",
+        "ammonium nitrate",
+        "different nitrogen forms",
+        "nitrogen forms",
+        "nitrogen levels",
+        "nitrogen gradient",
+        "addition gradient",
         "long-term fertilization",
     ]
 
     function_terms = [
         "functional gene",
         "functional genes",
+        "nitrogen cycling gene",
+        "nitrogen cycling genes",
+        "nitrogen-cycle functional genes",
         "metagenomic",
         "metagenomics",
         "shotgun",
         "kegg",
         "faprotax",
+        "funguild",
         "functional potential",
+        "functional prediction",
         "nitrogen metabolism",
         "carbon-nitrogen cycling",
+        "c-n cycling",
         "amoa",
         "hao",
         "nirk",
@@ -410,11 +474,29 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
         "spartina alterniflora",
         "spartina",
         "phragmites australis",
+        "phragmites",
         "suaeda salsa",
+        "suaeda",
         "tamarix chinensis",
+        "tamarix",
         "halophyte",
+        "halophytes",
+        "salt-tolerant vegetation",
         "plant invasion",
         "invasive plant",
+        "invasion",
+        "vegetation type",
+        "rhizosphere",
+    ]
+
+    network_terms = [
+        "co-occurrence network",
+        "microbial network",
+        "network complexity",
+        "community assembly",
+        "microbial interaction",
+        "bacterial-fungal",
+        "bacteria-fungi",
     ]
 
     ecosystem_score = sum(1 for term in ecosystem_terms if term in text)
@@ -424,45 +506,64 @@ def classify_record(record: Dict) -> Tuple[str, str, str]:
     addition_score = sum(1 for term in addition_terms if term in text)
     function_score = sum(1 for term in function_terms if term in text)
     vegetation_score = sum(1 for term in vegetation_terms if term in text)
+    network_score = sum(1 for term in network_terms if term in text)
 
+    total_score = (
+        ecosystem_score * 2
+        + soil_score * 2
+        + microbe_score * 2
+        + nitrogen_score * 3
+        + addition_score * 3
+        + function_score * 4
+        + vegetation_score * 2
+        + network_score * 1
+    )
+
+    # A 类：强相关，不要求所有条件同时满足
     if (
-        soil_score >= 1
-        and microbe_score >= 1
+        total_score >= 12
         and nitrogen_score >= 1
-        and function_score >= 1
-        and (ecosystem_score >= 1 or addition_score >= 1 or vegetation_score >= 1)
+        and (microbe_score >= 1 or soil_score >= 1)
+        and (
+            function_score >= 1
+            or addition_score >= 1
+            or ecosystem_score >= 2
+            or vegetation_score >= 2
+        )
     ):
         return (
             "A",
-            "高度相关：同时包含土壤/沉积物、微生物、氮循环过程和土壤氮循环功能基因/宏基因组/功能预测，并与湿地、氮添加或典型湿地植被相关。",
+            "高度相关：与土壤微生物、氮循环、氮添加/氮沉降、土壤氮循环功能基因、湿地/盐沼或典型湿地植被中的多个方向高度重合，建议优先阅读。",
             "03_土壤氮循环功能基因",
         )
 
+    # B 类：相似研究，适合讨论和扩展阅读
     if (
-        soil_score >= 1
-        and microbe_score >= 1
-        and nitrogen_score >= 1
-        and (ecosystem_score >= 1 or addition_score >= 1 or vegetation_score >= 1)
+        total_score >= 8
+        and (
+            nitrogen_score >= 1
+            or microbe_score >= 1
+            or ecosystem_score >= 1
+            or function_score >= 1
+        )
     ):
         return (
             "B",
-            "中等相关：涉及土壤/湿地微生物与氮循环过程，可用于讨论氮添加、盐度梯度、植被或微生物群落变化机制。",
+            "中等相关：与用户课题在湿地、土壤微生物、氮循环、氮添加、植被或功能基因中的部分方向相似，可用于讨论或补充阅读。",
             "07_讨论部分可引用文献",
         )
 
-    if (
-        nitrogen_score >= 1
-        and (microbe_score >= 1 or ecosystem_score >= 1 or vegetation_score >= 1)
-    ):
+    # C 类：背景相关，先留下，不直接丢掉
+    if total_score >= 5:
         return (
             "C",
-            "间接相关：涉及氮循环、微生物群落或湿地环境，可作为引言、背景或补充阅读文献。",
+            "间接相关：与湿地环境、微生物群落、氮循环、植被或土壤过程有一定联系，可作为背景文献暂存。",
             "08_低相关暂存",
         )
 
     return (
         "D",
-        "排除：缺少土壤/湿地、微生物、氮循环或功能基因等核心要素。",
+        "排除：与湿地、土壤微生物、氮循环、氮添加或土壤氮循环功能基因的关联较弱。",
         "08_低相关暂存",
     )
 
@@ -580,9 +681,24 @@ def write_ris(records: List[Dict]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mailto", default="", help="Your email for polite OpenAlex API usage.")
-    parser.add_argument("--days", type=int, default=365, help="Search papers published in recent N days.")
-    parser.add_argument("--limit", type=int, default=50, help="Max records per query.")
+    parser.add_argument(
+        "--mailto",
+        default="",
+        help="Your email for polite OpenAlex API usage.",
+    )
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=365,
+        help="Search papers published in recent N days.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=20,
+        help="Max records per query.",
+    )
+
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -600,7 +716,7 @@ def main() -> None:
         try:
             records = search_openalex(query, args.mailto, args.days, args.limit)
             all_records.extend(records)
-            time.sleep(1)
+            time.sleep(0.5)
         except Exception as exc:
             print(f"Warning: failed query: {query}")
             print(f"Reason: {exc}")
