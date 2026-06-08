@@ -1,0 +1,41 @@
+main_topic:
+  - coastal wetland nitrogen cycling
+  - saline-alkali soil nitrogen cycling
+  - nitrogen addition wetland soil
+  - soil nitrogen transformation
+  - metagenomics nitrogen cycling
+  - soil nitrogen cycling functional genes
+
+nitrogen_forms:
+  - ammonium addition
+  - nitrate addition
+  - NH4 addition
+  - NO3 addition
+  - NH4+-N
+  - NO3--N
+
+processes:
+  - nitrification
+  - denitrification
+  - DNRA
+  - nitrogen fixation
+  - mineralization
+
+genes:
+  - amoA
+  - hao
+  - nirK
+  - nirS
+  - norB
+  - norC
+  - nosZ
+  - nrfA
+  - nifH
+  - nifD
+  - nifK
+
+region:
+  - Yellow River Delta
+  - coastal wetland
+  - saline wetland
+  - salt marsh
