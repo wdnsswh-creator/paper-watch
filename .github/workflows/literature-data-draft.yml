@@ -2,9 +2,6 @@ name: Literature Data Draft
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/literature-data-draft.yml"
 
 permissions:
   contents: write
