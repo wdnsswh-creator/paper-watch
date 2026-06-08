@@ -78,20 +78,51 @@ B_TERMS = [
 ]
 
 EXCLUDE_TERMS = [
+    # Medical / clinical / animal
     "human",
     "patient",
     "clinical",
     "tumor",
     "cancer",
+    "disease",
+    "diabetes",
+    "insulin",
     "gut microbiome",
     "intestinal",
+    "fecal",
     "mouse",
     "mice",
     "rat",
     "livestock",
     "poultry",
-]
+    "swine",
+    "rumen",
 
+    # Food / medicine / industrial fermentation
+    "medicinal plant",
+    "pharmaceutical",
+    "traditional medicine",
+    "milk",
+    "dairy",
+    "food",
+    "beverage",
+    "cell feed",
+    "probiotic",
+
+    # Obviously off-topic environmental directions
+    "freshwater methane filter",
+    "drinking water",
+    "wastewater treatment plant",
+    "activated sludge",
+    "aquaculture",
+    "hydroponic",
+
+    # Off-topic organisms or settings
+    "insulin plant",
+    "costus igneus",
+    "summer snowflake",
+    "microbacterium algeriense",
+]
 
 def clean_text(value: Optional[str]) -> str:
     if not value:
