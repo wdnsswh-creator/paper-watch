@@ -1,633 +1,328 @@
 TY  - JOUR
-TI  - Different Responses of Soil Bacterial and Fungal Communities in Three Typical Vegetations following Nitrogen Deposition in an Arid Desert
-AU  - Zhihao Zhang
-AU  - Gangliang Tang
-AU  - Xutian Chai
-AU  - Бо Лю
-AU  - Xiaopeng Gao
-AU  - Fanjiang Zeng
-AU  - Yun Wang
-AU  - Bo Zhang
-JO  - Microorganisms
-PY  - 2023
-DO  - 10.3390/microorganisms11102471
-UR  - https://openalex.org/W4387231529
-AB  - The effects of increased nitrogen (N) deposition on desert ecosystems have been extensively studied from a plant community perspective. However, the response of soil microbial communities, which play a crucial role in nutrient cycling, to N inputs and plant community types remains poorly understood. In this study, we conducted a two-year N-addition experiment with five gradients (0, 10, 30, 60, and 120 kg N ha−1 year−1) to evaluate the effect of increased N deposition on soil bacterial and fungal communities in three plant community types, namely, Alhagi sparsifolia Shap., Karelinia caspia (Pall.) Less. monocultures and their mixed community in a desert steppe located on the southern edge of the Taklimakan Desert, Northwest China. Our results indicate that N deposition and plant community types exerted an independent and significant influence on the soil microbial community. Bacterial α-diversity and community dissimilarity showed a unimodal pattern with peaks at 30 and 60 kg N ha−1 year−1, respectively. By contrast, fungal α-diversity and community dissimilarity did not vary significantly with increased N inputs. Furthermore, plant community type significantly altered microbial community dissimilarity. The Mantel test and redundancy analysis indicated that soil pH and total and inorganic N (NH4+ and NO3−) levels were the most critical factors regulating soil microbial communities. Similar to the patterns observed in taxonomic composition, fungi exhibit stronger resistance to N addition compared to bacteria in terms of their functionality. Overall, our findings suggest that the response of soil microbial communities to N deposition is domain-specific and independent of desert plant community diversity, and the bacterial community has a critical threshold under N enrichment in arid deserts.
-N1  - Level: A; Score: 99; Source: OpenAlex
+TI  - Targeted metagenomics using probe capture detect a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
+AU  - H. Siljanen
+AU  - L. Manoharan
+AU  - A. Hilts
+AU  - A. Bagnoud
+AU  - R. J. Alves
+AU  - Christopher M Jones
+AU  - M. Kerou
+AU  - F. Sousa
+AU  - S. Hallin
+AU  - C. Biasi
+AU  - C. Schleper
+JO  - bioRxiv
+PY  - 2025
+DO  - 10.1093/ismeco/ycaf183
+UR  - https://www.semanticscholar.org/paper/f2d97573ed389ad3c6a5624dfb3429b6513387fb
+AB  - Microorganisms are key players in the global cycling of nitrogen (N) and carbon (C), controlling their availability and fluxes, including the emissions of the powerful greenhouse gases nitrous oxide (N2O) and methane (CH4). Characterizing the microbial functional guilds driving these processes is crucial for understanding ecosystem functioning and predicting their responses to environmental changes. Standard sequence-based characterization methods often reveal only a limited fraction of their diversity in nature because of their low relative abundance, the insufficient sequencing depth of traditional metagenomes of complex communities, and limitations in coverage of PCR-based assays. Here, we developed and tested a targeted metagenomics approach based on probe capture and hybridization to simultaneously characterize the diversity of multiple key metabolic genes involved in inorganic N and CH4 cycling. We designed comprehensive probe libraries for each of the 14 target marker genes comprising 264,000 unique probes. These probes were used to selectively enrich the target genes in shotgun metagenomic libraries. In validation experiments with the mock communities of known microorganisms, targeted metagenomics yielded gene profiles similar to those of the original communities. Only GC content had a small effect on probe efficiency, as low GC targets were less efficiently detected than those with high GC, within the mock communities. Furthermore, the relative abundances of the marker genes obtained using targeted or traditional shotgun metagenomics from agricultural and wetland soils were significantly correlated, indicating that the targeted approach did not introduce significant quantitative bias. In addition, using archaeal amoA genes as a case-study, targeted metagenomics identified substantially higher taxonomic diversity and a larger number of sequence reads per sample, yielding diversity estimates 28 or 1.24 times higher than shotgun metagenomics or amplicon sequencing, respectively. Notably, shotgun metagenomics detected only three out of the 84 amoA gene phylotypes detected using targeted metagenomics. Our results show that targeted metagenomics complements current approaches to characterize key microbial populations and functional guilds in biogeochemical cycles in different ecosystems, enabling more detailed, simultaneous characterization of multiple functional genes. Manuscript contribution to the field Metagenomic sequencing often yields limited numbers of sequences of rare microbial taxa or functional genes, preventing in-depth analyses of specific populations and functional groups. Amplicon-based approaches enable the higher diversity coverage of target populations, but the drawback is the difficulty in designing unbiased primers that cover the highest intra-group diversity. Targeted metagenomics overcomes these challenges and results in similar community structure as traditional amplicon sequencing, while expanding the sequence space in a less biased metagenomic-based approach. Therefore, targeted metagenomics is an invaluable tool for studying the diversity of specific populations within complex natural microbiomes. Here, we present and evaluate a probe library designed for targeted metagenomics of nitrogen and methane cycling genes in complex communities.
+N1  - Level: A; Score: 109; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Harnessing the Rhizosphere Soil Microbiome of Organically Amended Soil for Plant Productivity
-AU  - Ayansina Segun Ayangbenro
-AU  - Chinenyenwa Fortune Chukwuneme
-AU  - Modupe S. Ayilara
-AU  - Funso Raphael Kutu
-AU  - Motlagomang Khantsi
-AU  - Bartholomew Saanu Adeleke
-AU  - Bernard R. Glick
-AU  - Olubukola Oluranti Babalola
-JO  - Agronomy
-PY  - 2022
-DO  - 10.3390/agronomy12123179
-UR  - https://openalex.org/W4311791785
-AB  - Soil degradation remains an ongoing process that is exacerbated by the effects of climate change. Consequently, these processes decrease soil organic matter and nutrient contents, soil biological functions, and plant productivity. The addition of organic amendments (OAs) to the soil is a widespread practice to enhance soil quality and the health of agricultural soils. One of the most significant microbial hotspots controlling the processes, dynamics, and cycling of nutrients, carbon and water in terrestrial ecosystems is the rhizosphere. Understanding the continuing transformations of OAs and the distribution of different factors (C, nutrients, and microbial activities) across and along roots is crucial in the rhizosphere. The application of OAs to soil increases soil organic matter and nutrients, water holding capacity, improves soil structure and stimulates soil microbial activity and biomass. This review evaluates the role of the rhizosphere microbial community in organically amended soils for promoting plant growth and health. The diversity of the rhizosphere microbiome and the mechanisms used in plant protection are discussed.
-N1  - Level: A; Score: 77; Source: OpenAlex
+TI  - Metagenomic Analysis of Thawing Permafrost Highlights Links Between Carbon and Nitrogen Cycling Processes in Abrupt Thaw Simulation
+AU  - M. Laurent
+AU  - M. R. Baysinger
+AU  - A. Bartholomäus
+AU  - T. Windirsch
+AU  - J. Strauss
+AU  - T. Sanders
+AU  - S. Liebner
+AU  - C. Treat
+AU  - A. Laurent
+JO  - Journal of Geophysical Research: Biogeosciences
+PY  - 2026
+DO  - 10.1029/2025jg009630
+UR  - https://www.semanticscholar.org/paper/5975acf004aea9867eb387f1ab9e963cdaecf756
+AB  - Abrupt permafrost thaw events are projected to contribute up to 40% of permafrost carbon (C) release to the atmosphere. They involve sudden hydrological shifts within the soil column; however, the exact microbial functional pathway shifts induced by these events remain cryptic. To investigate how C and nutrient cycling processes differ in thaw scenarios, we conducted metagenomic analyses in a pilot study on soil and water subsamples (two replicates per depth group, and treatment) after experimental thaw of intact soil columns (1 m tall mesocosms) and soil horizons in isolation (120 mL vial incubations). The microbial community structure response was masked by high depth dependency, with large shifts in functional pathways within the permafrost soil horizon under the “abrupt” treatment. Most pathways of C cycling remained similar under both “abrupt” and “gradual” thaw, while denitrification and sulfate functional pathways were stimulated within the “abrupt” treatment. This is likely caused by thaw water providing more energetically favorable terminal electron acceptors for metabolic pathways such as denitrification, thus inhibiting the terminal stages of C degradation that result in methane production. This is supported by the 90% decrease in CH4 ${\text{CH}}_{4}$ production under “abrupt” thaw simulation. This pilot study of “abrupt” and “gradual” thaw simulations highlights the potential for abrupt thaw to enhance carbon‐nitrogen interactions by modifying redox conditions. Abrupt thaw events are expected to increase in warming permafrost regions, and results from our study offer a novel perspective on the close interactions that lowland permafrost soils have when cycling C and nutrients.
+N1  - Level: A; Score: 75; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - The Influence of Soil Fertilization on the Distribution and Diversity of Phosphorus Cycling Genes and Microbes Community of Maize Rhizosphere Using Shotgun Metagenomics
-AU  - Matthew Chekwube Enebe
-AU  - Olubukola Oluranti Babalola
-JO  - Genes
-PY  - 2021
-DO  - 10.3390/genes12071022
-UR  - https://openalex.org/W3175342660
-AB  - Biogeochemical cycling of phosphorus in the agro-ecosystem is mediated by soil microbes. These microbes regulate the availability of phosphorus in the soil. Little is known about the response of functional traits of phosphorus cycling microbes in soil fertilized with compost manure (derived from domestic waste and plant materials) or inorganic nitrogen fertilizers at high and low doses. We used a metagenomics investigation study to understand the changes in the abundance and distribution of microbial phosphorus cycling genes in agricultural farmlands receiving inorganic fertilizers (120 kg N/ha, 60 kg N/ha) or compost manure (8 tons/ha, 4 tons/ha), and in comparison with the control. Soil fertilization with high level of compost (Cp8) or low level of inorganic nitrogen (N1) fertilizer have nearly similar effects on the rhizosphere of maize plants in promoting the abundance of genes involved in phosphorus cycle. Genes such as ppk involved in polyphosphate formation and pstSABC (for phosphate transportation) are highly enriched in these treatments. These genes facilitate phosphorus immobilization. At a high dose of inorganic fertilizer application or low compost manure treatment, the phosphorus cycling genes were repressed and the abundance decreased. The bacterial families Bacillaceae and Carnobacteriaceae were very abundant in the high inorganic fertilizer (N2) treated soil, while Pseudonocardiaceae, Clostridiaceae, Cytophagaceae, Micromonosporaceae, Thermomonosporaceae, Nocardiopsaceae, Sphaerobacteraceae, Thermoactinomycetaceae, Planococcaceae, Intrasporangiaceae, Opitutaceae, Acidimicrobiaceae, Frankiaceae were most abundant in Cp8. Pyrenophora, Talaromyces, and Trichophyton fungi were observed to be dominant in Cp8 and Methanosarcina, Methanobrevibacter, Methanoculleus, and Methanosphaera archaea have the highest percentage occurrence in Cp8. Moreover, N2 treatment, Cenarchaeum, Candidatus Nitrososphaera, and Nitrosopumilus were most abundant among fertilized soils. Our findings have brought to light the basis for the manipulation of rhizosphere microbial communities and their genes to improve availability of phosphorus as well as phosphorus cycle regulation in agro-ecosystems.
-N1  - Level: A; Score: 75; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - A legacy of fire emerges from multiple disturbances to most shape microbial and nitrogen dynamics in a deciduous forest
-AU  - Gregory D. Martin
-AU  - Ember M. Morrissey
-AU  - Walter P. Carson
-AU  - Zachary B. Freedman
-JO  - Soil Biology and Biochemistry
-PY  - 2022
-DO  - 10.1016/j.soilbio.2022.108672
-UR  - https://openalex.org/W4224209947
-N1  - Level: A; Score: 69; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Impacts and mechanisms of biochar on soil microorganisms
-AU  - Kai Huang
-AU  - Jun Zhang
-AU  - Guangming Tang
-AU  - Da Bao
-AU  - Tangyu Wang
-AU  - Deping Kong
-JO  - Plant Soil and Environment
-PY  - 2023
-DO  - 10.17221/348/2022-pse
-UR  - https://openalex.org/W4320729333
-AB  - Biochar is a carbonaceous material derived from the pyrolysis of carbon-rich biomass that has attracted increasing research and attention because of its ability to enhance soil carbon storage, increase soil fertility, fix and transform pollutants in soil, and improve the soil environment. These enhancements directly or indirectly affect soil microorganisms’ metabolic activities and community structure. This paper reviews the effects of biochar on soil physicochemical properties, enzyme activities, nutrients, contaminants, and related microbial activities. In addition, this work summarises the possible mechanisms involved in the interaction between biochar and microorganisms and the potential hazards associated with biochar use. Finally, this study aims to provide a theoretical basis for future related research.
-N1  - Level: A; Score: 69; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Bacterial community structure and putative nitrogen-cycling functional traits along a charosphere gradient under waterlogged conditions
-AU  - Mengjie Yu
-AU  - Weiqin Su
-AU  - Laibin Huang
-AU  - Sanjai J. Parikh
-AU  - Caixian Tang
-AU  - Randy A. Dahlgren
-AU  - Jianming Xu
-JO  - Soil Biology and Biochemistry
-PY  - 2021
-DO  - 10.1016/j.soilbio.2021.108420
-UR  - https://openalex.org/W3199653057
-N1  - Level: A; Score: 61; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Bacterial functional prediction tools detect but underestimate metabolic diversity compared to shotgun metagenomics in southwest Florida soils
-AU  - David R. Toole
-AU  - Jun Zhao
-AU  - Willm Martens‐Habbena
-AU  - Sarah L. Strauss
-JO  - Applied Soil Ecology
-PY  - 2021
-DO  - 10.1016/j.apsoil.2021.104129
-UR  - https://openalex.org/W3184747373
-N1  - Level: A; Score: 54; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Soil phosphorus transformation and plant uptake driven by phosphate-solubilizing microorganisms
-AU  - Pang Fei
-AU  - Qing Li
-AU  - Manoj Kumar Solanki
-AU  - Zhen Wang
-AU  - Yong‐Xiu Xing
-AU  - Dengfeng Dong
-JO  - Frontiers in Microbiology
-PY  - 2024
-DO  - 10.3389/fmicb.2024.1383813
-UR  - https://openalex.org/W4393223895
-AB  - Phosphorus (P) is an important nutrient for plants, and a lack of available P greatly limits plant growth and development. Phosphate-solubilizing microorganisms (PSMs) significantly enhance the ability of plants to absorb and utilize P, which is important for improving plant nutrient turnover and yield. This article summarizes and analyzes how PSMs promote the absorption and utilization of P nutrients by plants from four perspectives: the types and functions of PSMs, phosphate-solubilizing mechanisms, main functional genes, and the impact of complex inoculation of PSMs on plant P acquisition. This article reviews the physiological and molecular mechanisms of phosphorus solubilization and growth promotion by PSMs, with a focus on analyzing the impact of PSMs on soil microbial communities and its interaction with root exudates. In order to better understand the ability of PSMs and their role in soil P transformation and to provide prospects for research on PSMs promoting plant P absorption. PSMs mainly activate insoluble P through the secretion of organic acids, phosphatase production, and mycorrhizal symbiosis, mycorrhizal symbiosis indirectly activates P via carbon exchange. PSMs can secrete organic acids and produce phosphatase, which plays a crucial role in soil P cycling, and related genes are involved in regulating the P-solubilization ability. This article reviews the mechanisms by which microorganisms promote plant uptake of soil P, which is of great significance for a deeper understanding of PSM-mediated soil P cycling, plant P uptake and utilization, and for improving the efficiency of P utilization in agriculture.
-N1  - Level: A; Score: 51; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Effect of Parthenium hysterophorus L. Invasion on Soil Microbial Communities in the Yellow River Delta, China
-AU  - Shuai Shang
-AU  - Zaiwang Zhang
-AU  - Liping Zhao
-AU  - Longxiang Liu
-AU  - D. Shi
-AU  - Hui Xu
-AU  - Hanjie Zhang
-AU  - W. Xie
-AU  - Fengjuan Zhao
-AU  - Zhihao Zhou
-AU  - Jikun Xu
-AU  - Jun Wang
-JO  - Microorganisms
-PY  - 2022
-DO  - 10.3390/microorganisms11010018
-UR  - https://www.semanticscholar.org/paper/d9b27a1dbfa812f20bf2def43141382e66afc3f5
-AB  - Parthenium hysterophorus L., as an invasive plant, has negatively impacted the ecosystem functioning and stability of the terrestrial ecosystem in China. However, little information was available for its effects on microorganisms in the Yellow River Delta (YRD), the biggest newly-formed wetland in China. In the present study, high-throughput sequencing technology was used to obtain the bacterial community in soils and roots of different plant species, including P. hysterophorus and some native ones in the YRD. Our results showed that the Proteobacteria, Acidobacteriota, Gemmatimonadota, and Actinobacteriota were dominant in the rhizosphere soils of P. hysterophorus (84.2%) and Setaria viridis (86.47%), and the bulk soils (80.7%). The Proteobacteria and Actinobacteriota were dominant within the root of P. hysterophorus. A total of 2468 bacterial OTUs were obtained from different groups among which 140 were observed in all the groups; 1019 OTUs were shared by P. hysterophorus non-rhizosphere soil bacteria (YNR) P. hysterophorus rhizosphere soil bacteria (YRR) groups. The indexes of the ACE (823.1), Chao1 (823.19), Simpson (0.9971), and Shannon (9.068) were the highest in the YRR groups, showing the greatest bacterial community diversity. Random forest analysis showed that the Methylomirabilota and Dadabacteria (at the phylum level) and the Sphingomonas, and Woeseia (at the genus level) were identified as the main predictors among different groups. The LEfSe results also showed the essential role of the Acidobacteriota in the YRR group. The SourceTracker analysis of the bacterial community of the YRR group was mainly from GBS groups (average 53.14%) and a small part was from YNR groups (average 6.56%), indicating that the P. hysterophorus invasion had a more significant effect on native plants’ rhizosphere microorganisms than soil microorganisms. Our observations could provide valuable information for understanding the bacterial diversity and structure of the soil to the invasion of P. hysterophorus.
-N1  - Level: A; Score: 49; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Tree functional traits, forest biomass, and tree species diversity interact with site properties to drive forest soil carbon
-AU  - Laurent Augusto
-AU  - Antra Boča
-JO  - Nature Communications
-PY  - 2022
-DO  - 10.1038/s41467-022-28748-0
-UR  - https://openalex.org/W4214521499
-AB  - Forests constitute important ecosystems in the global carbon cycle. However, how trees and environmental conditions interact to determine the amount of organic carbon stored in forest soils is a hotly debated subject. In particular, how tree species influence soil organic carbon (SOC) remains unclear. Based on a global compilation of data, we show that functional traits of trees and forest standing biomass explain half of the local variability in forest SOC. The effects of functional traits on SOC depended on the climatic and soil conditions with the strongest effect observed under boreal climate and on acidic, poor, coarse-textured soils. Mixing tree species in forests also favours the storage of SOC, provided that a biomass over-yielding occurs in mixed forests. We propose that the forest carbon sink can be optimised by (i) increasing standing biomass, (ii) increasing forest species richness, and (iii) choosing forest composition based on tree functional traits according to the local conditions.
-N1  - Level: A; Score: 49; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Soil organic matter and salinity as critical factors affecting the bacterial community and function of Phragmites australis dominated riparian and coastal wetlands.
-AU  - Zi-fang Chi
-AU  - Wenjing Wang
-AU  - Huai Li
-AU  - Haitao Wu
-AU  - B. Yan
-JO  - Science of the Total Environment
-PY  - 2020
-DO  - 10.1016/j.scitotenv.2020.143156
-UR  - https://www.semanticscholar.org/paper/95c783d9ec802f5c6233d43cbb4d719ed27c3837
-AB  - Soil salinization poses a great threat to the natural ecosystem and interferes with the structure and function of the biological community, resulting in different vegetation distributions. However, little attention is paid to the changes in microbial community in different wetland types with the same vegetation. In this study, the Yellow River Delta was used as a model because of its typical and extensive distribution of Phragmites australis-dominated saltwater and freshwater wetlands. We investigated the differences in the structure and function of bacterial communities, as well as their relationships with soil properties in coastal (Zone A) and riparian (Zone B) wetlands. Results showed higher salinity and pH in Zone A than Zone B (p < 0.05), whereas TN (p < 0.05) and SOM were lower than those in Zone B. Significant differences existed in microbial community composition between Zones A and B. The nitrifying-bacteria Nitrospira and norank_f_Nitrosomonadaceae had high abundance in Zones A and B. Alcanivorax, Halomonas, and Marinobacter were extensively distributed in Zone A, whereas Flavobacterium and Pseudomonas were dominant in Zone B, indicating the diversity characteristics of denitrifying bacteria. Conversely, methane-oxidizing bacteria Methylophaga were significantly higher in Zone A than in Zone B (p < 0.05), indicating that high salinity was conducive to aerobic methane oxidation and that the genetic diversity at strain level endowed it with a certain denitrification potential. Salinity and SOM played important roles in shaping microbial community at phylum and genus levels. The gene abundances related to xenobiotics metabolism and repair were high in Zone A, whereas the genes encoding energy metabolism and signal transduction were relatively high in Zone B. Denitrification was more favored for the low-salinity Zone B, whereas methane oxidation was enriched in the high-salinity Zone A. Therefore, our study emphasized the importance of an in-depth understanding of the microbial-community structure and function in Phragmites australis-dominated saltwater and freshwater wetlands.
-N1  - Level: A; Score: 47; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Persistence of plant-mediated microbial soil legacy effects in soil and inside roots
-AU  - S. Emilia Hannula
-AU  - Robin Heinen
-AU  - Martine Huberty
-AU  - Katja Steinauer
-AU  - Jonathan R. De Long
-AU  - Renske Jongen
-AU  - Т. Martijn Bezemer
-JO  - Nature Communications
-PY  - 2021
-DO  - 10.1038/s41467-021-25971-z
-UR  - https://openalex.org/W3202899376
-AB  - Plant-soil feedbacks are shaped by microbial legacies that plants leave in the soil. We tested the persistence of these legacies after subsequent colonization by the same or other plant species using 6 typical grassland plant species. Soil fungal legacies were detectable for months, but the current plant effect on fungi amplified in time. By contrast, in bacterial communities, legacies faded away rapidly and bacteria communities were influenced strongly by the current plant. However, both fungal and bacterial legacies were conserved inside the roots of the current plant species and their composition significantly correlated with plant growth. Hence, microbial soil legacies present at the time of plant establishment play a vital role in shaping plant growth even when these legacies have faded away in the soil due the growth of the current plant species. We conclude that soil microbiome legacies are reversible and versatile, but that they can create plant-soil feedbacks via altering the endophytic community acquired during early ontogeny.
-N1  - Level: A; Score: 47; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Effects of Polycyclic Aromatic Hydrocarbons on the Composition of the Soil Bacterial Communities in the Tidal Flat Wetlands of the Yellow River Delta of China
-AU  - Yue Qi
-AU  - Yuxuan Wu
-AU  - Qiuying Zhi
-AU  - Zhe Zhang
-AU  - Yi‐Lei Zhao
-AU  - Gang Fu
-JO  - Microorganisms
-PY  - 2024
-DO  - 10.3390/microorganisms12010141
-UR  - https://openalex.org/W4390749845
-AB  - Polycyclic aromatic hydrocarbons (PAHs) are pervasive organic pollutants in coastal ecosystems, especially in tidal flat wetlands. However, the mechanisms through which PAHs impact the soil bacterial communities of wetlands featuring a simple vegetation structure in the Yellow River Delta (China) remain largely unclear. In this study, we examined soil samples from two sites featuring a single vegetation type (Suaeda salsa) in the Yellow River Delta. Specifically, we investigated the impacts of PAHs on the diversity and composition of soil bacteria communities through high-throughput 16 S rRNA sequencing. PAHs significantly increased the soil organic carbon content but decreased the total phosphorus content (p = 0.02). PAH contamination notably reduced soil bacterial community α diversity (Shannon index) and β diversity. Furthermore, PAHs significantly altered the relative abundance of bacterial phyla, classes, and genera (p < 0.05). Specifically, PAHs increased the relative abundance of the bacterial phyla Acidobacteriota and Gemmatimonadota (p < 0.05), while decreasing the relative abundance of Bacteroidota, Desulfobacterota, and Firmicutes compared to the control wetland (p < 0.05). Moreover, PAHs and certain soil properties [total nitrogen (TN), soil organic carbon (SOC), total phosphorus (TP), and total salt (TS)] were identified as key parameters affecting the community of soil bacteria, with the abundance of specific bacteria being both negatively and positively affected by PAHs, SOC, and TN. In summary, our findings could facilitate the identification of existing environmental problems and offer insights for improving the protection and management of tidal flat wetland ecosystems in the Yellow River Delta of China.
-N1  - Level: A; Score: 44; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Response of soil bacterial community to alpine wetland degradation in arid Central Asia
-AU  - Maidinuer Abulaizi
-AU  - Mo Chen
-AU  - Zailei Yang
-AU  - Yang Hu
-AU  - Xinping Zhu
-AU  - Hongtao Jia
-JO  - Frontiers in Plant Science
-PY  - 2023
-DO  - 10.3389/fpls.2022.990597
-UR  - https://openalex.org/W4313584315
-AB  - A large number of studies have reported the importance of bacterial communities in ecosystems and their responses to soil degradation, but the response mechanism in arid alpine wetlands is still unclear. Here, the non-degraded (ND), slightly degraded (SD), and heavily degraded (HD) regions of Bayinbuluk alpine wetland were used to analyzed the diversity, structure and function of bacterial communities in three degraded wetlands using 16S rRNA. The results showed that with the increase of degradation degree, the content of soil moisture (SM) and available nitrogen (AN) decreased significantly, plant species richness and total vegetation coverage decreased significantly, Cyperaceae (Cy) coverage decreased significantly, and Gramineae (Gr) coverage increased significantly. Degradation did not significantly affect the diversity of the bacterial community, but changed the relative abundance of the community structure. Degradation significantly increased the relative abundance of Actinobacteria (ND: 3.95%; SD: 7.27%; HD: 23.97%) and Gemmatimonadetes (ND: 0.39%; SD: 2.17%; HD: 10.78%), while significantly reducing the relative abundance of Chloroflexi (ND: 13.92%; SD: 8.68%; HD: 3.55%) and Nitrospirae (ND: 6.18%; SD: 0.45%; HD: 2.32%). Degradation significantly reduced some of the potential functions in the bacterial community associated with the carbon (C), nitrogen (N) and sulfur (S) cycles, such as hydrocarbon degradation (ND: 25.00%; SD: 1.74%; HD: 6.59%), such as aerobic ammonia oxidation (ND: 5.96%; SD: 22.82%; HD: 4.55%), and dark sulfide oxidation (ND: 32.68%; SD: 0.37%; HD: 0.28%). Distance-based redundancy analysis (db-RDA) results showed that the bacteria community was significantly related to the TC (total carbon) and Gr ( P < 0.05). The results of linear discriminant analysis effect size (LEfSe) analysis indicate significant enrichments of Alphaproteobacteria and Sphingomonas in the HD area. The vegetation communities and soil nutrients changed significantly with increasing soil degradation levels, and Sphingomonas could be used as potential biomarker of degraded alpine wetlands.
-N1  - Level: A; Score: 44; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Insight into mechanisms of biochar-fertilizer induced of microbial community and microbiology of nitrogen cycle in acidic soil
-AU  - Hao Xia
-AU  - Muhammad Riaz
-AU  - Xiufeng Tang
-AU  - Lei Yan
-AU  - Zeinab El‐Desouki
-AU  - Yu-Xuan Li
-AU  - Xiangling Wang
-AU  - Jiang Cuncang
-JO  - Journal of Environmental Management
-PY  - 2023
-DO  - 10.1016/j.jenvman.2023.117602
-UR  - https://openalex.org/W4323832780
-N1  - Level: A; Score: 43; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Effect of microbial inoculation on nitrogen transformation, nitrogen functional genes, and bacterial community during cotton straw composting
-AU  - Liuyan Zhou
-AU  - Yuqing Xie
-AU  - Xiaowu Wang
-AU  - Zhifang Wang
-AU  - Renna Sa
-AU  - Pengbing Li
-AU  - Xinping Yang
-JO  - Bioresource Technology
-PY  - 2024
-DO  - 10.1016/j.biortech.2024.130859
-UR  - https://openalex.org/W4398147803
-N1  - Level: A; Score: 42; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Effects of Short-Term Rice Straw Return on the Soil Microbial Community
-AU  - Enze Wang
-AU  - Xiaolong Lin
-AU  - Lei Tian
-AU  - Xinguang Wang
-AU  - Li Ji
-AU  - Feng Jin
-AU  - Chunjie Tian
-JO  - Agriculture
-PY  - 2021
-DO  - 10.3390/agriculture11060561
-UR  - https://openalex.org/W3175061851
-AB  - Rice straw is a byproduct of agricultural production and an important agricultural resource. However, rice straw has not yet been effectively used, and incorrect treatment methods (such as burning in the field) can cause serious damage to the environment. Studies have shown that straw returning is beneficial to soil, but there have been few studies focused on the effect of the amount of short-term straw returned on the soil microbial community. This study evaluates 0%, 50%, 75%, and 100% rice straw returned to the field on whether returning different amounts of straw in the short term would affect the diversity and composition of the soil microbial community and the correlation between bacteria and fungi. The results show that the amount of straw returned to the field is the main factor that triggers the changes in the abundance and composition of the microbial community in the paddy soil. A small amount of added straw (≤50% straw added) mainly affects the composition of the bacterial community, while a larger amount of added straw (>50% straw added) mainly affects the composition of the fungal community. Returning a large amount of straw increases the microbial abundance related to carbon and iron cycles in the paddy soil, thus promoting the carbon and iron cycle processes to a certain extent. In addition, network analysis shows that returning a large amount of straw also increases the complexity of the microbial network, which may encourage more microbes to be niche-sharing and comprehensively improve the ecological environment of paddy soil. This study may provide some useful guidance for rice straw returning in northeast China.
-N1  - Level: A; Score: 40; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Role of polyamide microplastic in altering microbial consortium and carbon and nitrogen cycles in a simulated agricultural soil microcosm
-AU  - Xia Sun
-AU  - Ruidong Tao
-AU  - Daoqing Xu
-AU  - Mengjie Qu
-AU  - Mingming Zheng
-AU  - Meng Zhang
-AU  - Yunjun Mei
-JO  - Chemosphere
-PY  - 2022
-DO  - 10.1016/j.chemosphere.2022.137155
-UR  - https://openalex.org/W4308902799
-N1  - Level: A; Score: 39; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Patterns in soil microbial diversity across Europe
-AU  - Maëva Labouyrie
-AU  - Cristiano Ballabio
-AU  - Ferran Romero
-AU  - Panos Panagos
-AU  - Arwyn Jones
-AU  - Marc W. Schmid
-AU  - Vladimir Mikryukov
-AU  - Olesya Dulya
-AU  - Leho Tedersoo
-AU  - Mohammad Bahram
-AU  - Emanuele Lugato
-AU  - Marcel G. A. van der Heijden
-AU  - Alberto Orgiazzi
-JO  - Nature Communications
-PY  - 2023
-DO  - 10.1038/s41467-023-37937-4
-UR  - https://openalex.org/W4379875672
-AB  - Factors driving microbial community composition and diversity are well established but the relationship with microbial functioning is poorly understood, especially at large scales. We analysed microbial biodiversity metrics and distribution of potential functional groups along a gradient of increasing land-use perturbation, detecting over 79,000 bacterial and 25,000 fungal OTUs in 715 sites across 24 European countries. We found the lowest bacterial and fungal diversity in less-disturbed environments (woodlands) compared to grasslands and highly-disturbed environments (croplands). Highly-disturbed environments contain significantly more bacterial chemoheterotrophs, harbour a higher proportion of fungal plant pathogens and saprotrophs, and have less beneficial fungal plant symbionts compared to woodlands and extensively-managed grasslands. Spatial patterns of microbial communities and predicted functions are best explained when interactions among the major determinants (vegetation cover, climate, soil properties) are considered. We propose guidelines for environmental policy actions and argue that taxonomical and functional diversity should be considered simultaneously for monitoring purposes.
-N1  - Level: A; Score: 39; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Global distribution patterns of marine nitrogen-fixers by imaging and molecular methods
-AU  - Juan José Pierella Karlusich
-AU  - Éric Pelletier
-AU  - Fabien Lombard
-AU  - Madeline Carsique
-AU  - Etienne Dvorak
-AU  - Sébastien Colin
-AU  - Marc Picheral
-AU  - Francisco M. Cornejo‐Castillo
-AU  - Silvia G. Acinas
-AU  - Rainer Pepperkok
-AU  - Eric Karsenti
-AU  - Colomban de Vargas
-AU  - Patrick Wincker
-AU  - Chris Bowler
-AU  - Rachel A. Foster
-JO  - Nature Communications
-PY  - 2021
-DO  - 10.1038/s41467-021-24299-y
-UR  - https://openalex.org/W3178755055
-AB  - Nitrogen fixation has a critical role in marine primary production, yet our understanding of marine nitrogen-fixers (diazotrophs) is hindered by limited observations. Here, we report a quantitative image analysis pipeline combined with mapping of molecular markers for mining >2,000,000 images and >1300 metagenomes from surface, deep chlorophyll maximum and mesopelagic seawater samples across 6 size fractions ( 20 µm). Using imaging and molecular data, we estimate that polyploidy can substantially affect gene abundances of symbiotic versus colony-forming diazotrophs. Our results support the canonical view that larger diazotrophs (>10 μm) dominate the tropical belts, while unicellular cyanobacterial and non-cyanobacterial diazotrophs are globally distributed in surface and mesopelagic layers. We describe co-occurring diazotrophic lineages of different lifestyles and identify high-density regions of diazotrophs in the global ocean. Overall, we provide an update of marine diazotroph biogeographical diversity and present a new bioimaging-bioinformatic workflow.
-N1  - Level: A; Score: 36; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Microbial Eukaryotes in Natural and Artificial Salt Marsh Pools
-AU  - Marina Potapova
-AU  - Daiana Markarian
-AU  - Abigail King
-AU  - Laura Aycock
-JO  - Coasts
-PY  - 2024
-DO  - 10.3390/coasts4020015
-UR  - https://openalex.org/W4393859651
-AB  - Microscopic eukaryotes are important components of coastal wetland ecosystems. The goal of this study was to investigate the diversity of microeukaryotes in the tidal pools of a New Jersey salt marsh and to compare the assemblages of natural and artificial pools excavated for controlling mosquito populations. We evaluated microeukaryotic assemblages using the amplicon sequencing of 18S and rbcL DNA markers and the microscopic identification of diatoms in water and sediment samples. 18S unique amplicon sequence variants (ASV) representing ciliates, dinoflagellates, diatoms, and cercozoans were the most diverse, while the reads of dinoflagellates, diatoms, ciliates, and nematodes were the most abundant. The dominant ASVs were attributed to organisms that are characteristic of coastal plankton and sediments or those known for their resistance to salinity, desiccation, hypoxia, and UV stress. The sediment assemblages were more diverse compared to those from the water column and contained a larger portion of ASVs that were not assigned to any low-rank taxa, reflecting the current gaps in understanding the diversity of microeukaryotes. Most taxonomic groups were significantly different in their abundance and composition between natural and artificial pools. Dinoflagellates, haptophytes, chrysophytes, pelagophytes, and raphidophytes—the groups that include a large proportion of mixotrophic taxa and species known for forming harmful algal blooms—were more abundant in the artificial than in the natural pools. Fungi, labyrinthulomycetes, and peronosporomycetes were also more abundant in artificial pools, which may be related to organic matter enrichment. Diatoms and foraminifera showed an opposite trend of higher abundance in natural pools.
-N1  - Level: A; Score: 33; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Invasive plants and their root traits are linked to the homogenization of soil microbial communities across the United States
-AU  - Gabriela C. Nunez‐Mir
-AU  - Matthew A. McCary
-JO  - Proceedings of the National Academy of Sciences
-PY  - 2024
-DO  - 10.1073/pnas.2418632121
-UR  - https://openalex.org/W4403729055
-AB  - Although the impacts of invasive plants on soil ecosystems are widespread, the role and impacts of invader root traits in structuring microbial communities remain poorly understood. Here, we present a macroecological study investigating how plant invaders and their root traits affect soil microbial communities, spanning data from 377 unique plots across the United States sampled multiple times, totaling 632 sampling events and 94 invasive plant species. We found that native and invasive plants harbor different root traits on average, with invasive plants possessing higher specific root lengths and native plants having higher root tissue density. We also show that soil microbial communities experiencing heavy plant invasions were more similar to each other in composition across ecosystem types and geographical regions than plots with higher proportions of native plants, which displayed highly variable microbial communities across the continent. Root traits of invasive plants in highly invaded plots explained two times more variation in microbial composition than native plants. This work represents an important step toward understanding macroscale and cross-scale patterns of the relationship between plant invasions, root traits, and soil microbial composition. Our findings provide insights into how invasive plants may impact ecosystem functioning at the macroscale via their homogenizing influence on microbial communities.
-N1  - Level: A; Score: 31; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Molecular analysis of microbial nitrogen transformation and removal potential in the plant rhizosphere of artificial tidal wetlands across salinity gradients
-AU  - Manping Zhang
-AU  - Yuanyuan Peng
-AU  - Pan Yan
-AU  - Jung-Chen Huang
-AU  - Shengbing He
-AU  - Shanshan Sun
-AU  - Xiaohui Bai
-AU  - Yun Tian
-JO  - Environmental Research
-PY  - 2022
-DO  - 10.1016/j.envres.2022.114235
-UR  - https://openalex.org/W4293571906
-N1  - Level: A; Score: 28; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Reduction of microbial diversity in grassland soil is driven by long-term climate warming
-AU  - Linwei Wu
-AU  - Ya Zhang
-AU  - Xue Guo
-AU  - Daliang Ning
-AU  - Xishu Zhou
-AU  - Jiajie Feng
-AU  - Mengting Yuan
-AU  - Suo Liu
-AU  - Jiajing Guo
-AU  - Zhipeng Gao
-AU  - Jie Ma
-AU  - Jialiang Kuang
-AU  - Siyang Jian
-AU  - Shun Han
-AU  - Zhifeng Yang
-AU  - Yang Ouyang
-AU  - Ying Fu
-AU  - Naijia Xiao
-AU  - Xueduan Liu
-AU  - Liyou Wu
-JO  - Nature Microbiology
-PY  - 2022
-DO  - 10.1038/s41564-022-01147-3
-UR  - https://openalex.org/W4282572931
-N1  - Level: A; Score: 27; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Organic matter cycling in a model restored wetland receiving complex effluent
-AU  - Xingzi Zhou
-AU  - Sarah Ellen Johnston
-AU  - Matthew J. Bogard
-JO  - Biogeochemistry
-PY  - 2022
-DO  - 10.1007/s10533-022-01002-x
-UR  - https://openalex.org/W4311058827
-AB  - Abstract Wetlands have been used to treat anthropogenic effluents for decades due to their intense biogeochemical processes that transform and uptake nutrients, organic matter, and toxins. Despite these known functions, we lack generalizable knowledge of effluent-derived dissolved organic matter (DOM) cycling in wetlands. Here, we quantify the cycling of DOM in one of Canada’s more economically important wetland complexes (Frank Lake, Alberta), restored to hydrologic permanence in the 1980s using urban and agro-industrial effluents. Optical analyses and PARAFAC (parallel factor analysis) modelling showed a clear compositional change from more bioavailable and protein-like DOM at effluent input sites to more aromatic and humic-like at the wetland outflow, likely due to DOM processing and inputs from marsh plants and wetland soils. Microbial incubations showed that effluent DOM was rapidly consumed, with the half-life of DOM increasing from as low as 35 days for effluent, to 462 days at the outflow, as a function of compositional shifts toward aromatic, humic-like material. Long-term averaged dissolved organic carbon (DOC) export was low compared to many wetlands (10.3 ± 2.0 g C m −2 yr −1 ). Consistent with predictions based on water residence time, our mass balance showed Frank Lake was a net source of DOM across all measured years, but shifted from a source to sink among wet and drought years that respectively shortened or lengthened the water residence and DOM processing times. Overall, Frank Lake processes and transforms effluent DOM, despite being a longer-term net source of DOM to downstream environments.
-N1  - Level: A; Score: 27; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Microbial and nematode regulation of Tamarix chinensis growth across successional stages in coastal wetlands
-AU  - Shuting Li
-AU  - Jilin Zhang
-AU  - Yu-jing Li
-AU  - Renqing Wang
-AU  - P. Zheng
-AU  - Hui Wang
+TI  - Metagenomic analysis reveal the influence of peanut and wheat rotation on the functional genes associated with soil nitrogen cycling and nitrogen availability during the wheat growth period
+AU  - Hao Wang
+AU  - Mingxue Du
+AU  - Xinyu Li
+AU  - Shulan Wang
+AU  - Qinghua Yang
 JO  - Plant and Soil
 PY  - 2025
-DO  - 10.1007/s11104-025-07797-6
-UR  - https://www.semanticscholar.org/paper/fd32f1299c57956feaf86dd94ef707c4816cd7dc
+DO  - 10.1007/s11104-025-08101-2
+UR  - https://www.semanticscholar.org/paper/15f4222e71d1ad633739b4b947ec9c45dc8e122d
+N1  - Level: A; Score: 68; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - The Nitrogen Cycling Key Functional Genes and Related Microbial Bacterial Community α−Diversity Is Determined by Crop Rotation Plans in the Loess Plateau
+AU  - R. Liu
+AU  - Yang Liu
+AU  - Yuan Gao
+AU  - F. Zhao
+AU  - Jun Wang
+JO  - Agronomy
+PY  - 2023
+DO  - 10.3390/agronomy13071769
+UR  - https://www.semanticscholar.org/paper/db6115afd77d19d3abff4eb34c68fd1ac5602bc4
+AB  - Soil nitrogen cycling microbial communities and functional gene α−diversity indicate soil nitrogen cycling ecological functions and potentials. Crop rotation plans affect soil nitrogen fractions and these indicators. We sequenced soil samples from four crop rotation plans (fallow, winter wheat monoculture, pea-winter wheat-winter wheat-millet rotation, and corn-wheat-wheat-millet rotation) in a long-term field experiment. We examined how microbial communities and functional gene α−diversity changed with soil nitrogen fractions and how nitrogen fractions regulated them. Planting crops increased the abundance and richness of nitrogen cycling key functional genes and bacterial communities compared with fallow. The abundance and richness correlated positively with nitrogen fractions, while Shannon index did not. The abundance increased with soil total nitrogen (STN) and potential nitrogen mineralization (PNM), while Shannon index showed that nitrogen cycling key functional genes increased and then decreased with increasing STN and PON. Introducing legumes into the rotation improved the α−diversity of nitrogen cycling key functional genes. These results can guide sustainable agriculture in the Loess Plateau and clarify the relationship between nitrogen fractions and nitrogen cycling key functional genes.
+N1  - Level: A; Score: 63; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Soil Microbial Legacy Overrides the Responses of a Dominant Grass and Nitrogen-Cycling Functional Microbes in Grassland Soil to Nitrogen Addition
+AU  - Minghui Zhang
+AU  - Xueli Li
+AU  - F. Xing
+AU  - Zhuo Li
+AU  - Xiaowei Liu
+AU  - Yanan Li
+JO  - Plants
+PY  - 2022
+DO  - 10.3390/plants11101305
+UR  - https://www.semanticscholar.org/paper/694e8771a6eb45a7da3c6b55ea520e2c0c381328
+AB  - Both atmospheric nitrogen (N) deposition and soil microbial legacy (SML) can affect plant performance, the activity of soil N-cycling functional microbes and the relative abundance of N-cycling functional genes (NCFGs). In the grassland vegetation successional process, how the interaction of SML and N deposition affects the performance of dominant grass and NCFGs remains unclear. Therefore, we planted Leymus chinensis, a dominant grass in the Songnen grassland, in the soil taken from the early, medium, late, and stable successional stages. We subjected the plants to soil sterilization and N addition treatments and measured the plant traits and NCFG abundances (i.e., nifH, AOB amoA, nirS, and nirK). Our results showed the biomass and ramet number of L. chinensis in sterilized soil were significantly higher than those in non-sterilized soil, indicating that SML negatively affects the growth of L. chinensis. However, N addition increased the plant biomass and the AOB amoA gene abundance only in sterilized soils, implying that SML overrode the N addition effects because SML buffered the effects of increasing soil N availability on NCFGs. Therefore, we emphasize the potential role of SML in assessing the effects of N deposition on dominant plant performance and NCFGs in the grassland vegetation succession.
+N1  - Level: A; Score: 57; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Effects of coastal saline-alkali soil on rhizosphere microbial community and crop yield of cotton at different growth stages
+AU  - Guoyi Feng
+AU  - Yajie Wu
+AU  - Chuanzhen Yang
+AU  - Qian Zhang
+AU  - Shulin Wang
+AU  - Ming Dong
+AU  - Yan Wang
+AU  - Hong Qi
+AU  - Lixue Guo
+JO  - Frontiers in Microbiology
+PY  - 2024
+DO  - 10.3389/fmicb.2024.1359698
+UR  - https://www.semanticscholar.org/paper/a1f2d30c5c51e83e4ed67112ffa586ba0a2eab66
+AB  - Soil salinization is a global constraint that significantly hampers agricultural production, with cotton being an important cash crop that is not immune to its detrimental effects. The rhizosphere microbiome plays a critical role in plant health and growth, which assists plants in resisting adverse abiotic stresses including soil salinization. This study explores the impact of soil salinization on cotton, including its effects on growth, yield, soil physical and chemical properties, as well as soil bacterial community structures. The results of β-diversity analysis showed that there were significant differences in bacterial communities in saline-alkali soil at different growth stages of cotton. Besides, the more severity of soil salinization, the more abundance of Proteobacteria, Bacteroidota enriched in rhizosphere bacterial composition where the abundance of Acidobacteriota exhibited the opposite trend. And the co-occurrence network analysis showed that soil salinization affected the complexity of soil bacterial co-occurrence network. These findings provide valuable insights into the mechanisms by which soil salinization affects soil microorganisms in cotton rhizosphere soil and offer guidance for improving soil salinization using beneficial microorganisms.
+N1  - Level: A; Score: 48; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Nitrogen deposition weakens the stimulatory effect of Moso bamboo (Phyllostachys edulis) leaf litter on soil CO_2 emissions
+AU  - Shoujia Zhuo
+AU  - Youchao Chen
+AU  - Haikuo Zhang
+AU  - Wenting Jiang
+AU  - Bo Fan
+AU  - Yongfu Li
+AU  - Bing Yu
+AU  - Wen-jun Li
+AU  - Min Duan
+AU  - Scott X. Chang
+AU  - Yanjiang Cai
+JO  - Journal of Soils and Sediments
+PY  - 2023
+DO  - 10.1007/s11368-023-03543-6
+UR  - https://www.semanticscholar.org/paper/f7e6b41289f7aa71a1b24bd0288abb44cfc6d024
+N1  - Level: A; Score: 48; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Viral community diversity in the rhizosphere of the foundation salt marsh plant Spartina alterniflora
+AU  - Isabelle A. Du Plessis
+AU  - H. Snyder
+AU  - R. Calder
+AU  - J. L. Rolando
+AU  - J. Kostka
+AU  - J. Weitz
+AU  - Marian Dominguez-Mirazo
+JO  - bioRxiv
+PY  - 2025
+DO  - 10.1101/2025.04.03.647062
+UR  - https://www.semanticscholar.org/paper/3a5453332072a23d2d4d924c04ad9d9840b02aae
+AB  - ABSTRACT Viruses of microorganisms impact microbial population dynamics, community structure, nutrient cycling, gene transfer, and genomic innovation. In wetlands, root-associated microbial communities mediate key biogeochemical processes important for plants involved in ecosystem maintenance. Nonetheless, the presence and role of microbial viruses in salt marshes remain poorly understood. In this study, we analyzed 24 metagenomes retrieved from the root zone of Spartina alterniflora, a foundation plant in salt marshes of the eastern and Gulf coasts of the U.S. The samples span three plant compartments—bulk sediment, rhizosphere, and root—and two cordgrass plant phenotypes: short and tall. We observed differentiation between phenotypes and increased similarity in viral communities between the root and rhizosphere, indicating that plant compartment and phenotype shape viral community composition. The majority of viral populations characterized are novel at the genus level, with a subset predicted to target microorganisms known to carry out key biogeochemical functions. The findings contribute to ongoing efforts to understand plant-associated viral diversity and community composition and to identify potential targets for exploring viral modulation of microbially mediated ecosystem functioning in intertidal wetlands. IMPORTANCE Salt marshes are vital coastal ecosystems. Microbes in these environments drive nutrient cycling and support plant health, with Spartina alterniflora serving as a foundation species. This study explores viral communities associated with S. alterniflora, revealing how plant compartments and phenotypes shape viral composition. The discovery of numerous novel viruses, some potentially influencing microbes involved in key biogeochemical processes, highlights their ecological significance. Given the increasing pressures on coastal ecosystems, understanding virus-microbe-plant interactions is essential for predicting and managing ecosystem responses to environmental change. Salt marshes are vital coastal ecosystems. Microbes in these environments drive nutrient cycling and support plant health, with Spartina alterniflora serving as a foundation species. This study explores viral communities associated with S. alterniflora, revealing how plant compartments and phenotypes shape viral composition. The discovery of numerous novel viruses, some potentially influencing microbes involved in key biogeochemical processes, highlights their ecological significance. Given the increasing pressures on coastal ecosystems, understanding virus-microbe-plant interactions is essential for predicting and managing ecosystem responses to environmental change.
+N1  - Level: A; Score: 45; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Effects of nitrogen deposition on microbial communities in grassland ecosystems: Pronounced responses of archaea.
+AU  - Tengqi Xu
+AU  - Zhouchang Zhang
+AU  - Yufan Wang
+AU  - Jinyi Zhang
+AU  - Yiqiong Zhang
+AU  - Siqi Han
+AU  - Jiaxi Liu
+AU  - Tianjiao Song
+AU  - Yanbing Lin
+JO  - Journal of Environmental Management
+PY  - 2025
+DO  - 10.1016/j.jenvman.2025.126350
+UR  - https://www.semanticscholar.org/paper/804b012588014b238f64435cf7195eeac8d4f468
+N1  - Level: A; Score: 42; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Application of spray-dried erythromycin fermentation residue as a soil amendment: antibiotic resistance genes, nitrogen cycling, and microbial community structure
+AU  - Yanxiang Zhang
+AU  - G. Wang
+AU  - Huiling Liu
+AU  - Xiaohu Dai
+JO  - Environmental science and pollution research international
+PY  - 2022
+DO  - 10.1007/s11356-022-23361-6
+UR  - https://www.semanticscholar.org/paper/16018854ef4d2dd95bdab08ebb056a3795dc2144
+N1  - Level: A; Score: 38; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Black spruce boreal forest soil solution inorganic nitrogen is highly resilient to 20 years of elevated nitrogen deposition
+AU  - D. Houle
+AU  - Marie Renaudin
+AU  - Jean-David Moore
+AU  - L. Duchesne
+JO  - Biogeochemistry
+PY  - 2024
+DO  - 10.1007/s10533-024-01190-8
+UR  - https://www.semanticscholar.org/paper/1a4c4877249a3dda6caa4b0487da495bea2be3ef
+N1  - Level: A; Score: 37; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Microbial Community Succession Along a Chronosequence in Constructed Salt Marsh Soils
+AU  - Carol Kim
+AU  - L. Staver
+AU  - Xuan Chen
+AU  - A. Bulseco
+AU  - J. Cornwell
+AU  - S. Malkin
+JO  - Microbial Ecology
+PY  - 2023
+DO  - 10.1007/s00248-023-02189-8
+UR  - https://www.semanticscholar.org/paper/5a6fbd2962463fe832c3f867a4f1caf50dcab971
+AB  - In this study, we examined the succession of soil microbial communities across a chronosequence of newly constructed salt marshes constructed primarily of fine-grained dredge material, using 16S rRNA amplicon sequences. Alpha diversity in the subsurface horizons was initially low and increased to reference levels within 3 years of marsh construction, while alpha diversity in the newly accumulating organic matter-rich surface soils was initially high and remained unchanged. Microbial community succession was fastest in the surface horizon (~ 24 years to reference equivalency) and became progressively slower with depth in the subsurface horizons (~ 30–67 years). Random forest linear regression analysis was used to identify important taxa driving the trajectories toward reference conditions. In the parent material, putative sulfate-reducers ( Desulfobacterota ), methanogens ( Crenarchaeota , especially Methanosaeta ), and fermenters ( Chloroflexi and Clostridia ) increased over time, suggesting an enrichment of these metabolisms over time, similar to natural marshes. Concurrently in the surface soils, the relative abundances of putative methane-, methyl-, and sulfide oxidizers, especially among Gammaproteobacteria , increased over time, suggesting the co-development of sulfide and methane removal metabolisms in marsh soils. Finally, we observed that the surface soil communities at one of the marshes did not follow the trajectory of the others, exhibiting a greater relative abundance of anaerobic taxa. Uniquely in this dataset, this marsh was developing signs of excessive inundation stress in terms of vegetation coverage and soil geochemistry. Therefore, we suggest that soil microbial community structure may be effective bioindicators of salt marsh inundation and are worthy of further targeted investigation.
+N1  - Level: A; Score: 34; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Divergent responses of carbon and nitrogen functional genes composition to enhanced rock weathering
+AU  - Qiong Chen
+AU  - Daniel S. Goll
+AU  - Mardin Abdalqadir
+AU  - Xinjian He
+AU  - Guochen Li
+AU  - Boyuan Bi
+AU  - Tongtong Xu
+AU  - Chenlu Li
+AU  - Yanlong Chen
+AU  - Xiulian Ma
+AU  - Zhenxin Li
+AU  - Yunting Fang
+AU  - Zhanqing Hao
+AU  - Zuoqiang Yuan
+JO  - Communications Earth & Environment
+PY  - 2025
+DO  - 10.1038/s43247-025-02455-2
+UR  - https://www.semanticscholar.org/paper/e294c5acda501ff7166e27fd39bdd8a38441629b
+N1  - Level: A; Score: 33; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Author response for "Short‐ and long‐term effects of nutrient enrichment on salt marsh plant production and microbial community structure"
+AU  - T. Hanley
+AU  - J. Bowen
+AU  - P. Kearns
+AU  - A. Hughes
+PY  - 2021
+DO  - 10.1111/1365-2745.13756/v2/response1
+UR  - https://www.semanticscholar.org/paper/d05a0dfd92c916a3079e26d0cee9bce2d2b91b78
 N1  - Level: A; Score: 25; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - A Conterminous USA-Scale Map of Relative Tidal Marsh Elevation
-AU  - James R. Holmquist
-AU  - Lisamarie Windham‐Myers
-JO  - Estuaries and Coasts
-PY  - 2022
-DO  - 10.1007/s12237-021-01027-9
-UR  - https://openalex.org/W4206125043
-AB  - Abstract Tidal wetlands provide myriad ecosystem services across local to global scales. With their uncertain vulnerability or resilience to rising sea levels, there is a need for mapping flooding drivers and vulnerability proxies for these ecosystems at a national scale. However, tidal wetlands in the conterminous USA are diverse with differing elevation gradients, and tidal amplitudes, making broad geographic comparisons difficult. To address this, a national-scale map of relative tidal elevation ( Z * MHW ), a physical metric that normalizes elevation to tidal amplitude at mean high water (MHW), was constructed for the first time at 30 × 30-m resolution spanning the conterminous USA. Contrary to two study hypotheses, watershed-level median Z * MHW and its variability generally increased from north to south as a function of tidal amplitude and relative sea-level rise. These trends were also observed in a reanalysis of ground elevation data from the Pacific Coast by Janousek et al. (Estuaries and Coasts 42 (1): 85–98, 2019). Supporting a third hypothesis, propagated uncertainty in Z * MHW increased from north to south as light detection and ranging (LiDAR) errors had an outsized effect under narrowing tidal amplitudes. The drivers of Z * MHW and its variability are difficult to determine because several potential causal variables are correlated with latitude, but future studies could investigate highest astronomical tide and diurnal high tide inequality as drivers of median Z * MHW and Z * MHW variability, respectively. Watersheds of the Gulf Coast often had propagated Z * MHW uncertainty greater than the tidal amplitude itself emphasizing the diminished practicality of applying Z * MHW as a flooding proxy to microtidal wetlands. Future studies could focus on validating and improving these physical map products and using them for synoptic modeling of tidal wetland carbon dynamics and sea-level rise vulnerability analyses.
-N1  - Level: A; Score: 24; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Nitrogen addition promotes soil microbial beta diversity and the stochastic assembly
-AU  - Zhenghu Zhou
-AU  - Mianhai Zheng
-AU  - Jianyang Xia
-AU  - Chuankuan Wang
-JO  - The Science of The Total Environment
-PY  - 2021
-DO  - 10.1016/j.scitotenv.2021.150569
-UR  - https://openalex.org/W3204008438
-N1  - Level: A; Score: 23; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Significant response of microbial community to increased salinity across wetland ecosystems
-AU  - Huaihai Chen
-AU  - Kayan Ma
-AU  - Yu Huang
-AU  - Qi Fu
-AU  - Yingbo Qiu
-AU  - Zhiyuan Yao
-JO  - Geoderma
-PY  - 2022
-DO  - 10.1016/j.geoderma.2022.115778
-UR  - https://openalex.org/W4214648497
-N1  - Level: A; Score: 22; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Oxygen priming induced by elevated CO2 reduces carbon accumulation and methane emissions in coastal wetlands
-AU  - Genevieve L. Noyce
-AU  - Alexander Smith
-AU  - Matthew L. Kirwan
-AU  - Roy Rich
-AU  - J. Patrick Megonigal
-JO  - Nature Geoscience
-PY  - 2023
-DO  - 10.1038/s41561-022-01070-6
-UR  - https://openalex.org/W4313561188
-N1  - Level: B; Score: 21; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Soil nitrogen substances and denitrifying communities regulate the anaerobic oxidation of methane in wetlands of Yellow River Delta, China
-AU  - Zihao Wang
-AU  - Kun Li
-AU  - Xiaoyan Shen
-AU  - Feifei Yan
-AU  - Xinkun Zhao
-AU  - Xin Yu
-AU  - Linhui Ji
-AU  - Qingyue Xiang
-AU  - Xinyi Xu
-AU  - Xinyi Xu
-AU  - Daijia Li
-AU  - Junhao Ran
-AU  - Xiaoya Xu
-AU  - Xiaoya Xu
-AU  - Qingfeng Chen
-JO  - The Science of The Total Environment
-PY  - 2022
-DO  - 10.1016/j.scitotenv.2022.159439
-UR  - https://openalex.org/W4306318813
-N1  - Level: B; Score: 21; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - LDPE microplastics affect soil microbial community and form a unique plastisphere on microplastics
-AU  - Haobo Ya
-AU  - Yi Xing
-AU  - Tian Zhang
-AU  - Mingjie Lv
-AU  - Bo Jiang
-JO  - Applied Soil Ecology
-PY  - 2022
-DO  - 10.1016/j.apsoil.2022.104623
-UR  - https://openalex.org/W4289515714
-N1  - Level: B; Score: 21; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Soil microbial community structure along the ecological succession in Yellow River Delta
-AU  - Xiaoxiao Dang
-AU  - Lei Zhang
-AU  - Wei Wang
-AU  - Guangmei Wang
-AU  - Runjin Liu
-AU  - zhi-hong xie
+TI  - Review for "Short‐ and long‐term effects of nutrient enrichment on salt marsh plant production and microbial community structure"
 PY  - 2020
-DO  - 10.13343/j.cnki.wsxb.20200019
-UR  - https://www.semanticscholar.org/paper/b54f4321061559473208217479f24c3c70ce7f8e
-N1  - Level: B; Score: 20; Source: Semantic Scholar
+DO  - 10.1111/1365-2745.13756/v2/review1
+UR  - https://www.semanticscholar.org/paper/99005dc3787ecbb7c8c903e81e71df82c9d89d86
+N1  - Level: A; Score: 25; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Comparison of avian biodiversity and community similarity between Nansihu wetland and the Yellow River Delta wetland across different seasons
-AU  - Yuewei Yang
-AU  - Xingjia Zheng
-AU  - Lingyue Lv
-AU  - Fengfei Sun
-AU  - Wei He
-AU  - Yi Li
-JO  - BMC Zoology
-PY  - 2026
-DO  - 10.1186/s40850-026-00268-0
-UR  - https://www.semanticscholar.org/paper/c13c75b4acb93b4580bdd56b9406116fad09c547
-AB  - Birds are widely recognized as important bioindicators, particularly in wetland ecosystems that support high biodiversity. This study investigated the structure and seasonal dynamics of bird communities in the Nansi Lake wetland and the Yellow River Delta wetland in Shandong Province, China. Bird surveys were conducted using the point count method, and species diversity, richness, evenness, and abundance were analyzed. A total of 220 bird species (347,599 individuals) were recorded across the two wetlands. The results revealed clear differences in community structure between the wetlands, with the Yellow River Delta consistently supporting higher species diversity, particularly in spring and summer, while the Nansi Lake wetland exhibited lower diversity during autumn and winter. Seasonal variation significantly influenced bird abundance and community composition, with stronger differences between the wetlands observed during the wet season. In addition, species similarity was generally higher in the Yellow River Delta wetland, indicating a more stable community structure across seasons. These findings suggest that habitat characteristics and seasonal environmental changes jointly shape bird community dynamics in coastal and inland wetlands. Overall, this study highlights the importance of seasonal processes in structuring wetland bird communities and provides a scientific basis for the conservation and management of wetland-dependent bird species in eastern China. Supplementary Information The online version contains supplementary material available at 10.1186/s40850-026-00268-0.
+TI  - Decision letter for "Short‐ and long‐term effects of nutrient enrichment on salt marsh plant production and microbial community structure"
+PY  - 2020
+DO  - 10.1111/1365-2745.13756/v2/decision1
+UR  - https://www.semanticscholar.org/paper/a730bd7d08759f478ce45dabfffb5a16554fc508
+N1  - Level: A; Score: 25; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Response Patterns of Soil Nitrogen Cycling to Crop Residue Addition: A Review
+AU  - Yansheng Cao
+AU  - Yajun Xie
+AU  - Tongbin Zhu
+AU  - Fengliang Zhao
+JO  - Journal of soil science and plant nutrition
+PY  - 2024
+DO  - 10.1007/s42729-024-01769-y
+UR  - https://www.semanticscholar.org/paper/6e093abc5043a674745f822b7e3753301ae549b7
+N1  - Level: A; Score: 25; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Tillage, not fertilization, dominantly influences ammonia-oxidizing archaea diversity in long-term, continuous maize
+AU  - S. Liu
+AU  - M.S. Coyne
+AU  - J.H. Grove
+AU  - M.D. Flythe
+JO  - Applied Soil Ecology
+PY  - 2020
+DO  - 10.1016/j.apsoil.2019.103384
+UR  - https://doi.org/10.1016/j.apsoil.2019.103384
+N1  - Level: B; Score: 21; Source: Crossref
+ER  -
+
+TY  - JOUR
+TI  - Efficient conversion and deconstruction of waste straw using compound fungal agent: fermentation optimization, nutrient enrichment and microbial community analysis
+AU  - Bingyang Liu
+AU  - Qun Wang
+AU  - Linpei Shen
+AU  - Kangting Ma
+AU  - Liang Chen
+AU  - Jun Meng
+AU  - Peng Sun
+AU  - Shengdao Shan
+JO  - Journal of Environmental Chemical Engineering
+PY  - 2024
+DO  - 10.1016/j.jece.2024.115252
+UR  - https://www.semanticscholar.org/paper/ec6879f202b4d1d9a4ce38a01ecf1389650e8f79
+N1  - Level: B; Score: 21; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Traditional microplastics alter microbial community, metabolites and nutrition in heavy metal-contaminated coastal saline soil
+AU  - Xian-chao Shang
+AU  - Liping Zhao
+AU  - Ying Xiong
+AU  - Zhong-Can Zhang
+AU  - Yiqiang Li
+AU  - Long Yang
+AU  - Manman Zhang
+AU  - Xin Hou
+JO  - Communications Earth & Environment
+PY  - 2025
+DO  - 10.1038/s43247-025-02770-8
+UR  - https://www.semanticscholar.org/paper/7ba0554fcfc72ea670bea32cce4d6f58efa2e13d
 N1  - Level: B; Score: 19; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Environmental stress mediates groundwater microbial community assembly
-AU  - Daliang Ning
-AU  - Yajiao Wang
-AU  - Yupeng Fan
-AU  - Jianjun Wang
-AU  - Joy D. Van Nostrand
-AU  - Liyou Wu
-AU  - Ping Zhang
-AU  - Daniel J. Curtis
-AU  - Renmao Tian
-AU  - Lauren Michelle Lui
-AU  - Terry C. Hazen
-AU  - Eric J. Alm
-AU  - Matthew W. Fields
-AU  - Farris L. Poole
-AU  - Michael W. W. Adams
-AU  - Romy Chakraborty
-AU  - David A. Stahl
-AU  - Paul D. Adams
-AU  - Adam P. Arkin
-AU  - Zhili He
-JO  - Nature Microbiology
-PY  - 2024
-DO  - 10.1038/s41564-023-01573-x
-UR  - https://openalex.org/W4390741291
-N1  - Level: B; Score: 17; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Patterns and Dynamics of the Soil Microbial Community with Gradual Vegetation Succession in the Yellow River Delta, China
-AU  - Yufei Gao
-AU  - Lele Liu
-AU  - Pengcheng Zhu
-AU  - Shuren Yang
-AU  - Weihua Guo
-AU  - Xiaona Yu
-PY  - 2021
-DO  - 10.1007/s13157-021-01414-9
-UR  - https://www.semanticscholar.org/paper/a920776f151fc4fa50b93588da9ef2748a3c1c23
-N1  - Level: B; Score: 17; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Impacts of land use and salinization on soil inorganic and organic carbon in the middle-lower Yellow River Delta
-AU  - Yang Guo
-AU  - Xiujun Wang
-AU  - Xianglan Li
-AU  - Minggang Xu
-AU  - Yuan Li
-AU  - Haonan Zheng
-AU  - Yongming Luo
-AU  - Pete Smith
-JO  - Pedosphere
-PY  - 2021
-DO  - 10.1016/s1002-0160(21)60018-8
-UR  - https://openalex.org/W3008615412
-N1  - Level: B; Score: 16; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Environmental heterogeneity drives the spatial distribution of macrobenthos in the Yellow River Delta wetland
-AU  - Qinglu Fu
-AU  - Jiao Wang
-AU  - Debin Sun
-AU  - Jianyu Chi
-AU  - Wenzheng Fan
-AU  - Yu Li
-AU  - Yilin Wang
-AU  - Baoquan Li
-AU  - Linlin Chen
-JO  - Aquatic Sciences
-PY  - 2025
-DO  - 10.1007/s00027-025-01172-4
-UR  - https://www.semanticscholar.org/paper/d4c3e34ec4547b735aad4b4e2954135da87fe2c2
-N1  - Level: B; Score: 14; Source: Semantic Scholar
+TI  - Conditions for collapse: Chronic nutrient enrichment increases native insect density linked to salt marsh dieback
+AU  - J. Tomasula
+AU  - Billie Maguire
+AU  - Tyler M. Rippel
+AU  - Eddie R. Lopez
+AU  - S. Perez
+AU  - A. Arab
+AU  - Shannon M. Murphy
+AU  - G. Wimp
+JO  - Biological Conservation
+PY  - 2023
+DO  - 10.1016/j.biocon.2022.109882
+UR  - https://www.semanticscholar.org/paper/a38c22737f81fe612d4a3235a3687ddc087bfc3e
+N1  - Level: B; Score: 18; Source: Semantic Scholar
 ER  -
