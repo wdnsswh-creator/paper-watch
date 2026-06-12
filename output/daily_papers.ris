@@ -1,237 +1,113 @@
 TY  - JOUR
-TI  - Targeted metagenomics using probe capture detects a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
-AU  - H. Siljanen
-AU  - L. Manoharan
-AU  - A. Hilts
-AU  - A. Bagnoud
-AU  - R. J. Alves
-AU  - C. M. Jones
-AU  - F. Sousa
-AU  - S. Hallin
-AU  - C. Biasi
-AU  - C. Schleper
+TI  - Rhizosphere and Straw Return Interactively Shape Rhizosphere Bacterial Community Composition and Nitrogen Cycling in Paddy Soil
+AU  - Ya-hui Zhao
+AU  - Ning Wang
+AU  - Mengyao Yu
+AU  - Jianguang Yu
+AU  - L. Xue
+JO  - Frontiers in Microbiology
 PY  - 2022
-UR  - https://www.semanticscholar.org/paper/ec6a9d07170ca8c0e1c6f25366342242c5188831
-N1  - Level: A; Score: 43; Source: Semantic Scholar
+DO  - 10.3389/fmicb.2022.945927
+UR  - https://www.semanticscholar.org/paper/4218883010ae08b0045cc1d34c92c0afb3d4a5c6
+AB  - Currently, how rice roots interact with straw return in structuring rhizosphere communities and nitrogen (N) cycling functions is relatively unexplored. In this study, paddy soil was amended with wheat straw at 1 and 2% w/w and used for rice growth. The effects of the rhizosphere, straw, and their interaction on soil bacterial community composition and N-cycling gene abundances were assessed at the rice maturity stage. For the soil without straw addition, rice growth, i.e., the rhizosphere effect, significantly altered the bacterial community composition and abundances of N-cycling genes, such as archaeal and bacterial amoA (AOA and AOB), nirK, and nosZ. The comparison of bulk soils between control and straw treatments showed a shift in bacterial community composition and decreased abundance of AOA, AOB, nirS, and nosZ, which were attributed to sole straw effects. The comparison of rhizosphere soils between control and straw treatments showed an increase in the nifH gene and a decrease in the nirK gene, which were attributed to the interaction of straw and the rhizosphere. The number of differentially abundant genera in bulk soils between control and straw treatments was 13–23, similar to the number of 16–22 genera in rhizosphere soil between control and straw treatment. However, the number of genera affected by the rhizosphere effect was much lower in soil amended with straw (3–4) than in soil without straw addition (9). Results suggest possibly more pronounced impacts of straw amendments in shaping soil bacterial community composition.
+N1  - Level: A; Score: 69; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Nitrogen Addition Enhances Soil Nitrogen Mineralization Through an Increase in Mineralizable Organic Nitrogen and the Abundance of Functional Genes
-AU  - Tian Chen
-AU  - Ruimei Cheng
-AU  - Wenfa Xiao
-AU  - Yafei Shen
-AU  - Lijun Wang
-AU  - Pengfei Sun
-AU  - Meng Zhang
-AU  - Jing Li
-JO  - Journal of soil science and plant nutrition
-PY  - 2024
-DO  - 10.1007/s42729-023-01600-0
-UR  - https://www.semanticscholar.org/paper/e417fb93488516bc5e79b5c61efa7d047c28e44b
-N1  - Level: A; Score: 42; Source: Semantic Scholar
+TI  - Carboxymethyl Cellulose Ammonium (CMC-NH₄)-Based Soil Film Mulching Drives Microbial Functional Genes in Soil Nitrogen Cycling: a Metagenomic Perspective
+AU  - Yu Han
+AU  - Xiantong Huang
+AU  - Qinghan Wu
+AU  - Xin Yan
+AU  - Jiaxin Cui
+AU  - Shiqi Yang
+JO  - Journal of Soil Science and Plant Nutrition
+PY  - 2026
+DO  - 10.1007/s42729-026-03344-z
+UR  - https://doi.org/10.1007/s42729-026-03344-z
+N1  - Level: A; Score: 55; Source: Crossref
 ER  -
 
 TY  - JOUR
-TI  - Effect of Perfluorobutane Sulfonic Acid On Microbial Community and Functional Enzyme of Nitrogen Cycling in Coastal Sediment
-AU  - Yucan Liu
-AU  - Baoyan Wang
-AU  - Jing Hu
-AU  - Hong-wei Sun
-AU  - Xintao Lv
-AU  - Zhiming Qu
-AU  - Xiaoyong Yang
-AU  - Gang Wang
-AU  - Yanxiang Zhang
-AU  - Shujun Zhang
-JO  - Water, Air and Soil Pollution
-PY  - 2025
-DO  - 10.1007/s11270-025-08433-w
-UR  - https://www.semanticscholar.org/paper/7f967b6cd25514b13845f21c40e209d8fdbe930f
-N1  - Level: A; Score: 42; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Litter removal and nitrogen deposition alter soil microbial community composition and diversity in a typical rubber (Hevea brasiliensis) plantation of Hainan, China
-AU  - Xinxin Xue
-AU  - Changqi Ren
-AU  - Chunmei Zhao
-AU  - Wenbin Wang
-AU  - Xuehua Luo
-AU  - Yongfa Zhang
-AU  - Zhengzao Cha
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
-PY  - 2025
-DO  - 10.1016/j.apsoil.2025.105969
-UR  - https://www.semanticscholar.org/paper/0b4bcb9e7d92b72a242ab3b69708a1690e349c48
-N1  - Level: A; Score: 41; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Rice husk biochar reduces Cd availability by affecting microbial community activity and structure in Cd-contaminated soils
-AU  - Meili Xu
-AU  - Rongbo Xiao
-AU  - Chuang Mei
-AU  - Jun Chen
-AU  - Qiqi Huang
-AU  - Fei Huang
-AU  - Mengting He
-JO  - Journal of Soils and Sediments
-PY  - 2024
-DO  - 10.1007/s11368-023-03711-8
-UR  - https://www.semanticscholar.org/paper/5e64bbe84684c60f2dd1e8833efa3a69f83bb582
-N1  - Level: A; Score: 36; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Karst wetland litter alters soil microbial community structure and metabolic activity
-AU  - Zhiqing Deng
-AU  - Faqin Dong
-AU  - Qunwei Dai
-AU  - Ruiyang Jiang
-AU  - Weiqi Du
-AU  - Yulian Zhao
-AU  - Mingxue Liu
-AU  - Zhilin Chen
+TI  - Elevated atmospheric CO2 alters N2O-producing microbial communities and nitrogen cycling in paddy soils
+AU  - Zhurong Wu
+AU  - Chao Liu
+AU  - Yuanyuan Wang
+AU  - Andlia Abdoussalami
+AU  - Hao He
+AU  - Zhenghua Hu
+AU  - L. Shen
+AU  - Qi Li
+AU  - Wenjing Chen
+AU  - Min Xu
 JO  - Plant and Soil
 PY  - 2025
-DO  - 10.1007/s11104-025-07670-6
-UR  - https://www.semanticscholar.org/paper/256d7fd66ecd12383549018ecec414fb74605c0b
-N1  - Level: A; Score: 30; Source: Semantic Scholar
+DO  - 10.1007/s11104-025-08158-z
+UR  - https://www.semanticscholar.org/paper/a2a72629d1a2fda471ee962fd16f6d7d6ce5f5ee
+N1  - Level: A; Score: 53; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Soil microbial community structure and function in non-target and plant-influenced soils respond similarly to nitrogen enrichment
-AU  - L. Biederman
-AU  - Brent Mortensen
-AU  - Lauren L. Sullivan
-AU  - W. Stanley Harpole
-JO  - Soil Biology and Biochemistry
-PY  - 2025
-DO  - 10.1016/j.soilbio.2025.109830
-UR  - https://www.semanticscholar.org/paper/237fb7a22f62a3980e64366dd00e532088bab68a
+TI  - Soil nitrogen cycling functional genes and their roles in soil nitrogen supply capacity in rice-rapeseed/wheat rotations: A 7-year field experiment
+AU  - Jian Zhao
+AU  - T. Ren
+AU  - Yating Fang
+AU  - Xin Yang
+AU  - Qiannan Sheng
+AU  - R. Cong
+AU  - Xiaokun Li
+AU  - Zhifeng Lu
+AU  - Jun Zhu
+AU  - Jianwei Lu
+JO  - Plant and Soil
+PY  - 2026
+DO  - 10.1007/s11104-026-08352-7
+UR  - https://www.semanticscholar.org/paper/207e0d119465f7f190660b1ba62391d66d7bf989
+N1  - Level: A; Score: 35; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Liming enhances the abundance and stability of nitrogen-cycling microbes: The buffering effect of long-term lime application
+AU  - Akari Mitsuta
+AU  - K. S. Lourenço
+AU  - Jingjing Chang
+AU  - Mart Ros
+AU  - René Schils
+AU  - Y. Uchida
+AU  - E. Kuramae
+JO  - bioRxiv
+PY  - 2024
+DO  - 10.1007/s00374-025-01889-2
+UR  - https://www.semanticscholar.org/paper/c119f41f04cab8f40f3bd9957d47cad84d2a6a49
+N1  - Level: A; Score: 33; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Land-use change alters soil nitrogen supply potential and nitrogen-cycling functional genes on China's Loess Plateau
+AU  - Jiabao Cui
+AU  - Jianjun Cao
+AU  - Jan F. Adamowski
+AU  - Asim Biswas
+AU  - Haohai Su
+AU  - Xiaofang Zhang
+JO  - CATENA
+PY  - 2026
+DO  - 10.1016/j.catena.2026.109898
+UR  - https://www.semanticscholar.org/paper/98e7332c1ebe02a48f8cb1e3fc59f7a7c1925893
 N1  - Level: A; Score: 29; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Effect of nitrogen and phosphorus fertilization on the temporal dynamics of soil microbial community and multifunctionality in young and mature subtropical forests
-AU  - D. Mandal
-AU  - Pulak Maitra
-AU  - Cheng Gao
-AU  - Pengpeng Lü
-AU  - Yonglong Wang
-AU  - G. Yun
-AU  - Jie Li
-AU  - Xing-Chun Li
-AU  - Yong Zheng
-AU  - Liang-Dong Guo
-JO  - Plant and Soil
-PY  - 2024
-DO  - 10.1007/s11104-024-06930-1
-UR  - https://www.semanticscholar.org/paper/4541941fa3e3f418bc8c745acee0d4ed38870f5e
-N1  - Level: A; Score: 27; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Nitrogen application increases the productivity of perennial alpine cultivated grassland by improving soil physicochemical properties and microbial community characteristics
-AU  - Yongshang Tong
-AU  - Quanmin Dong
-AU  - Yang Yu
-AU  - Quan Cao
-AU  - Xiaoxia Yang
-AU  - Wenting Liu
-AU  - Zengzeng Yang
-AU  - Xiaofang Zhang
-AU  - Yuzhen Liu
-AU  - Chunping Zhang
-JO  - Plant and Soil
-PY  - 2024
-DO  - 10.1007/s11104-024-06694-8
-UR  - https://www.semanticscholar.org/paper/38d9bd295540b73be3b11dfc23abce94546cf7e9
-N1  - Level: A; Score: 25; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - [Effects of Biochar-loaded Ammonia Nitrogen on Soil Carbon Emissions, Enzyme Activity, and Microbial Communities].
-AU  - Rui Yang
-AU  - Yan-hong Dong
-AU  - Xin Xiao
-AU  - Yan-li Xu
-AU  - Shuai Kuan
-AU  - Wenjing Song
-AU  - Jianxin Dong
-AU  - Xuebo Zheng
-JO  - Huan jing ke xue= Huanjing kexue
-PY  - 2024
-DO  - 10.13227/j.hjkx.202306240
-UR  - https://www.semanticscholar.org/paper/d7620ecb092795d87a903093149a62c1b95c49e2
-N1  - Level: A; Score: 25; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Un-culturable Microbial Community Analysis of Paddy Ecosystem at Different Depths using Nif H Gene DGGE Analysis Approach
-AU  - C. D. Meurial
-AU  - K. Kumar
-PY  - 2020
-DO  - 10.18805/ijare.a-5232
-UR  - https://www.semanticscholar.org/paper/1386bae0b66b1bdde69c3584c5172c0518f70323
-N1  - Level: A; Score: 25; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Soil phoD-harboring bacteria mediate the soil phosphorus conversion in response to nitrogen supply in Loess Plateau
-AU  - Renyuan He
-AU  - Zhuzhu Luo
-AU  - Lingling Li
-AU  - Yining Niu
-AU  - Jiahe Liu
-AU  - Zhiming Chen
-AU  - Liangliang Li
-AU  - Yaoquan Zhang
-JO  - Plant and Soil
+TI  - Carbon, nitrogen–cycling microbes and functional genes drive the spread of antibiotic resistance genes in landfill humus soil at different depths
+AU  - Z. Zhang
+AU  - Bin Yang
+AU  - Chi Zhang
+AU  - Q. Dang
+AU  - Jing Su
+AU  - Beidou Xi
+JO  - Chemical Engineering Journal
 PY  - 2025
-DO  - 10.1007/s11104-025-07572-7
-UR  - https://www.semanticscholar.org/paper/c3c6dd0b13be2bd48d98eb8125d8ad6088860f4e
-N1  - Level: A; Score: 24; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Grassland degradation amplifies the negative effect of nitrogen enrichment on soil microbial community stability
-AU  - Hongjin Zhang
-AU  - Weile Chen
-AU  - Lizheng Dong
-AU  - Wei Wang
-JO  - Global Change Biology
-PY  - 2024
-DO  - 10.1111/gcb.17217
-UR  - https://www.semanticscholar.org/paper/77d395a4d24daaaec774ea6c65389d0e62645d61
-N1  - Level: A; Score: 23; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Micro-nano bubbles irrigation improves rice yield under nitrogen deficiency by regulating soil microbial community
-AU  - Yanan Pei
-AU  - Weiguang Lv
-AU  - Chenglong Xu
-AU  - Xianpu Zhu
-AU  - Shuangxi Li
-AU  - Juanqin Zhang
-AU  - Naling Bai
-AU  - Haiyun Zhang
-AU  - Hanlin Zhang
-JO  - Soil & Tillage Research
-PY  - 2025
-DO  - 10.1016/j.still.2025.106579
-UR  - https://www.semanticscholar.org/paper/22091bbefc9f17d3daab3633b7a6dacff2a7d052
-N1  - Level: A; Score: 23; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Impact of Anthropogenic N-loading on Sulfate-Reducing Diazotrophic Communities in New England Salt Marshes
-AU  - K. Miranda
-AU  - A. Giblin
-AU  - Emil S. Ruff
-PY  - 2020
-UR  - https://www.semanticscholar.org/paper/d38da3a24d077a69fe8ad7808420f5bc83ae6dd4
-N1  - Level: A; Score: 22; Source: Semantic Scholar
+DO  - 10.1016/j.cej.2025.166720
+UR  - https://www.semanticscholar.org/paper/41e0e9015e323fba8c0fce0a16cb876dedecf324
+N1  - Level: A; Score: 29; Source: Semantic Scholar
 ER  -
