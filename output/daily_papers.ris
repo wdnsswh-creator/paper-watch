@@ -1,318 +1,35 @@
 TY  - JOUR
-TI  - Response of microbial community diversity and the abundance of nitrogen-cycling genes to Bacillus subtilis application in mulberry field soil
-AU  - Yanfang Yu
-AU  - Jinzhi Huang
-AU  - Zhongfei Tong
-AU  - Zhenhua Deng
-AU  - Yawei Wang
-AU  - Junwen Wang
-JO  - Soil Research
-PY  - 2024
-DO  - 10.1071/sr23210
-UR  - https://www.semanticscholar.org/paper/862129aafb312f84369df31584491182818f3ac8
-AB  - Context Bacillus subtilis (BS) is a widely used microbial agent that could improve soil fertility and soil microenvironment. There is still uncertainty about the suitability of BS for cultivating crops with high demand for nitrogen fertiliser. Aims To evaluate the effects of BS agent on microbial community diversity and nitrogen-cycling genes in mulberry rhizosphere soil. Methods Pot experiments were conducted. Different dosages (CK, 0; T1, 0.5 × 106 CFU g−1 soil; T2, 1 × 106 CFU g−1 soil; T3, 2 × 106 CFU g−1 soil) of BS agent were applied to irrigate the mulberry soil. The soil nutrient content, enzyme activity, bacterial community, and nitrogen-cycling genes were determined. Key results T1 had the highest Chao1 and Shannon index, while T3 had the lowest. BS-treated samples had higher relative abundance of Actinobacteria and Chloroflexi than that of CK. Specially, BS-treated samples had higher relative abundance of Sphingomonas, Reyranella, and Hyphomicrobium, which was significantly positively correlated with the content of organic matter, total soluble nitrogen, ammonium nitrogen, and the activity of sucrase. The abundance of genes involved in amino acid metabolism, energy metabolism, metabolism of cofactors, and vitamin functions also increased in the BS-treated samples. BS treatment significantly increased the abundance of AOA-amoA and nirK genes, but decreased the abundance of nirS and nifH genes. Conclusions An appropriate amount of BS agent could improve soil fertility, regulate the dominant bacterium communities, and affect the abundance of functional genes involved in nitrogen cycling. Implications BS is probably a good choice for mulberry cultivation to improve nitrogen fertiliser utilisation efficiency.
-N1  - Level: A; Score: 81; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Effects of Nitrogen Deposition on Nitrogen-Mineralizing Enzyme Activity and Soil Microbial Community Structure in a Korean Pine Plantation
-AU  - Wenyuan He
-AU  - Mengmeng Zhang
-AU  - G. Jin
-AU  - X. Sui
-AU  - Tong Zhang
-AU  - Fuqiang Song
-JO  - Microbial Ecology
-PY  - 2020
-DO  - 10.1007/s00248-020-01595-6
-UR  - https://www.semanticscholar.org/paper/e3e0d51351a7857c48f649136433a61abb1974ea
-N1  - Level: A; Score: 46; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - High Frankia abundance and low diversity of microbial community are associated with nodulation specificity and stability of sea buckthorn root nodule
-AU  - Hong Liu
-AU  - Bing-Bing Ni
-AU  - A. Duan
-AU  - Caiyun He
-AU  - Jianguo Zhang
-JO  - Frontiers in Plant Science
-PY  - 2024
-DO  - 10.3389/fpls.2024.1301447
-UR  - https://www.semanticscholar.org/paper/3822b480178c8f4d93750b02059cd08084369e2a
-AB  - Introduction Actinorhizal symbioses are gaining attention due to the importance of symbiotic nitrogen fixation in sustainable agriculture. Sea buckthorn (Hippophae L.) is an important actinorhizal plant, yet research on the microbial community and nitrogen cycling in its nodules is limited. In addition, the influence of environmental differences on the microbial community of sea buckthorn nodules and whether there is a single nitrogen-fixing actinomycete species in the nodules are still unknown. Methods We investigated the diversity, community composition, network associations and nitrogen cycling pathways of the microbial communities in the root nodule (RN), nodule surface soil (NS), and bulk soil (BS) of Mongolian sea buckthorn distributed under three distinct ecological conditions in northern China using 16S rRNA gene and metagenomic sequencing. Combined with the data of environmental factors, the effects of environmental differences on different sample types were analyzed. Results The results showed that plants exerted a clear selective filtering effect on microbiota, resulting in a significant reduction in microbial community diversity and network complexity from BS to NS to RN. Proteobacteria was the most abundant phylum in the microbiomes of BS and NS. While RN was primarily dominated by Actinobacteria, with Frankia sp. EAN1pec serving as the most dominant species. Correlation analysis indicated that the host determined the microbial community composition in RN, independent of the ecological and geographical environmental changes of the sea buckthorn plantations. Nitrogen cycle pathway analyses showed that RN microbial community primarily functions in nitrogen fixation, and Frankia sp. EAN1pec was a major contributor to nitrogen fixation genes in RN. Discussion This study provides valuable insights into the effects of eco-geographical environment on the microbial communities of sea buckthorn RN. These findings further prove that the nodulation specificity and stability of sea buckthorn root and Frankia sp. EAN1pec may be the result of their long-term co-evolution.
-N1  - Level: A; Score: 45; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Response of soil microbial community structure, carbon and nitrogen cycling to drying and rewetting
-AU  - Kate Matthews
-AU  - J. Facelli
-AU  - T. Cavagnaro
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
-PY  - 2023
-DO  - 10.1016/j.apsoil.2023.105099
-UR  - https://www.semanticscholar.org/paper/8fe4892ebf3c4686809419157b9b30850764f643
-N1  - Level: A; Score: 42; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Discrepant soil microbial community and C cycling function responses to conventional and biodegradable microplastics.
-AU  - Hui Yu
-AU  - Xin Liu
-AU  - Xiaoguo Qiu
-AU  - T. Sun
-AU  - Jianfeng Cao
-AU  - Ming Lv
-AU  - Zhiyuan Sui
-AU  - Zhizheng Wang
-AU  - Shuying Jiao
-AU  - Yuxin Xu
-AU  - Fenghua Wang
-JO  - Journal of Hazardous Materials
-PY  - 2024
-DO  - 10.1016/j.jhazmat.2024.134176
-UR  - https://www.semanticscholar.org/paper/ab6e457d6db63c8b1cff8391210a0081e7faadfe
-AB  - Biodegradable microplastics (MPs) are promising alternatives to conventional MPs and are of high global concern. However, their discrepant effects on soil microorganisms and functions are poorly understood. In this study, polyethylene (PE) and polylactic acid (PLA) MPs were selected to investigate the different effects on soil microbiome and C-cycling genes using high-throughput sequencing and real-time quantitative PCR, as well as the morphology and functional group changes of MPs, using scanning electron microscopy and Fourier transform infrared spectroscopy, and the driving factors were identified. The results showed that distinct taxa with potential for MP degradation and nitrogen cycling were enriched in soils with PLA and PE, respectively. PLA, smaller size (150-180 µm), and 5% (w/w) of MPs enhanced the network complexity compared with PE, larger size (250-300 µm), and 1% (w/w) of MPs, respectively. PLA increased β-glucosidase by up to 2.53 times, while PE (150-180 µm) reduced by 38.26-44.01% and PE (250-300 µm) increased by 19.00-22.51% at 30 days. Amylase was increased by up to 5.83 times by PLA (150-180 µm) but reduced by 40.26-62.96% by PLA (250-300 µm) and 16.11-43.92% by PE. The genes cbbL, cbhI, abfA, and Lac were enhanced by 37.16%- 1.99 times, 46.35%- 26.46 times, 8.41%- 69.04%, and 90.81%- 5.85 times by PLA except for PLA1B/5B at 30 days. These effects were associated with soil pH, NO3--N, and MP biodegradability. These findings systematically provide an understanding of the impact of biodegradable MPs on the potential for global climate change.
-N1  - Level: A; Score: 41; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Conversion from natural coniferous forests to cedar plantations increase soil nitrogen cycling through changing microbial community structures
-AU  - Kozue Sawada
-AU  - Y. Inagaki
-AU  - S. Sugihara
-AU  - T. Kunito
-AU  - J. Murase
-AU  - K. Toyota
-AU  - Shinya Funakawa
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
-PY  - 2023
-DO  - 10.1016/j.apsoil.2023.105034
-UR  - https://www.semanticscholar.org/paper/394ef44e3db688d6a4ed72d70b032bea97fdb12e
-N1  - Level: A; Score: 37; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Extreme precipitation alters soil nitrogen cycling related microbial community in karst abandoned farmland
-AU  - Yuzhen Suolang
-AU  - Weixue Luo
-AU  - Jingwen Ma
-AU  - Ying Zan
-AU  - Yulin Yu
-AU  - Maji Wan
-AU  - Jiajia Yuan
-AU  - Jinchun Liu
-AU  - Jianping Tao
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
-PY  - 2024
-DO  - 10.1016/j.apsoil.2024.105345
-UR  - https://www.semanticscholar.org/paper/a6e04dc802c49143a8105ede8a54626bc9b0465a
-N1  - Level: A; Score: 34; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Impact of environmental disturbances and pesticides on soil microbial communities involved in the Nitrogen cycling
-AU  - A. Hanano
-AU  - C. Mougin
-JO  - Peer Community in Ecotoxicology and Environmental Chemistry
+TI  - Soil metagenomics reveals reduced tillage improves soil functional profiles of carbon, nitrogen, and phosphorus cycling in bulk and rhizosphere soils
+AU  - Xiaojing Hu
+AU  - Junjie Liu
+AU  - Aizhen Liang
+AU  - Haidong Gu
+AU  - Zhuxiu Liu
+AU  - Jian Jin
+AU  - Guanghua Wang
+JO  - Agriculture, Ecosystems & Environment
 PY  - 2025
-DO  - 10.24072/pci.ecotoxenvchem.100177
-UR  - https://www.semanticscholar.org/paper/750aaf546e5198f6a720dba70feaae64f7ba4a32
-AB  - the Effects
-N1  - Level: A; Score: 34; Source: Semantic Scholar
+DO  - 10.1016/j.agee.2024.109371
+UR  - https://www.semanticscholar.org/paper/cabe386806f906693fdabb7951513cbf91557348
+N1  - Level: A; Score: 80; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Straw return of maize and soybean enhances soil biological nitrogen fixation by altering the N-cycling microbial community
-AU  - Fuyuan Duan
-AU  - Peng Peng
-AU  - Kepan Yang
-AU  - Y. Shu
-AU  - Jianwu Wang
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
-PY  - 2023
-DO  - 10.1016/j.apsoil.2023.105094
-UR  - https://www.semanticscholar.org/paper/31ca04daff839f46f4740585aca86c6f99d3eb83
-N1  - Level: A; Score: 32; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Effects of Oil Exposure on Nitrogen Cycling in Salt Marsh Sediments
-AU  - E. Hays
-PY  - 2020
-UR  - https://www.semanticscholar.org/paper/7046f48b329e73001f113c991fa8e7205581c61d
-N1  - Level: A; Score: 30; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Earthworms increase soil carbon dioxide emissions through changing microbial community structure and activity under high nitrogen addition
-AU  - Shuaiwu Wang
-AU  - Jusong Huo
-AU  - Di Wu
-AU  - Jiman Li
-AU  - Xiaoyun Chen
-AU  - Feng Hu
-AU  - Manqiang Liu
-JO  - Agriculture, Ecosystems & Environment. Applied Soil Ecology
+TI  - Nitrogen fertilization increases the niche breadth of soil nitrogen-cycling microbes and stabilizes their co-occurrence network in a karst agroecosystem
+AU  - Xionghui Liao
+AU  - Tiangang Tang
+AU  - Jiangnan Li
+AU  - Jiachen Wang
+AU  - Deborah A. Neher
+AU  - Wei Zhang
+AU  - Jun Xiao
+AU  - Dan Xiao
+AU  - Peilei Hu
+AU  - Kelin Wang
+AU  - Jie Zhao
+JO  - Agriculture Ecosystems & Environment
 PY  - 2024
-DO  - 10.1016/j.apsoil.2024.105297
-UR  - https://www.semanticscholar.org/paper/a38c18ef706ddf76610c493298e800fa43da3fe1
-N1  - Level: A; Score: 30; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Soil microbial community responses to short-term nitrogen addition in China’s Horqin Sandy Land
-AU  - Niu Yayi
-AU  - Yulong Duan
-AU  - Yuqiang Li
-AU  - Xuyang Wang
-AU  - Chen Yun
-AU  - Lilong Wang
-JO  - bioRxiv
-PY  - 2020
-DO  - 10.1101/2020.11.09.374033
-UR  - https://www.semanticscholar.org/paper/7726e742336a899c9805a33a48cb73faf2b1d4c6
-AB  - Anthropogenic nitrogen (N) addition has increased soil nutrient availability, thereby affecting ecosystem processes and functions in N-limited ecosystems. Long-term N addition decreases plant biodiversity, but the effects of short-term N addition on soil microbial community is poorly understood. The present study examined the impacts of short-term N addition (NH4NO3) on these factors in a sandy grassland and semi-fixed sandy land in the Horqin Sandy Land. We measured the responses of soil microbial biomass C and N; on soil β-1,4-glucosidase (BG) and β-1,4-N-acetylglucosaminidase (NAG) activity; and soil microflora characteristics to N additions gradient with 0 (control), 5 (N5), 10 (N10), and 15 (N15) g N m−2 yr−1. The soil microbial biomass indices, NAG activity, and soil microflora characteristics did not differ significantly among the N levels, and there was no difference at the two sites. The competition for N between plants and soil microbes was not eliminated by short-term N addition due to the low soil nutrient and moisture contents, and the relationships among the original soil microbes did not change. However, N addition increased BG activity in the N5 and N10 additions in the sandy grassland, and in the N5, N10, and N15 additions in the semi-fixed sandy land. This may be due to increased accumulation and fixation of plant litter into soils in response to N addition, leading to increased microbial demand for a C source and increased soil BG activity. Future research should explore the relationships between soil microbial community and N addition at the two sites.
-N1  - Level: A; Score: 30; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Phosphorus limitation induced by nitrogen addition changed soil microbial community structure in a subtropical Pinus taiwanensis forest.
-AU  - Xiao-Qing Zhang
-AU  - Quanxin Zeng
-AU  - Xiao-Cun Yuan
-AU  - X. Wan
-AU  - Juyan Cui
-AU  - Wenzhong Li
-AU  - Huiying Lin
-AU  - Huanjie Xie
-AU  - Wenwei Chen
-AU  - Jun-Mei Wu
-AU  - Yuehmin Chen
-JO  - Ying yong sheng tai xue bao = The journal of applied ecology
-PY  - 2023
-DO  - 10.13287/j.1001-9332.202301.042
-UR  - https://www.semanticscholar.org/paper/9f4ebc7d515d5bd005beabd726e73c7ca893c5c8
-N1  - Level: A; Score: 30; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Loss of salt marsh plants impacts ribbed mussel (Geukensia demissa) size, density, and influence on sediment nitrogen cycling
-AU  - A. T. Abbas
-AU  - Anais Cardenas
-AU  - Darius LaFond
-AU  - Brandon Guasaquillo
-AU  - Leila Belgaid
-AU  - Priscilla E. Lee
-AU  - M. Alldred
-AU  - C. Zarnoch
-JO  - Wetlands Ecology and Management
-PY  - 2023
-DO  - 10.1007/s11273-023-09921-8
-UR  - https://www.semanticscholar.org/paper/0220cf66ac3ba7579eccf7c08c5d47bdf1d5a17e
-N1  - Level: A; Score: 29; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - The role of source water chemistry on microbial nitrogen processing in near-surface sediments in coastal salt marsh sediment
-AU  - Adam Haynes
-AU  - Michael Wilshire
-AU  - C. Tatariw
-AU  - E. Seybold
-AU  - A. Braswell
-AU  - Bhavna Arora
-AU  - Margaret A. Zimmer
-JO  - Goldschmidt2025 abstracts
-PY  - 2025
-DO  - 10.7185/gold2025.30028
-UR  - https://www.semanticscholar.org/paper/6a98a24b61f750275137aef9bc2c5fa62b4ee6a5
-N1  - Level: A; Score: 29; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Carbon management practices regulate soil bacterial communities in response to nitrogen addition in a pine forest
-AU  - Lu Yang
-AU  - Na Wang
-AU  - Ye Chen
-AU  - Wen Yang
-AU  - Dashuan Tian
-AU  - Chunyu Zhang
-AU  - Xiu-hai Zhao
-AU  - Jinsong Wang
-AU  - S. Niu
-JO  - Plant and Soil
-PY  - 2020
-DO  - 10.1007/s11104-020-04570-9
-UR  - https://www.semanticscholar.org/paper/0189a3afed712fe08dd34fc3290e26a401759679
-N1  - Level: A; Score: 29; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Soil microbial community responses to long-term nitrogen addition at different soil depths in a typical steppe
-AU  - Guoxiang Niu
-AU  - Muqier Hasi
-AU  - Ruzhen Wang
-AU  - Yinliu Wang
-AU  - Qianqian Geng
-AU  - Shuya Hu
-AU  - Xiaohui Xu
-AU  - Junjie Yang
-AU  - Changhui Wang
-AU  - Xingguo Han
-AU  - Jianhui Huang
-PY  - 2021
-DO  - 10.1016/j.apsoil.2021.104054
-UR  - https://www.semanticscholar.org/paper/841b6039102f701e7cd126579655f4f66c0fc369
-N1  - Level: A; Score: 27; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Potential Effect of Bioturbation by Burrowing Crabs on Sediment Parameters in Coastal Salt Marshes
-AU  - T. Xie
-AU  - Peng Dou
-AU  - Shanze Li
-AU  - B. Cui
-AU  - J. Bai
-AU  - Qing Wang
-AU  - Z. Ning
-JO  - Wetlands (Wilmington, N.C.)
-PY  - 2020
-DO  - 10.1007/s13157-020-01341-1
-UR  - https://www.semanticscholar.org/paper/236ddf5e7100b22a68d5c7090897058f3b7794b3
-N1  - Level: A; Score: 25; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Effects of vegetation and soil changes on microbial biomass carbon and nitrogen in the Napahai meadow under N deposition.
-AU  - Jing Lyu
-AU  - Xu-Yan Zhao
-AU  - Mei Lu
-AU  - Cong Li
-AU  - Zhi-dong Yang
-AU  - Pan Liu
-AU  - Zhimin Chen
-AU  - Jun Feng
-JO  - Ying yong sheng tai xue bao = The journal of applied ecology
-PY  - 2023
-DO  - 10.13287/j.1001-9332.202306.004
-UR  - https://www.semanticscholar.org/paper/38653c1492d71ab2ad5f244d56fd9cbb60aac5b9
-N1  - Level: A; Score: 22; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Spatial evidence of cryptic methane cycling and methylotrophic metabolisms along a land–ocean transect in salt marsh sediment
-AU  - S. J. Krause
-AU  - R.L. Wipfler
-AU  - Jiarui Liu
-AU  - D. J. Yousavich
-AU  - D. Robinson
-AU  - David W. Hoyt
-AU  - V. Orphan
-AU  - T. Treude
-JO  - Geochimica et Cosmochimica Acta
-PY  - 2025
-DO  - 10.1016/j.gca.2025.07.019
-UR  - https://www.semanticscholar.org/paper/160fdc09bf0ca6ea50a40e72ab38c0efd050f698
-N1  - Level: B; Score: 21; Source: Semantic Scholar
+DO  - 10.1016/j.agee.2024.109177
+UR  - https://openalex.org/W4400605582
+N1  - Level: A; Score: 30; Source: OpenAlex
 ER  -
