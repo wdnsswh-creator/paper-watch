@@ -1,35 +1,105 @@
 TY  - JOUR
-TI  - Soil metagenomics reveals reduced tillage improves soil functional profiles of carbon, nitrogen, and phosphorus cycling in bulk and rhizosphere soils
-AU  - Xiaojing Hu
-AU  - Junjie Liu
-AU  - Aizhen Liang
-AU  - Haidong Gu
-AU  - Zhuxiu Liu
-AU  - Jian Jin
-AU  - Guanghua Wang
-JO  - Agriculture, Ecosystems & Environment
-PY  - 2025
-DO  - 10.1016/j.agee.2024.109371
-UR  - https://www.semanticscholar.org/paper/cabe386806f906693fdabb7951513cbf91557348
-N1  - Level: A; Score: 80; Source: Semantic Scholar
+TI  - Heterotrophic nitrification processes driven by glucose and sodium acetate: New insights into microbial communities, functional genes and nitrogen metabolism from metagenomics and metabolomics.
+AU  - Jingang Hu
+AU  - Jiaoyang Tian
+AU  - X. Deng
+AU  - Xuemei Liu
+AU  - Fang Zhou
+AU  - Junxia Yu
+AU  - R. Chi
+AU  - Chunqiao Xiao
+JO  - Bioresource Technology
+PY  - 2024
+DO  - 10.1016/j.biortech.2024.131226
+UR  - https://www.semanticscholar.org/paper/ec68eef6b09223dee80d26d1f63c7b1e9e7999f6
+AB  - Heterotrophic nitrification (HN) bacteria use organic carbon sources to remove ammonia nitrogen (NH4+-N); however, the mechanisms of carbon and nitrogen metabolism are unknown. To understand this mechanism, HN functional microbial communities named MG and MA were enriched with glucose and sodium acetate, respectively. The NH4+-N removal efficiencies were 98.87 % and 98.91 %, with 88.06 % and 69.77 % nitrogen assimilation for MG and MA at 22 h and 10 h, respectively. Fungi (52.86 %) were more competitive in MG, and bacteria (99.99 %) were dominant in MA. Metagenomic and metabolomic analyses indicated that HN might be a signaling molecule (NO) in the production and detoxification processes when MG metabolizes glucose (amo, hao, and nosZ were not detected). MA metabolizes sodium acetate to produce less energy and promotes nitrogen oxidation reduction; however, genes (hao, hox, and NOS2) were not detected. These results suggest that NO and energy requirements induce microbial HN.
+N1  - Level: A; Score: 109; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Nitrogen fertilization increases the niche breadth of soil nitrogen-cycling microbes and stabilizes their co-occurrence network in a karst agroecosystem
-AU  - Xionghui Liao
-AU  - Tiangang Tang
-AU  - Jiangnan Li
-AU  - Jiachen Wang
-AU  - Deborah A. Neher
-AU  - Wei Zhang
-AU  - Jun Xiao
-AU  - Dan Xiao
-AU  - Peilei Hu
-AU  - Kelin Wang
-AU  - Jie Zhao
-JO  - Agriculture Ecosystems & Environment
+TI  - Metagenomics reveals the effects of long-term greenhouse vegetable cultivation on soil microbial communities and carbon cycle functions
+AU  - Xiaoyu Zhang
+AU  - Yan Yin
+AU  - Liyu Du
+AU  - Fengming Xi
+AU  - Jiaoyue Wang
+JO  - Plant and Soil
+PY  - 2025
+DO  - 10.1007/s11104-025-07511-6
+UR  - https://www.semanticscholar.org/paper/448c76556c2d92efc9fa33f0b816d94fe63e418b
+N1  - Level: A; Score: 79; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Targeted metagenomics using probe capture detects a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
+AU  - H. Siljanen
+AU  - L. Manoharan
+AU  - A. Hilts
+AU  - A. Bagnoud
+AU  - R. J. Alves
+AU  - C. M. Jones
+AU  - F. Sousa
+AU  - S. Hallin
+AU  - C. Biasi
+AU  - C. Schleper
+PY  - 2022
+UR  - https://www.semanticscholar.org/paper/ec6a9d07170ca8c0e1c6f25366342242c5188831
+N1  - Level: A; Score: 76; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Land cover types and depth regulate carbon and nitrogen cycle functional genes in permafrost regions on the Qinghai-Tibet Plateau
+AU  - Xiaoying Fan
+AU  - Xiaodong Wu
+AU  - Dejincuo Ma
+AU  - Tonghua Wu
+AU  - Guimin Liu
+AU  - Haiyan Xu
+AU  - De-xin Zou
+AU  - G. Hu
+AU  - Yadong Liu
+AU  - Xianhua Wei
+AU  - Xu Yan
+AU  - Yongxian Liu
+AU  - Sizhong Yang
+AU  - E. Abakumov
+JO  - Plant and Soil
+PY  - 2025
+DO  - 10.1007/s11104-025-07472-w
+UR  - https://www.semanticscholar.org/paper/0cf01ff0292028f9b11d128148d2a958fb9e7809
+N1  - Level: A; Score: 60; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - [Functional Genomics Analysis of Nitrogen and Phosphorus Transformation in Maize Rhizosphere Microorganisms].
+AU  - Xiang-Jun Wang
+AU  - Meitong Jiang
+AU  - Sen Li
+AU  - Haowei Ni
+AU  - Bo Sun
+AU  - Yuting Liang
+JO  - Huan jing ke xue= Huanjing kexue
+PY  - 2023
+DO  - 10.13227/j.hjkx.202211317
+UR  - https://www.semanticscholar.org/paper/66f567ffa39bb923a93a7417531952592e3daa02
+N1  - Level: A; Score: 53; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Straw and Biochar Amendments Over a Decade Differently Modulates Denitrification Gas Products
+AU  - Quan Tang
+AU  - Wenxia Dai
+AU  - Jiacheng Niu
+AU  - Jing Wang
+AU  - Weiqin Yin
+AU  - Xiaoyuan G Yan
+AU  - Yuji Jiang
+AU  - Yi Cheng
+AU  - Shengsen Wang
+AU  - Xiaozhi Wang
+JO  - Water, Air and Soil Pollution
 PY  - 2024
-DO  - 10.1016/j.agee.2024.109177
-UR  - https://openalex.org/W4400605582
-N1  - Level: A; Score: 30; Source: OpenAlex
+DO  - 10.1007/s11270-024-07580-w
+UR  - https://www.semanticscholar.org/paper/2c620ef21226b3099f073fff779e08235951105b
+N1  - Level: A; Score: 37; Source: Semantic Scholar
 ER  -
