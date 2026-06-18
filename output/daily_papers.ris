@@ -1,82 +1,17 @@
 TY  - JOUR
-TI  - Long-Term Nitrogen Addition Exerts Minor Effects on Microbial Community but Alters Sensitive Microbial Species in a Subtropical Natural Forest
-AU  - Min He
-AU  - Xiaojian Zhong
-AU  - Yun Xia
-AU  - Linglin Xu
-AU  - Quanxin Zeng
-AU  - Liuming Yang
-AU  - Yuexin Fan
-JO  - Forests
-PY  - 2023
-DO  - 10.3390/f14050928
-UR  - https://www.semanticscholar.org/paper/0f07ac17529bee0788d96a1a4b3aa6e961758b72
-AB  - Increasing nitrogen (N) deposition profoundly affects nutrient cycling in soil, thereby influencing forest ecosystem productivity and function. Soil microorganisms are integral in driving nutrient turnover; the changes in microbial communities in response to N deposition and the associated soil nutrient availability, especially of limited nutrients, are far from clear. To explore the changes in soil bacterial and fungal communities and their key environmental drivers under N deposition, we conducted a multilevel field N addition experiment in a Castanopsis carlesii natural forest. Soil properties and bacterial and fungal communities were investigated. There were no significant changes in alpha diversities (presented as Chao1 and Shannon’s indexes) and beta diversities of bacteria and fungi among the three treatments. Consistently, the relative abundances of dominant bacterial phyla (i.e., Proteobacteria, Acidobacteria, Actinobacteria, Chloroflexi, and Planctomycetes) and fungal phyla (i.e., Basidiomycota, Ascomycota, and Rozellomycota) did not change following N addition. These results suggest that N deposition did not alter microbial community diversity and structure. In addition, the results of the Mantel test showed that soil pH, NO3−-N, dissolved organic N (DON), and total phosphorus (TP) predominantly influenced the community diversity and structure in bacteria, but not in fungi. Meanwhile, the relative abundance of some sensitive microbial genera, such as Bryobacter, Bradyrhizobium, Sorangium, and Archaeorhizomyces, were significantly decreased. These results indicate a decreased microbial ability for N fixation and P mobilization induced by N deposition. Moreover, there were significant relationships between Bryobacter, Bradyrhizobium, and Archaeorhizomyces and NO3−-N and available P (AP), suggesting that the responses of sensitive microbial groups to N deposition likely depend on the changes in available nutrients in soil, especially limited N or P. Collectively, 6 years of N addition had no significant influence on microbial communities, but some sensitive microbial groups were associated with N or P turnover. This finding emphasizes the critical roles of sensitive microbial species in meditating limited nutrient cycling in soil under climate change.
-N1  - Level: A; Score: 50; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - [Response of soil microbial community structure and diversity to long-term nitrogen addition in soils of Larix principis-rupprechtii plantation].
-AU  - Su-xin Li
-AU  - Yi-Xuan Zhang
-AU  - X. Pang
-AU  - Song-Jun He
-AU  - Fu-Rong Zhang
-AU  - Jia-Qi Wang
-AU  - Xing Wang
-JO  - Ying yong sheng tai xue bao = The journal of applied ecology
-PY  - 2026
-DO  - 10.13287/j.1001-9332.202604.001
-UR  - https://www.semanticscholar.org/paper/3213549d09e4373dfa36881a911d40698c947d16
-N1  - Level: A; Score: 33; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Nitrous oxide fluxes, their sources, and soil microbial communities depend more on carbon availability than long- and short-term phosphorus addition
-AU  - P. S. Rummel
-AU  - A. Oyeogbe
-AU  - Haitao Wang
-AU  - Tim Urich
-AU  - N. Wrage-Mönnig
-JO  - Biology and Fertility of Soils
-PY  - 2025
-DO  - 10.1007/s00374-025-01909-1
-UR  - https://www.semanticscholar.org/paper/2ec718cbb6d6e85b0b18d1716fe80b3d9ddb7833
-N1  - Level: A; Score: 28; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Understanding Responses of Soil Microbiome to the Nitrogen and Phosphorus Addition in Metasequoia glyptostroboides Plantations of Different Ages
-AU  - Lei Wang
-AU  - Yuxiang Wen
-AU  - Ran Tong
-AU  - Hui Zhang
-AU  - Hua Chen
-AU  - Ting Hu
-AU  - Guoqi Liu
-AU  - Jianjun Wang
-AU  - Lifeng Zhu
-AU  - Tonggui Wu
-JO  - Microbial Ecology
-PY  - 2021
-DO  - 10.1007/s00248-021-01863-z
-UR  - https://www.semanticscholar.org/paper/e960aa64acb1efbcf553fd674bc794fba46e3e5a
-N1  - Level: A; Score: 27; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Long-term nitrogen addition facilitates phosphorus uptake by the roots of Phyllostachys pubescens.
-AU  - Jiang-Fan Chen
-AU  - Qiufang Zhang
-AU  - Xiao-Qing Zhang
-AU  - Lin-Na Chen
-AU  - X. Yuan
-AU  - Jian-Guo Xu
-AU  - Quanxin Zeng
-AU  - Yue-Min Chen
-JO  - Ying yong sheng tai xue bao = The journal of applied ecology
-PY  - 2025
-DO  - 10.13287/j.1001-9332.202508.002
-UR  - https://www.semanticscholar.org/paper/139bf354537642f478be6373b4f5e95247d8fb72
-N1  - Level: A; Score: 23; Source: Semantic Scholar
+TI  - Soil microbial functional diversity is primarily affected by soil nitrogen, salinity and alkalinity in wetland ecosystem
+AU  - Mengyuan Zhu
+AU  - Zhen-Di Liu
+AU  - Yanyu Song
+AU  - Xianwei Wang
+AU  - Jia-Bao Yuan
+AU  - Mengting Li
+AU  - Yanjing Lou
+AU  - Zhen-Ling Gao
+AU  - Changchun Song
+JO  - Applied Soil Ecology
+PY  - 2024
+DO  - 10.1016/j.apsoil.2024.105407
+UR  - https://openalex.org/W4394733528
+N1  - Level: A; Score: 22; Source: OpenAlex
 ER  -
