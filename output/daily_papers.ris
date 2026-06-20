@@ -1,33 +1,29 @@
 TY  - JOUR
-TI  - Comparison and Selection of Conventional PCR Primer Sets for Studies Associated with Nitrogen Cycle Microorganisms in Surface Soil
-AU  - Siwon Lee
-AU  - Yong Ju Jung
-AU  - J. Moon
-AU  - Jin-Young Lee
-AU  - H. Kim
-AU  - Jae E. Yang
-AU  - Hyunji Lee
-AU  - Jae-Hong Jung
-AU  - Ha-Rang Kim
-JO  - Applied Sciences
+TI  - Targeted metagenomics using probe capture detects a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
+AU  - H. Siljanen
+AU  - L. Manoharan
+AU  - A. Hilts
+AU  - A. Bagnoud
+AU  - R. J. Alves
+AU  - C. M. Jones
+AU  - F. Sousa
+AU  - S. Hallin
+AU  - C. Biasi
+AU  - C. Schleper
 PY  - 2022
-DO  - 10.3390/app122010314
-UR  - https://www.semanticscholar.org/paper/5cf31747176e57beb990d36257a303b9b8fccbfe
-AB  - The nitrogen cycle is a biogeochemical cycle primarily associated with the microbial activity that occurs in various environments, including soil. Various genes related to the nitrogen cycle have been studied for different purposes by many researchers; therefore, the polymerase chain reaction (PCR) conditions and gene compositions differ among reports, making comparisons difficult. In this study, we compare the PCR methods to amplify 13 nitrogen cycle-related genes (amo (amoA and amoB), norB (cnorB and qnorB), hzs, napA, narG, nifH, nirK, nirS, nosZ, nrfA, and nxrA) in the soil samples collected from four land use types and selected a method with excellent applicability. However, the PCR method for five nitrogen cycle-related genes (amoC, hao, hzo, nirB, and nxrB) could not be presented. In addition, the nitrogen cycle-related genes from the four land use types (field, forest, bare land, and grassland) and the seasonally collected samples were analyzed and discussed. In the grassland samples, all the nitrogen cycle-related genes reviewed were amplified. These results vary from those of the field, forest, and bare land samples, and it was estimated that grassland, among the land use types, could play an important role in the nitrogen cycle in soil. However, an association between the seasons and the rainy season was not confirmed. Thus, this study may be used for future research in various fields related to the nitrogen cycle.
-N1  - Level: A; Score: 85; Source: Semantic Scholar
+UR  - https://www.semanticscholar.org/paper/ec6a9d07170ca8c0e1c6f25366342242c5188831
+N1  - Level: A; Score: 43; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - The variability in CO2 fluxes at different time scales in natural and reclaimed wetlands in the Yangtze River estuary and their key influencing factors
-AU  - Lei Wang
-AU  - Wenxuan Mei
-AU  - Qiuxiao Yin
-AU  - Yongjian Guan
-AU  - Yiquan Le
-AU  - Xiaohua Fu
-JO  - The Science of The Total Environment
-PY  - 2021
-DO  - 10.1016/j.scitotenv.2021.149441
-UR  - https://openalex.org/W3191281110
-N1  - Level: B; Score: 18; Source: OpenAlex
+TI  - Saltwater Intrusion Modifies Microbial Community Structure and Decreases Denitrification in Tidal Freshwater Marshes
+AU  - Michael F. Piehler
+AU  - A.R. Smyth
+AU  - S.C. Neubauer
+AU  - R.B. Franklin
+JO  - Carolina Digital Repository (University of North Carolina at Chapel Hill)
+PY  - 2022
+DO  - 10.17615/50dz-f382
+UR  - https://openalex.org/W4292088648
+N1  - Level: A; Score: 39; Source: OpenAlex
 ER  -
