@@ -1,4 +1,41 @@
 TY  - JOUR
+TI  - Decreased Stability in Ammonia-Oxidzing Archaea and Bacteria during Dry Conditions in a Salt Marsh
+AU  - Anne Bernhard
+AU  - Roberta Sheffer
+JO  - Estuaries and Coasts
+PY  - 2026
+DO  - 10.1007/s12237-025-01666-2
+UR  - https://openalex.org/W7125260295
+AB  - Abstract Frequency and severity of drought are predicted to increase as part of global climate change, yet there are significant gaps in our knowledge of how drought will impact microbial communities. We investigated the relationship between relative dryness and changes in microbial community abundances in a southeastern Connecticut salt marsh by QPCR of 16S rRNA genes (bacterial and archaeal) and selected functional genes (archaeal amoA , bacterial amoA , comammox amoA , nirS , and pmoA ) over multiple years (2006–2019). During this time, southeastern CT experienced a prolonged dry period from 2013 to 2018, as measured by the Palmer Drought Severity Index (PDSI). Average abundances of most genes ranged from 1.1 to 4.7 times higher in wet periods compared to dry periods, while abundance of archaeal amoA genes was 35 times higher in wet compared to dry periods. Furthermore, abundances of both ammonia oxidizing archaea and bacteria (AOA and AOB) varied by 30,000 and 9500-fold, respectively, during the study, with the highest variability occurring during dry conditions. Abundance of other genes varied by 7-38-fold over the course of the study. Additionally, AOA and AOB had the lowest stability values of all genes. Salinity was 39% higher and porewater ammonium was 100 times higher during dry years compared to wet years, but neither correlated with the abundances of AOA or AOB. Results from this study suggest that AOA and AOB, but not comammox, may be more susceptible to drought compared to other microbial communities, however, the specific cause of the decreased stability is uncertain.
+N1  - Level: A; Score: 57; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Nitrogen deposition decouples grassland plant community from soil bacterial and fungal communities along a precipitation gradient
+AU  - Changchun Zhai
+AU  - Yunfeng Yang
+AU  - Lingjie Kong
+AU  - Xueke Wang
+AU  - Jiawei Hou
+AU  - Qing Zeng
+AU  - Anhui Ge
+AU  - Baomin Yao
+AU  - Zhenxing Zhou
+AU  - Jiayin Feng
+AU  - J. Ru
+AU  - Jian Song
+AU  - Xueli Qiu
+AU  - Limei Zhang
+AU  - Shiqiang Wan
+JO  - Journal of Ecology
+PY  - 2025
+DO  - 10.1111/1365-2745.70032
+UR  - https://www.semanticscholar.org/paper/e4658627018c2e8ebc1e574da3eb5e42783a558f
+AB  - Plant–soil microbe interactions play a pivotal role in supporting plant health and growth, but it remains poorly understood how global change driving forces affect the associations between plants and microbial communities. Based on a 3‐year (2019–2021) field experiment with changing precipitation and N addition manipulations in Inner Mongolia, we examined plant and soil microbial communities and their interactions under changing precipitation and N addition. Microbial community dissimilarities increased with increasing differences in soil moisture, regardless of N levels. Plant community significantly affected bacterial and fungal communities under ambient N only, but protistan communities under both ambient N and N addition. N addition reduced the slopes of microbial (bacterial and fungal, but not protistan) with plant community dissimilarities and the associations of their functional groups, which indicates a weakening relationship between soil microbiome and plant communities and their functional groups under N enrichment. Synthesis. Our results not only provide evidence on how atmospheric N deposition affects the interactions between plants and different microbial communities but also highlight the shift in plant–microbe relationships, especially the associations of plants with bacteria and fungi, but not protists, from coupling to decoupling due to N addition, which could have profound consequences on ecosystem functioning.
+N1  - Level: A; Score: 54; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
 TI  - Targeted metagenomics using probe capture detects a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
 AU  - H. Siljanen
 AU  - L. Manoharan
@@ -12,18 +49,87 @@ AU  - C. Biasi
 AU  - C. Schleper
 PY  - 2022
 UR  - https://www.semanticscholar.org/paper/ec6a9d07170ca8c0e1c6f25366342242c5188831
-N1  - Level: A; Score: 43; Source: Semantic Scholar
+N1  - Level: A; Score: 51; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Saltwater Intrusion Modifies Microbial Community Structure and Decreases Denitrification in Tidal Freshwater Marshes
-AU  - Michael F. Piehler
-AU  - A.R. Smyth
-AU  - S.C. Neubauer
-AU  - R.B. Franklin
-JO  - Carolina Digital Repository (University of North Carolina at Chapel Hill)
-PY  - 2022
-DO  - 10.17615/50dz-f382
-UR  - https://openalex.org/W4292088648
-N1  - Level: A; Score: 39; Source: OpenAlex
+TI  - Chiral herbicide imazethapy influences plant-soil feedback on nitrogen metabolism by shaping rhizosphere microorganisms
+AU  - Mengchun Hou
+AU  - Youfeng Zhu
+AU  - Hui Chen
+AU  - Yuezhong Wen
+JO  - Environmental science and pollution research international
+PY  - 2024
+DO  - 10.1007/s11356-024-32393-z
+UR  - https://www.semanticscholar.org/paper/eb413da23498102777644446eb45345cf498207f
+N1  - Level: A; Score: 45; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Spatial and temporal changes of charosphere hotspots with or without nitrogen additions
+AU  - Hongyu Ran
+AU  - Yan Wang
+AU  - Ke-wen Wei
+AU  - Ying Liu
+AU  - G. Wang
+AU  - K. Zhu
+JO  - Biochar
+PY  - 2023
+DO  - 10.1007/s42773-023-00247-5
+UR  - https://www.semanticscholar.org/paper/376b13ae421641e47343e782d5e0660741b1dcaf
+AB  - The charosphere is a thin soil one surrounding the biochar with highly active biochemical functions. Yet, little is known about the spatial and temporal distribution of charosphere hotspots. In this study, repacked soil cores were incubated with a central layer of biochar (pristine or acid-modified) with or without nitrogen (N) additions for 30 days and sliced at the millimeter scale for analyzing soil pH, mineral N, bacterial and fungal communities as well as the putative functions. We aimed to determine gradient distributions (in millimeter scale) of charosphere affected by biochar under different N additions. Our results showed narrower gradient changes (3 mm) of microbial community composition and wider shifts (6 mm) in pH and inorganic N contents in charosphere. The pristine biochar increased the soil pH up to 1.5 units in the charosphere, and subsequently boosted the relative abundance of Proteobacteria , Acidobacteria , and Zygomycota . With N addition, both the biochar site and charosphere were observed with decreased complexity of microbial networks, which might imply the limited microbial functionality of charosphere. These results will advance the understanding and prediction of biochar’s environmental impacts in soil. Graphical abstract The charosphere hotspots of soil pH and mineral N content reached 6 mm. Soil microbial compositions fluctuated within 3 mm of charosphere. Pristine biochar site fostered higher fungal diversity than that in bulk soils. Lower bacterial diversity in pristine biochar site was found. The microbial network complexity declined with N addition in charosphere.
+N1  - Level: A; Score: 41; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Effects of long-term no-tillage on the functional potential of microorganisms involved in the nitrogen, phosphorus and sulfur cycles of black soil.
+AU  - Yan Gao
+AU  - A. Liang
+AU  - Dandan Huang
+AU  - Yan Zhang
+AU  - Yang Zhang
+AU  - Yang Wang
+AU  - Shixiu Zhang
+AU  - Xuewen Chen
+JO  - Ying yong sheng tai xue bao = The journal of applied ecology
+PY  - 2023
+DO  - 10.13287/j.1001-9332.202304.011
+UR  - https://www.semanticscholar.org/paper/ab0ce43ac98e1e4349abed6122378c1658f0b990
+N1  - Level: A; Score: 40; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Nitrogen Addition in a Tibetan Alpine Meadow Increases Intraspecific Variability in Nitrogen Uptake, Leading to Increased Community-level Nitrogen Uptake
+AU  - Li Zhang
+AU  - Ming-Yuan Ni
+AU  - T. Zhu
+AU  - Xingliang Xu
+AU  - Shurong Zhou
+AU  - B. Shipley
+JO  - Ecosystems
+PY  - 2021
+DO  - 10.1007/s10021-021-00647-3
+UR  - https://www.semanticscholar.org/paper/7b91b849259259ee6cdc2fb15e24aeb19eb5ac38
+N1  - Level: A; Score: 27; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Seasonal not annual precipitation drives 8-year variability of interannual net CO2 exchange in a salt marsh
+AU  - Xiaojing Chu
+AU  - Guangxuan Han
+AU  - Siyu Wei
+AU  - Qinghui Xing
+AU  - Wenjun He
+AU  - Baoyu Sun
+AU  - Xinge Li
+AU  - Dafeng Hui
+AU  - Haitao Wu
+AU  - Xiaojie Wang
+AU  - Peiguang Li
+AU  - Weimin Song
+JO  - Agricultural and Forest Meteorology
+PY  - 2021
+DO  - 10.1016/j.agrformet.2021.108557
+UR  - https://openalex.org/W3188412950
+N1  - Level: B; Score: 18; Source: OpenAlex
 ER  -
