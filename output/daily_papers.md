@@ -1,37 +1,37 @@
 # 今日文献追踪结果
 
-检索日期：2026-07-01
+检索日期：2026-07-02
 
-检索去重后文献总数：57
+检索去重后文献总数：56
 
 写入结果文献数：1
 
-A 类文献数量：0
+A 类文献数量：1
 
-B 类文献数量：1
+B 类文献数量：0
 
 C 类文献数量：0
 
 ## A 类：必须阅读
 
-今日暂无。
+### 1. Effects of Oil Exposure on Nitrogen Cycling in Salt Marsh Sediments
+
+- 来源：Semantic Scholar
+- 相似度得分：30
+- 作者：E. Hays
+- 年份：2020
+- 期刊：
+- DOI：
+- URL：https://www.semanticscholar.org/paper/7046f48b329e73001f113c991fa8e7205581c61d
+- 触发检索词：salt marsh sediment nitrogen cycling
+- 建议 Zotero collection：03_土壤氮循环功能基因
+- 推荐理由：高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。
+- 命中维度：{'seed': 0, 'ecosystem': 3, 'soil': 2, 'microbe': 0, 'nitrogen': 2, 'addition': 0, 'function': 0, 'vegetation': 0, 'network': 0}
+- 摘要核心内容：
 
 ## B 类：建议阅读
 
-### 1. Microbial and Trophic Shifts in the Salt Marsh Palud-Palù, Adriatic Coast
-
-- 来源：Semantic Scholar
-- 相似度得分：20
-- 作者：Andrea Budiša, Gioconda Millotti, E. Hrustić, Neven Iveša, M. Buršić, Petra Burić
-- 年份：2025
-- 期刊：Wetlands (Wilmington, N.C.)
-- DOI：10.1007/s13157-025-01998-6
-- URL：https://www.semanticscholar.org/paper/37d0e949f8af58c86dc47f455f62ce848809d81c
-- 触发检索词：nutrient enrichment salt marsh microbial community
-- 建议 Zotero collection：07_讨论部分可引用文献
-- 推荐理由：中等相关：与用户课题在土壤微生物、氮循环、氮添加、功能基因、湿地环境或植被影响中的部分方向相似，可用于讨论或补充阅读。
-- 命中维度：{'seed': 0, 'ecosystem': 3, 'soil': 0, 'microbe': 2, 'nitrogen': 0, 'addition': 1, 'function': 0, 'vegetation': 0, 'network': 0}
-- 摘要核心内容：
+今日暂无。
 
 ## C 类：可选阅读
 
