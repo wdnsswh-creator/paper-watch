@@ -1,62 +1,36 @@
 TY  - JOUR
-TI  - Metagenomic insights into nitrogen and phosphorus cycling at the soil aggregate scale driven by organic material amendments.
-AU  - Xingjie Wu
-AU  - Jingjing Peng
-AU  - Pengfei Liu
-AU  - Q. Bei
-AU  - C. Rensing
-AU  - Yong Li
-AU  - Huimin Yuan
-AU  - W. Liesack
-AU  - Fusuo Zhang
-AU  - Z. Cui
-JO  - Science of the Total Environment
-PY  - 2021
-DO  - 10.1016/j.scitotenv.2021.147329
-UR  - https://www.semanticscholar.org/paper/fe05f16b4a1be18324b70d58691093f23c14f050
-N1  - Level: A; Score: 37; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Metagenomic insights into carbon, nitrogen, and phosphorus cycling in a no-till intercropping system
-AU  - Peina Lu
-AU  - Q. Chai
-AU  - Wen Yin
-AU  - H. Fan
-AU  - Falong Hu
-AU  - Zhilong Fan
-AU  - Aizhong Yu
-AU  - Cai Zhao
-JO  - Plant and Soil
+TI  - Nitrogen Fertilization Effects on Soil Bacterial Communities, Nitrogen-Cycling Genes, and Wheat Yield Across Different Soil Types in the North China Plain
+AU  - G. Ma
+AU  - Xiaoyan Zhang
+AU  - Xiaojie Han
+AU  - Juan Kang
+AU  - Haiyan Zhang
+AU  - Yanfei Zhang
+AU  - Hongfang Lu
+AU  - Ying-xin Xie
+AU  - Dongyun Ma
+AU  - Chenyang Wang
+JO  - Microorganisms
 PY  - 2025
-DO  - 10.1007/s11104-025-07248-2
-UR  - https://www.semanticscholar.org/paper/6792cf393505119f4672bcc1d862179126beb8ee
-N1  - Level: A; Score: 37; Source: Semantic Scholar
+DO  - 10.3390/microorganisms13102382
+UR  - https://www.semanticscholar.org/paper/1fbfe7aaabe4f94b37ca95e5265fac9174964c6c
+AB  - Nitrogen (N) fertilization is known to influence soil microbial communities and crop yield, but how N affects the bacterial community and the link to crop yield across different soil types remains poorly understood. Here, we conducted three 5-year stationary field experiments to explore the effect of N fertilization (0, 180, 240, and 300 kg ha−1; termed N0, N1, N2, and N3, respectively) with different soil types (fluvo-aquic soil, FS; sandy soil, SS; lime concretion black soil, BS) on bacterial communities and the relationships among soil, microbes, and N-cycling functional genes to further investigate the effects on wheat yield. The results showed that the N2 treatment (240 kg ha−1) achieved the highest wheat yield, with significantly lower yields in SS than those in FS and BS. N fertilization significantly altered soil physicochemical properties, with a notable decrease in pH, particularly in SS, and an increase in NO3−-N content. Bacterial α-diversity significantly decreased with N application in SS but not in FS and BS, and NO3−-N played a primary role in shaping beta diversity in FS and BS. There were 43, 62, and 11 bacterial species that changed significantly from phylum to genus in the FS, SS, and BS, respectively. The abundance of nitrification genes increased with N fertilization in FS and SS, and N-cycling genes were significantly associated with soil properties. Partial Least Squares Path Modeling (PLS-PM) revealed that N fertilizer affected soil properties, which in turn regulated bacterial communities, and ultimately influenced wheat yield, explaining 67.4% of the yield variation. This study highlights the soil-specific responses to N application, providing a basis for optimizing N management and enhancing agricultural sustainability.
+N1  - Level: A; Score: 59; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Changes in Ecosystem Nitrogen and Carbon Allocation with Black Mangrove (Avicennia germinans) Encroachment into Spartina alterniflora Salt Marsh
-AU  - Aaron Macy
-AU  - Michael J. Osland
-AU  - J. Cherry
-AU  - J. Cebrian
-JO  - Ecosystems
-PY  - 2020
-DO  - 10.1007/s10021-020-00565-w
-UR  - https://www.semanticscholar.org/paper/27b5b3f193cea0b4727ae6095aa84e42644592ba
-N1  - Level: A; Score: 28; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Riverine fluxes of dissolved inorganic nitrogen may be underestimated in gated estuaries: influence of suspended sediments
-AU  - Chenglong Han
-AU  - Lichun Pu
-AU  - Shiyu Wang
-AU  - R. D. Vogt
-AU  - Xueqiang Lu
-JO  - Journal of Oceanology and Limnology
-PY  - 2025
-DO  - 10.1007/s00343-025-4303-1
-UR  - https://www.semanticscholar.org/paper/819e67db0f9705705da75f3f15ea55c4131825f7
-N1  - Level: A; Score: 28; Source: Semantic Scholar
+TI  - [Effect of Spartina alterniflora Invasion on Soil C:N:P Stoichiometry in Coastal Wetland of Hangzhou Bay].
+AU  - Wenqiang Li
+AU  - Qi Xiang
+AU  - Xuefeng Xie
+AU  - Tao Wu
+AU  - Guojun Jiang
+AU  - Jianzhen Zhang
+AU  - L. Pu
+AU  - Fei Xu
+JO  - Huan jing ke xue= Huanjing kexue
+PY  - 2023
+DO  - 10.13227/j.hjkx.202206204
+UR  - https://www.semanticscholar.org/paper/fe0735e09321047d770754725f41697aa458cde4
+N1  - Level: A; Score: 27; Source: Semantic Scholar
 ER  -

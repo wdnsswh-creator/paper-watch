@@ -1,12 +1,12 @@
 # 今日文献追踪结果
 
-检索日期：2026-07-06
+检索日期：2026-07-07
 
-检索去重后文献总数：634
+检索去重后文献总数：620
 
-写入结果文献数：4
+写入结果文献数：2
 
-A 类文献数量：4
+A 类文献数量：2
 
 B 类文献数量：0
 
@@ -14,64 +14,34 @@ C 类文献数量：0
 
 ## A 类：必须阅读
 
-### 1. Metagenomic insights into nitrogen and phosphorus cycling at the soil aggregate scale driven by organic material amendments.
+### 1. Nitrogen Fertilization Effects on Soil Bacterial Communities, Nitrogen-Cycling Genes, and Wheat Yield Across Different Soil Types in the North China Plain
 
 - 来源：Semantic Scholar
-- 相似度得分：37
-- 作者：Xingjie Wu, Jingjing Peng, Pengfei Liu, Q. Bei, C. Rensing, Yong Li
-- 年份：2021
-- 期刊：Science of the Total Environment
-- DOI：10.1016/j.scitotenv.2021.147329
-- URL：https://www.semanticscholar.org/paper/fe05f16b4a1be18324b70d58691093f23c14f050
-- 触发检索词：Metagenomic insights into nitrogen cycling functional genes in soil microbial communities
-- 建议 Zotero collection：03_土壤氮循环功能基因
-- 推荐理由：高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。
-- 命中维度：{'seed': 0, 'ecosystem': 0, 'soil': 1, 'microbe': 1, 'nitrogen': 2, 'addition': 0, 'function': 3, 'vegetation': 0, 'network': 0}
-- 摘要核心内容：
-
-### 2. Metagenomic insights into carbon, nitrogen, and phosphorus cycling in a no-till intercropping system
-
-- 来源：Semantic Scholar
-- 相似度得分：37
-- 作者：Peina Lu, Q. Chai, Wen Yin, H. Fan, Falong Hu, Zhilong Fan
+- 相似度得分：59
+- 作者：G. Ma, Xiaoyan Zhang, Xiaojie Han, Juan Kang, Haiyan Zhang, Yanfei Zhang
 - 年份：2025
-- 期刊：Plant and Soil
-- DOI：10.1007/s11104-025-07248-2
-- URL：https://www.semanticscholar.org/paper/6792cf393505119f4672bcc1d862179126beb8ee
-- 触发检索词：Metagenomic insights into nitrogen cycling functional genes in soil microbial communities
+- 期刊：Microorganisms
+- DOI：10.3390/microorganisms13102382
+- URL：https://www.semanticscholar.org/paper/1fbfe7aaabe4f94b37ca95e5265fac9174964c6c
+- 触发检索词：different nitrogen forms nitrogen cycling functional genes
 - 建议 Zotero collection：03_土壤氮循环功能基因
 - 推荐理由：高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。
-- 命中维度：{'seed': 0, 'ecosystem': 0, 'soil': 1, 'microbe': 1, 'nitrogen': 2, 'addition': 0, 'function': 3, 'vegetation': 0, 'network': 0}
-- 摘要核心内容：
+- 命中维度：{'seed': 0, 'ecosystem': 0, 'soil': 1, 'microbe': 6, 'nitrogen': 3, 'addition': 4, 'function': 2, 'vegetation': 0, 'network': 0}
+- 摘要核心内容：Nitrogen (N) fertilization is known to influence soil microbial communities and crop yield, but how N affects the bacterial community and the link to crop yield across different soil types remains poorly understood. Here, we conducted three 5-year stationary field experiments to explore the effect of N fertilization (0, 180, 240, and 300 kg ha−1; termed N0, N1, N2, and N3, respectively) with different soil types (fluvo-aquic soil, FS; sandy soil, SS; lime concretion black soil, BS) on bacterial communities and the relationships among soil, microbes, and N-cycling functional genes to further investigate the effects on wheat yield. The results showed that the N2 treatment (240 kg ha−1) achieved the highest wheat yield, with significantly lower yields in SS than those in FS and BS. N fertilization significantly altered soil physicochemical properties, with a notable decrease in pH, particularly in SS, and an increase in NO3−-N content. Bacterial α-diversity significantly decreased with N application in SS but not in FS and BS, and NO3−-N played a primary role in shaping beta diversity in FS and BS. There were 43, 62, and 11 bacterial species that changed significantly from phylum to g...
 
-### 3. Changes in Ecosystem Nitrogen and Carbon Allocation with Black Mangrove (Avicennia germinans) Encroachment into Spartina alterniflora Salt Marsh
+### 2. [Effect of Spartina alterniflora Invasion on Soil C:N:P Stoichiometry in Coastal Wetland of Hangzhou Bay].
 
 - 来源：Semantic Scholar
-- 相似度得分：28
-- 作者：Aaron Macy, Michael J. Osland, J. Cherry, J. Cebrian
-- 年份：2020
-- 期刊：Ecosystems
-- DOI：10.1007/s10021-020-00565-w
-- URL：https://www.semanticscholar.org/paper/27b5b3f193cea0b4727ae6095aa84e42644592ba
-- 触发检索词：Salt marsh nitrogen cycling: where land meets sea
+- 相似度得分：27
+- 作者：Wenqiang Li, Qi Xiang, Xuefeng Xie, Tao Wu, Guojun Jiang, Jianzhen Zhang
+- 年份：2023
+- 期刊：Huan jing ke xue= Huanjing kexue
+- DOI：10.13227/j.hjkx.202206204
+- URL：https://www.semanticscholar.org/paper/fe0735e09321047d770754725f41697aa458cde4
+- 触发检索词：Spartina alterniflora invasion nitrogen cycling
 - 建议 Zotero collection：03_土壤氮循环功能基因
 - 推荐理由：高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。
-- 命中维度：{'seed': 1, 'ecosystem': 2, 'soil': 0, 'microbe': 0, 'nitrogen': 2, 'addition': 0, 'function': 0, 'vegetation': 2, 'network': 0}
-- 摘要核心内容：
-
-### 4. Riverine fluxes of dissolved inorganic nitrogen may be underestimated in gated estuaries: influence of suspended sediments
-
-- 来源：Semantic Scholar
-- 相似度得分：28
-- 作者：Chenglong Han, Lichun Pu, Shiyu Wang, R. D. Vogt, Xueqiang Lu
-- 年份：2025
-- 期刊：Journal of Oceanology and Limnology
-- DOI：10.1007/s00343-025-4303-1
-- URL：https://www.semanticscholar.org/paper/819e67db0f9705705da75f3f15ea55c4131825f7
-- 触发检索词：Salt marsh nitrogen cycling: where land meets sea
-- 建议 Zotero collection：03_土壤氮循环功能基因
-- 推荐理由：高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。
-- 命中维度：{'seed': 1, 'ecosystem': 3, 'soil': 2, 'microbe': 0, 'nitrogen': 2, 'addition': 0, 'function': 0, 'vegetation': 0, 'network': 0}
+- 命中维度：{'seed': 0, 'ecosystem': 3, 'soil': 1, 'microbe': 0, 'nitrogen': 2, 'addition': 0, 'function': 0, 'vegetation': 3, 'network': 0}
 - 摘要核心内容：
 
 ## B 类：建议阅读
