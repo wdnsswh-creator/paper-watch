@@ -1,19 +1,4 @@
 TY  - JOUR
-TI  - Copper contamination determined the impact of phages on microbially-driven nitrogen cycling in coastal wetland sediments.
-AU  - Ying Zhu
-AU  - Ruili Li
-AU  - Shuang Yan
-AU  - Yangyang Li
-AU  - Shuguang Xie
-JO  - Journal of Hazardous Materials
-PY  - 2025
-DO  - 10.1016/j.jhazmat.2025.137870
-UR  - https://www.semanticscholar.org/paper/a5821505595e6a27076b8fea056f715e5fbcec7a
-AB  - Phages have garnered increasing attention due to their potential roles in biogeochemical cycling. However, their impacts on nitrogen cycling have primarily been inferred from the presence of putative auxiliary metabolic genes (AMGs) and the virus-host linkage, despite of very limited direct experimental evidence. In this study, a series of microcosms were established with the inoculation of either native or non-native phages to simulate coastal wetlands with different phage sources and different levels of copper (Cu) contamination. Metagenomics and metatranscriptomics were combined to reveal phages' regulation on microbially-driven nitrogen cycling and to explore how the effects were mediated by Cu stress. Phages significantly impacted denitrification-related genes, with their effects depending on Cu level. Phages inhibited nirK-type denitrification under Cu stress but led to up-regulation of nirS gene in the treatments without Cu addition. Non-native phages also promoted the transcription of genes related to nitrogen assimilation and organic nitrogen transformation. Detection of viral AMGs involved in glutamate synthesis suggested that horizontal gene transfer may be a crucial pathway for phages to facilitate microbial nitrogen uptake. Overall, these findings enhance the understanding of phages' impact on biogeochemical metabolism in coastal wetland, offering novel insights into the links of phages' regulation on microbial nitrogen cycling with Cu stress.
-N1  - Level: A; Score: 69; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
 TI  - Targeted metagenomics using probe capture detects a larger diversity of nitrogen and methane cycling genes in complex microbial communities than traditional metagenomics
 AU  - H. Siljanen
 AU  - L. Manoharan
@@ -27,54 +12,5 @@ AU  - C. Biasi
 AU  - C. Schleper
 PY  - 2022
 UR  - https://www.semanticscholar.org/paper/ec6a9d07170ca8c0e1c6f25366342242c5188831
-N1  - Level: A; Score: 43; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Improving strontium (Sr) phytoremediation efficiency in Sorghum bicolor × sudanense through nitrogen management and a microbial combination
-AU  - Chao Huang
-AU  - Xueqi Dai
-AU  - Huiying Zheng
-AU  - Xiaoming Chen
-AU  - Jiali Huang
-AU  - Chaoling Wu
-AU  - Wenkun Zhu
-AU  - Qing Wang
-AU  - Jian Yu
-AU  - Ali Imran
-AU  - Bo Zhu
-JO  - Environmental Geochemistry and Health
-PY  - 2026
-DO  - 10.1007/s10653-026-03343-0
-UR  - https://www.semanticscholar.org/paper/758e9a6e16a4c4f07b02a000dcc1a4a463bea980
-N1  - Level: B; Score: 21; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Hurricane Effects on Benthic Nitrogen Cycling in an Emerging Coastal Deltaic Floodplain Within the Mississippi River Delta Plain
-AU  - Song Li
-AU  - R. Twilley
-AU  - Denise M. Poveda
-AU  - R. Fulweiler
-JO  - Estuaries and Coasts
-PY  - 2023
-DO  - 10.1007/s12237-023-01258-y
-UR  - https://www.semanticscholar.org/paper/a8a8d0c64fc8d12ed1c6c825012ce4f68c85f019
-N1  - Level: B; Score: 20; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Processes of carbon-nitrogen coupling and the regulation in estuarine wetland.
-AU  - Xiaoqian He
-AU  - Pan Li
-AU  - Hu Ding
-AU  - Jing Li
-AU  - Jinzhi Wang
-AU  - Li-Juan Cui
-AU  - Zhifeng Yan
-JO  - Ying yong sheng tai xue bao = The journal of applied ecology
-PY  - 2026
-DO  - 10.13287/j.1001-9332.202605.034
-UR  - https://www.semanticscholar.org/paper/0b43e652dc74c89bcd2c8c1845873711b0105fdf
-N1  - Level: B; Score: 16; Source: Semantic Scholar
+N1  - Level: A; Score: 51; Source: Semantic Scholar
 ER  -
