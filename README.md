@@ -1,34 +1,68 @@
-Daily Literature Tracker
-第一阶段每日文献追踪工具会根据 config/keywords.yaml 和 skills/soil-nitrogen-literature-curation/SKILL.md，从 OpenAlex 和 Crossref 检索与滨海湿地氮转化、氮添加、宏基因组、土壤氮循环功能基因相关的新论文元数据。
+# Paper Watch
 
-本阶段不会连接 Zotero API，不会下载 PDF，不会自动登录学校账号，也不会抓取受版权保护全文。
+这是一个面向 Zotero 导入的文献追踪小工具。当前版本根据用户论文 `查重版本.docx` 的主题，优先检索以下方向的论文：
 
-安装
+- 黄河三角洲、滨海湿地、盐沼、河口湿地和盐碱土壤；
+- Tamarix chinensis、Suaeda salsa、Phragmites australis 等湿地植被类型；
+- 距海梯度、盐度梯度、EC、盐分含量、pH 等环境因子；
+- 土壤细菌群落、土壤真菌群落、16S rRNA、ITS、高通量测序；
+- alpha diversity、beta diversity、PCoA、NMDS、PERMANOVA、ANOSIM；
+- FAPROTAX、FUNGuild、Saprotroph、Pathotroph、Symbiotroph 等功能预测。
+
+本工具只检索公开论文元数据，不下载 PDF，不自动登录学校账号，不绕过数据库权限，也不直接连接 Zotero API。
+
+## 安装依赖
+
+```bash
 pip install -r requirements.txt
-运行
-python scripts/search_papers.py
-建议提供邮箱，方便 OpenAlex 和 Crossref 识别正常学术用途：
+```
 
-python scripts/search_papers.py --mailto your-email@example.com
-默认会检索最近 7 天、每个数据源最多 50 条记录。可以调整：
+## 重新检索文献
 
-python scripts/search_papers.py --days 14 --limit 100 --mailto your-email@example.com
-输出文件
-运行后会生成：
+如果想重新按当前关键词检索，并避免旧 DOI 去重影响，可以先备份旧记录：
 
-output/daily_papers.md：每日文献清单，包含 title、authors、year、journal、doi、abstract、url，以及与课题相关的原因。
-output/daily_papers.ris：可导入 Zotero 的 RIS 文件，只包含 A、B、C 类文献。
-output/seen_dois.txt：已出现过的 DOI，用来避免每天重复推荐。
-分类规则
-脚本会读取 skills/soil-nitrogen-literature-curation/SKILL.md 作为人工维护的分类依据，并用简单稳定的关键词规则执行第一阶段分类：
+```bash
+copy output\seen_dois.txt output\seen_dois.backup.txt
+del output\seen_dois.txt
+```
 
-A：同时涉及滨海湿地/盐沼/河口、氮循环或氮转化，并且包含宏基因组/功能基因或氮添加信息。
-B：与氮循环高度相关，并涉及功能基因、宏基因组、氮添加或滨海湿地中的至少一项。
-C：与氮循环、功能基因或关键词配置有一定关系，但课题匹配度较弱。
-D：弱相关或信息不足。D 类会写入 Markdown 方便人工查看，但不会写入 RIS。
-自定义路径
-python scripts/search_papers.py \
-  --keywords config/keywords.yaml \
-  --skill skills/soil-nitrogen-literature-curation/SKILL.md \
-  --output output
-如果 config/keywords.yaml 或技能文件不存在，脚本会停止并提示缺失文件路径。
+然后运行：
+
+```bash
+python scripts/search_papers.py --days 3650 --limit 20 --max-queries 40 --mailto your-email@example.com
+```
+
+参数说明：
+
+- `--days`：检索最近多少天的论文，`3650` 约等于最近 10 年。
+- `--limit`：每个检索词在每个数据源最多返回多少条。
+- `--max-queries`：最多使用多少个检索词，数值越大越慢。
+- `--mailto`：建议填写邮箱，方便 OpenAlex 识别正常学术用途。
+
+## 输出文件
+
+脚本会生成：
+
+- `output/daily_papers.md`：文献清单和推荐理由；
+- `output/daily_papers.ris`：可导入 Zotero 的 RIS 文件；
+- `output/seen_dois.txt`：已见 DOI，用于下次去重。
+
+## 导入 Zotero
+
+1. 打开 Zotero。
+2. 选择 `文件` / `File`。
+3. 选择 `导入` / `Import`。
+4. 选择 `A file`。
+5. 选择 `output/daily_papers.ris`。
+
+建议在 Zotero 中新建 collection，例如：
+
+- `01_黄河三角洲滨海湿地`
+- `02_植被类型与土壤微生物`
+- `03_盐度EC和环境因子`
+- `04_细菌群落多样性`
+- `05_真菌群落与FUNGuild`
+- `06_FAPROTAX和功能预测`
+- `07_测序与群落分析方法`
+
+RIS 文件中会把推荐 collection 写入 Markdown 清单；Zotero 导入 RIS 后如未自动分 collection，可按 Markdown 中的建议手动移动。

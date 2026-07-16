@@ -6,9 +6,10 @@ Smart Daily Literature Tracker
 
 Purpose:
 Search for papers similar to the user's research direction:
-wetland soil microorganisms, nitrogen addition, different nitrogen forms,
-nitrogen addition levels, Spartina alterniflora / wetland vegetation,
-nitrogen cycling processes, metagenomics, and soil nitrogen cycling functional genes.
+Yellow River Delta / coastal wetland soil microorganisms, vegetation types,
+coastal-inland or salinity gradients, bacterial and fungal communities,
+16S/ITS sequencing, FAPROTAX, FUNGuild, and environmental drivers such as EC,
+salinity, salt content, and pH.
 
 Main idea:
 This is not a strict keyword intersection filter.
@@ -53,14 +54,14 @@ RIS_PATH = OUTPUT_DIR / "daily_papers.ris"
 
 # 你认可的“方向样本”。这些不是必须完全同领域，但它们代表你想要的文献类型。
 SEED_TITLES = [
-    "Metagenomics reveals the response of desert steppe microbial communities and carbon-nitrogen cycling functional genes to nitrogen deposition",
-    "Soil metagenomic analysis on changes of functional genes and microorganisms involved in nitrogen-cycle processes of acidified tea soils",
-    "Salt marsh nitrogen cycling: where land meets sea",
-    "Salt marsh sediment bacteria: their distribution and response to external nutrient inputs",
-    "Differential responses of ammonia-oxidizing archaea and bacteria to long-term fertilization in a New England salt marsh",
-    "Microbial communities and carbon-nitrogen cycling functional genes respond to nitrogen deposition",
-    "Effects of Spartina alterniflora invasion on soil microbial community and nitrogen cycling",
-    "Metagenomic insights into nitrogen cycling functional genes in soil microbial communities",
+    "Soil microbial community structure under different vegetation types in Yellow River Delta wetlands",
+    "Bacterial and fungal communities in coastal wetland soils along a salinity gradient",
+    "Vegetation and soil salinity shape bacterial and fungal communities in coastal wetlands",
+    "Distance from coastline drives soil microbial diversity in coastal wetlands",
+    "FAPROTAX and FUNGuild reveal microbial functional profiles in wetland soils",
+    "Soil bacterial and fungal diversity in saline wetlands with different vegetation types",
+    "Environmental factors shape soil microbial community composition in coastal wetlands",
+    "Tamarix chinensis Suaeda salsa Phragmites australis soil microbial community",
 ]
 
 
@@ -190,84 +191,69 @@ def build_queries(keywords: List[str], max_queries: int = 60) -> List[str]:
 
     preferred = [
         # Seed-title-like queries
-        "Metagenomics reveals microbial communities carbon-nitrogen cycling functional genes nitrogen deposition",
-        "soil metagenomic analysis functional genes microorganisms nitrogen-cycle processes",
-        "functional genes microorganisms involved in nitrogen-cycle processes soil",
-        "microbial communities carbon-nitrogen cycling functional genes nitrogen deposition",
-        "metagenomics nitrogen deposition microbial communities functional genes",
+        "Yellow River Delta wetland soil microbial community",
+        "Yellow River Delta coastal wetland bacterial fungal community",
+        "vegetation type soil bacterial fungal community coastal wetland",
+        "distance from coastline soil microbial diversity coastal wetland",
+        "salinity gradient bacterial fungal community coastal wetland soil",
+        "FAPROTAX FUNGuild wetland soil microbial community",
 
         # Core topic
-        "soil nitrogen cycling functional genes",
-        "nitrogen-cycle functional genes soil microorganisms",
-        "soil microbial nitrogen cycling functional genes",
-        "metagenomics nitrogen cycling functional genes",
-        "soil metagenomic analysis nitrogen-cycle processes",
-        "microorganisms involved in nitrogen-cycle processes",
-        "carbon-nitrogen cycling functional genes microbial communities",
+        "soil bacterial fungal community vegetation type saline wetland",
+        "soil microbial community composition coastal saline wetland",
+        "soil microbial diversity coastal inland gradient",
+        "bacterial and fungal communities wetland soil salinity",
+        "16S ITS sequencing saline wetland soil microbial community",
+        "high-throughput sequencing soil bacterial fungal community wetland",
 
-        # Wetland / coastal wetland / salt marsh
-        "coastal wetland soil nitrogen cycling",
-        "wetland soil microbial nitrogen cycling",
-        "salt marsh nitrogen cycling",
-        "salt marsh microbial nitrogen cycling",
-        "salt marsh sediment nitrogen cycling",
-        "tidal wetland microbial nitrogen cycling",
-        "estuarine wetland nitrogen cycling",
+        # Wetland / coastal wetland / salt marsh / Yellow River Delta
+        "coastal wetland soil microbial community",
+        "wetland soil bacterial community fungal community",
+        "salt marsh soil microbial community vegetation",
+        "tidal wetland microbial community salinity",
+        "estuarine wetland soil microbial diversity",
         "coastal saline wetland microbial community",
-        "land sea interface nitrogen cycling",
+        "coastal soil microbial community salinity gradient",
         "Yellow River Delta wetland microbial community",
-        "Yellow River Delta soil microbial nitrogen cycling",
+        "Yellow River Delta saline soil microbial community",
 
-        # Nitrogen addition / deposition / enrichment
-        "nitrogen addition soil microbial community",
-        "nitrogen addition soil nitrogen cycling functional genes",
-        "nitrogen addition microbial functional genes",
-        "nitrogen deposition microbial communities functional genes",
-        "nitrogen deposition carbon-nitrogen cycling functional genes",
-        "nitrogen enrichment wetland soil microbial community",
-        "nitrogen loading salt marsh microbial community",
-        "nutrient enrichment salt marsh microbial community",
-        "long-term nitrogen addition soil microbial community",
-
-        # Nitrogen forms and levels
-        "ammonium addition soil microbial community",
-        "nitrate addition soil microbial community",
-        "ammonium addition soil nitrogen cycling",
-        "nitrate addition soil nitrogen cycling",
-        "ammonium versus nitrate soil microbial nitrogen cycling",
-        "different nitrogen forms soil microbial community",
-        "different nitrogen forms nitrogen cycling functional genes",
-        "nitrogen addition gradient soil microbial community",
-        "nitrogen addition levels soil microbial functional genes",
-        "low medium high nitrogen addition soil microbial community",
-
-        # Processes and genes
-        "nitrification denitrification DNRA nitrogen fixation functional genes",
-        "ammonia oxidation nitrate reduction denitrification wetland soil",
-        "amoA hao nirK nirS norB norC nosZ nrfA nifH soil",
-        "nrfA nosZ nirK nirS wetland soil nitrogen cycling",
-        "KEGG nitrogen metabolism soil metagenomics",
-        "FAPROTAX nitrogen cycling wetland soil microbial community",
-
-        # Vegetation, invasion and rhizosphere
-        "Spartina alterniflora invasion soil microbial community",
-        "Spartina alterniflora invasion nitrogen cycling",
-        "Spartina alterniflora soil nitrogen cycling functional genes",
-        "salt marsh invasion Spartina alterniflora microbial community",
-        "wetland plant invasion soil microbial community nitrogen cycling",
-        "Phragmites australis soil microbial nitrogen cycling",
-        "Suaeda salsa soil microbial community nitrogen cycling",
+        # Vegetation and rhizosphere
         "Tamarix chinensis soil microbial community",
-        "halophyte rhizosphere soil nitrogen cycling",
+        "Suaeda salsa soil microbial community",
+        "Phragmites australis soil microbial community",
+        "Tamarix chinensis Suaeda salsa Phragmites australis soil microorganisms",
+        "wetland vegetation soil microbial community coastal wetland",
+        "halophyte rhizosphere soil microbial community",
         "salt-tolerant vegetation soil microbial community",
+        "reed wetland soil fungal bacterial community",
+        "tamarisk wetland soil microbial community",
 
         # Environmental drivers
-        "salinity gradient soil microbial community nitrogen cycling",
-        "saline-alkali soil microbial community nitrogen cycling",
-        "soil salinity nitrogen cycling functional genes",
-        "soil pH salinity microbial nitrogen cycling",
-        "soil moisture microbial nitrogen cycling wetland",
-        "coastal salinity gradient microbial community",
+        "soil salinity microbial community coastal wetland",
+        "soil electrical conductivity microbial community",
+        "soil EC salinity bacterial fungal community",
+        "salt content soil microbial community wetland",
+        "soil pH salinity microbial community wetland",
+        "soil physicochemical properties bacterial fungal community",
+        "vegetation salinity interaction soil microbial community",
+        "site vegetation interaction soil microbial community",
+
+        # Community statistics and functional prediction
+        "alpha diversity beta diversity soil microbial community coastal wetland",
+        "PCoA NMDS Bray-Curtis soil microbial community wetland",
+        "PERMANOVA ANOSIM soil microbial community vegetation wetland",
+        "UpSet Venn OTU bacterial fungal community wetland soil",
+        "FAPROTAX predicted bacterial function wetland soil",
+        "FUNGuild fungal trophic mode wetland soil",
+        "saprotroph pathotroph symbiotroph coastal wetland soil fungi",
+        "Ascomycota Basidiomycota wetland soil fungal community",
+        "Proteobacteria Chloroflexi Actinobacteriota wetland soil bacterial community",
+
+        # Supporting nitrogen context, not the main filter
+        "wetland soil nitrogen cycling microbial community",
+        "coastal wetland nitrogen cycling bacterial community",
+        "salt marsh nitrogen cycling microbial community",
+        "FAPROTAX nitrogen cycling wetland soil microbial community",
     ]
 
     merged = SEED_TITLES + preferred + keywords
@@ -502,7 +488,6 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
             record.get("title", ""),
             record.get("abstract", ""),
             record.get("journal", ""),
-            record.get("query", ""),
         ]
     ).lower()
 
@@ -510,13 +495,16 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         return -999, {"excluded": 1}
 
     seed_signal_terms = [
-        "metagenomics reveals",
-        "soil metagenomic analysis",
-        "functional genes and microorganisms",
-        "carbon-nitrogen cycling functional genes",
-        "nitrogen-cycle processes",
-        "nitrogen deposition",
-        "salt marsh nitrogen cycling",
+        "yellow river delta",
+        "coastal wetland",
+        "salinity gradient",
+        "distance from coastline",
+        "vegetation type",
+        "bacterial and fungal communities",
+        "soil microbial community",
+        "faprotax",
+        "funguild",
+        "trophic mode",
     ]
 
     ecosystem_terms = [
@@ -539,6 +527,9 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "desert steppe",
         "tea soil",
         "acidified tea soil",
+        "yellow river delta",
+        "coastal-inland",
+        "coastal inland",
     ]
 
     soil_terms = [
@@ -564,6 +555,17 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "fungal community",
         "community structure",
         "microbial diversity",
+        "bacterial diversity",
+        "fungal diversity",
+        "alpha diversity",
+        "beta diversity",
+        "otu",
+        "otus",
+        "16s",
+        "16s rrna",
+        "its",
+        "amplicon sequencing",
+        "high-throughput sequencing",
     ]
 
     nitrogen_terms = [
@@ -622,6 +624,14 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "funguild",
         "functional potential",
         "functional prediction",
+        "predicted bacterial function",
+        "fungal guild",
+        "fungal trophic",
+        "trophic mode",
+        "saprotroph",
+        "pathotroph",
+        "symbiotroph",
+        "pathogen",
         "nitrogen metabolism",
         "carbon-nitrogen cycling",
         "c-n cycling",
@@ -661,6 +671,10 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "invasion",
         "vegetation type",
         "rhizosphere",
+        "wetland vegetation",
+        "plant community",
+        "reed",
+        "tamarisk",
     ]
 
     network_terms = [
@@ -671,6 +685,46 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "microbial interaction",
         "bacterial-fungal",
         "bacteria-fungi",
+        "pcoa",
+        "nmds",
+        "bray-curtis",
+        "permanova",
+        "anosim",
+        "upset",
+        "venn",
+        "two-way anova",
+    ]
+
+    environment_terms = [
+        "salinity",
+        "salt content",
+        "electrical conductivity",
+        "soil ec",
+        "ec",
+        "ph",
+        "physicochemical properties",
+        "environmental factor",
+        "environmental factors",
+        "environmental driver",
+        "environmental drivers",
+        "distance from coastline",
+        "coastline",
+        "coastal-inland gradient",
+        "salinity gradient",
+    ]
+
+    taxa_terms = [
+        "proteobacteria",
+        "chloroflexi",
+        "actinobacteriota",
+        "bacteroidota",
+        "gemmatimonadota",
+        "acidobacteriota",
+        "desulfobacterota",
+        "ascomycota",
+        "basidiomycota",
+        "chytridiomycota",
+        "rozellomycota",
     ]
 
     counts = {
@@ -683,33 +737,40 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "function": sum(1 for term in function_terms if term in text),
         "vegetation": sum(1 for term in vegetation_terms if term in text),
         "network": sum(1 for term in network_terms if term in text),
+        "environment": sum(1 for term in environment_terms if term in text),
+        "taxa": sum(1 for term in taxa_terms if term in text),
     }
 
     score = (
         counts["seed"] * 8
-        + counts["function"] * 5
-        + counts["nitrogen"] * 4
-        + counts["addition"] * 4
+        + counts["microbe"] * 5
+        + counts["ecosystem"] * 4
+        + counts["vegetation"] * 4
+        + counts["environment"] * 4
+        + counts["function"] * 3
         + counts["microbe"] * 3
         + counts["soil"] * 3
-        + counts["ecosystem"] * 2
-        + counts["vegetation"] * 2
-        + counts["network"] * 1
+        + counts["taxa"] * 2
+        + counts["network"] * 2
+        + counts["nitrogen"] * 1
+        + counts["addition"] * 1
     )
 
     # Bonus: title-level match is more important than query-only match
     title = record.get("title", "").lower()
-    if "metagenomic" in title or "metagenomics" in title:
+    if "yellow river delta" in title:
+        score += 12
+    if "coastal wetland" in title or "salt marsh" in title or "wetland" in title:
         score += 8
-    if "functional gene" in title or "functional genes" in title:
+    if "bacterial" in title and "fungal" in title:
         score += 8
-    if "nitrogen deposition" in title or "nitrogen addition" in title:
+    if "microbial community" in title or "microbial communities" in title:
         score += 6
-    if "nitrogen-cycle" in title or "nitrogen cycling" in title:
+    if "salinity" in title or "electrical conductivity" in title or "soil ec" in title:
         score += 6
-    if "salt marsh" in title or "wetland" in title:
+    if "vegetation" in title or "tamarix" in title or "suaeda" in title or "phragmites" in title:
         score += 4
-    if "microbial communities" in title or "microbial community" in title:
+    if "faprotax" in title or "funguild" in title:
         score += 4
 
     return score, counts
@@ -721,28 +782,49 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
     if score < 0:
         return (
             "D",
-            "排除：主题更接近医学、食品、动物、工业或其他明显偏离土壤微生物/湿地氮循环方向的研究。",
+            "排除：主题更接近医学、食品、动物、工业或其他明显偏离滨海湿地土壤微生物方向的研究。",
             "08_低相关暂存",
             score,
             counts,
         )
 
     # A 类：与种子文献或研究主题高度相似
-    if score >= 22:
+    core_topic_signal = (
+        counts.get("ecosystem", 0) >= 2
+        or counts.get("vegetation", 0) >= 1
+        or counts.get("seed", 0) >= 2
+        or counts.get("function", 0) >= 2
+    )
+
+    if score >= 22 and core_topic_signal:
+        collection = "01_黄河三角洲滨海湿地"
+        if counts.get("function", 0) >= 2:
+            collection = "06_FAPROTAX和功能预测"
+        elif counts.get("vegetation", 0) >= 2:
+            collection = "02_植被类型与土壤微生物"
+        elif counts.get("environment", 0) >= 2:
+            collection = "03_盐度EC和环境因子"
         return (
             "A",
-            "高度相关：与种子文献或用户课题在宏基因组、微生物群落、土壤氮循环功能基因、氮添加/氮沉降、氮循环过程、湿地/盐沼/植被等方向高度相似，建议优先阅读。",
-            "03_土壤氮循环功能基因",
+            "高度相关：与当前论文在黄河三角洲/滨海湿地、植被类型、盐度或距海梯度、土壤细菌/真菌群落、多样性或功能预测等方向高度相似，建议优先阅读。",
+            collection,
             score,
             counts,
         )
 
     # B 类：相似研究，适合讨论和扩展阅读
     if score >= 13:
+        collection = "07_测序与群落分析方法"
+        if counts.get("function", 0) >= 1:
+            collection = "06_FAPROTAX和功能预测"
+        elif counts.get("vegetation", 0) >= 1:
+            collection = "02_植被类型与土壤微生物"
+        elif counts.get("environment", 0) >= 1:
+            collection = "03_盐度EC和环境因子"
         return (
             "B",
-            "中等相关：与用户课题在土壤微生物、氮循环、氮添加、功能基因、湿地环境或植被影响中的部分方向相似，可用于讨论或补充阅读。",
-            "07_讨论部分可引用文献",
+            "中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似，可用于讨论或补充阅读。",
+            collection,
             score,
             counts,
         )
@@ -751,7 +833,7 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
     if score >= 8:
         return (
             "C",
-            "间接相关：与湿地环境、微生物群落、氮循环、植被或土壤过程有一定联系，可作为背景文献暂存。",
+            "间接相关：与湿地环境、土壤微生物群落、植被、盐度梯度或功能预测有一定联系，可作为背景文献暂存。",
             "08_低相关暂存",
             score,
             counts,
@@ -759,7 +841,7 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
 
     return (
         "D",
-        "排除：与湿地、土壤微生物、氮循环、氮添加或土壤氮循环功能基因的关联较弱。",
+        "排除：与黄河三角洲/滨海湿地、盐碱土、植被梯度、土壤细菌/真菌群落或功能预测的关联较弱。",
         "08_低相关暂存",
         score,
         counts,
