@@ -1,20 +1,18 @@
 TY  - JOUR
-TI  - Responses of Soil Microbiota to Different Control Methods of the Spartina alterniflora in the Yellow River Delta
-AU  - Liangyu Li
-AU  - Xiangyang Jiang
-AU  - Quanli Zhou
-AU  - Jun Chen
-AU  - Y. Zang
-AU  - Zaiwang Zhang
-AU  - Chen Gao
-AU  - Xuexi Tang
-AU  - Shuai Shang
-JO  - Microorganisms
+TI  - Shifts in Soil Microbial Community Composition, Function, and Co-occurrence Network of Phragmites australis in the Yellow River Delta
+AU  - Pengcheng Zhu
+AU  - Shuren Yang
+AU  - Yuxin Wu
+AU  - Yuning Ru
+AU  - Xiaona Yu
+AU  - Lushan Wang
+AU  - Weihua Guo
+JO  - Frontiers in Microbiology
 PY  - 2022
-DO  - 10.3390/microorganisms10061122
-UR  - https://www.semanticscholar.org/paper/2b286ef7dbf72009cc034d007e84f7380cf40ae7
-AB  - Spartina alterniflora invasion has negative effects on the structure and functioning of coastal wetland ecosystems. Therefore, many methods for controlling S. alterniflora invasion have been developed. S. alterniflora control methods can affect plant community, which results in changes in microbial communities and subsequent changes in soil ecological processes. However, the effects of controlling S. alterniflora on soil microbial communities remain poorly understood. We aimed to examine the responses of bacterial and fungal communities to invasion control methods (cutting plus tilling treatment: CT; mechanical rolling treatment: MR). Soil bacterial and fungal community diversity and composition structure were assessed using high-throughput sequencing technology. The findings of the study showed that bacterial diversity and richness in the CT treatment reduced substantially, but fungal diversity and richness did not show any remarkable change. Bacterial and fungal diversity and richness in the MR treatment were not affected considerably. In addition, the two control methods significantly changed the soil microbial community structure. The relative abundance of bacteria negatively associated with nutrient cycling increased considerably in the CT treatment. The considerable increases in the relative abundance of certain bacterial taxa in the MR treatment may promote soil nutrient cycling. Compared with mechanical rolling, soil bacterial community diversity and structure were more sensitive to cutting plus tilling.
-N1  - Level: A; Score: 195; Source: Semantic Scholar
+DO  - 10.3389/fmicb.2022.858125
+UR  - https://doi.org/10.3389/fmicb.2022.858125
+AB  - Soil microorganisms play vital roles in regulating biogeochemical processes. The composition and function of soil microbial community have been well studied, but little is known about the responses of bacterial and fungal communities to different habitats of the same plant, especially the inter-kingdom co-occurrence pattern including bacteria and fungi. Herein, we used high-throughput sequencing to investigate the bacterial and fungal communities of five Phragmites australis habitats in the Yellow River Delta and constructed their inter-kingdom interaction network by network analysis. The results showed that richness did not differ significantly among habitats for either the bacterial or fungal communities. The distribution of soil bacterial community was significantly affected by soil physicochemical properties, whereas that of the fungal community was not. The main functions of the bacterial and fungal communities were to participate in the degradation of organic matter and element cycling, both of which were significantly affected by soil physicochemical properties. Network analysis revealed that bacteria and fungi participated in the formation of networks through positive interactions; the role of intra-kingdom interactions were more important than inter-kingdom interactions. In addition, rare species acted as keystones played a critical role in maintaining the network structure, while NO 3 − − N likely played an important role in maintaining the network topological properties. Our findings provided insights into the inter-kingdom microbial co-occurrence network and response of the soil microbial community composition and function to different P. australis habitats in coastal wetlands, which will deepen our insights into microbial community assembly in coastal wetlands.
+N1  - Level: A; Score: 221; Source: Crossref
 ER  -
 
 TY  - JOUR
@@ -27,9 +25,63 @@ AU  - Jianjun Yang
 JO  - Microorganisms
 PY  - 2024
 DO  - 10.3390/microorganisms12071268
-UR  - https://www.semanticscholar.org/paper/9119636ac3c5cc08795d0754c892ed9103228316
+UR  - https://doi.org/10.3390/microorganisms12071268
 AB  - The response of microbiomes to salinity has been clarified in different geographic scales or ecosystems. However, how soil microbial community structure and interaction respond to salinity across wide salinity range and climatic region is still unclearly resolved. To address this issue, we examined the microbial community’s composition in saline soils from two climatic regions (coastal wetland and arid desert). Our research confirms that soil salinity had a negative effect on soil nutrient content. Salinity decreased the relative abundance of bacteria, but increased archaea abundance, leading to the shifts from bacteria dominant community to archaea dominant community. Low-water medium-salinity soil (LWMS) had the most complex archaeal community network, whereas for bacteria, the most complex bacterial community network was observed in low-water high-salinity soils (LWHS). Key microbial taxa differed in three salinity gradients. Salinity, soil water content, pH, total nitrogen (TN), and soil organic carbon (SOC) were the main driving factors for the composition of archaeal and bacterial community. Salinity directly affected archaeal community, but indirectly influenced bacteria community through SOC; pH affected archaeal community indirectly through TN, but directly affected bacterial community. Our study suggests that soil salinity dramatically influences diversity, composition, and interactions within the microbial community.
-N1  - Level: A; Score: 161; Source: Semantic Scholar
+N1  - Level: B; Score: 163; Source: Crossref
+ER  -
+
+TY  - JOUR
+TI  - Shifts in the soil bacterial community along a salinity gradient in the Yellow River Delta
+AU  - Qingqing Zhao
+AU  - Junhong Bai
+AU  - Yongchao Gao
+AU  - Haixiao Zhao
+AU  - Guangliang Zhang
+AU  - Baoshan Cui
+JO  - Land Degradation & Development
+PY  - 2020
+DO  - 10.1002/ldr.3594
+UR  - https://doi.org/10.1002/ldr.3594
+AB  - Abstract Soil salinization has rapidly encroached from the coastline to inland areas over the past two decades in the Yellow River Delta (YRD). Soil samples were collected from low‐ (LSW), medium‐ (MSW), and high‐ (HSW) salinity wetlands at a depth of 0–20 cm for 16S rRNA sequencing and bioinformatic analyses. The richness and α‐diversity indices were significantly lower in saline soils (ECe > 15 dS/m, HSW) than in soils those were not saline (ECe 4) among LSW, MSW, and HSW, respectively, implying that they can serve as bioindicators of soil salinization. Redundancy analysis, Spearman correlation analysis, and the Mantel test suggested that salinity parameters (EC, Na + , K + , Mg 2+ , Ca 2+ , Cl − , and SO 4 2− ) prominently structured the bacterial community in the current study. These results suggest that the changes of bacterial composition would be induced in these LSW and MSW soils once seawater intrusion occurs.
+N1  - Level: A; Score: 160; Source: Crossref
+ER  -
+
+TY  - JOUR
+TI  - Environmental Filtering by pH and Salinity Jointly Drives Prokaryotic Community Assembly in Coastal Wetland Sediments
+AU  - Huang Yu
+AU  - Qiuping Zhong
+AU  - Yisheng Peng
+AU  - Xiafei Zheng
+AU  - Fanshu Xiao
+AU  - Bo Wu
+AU  - Xiaoli Yu
+AU  - Zhiwen Luo
+AU  - Longfei Shu
+AU  - Cheng Wang
+AU  - Qingyun Yan
+AU  - Zhili He
+JO  - Frontiers in Marine Science
+PY  - 2022
+DO  - 10.3389/fmars.2021.792294
+UR  - https://doi.org/10.3389/fmars.2021.792294
+AB  - Understanding the microbial community assembly is an essential topic in microbial ecology. Coastal wetlands are an important blue carbon sink, where microbes play a key role in biogeochemical cycling of nutrients and energy transformation. However, the drivers controlling the distribution patterns and assembly of bacterial and archaeal communities in coastal wetland are unclear. Here we examined the diversity, co-occurrence network, assembly processes and environmental drivers of bacterial and archaeal communities from inshore to offshore sediments by the sequencing of 16S rRNA gene amplicons. The value of α- and β-diversity of bacterial and archaeal communities generally did not change significantly ( P > 0.05) between offshore sites, but changed significantly ( P < 0.05) among inshore sites. Sediment pH and salinity showed significant effects on the diversity and keystone taxa of bacterial and archaeal communities. The bacterial and archaeal co-occurrence networks were inextricably linked with pH and salinity to formed the large network nodes, suggesting that they were the key factors to drive the prokaryotic community. We also identified that heterogeneous and homogeneous selection drove the bacterial and archaeal community assembly, while the two selections became weaker from offshore sites to inshore sites, suggesting that deterministic processes were more important in offshore sites. Overall, these results suggested that the environmental filtering of pH and salinity jointly governed the assembly of prokaryotic community in offshore sediments. This study advances our understanding of microbial community assembly in coastal wetland ecosystems.
+N1  - Level: A; Score: 142; Source: Crossref
+ER  -
+
+TY  - JOUR
+TI  - Effects of Polycyclic Aromatic Hydrocarbons on the Composition of the Soil Bacterial Communities in the Tidal Flat Wetlands of the Yellow River Delta of China
+AU  - Yue Qi
+AU  - Yuxuan Wu
+AU  - Qiuying Zhi
+AU  - Zhe Zhang
+AU  - Yilei Zhao
+AU  - Gang Fu
+JO  - Microorganisms
+PY  - 2024
+DO  - 10.3390/microorganisms12010141
+UR  - https://doi.org/10.3390/microorganisms12010141
+AB  - Polycyclic aromatic hydrocarbons (PAHs) are pervasive organic pollutants in coastal ecosystems, especially in tidal flat wetlands. However, the mechanisms through which PAHs impact the soil bacterial communities of wetlands featuring a simple vegetation structure in the Yellow River Delta (China) remain largely unclear. In this study, we examined soil samples from two sites featuring a single vegetation type (Suaeda salsa) in the Yellow River Delta. Specifically, we investigated the impacts of PAHs on the diversity and composition of soil bacteria communities through high-throughput 16 S rRNA sequencing. PAHs significantly increased the soil organic carbon content but decreased the total phosphorus content (p = 0.02). PAH contamination notably reduced soil bacterial community α diversity (Shannon index) and β diversity. Furthermore, PAHs significantly altered the relative abundance of bacterial phyla, classes, and genera (p < 0.05). Specifically, PAHs increased the relative abundance of the bacterial phyla Acidobacteriota and Gemmatimonadota (p < 0.05), while decreasing the relative abundance of Bacteroidota, Desulfobacterota, and Firmicutes compared to the control wetland (p < 0.05). Moreover, PAHs and certain soil properties [total nitrogen (TN), soil organic carbon (SOC), total phosphorus (TP), and total salt (TS)] were identified as key parameters affecting the community of soil bacteria, with the abundance of specific bacteria being both negatively and positively affected by PAHs, SOC, and TN. In summary, our findings could facilitate the identification of existing environmental problems and offer insights for improving the protection and management of tidal flat wetland ecosystems in the Yellow River Delta of China.
+N1  - Level: B; Score: 140; Source: Crossref
 ER  -
 
 TY  - JOUR
@@ -45,500 +97,58 @@ PY  - 2013
 DO  - 10.1139/cjm-2013-0212
 UR  - https://doi.org/10.1139/cjm-2013-0212
 AB  - We analyzed the composition and diversity of a bacterial community to determine its response to increasing salinity in the Xiangsi Lake wetland in the arid region of northwest China. We studied 12 sites, ranging from freshwater to saltwater habitats, using polymerase chain reaction (PCR)-based terminal restriction fragment length polymorphism (T-RFLP) and sequencing of the 16S rRNA genes of 5 selected samples. Cluster analysis and phylogenetic analysis revealed that the bacterial community changed significantly in response to increased salinity within the small-scale wetland (50.8 km 2 ). Detailed analysis showed that (i) Betaproteobacteria can maintain balanced growth over a salinity range (from 0.34 to 6.86 g/L) through intergenus changes in community structure, followed by a sharp decrease in relative abundance (from 62.2% to 16.0%) when salinity reaches 26.18 g/L; (ii) salt-sensitive and halophobic taxa were progressively replaced by halotolerant and halophilic taxa with increasing salinity; (iii) bacterial diversity was lowest at intermediate salinity levels (6.86 g/L); and (iv) an increasing percentage of unclassified bacterial taxa were found with increasing salinity. This study has implications to improve understanding of bacterial community response to water salinization.
-N1  - Level: A; Score: 112; Source: Crossref
+N1  - Level: A; Score: 127; Source: Crossref
 ER  -
 
 TY  - JOUR
-TI  - Seasonal variations of soil bacterial communities in Suaeda wetland of Shuangtaizi River estuary, Northeast China.
-AU  - Xuwang Zhang
-AU  - Zhe Ji
-AU  - Yating Shao
-AU  - Chaocheng Guo
-AU  - Hao Zhou
-AU  - Lifen Liu
-AU  - Y. Qu
-JO  - Journal of Environmental Science
-PY  - 2020
-DO  - 10.1016/j.jes.2020.04.012
-UR  - https://www.semanticscholar.org/paper/e096d55e1852cba2f09dfec05cd19c38556992c2
-AB  - Estuarine wetland is the transitional interface linking terrestrial with marine ecosystems, and wetland microbes are crucial to the biogeochemical cycles of nutrients. The soil samples were collected in four seasons (spring, S1; summer, S2; autumn, S3; and winter, S4) from Suaeda wetland of Shuangtaizi River estuary, Northeast China, and the variations of bacterial community were evaluated by high-throughput sequencing. Soil properties presented a significant seasonal change, including pH, carbon (C) and total nitrogen (TN), and the microbial diversity, richness and structure also differed with seasons. Canonical correspondence analysis (CCA) and Mantel tests implied that soil pH, C and TN were the key factors structuring the microbial community. Gillisia (belonging to Bacteroidetes) and Woeseia (affiliating with Gammaproteobacteria) were the two primary components in the rhizosphere soils, displaying opposite variations with seasons. Based on PICRUSt (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) prediction, the xenobiotics biodegradation related genes exhibited a seasonal decline, while the majority of biomarker genes involved in nitrogen cycle showed an ascending trend. These findings could advance the understanding of rhizosphere microbiota of Suaeda in estuarine wetland.
-N1  - Level: A; Score: 109; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Salinity-driven differentiation of bacterial and fungal communities in coastal wetlands: Contrasting assembly processes and spatial dynamics
-AU  - Jisheng Xu
-AU  - Lin Chen
-AU  - Tantan Zhou
-AU  - Congzhi Zhang
-AU  - Jiabao Zhang
-AU  - Bingzi Zhao
-JO  - Environmental Research
-PY  - 2025
-DO  - 10.1016/j.envres.2025.121895
-UR  - https://doi.org/10.1016/j.envres.2025.121895
-N1  - Level: A; Score: 82; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Effects of Exotic Spartina alterniflora Invasion on Soil Phosphorus and Carbon Pools and Associated Soil Microbial Community Composition in Coastal Wetlands
-DO  - 10.1021/acsomega.0c06161.s001
-UR  - https://doi.org/10.1021/acsomega.0c06161.s001
-N1  - Level: A; Score: 81; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Variations in Soil Fungal Community Composition Along A Salinity Gradient in Yellow River Delta, China
-AU  - Bo Guan
-AU  - Guanru Lu
-AU  - Aixin Hou
-AU  - Xiaofei Lyu
-AU  - Zhikang Wang
-AU  - Jisong Yang
-AU  - Junbao Yu
-AU  - Zhengwei Liang
-AU  - Hongjin Qiao
-AU  - Fachun Guan
-JO  - Chinese Geographical Science
-PY  - 2025
-DO  - 10.1007/s11769-025-1562-x
-UR  - https://www.semanticscholar.org/paper/8906fa2d3c4f525fbcc435d1a46d987078ba5827
-N1  - Level: A; Score: 77; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Distinct accumulation of bacterial and fungal residues along a salinity gradient in coastal salt-affected soils
-AU  - Jiancheng Chen
-AU  - Hui Wang
-AU  - Guoqing Hu
-AU  - Xuhua Li
-AU  - Yuanjie Dong
-AU  - Yuping Zhuge
-AU  - Hongbo He
-AU  - Xudong Zhang
-JO  - Soil Biology and Biochemistry
-PY  - 2021
-DO  - 10.1016/j.soilbio.2021.108266
-UR  - https://doi.org/10.1016/j.soilbio.2021.108266
-N1  - Level: A; Score: 76; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Figure 3: Lefse of soil bacterial community (A) and fungal community (B) under different vegetation types.
-DO  - 10.7717/peerj.12098/fig-3
-UR  - https://doi.org/10.7717/peerj.12098/fig-3
-N1  - Level: A; Score: 67; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Controlling factors for soil bacterial and fungal diversity and composition vary with vegetation types in alpine grasslands
-AU  - Junxiao Pan
-AU  - Yifei Peng
-AU  - Jinsong Wang
-AU  - Dashuan Tian
-AU  - Ruiyang Zhang
-AU  - Yang Li
-AU  - Lu Yang
-AU  - Song Wang
-AU  - Chen Chen
-AU  - Shuli Niu
-JO  - Applied Soil Ecology
-PY  - 2023
-DO  - 10.1016/j.apsoil.2022.104777
-UR  - https://doi.org/10.1016/j.apsoil.2022.104777
-N1  - Level: A; Score: 67; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Table 3: List of fungal and bacterial functional groups ordered alphabetically and identified through ASVs matches in FUNGuild and FAPROTAX, respectively.
-DO  - 10.7717/peerj.21048/table-3
-UR  - https://doi.org/10.7717/peerj.21048/table-3
-N1  - Level: A; Score: 66; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Molecular Composition of Humic Acids from Coastal Wetland Soils along a Salinity Gradient
-AU  - Syam K. Dodla
-AU  - Jim J. Wang
-AU  - Robert L. Cook
-JO  - Soil Science Society of America Journal
-PY  - 2012
-DO  - 10.2136/sssaj2011.0346
-UR  - https://doi.org/10.2136/sssaj2011.0346
-N1  - Level: A; Score: 64; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Succession of Denitrifying Community Composition in Coastal Wetland Soils Along a Salinity Gradient
-AU  - Zhe PIAO
-AU  - Wen-Wen ZHANG
-AU  - Shuai MA
-AU  - Yu-Min LI
-AU  - Shi-Xue YIN
-JO  - Pedosphere
-PY  - 2012
-DO  - 10.1016/s1002-0160(12)60023-x
-UR  - https://doi.org/10.1016/s1002-0160(12)60023-x
-N1  - Level: A; Score: 64; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Methane emissions under vegetation succession regulated by soil conditions and microbes in Yellow River Delta wetlands
-AU  - Yunxuan Han
-AU  - Linhui Ji
-AU  - Yu Xin
-AU  - Zihao Wang
-AU  - Xia Gao
-AU  - Lei Yu
-AU  - Dufa Guo
-AU  - Hongjie Di
-AU  - Xiaoya Xu
-JO  - Applied Soil Ecology
+TI  - Unveiling the Hidden Drivers: How Vegetation Cover, Season and Forest Management Shape the Soil Microbial Community in Two Mediterranean Forest Ecosystems
+AU  - Enrica Picariello
+AU  - Flavia De Nicola
+JO  - Environmental Microbiology Reports
 PY  - 2026
-DO  - 10.1016/j.apsoil.2026.107051
-UR  - https://doi.org/10.1016/j.apsoil.2026.107051
-N1  - Level: A; Score: 55; Source: Crossref
+DO  - 10.1111/1758-2229.70255
+UR  - https://doi.org/10.1111/1758-2229.70255
+AB  - ABSTRACT Soil provides essential ecosystem services and serves as a habitat for biodiversity, but it is often affected by disturbances from management practices and seasonal changes, which can alter its microbial communities. This study investigated the combined effects of dominant vegetation, forest management, and seasonal variation on soil microbial communities and enzyme activity over one year in turkey oak and beech forests managed as high forest or coppice. Results showed that the dominant vegetation type had a greater influence on microbial communities than seasonal changes. While forest management did not significantly affect microbial activity, it altered microbial community composition. In beech forests, bacterial communities (at the order level) showed relative abundances higher in soil under high forest with respect to coppice, whereas the fungal community showed orders most abundant under coppice management with respect to the high forest. Forest management changed the relative abundances of microbial communities, but it did not remarkably affect microbial community functions and, thus, the associated ecosystem services. Our results highlight that the forest type should be considered when evaluating forest management. This study offers new insights into the factors influencing the composition of soil microbial communities and their associated ecosystem functions.
+N1  - Level: B; Score: 111; Source: Crossref
 ER  -
 
 TY  - JOUR
-TI  - Coexistence mechanisms of Tamarix chinensis and Suaeda salsa in the Yellow River Delta, China
-AU  - Yanan Wu
-AU  - Liyi Dai
-AU  - Yu Wang
-AU  - Lumeng Xie
-AU  - Shiqiang Zhao
-AU  - Ying Liu
-AU  - Mingxiang Zhang
-AU  - Zhenming Zhang
-JO  - Environmental Science and Pollution Research
-PY  - 2020
-DO  - 10.1007/s11356-020-08883-1
-UR  - https://doi.org/10.1007/s11356-020-08883-1
-N1  - Level: A; Score: 52; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Heavy metal contents and transfer capacities of Phragmites australis and Suaeda salsa in the Yellow River Delta, China
-AU  - Shuai Zhang
-AU  - Junhong Bai
-AU  - Wei Wang
-AU  - Laibing Huang
-AU  - Guangliang Zhang
-AU  - Dawei Wang
-JO  - Physics and Chemistry of the Earth, Parts A/B/C
-PY  - 2018
-DO  - 10.1016/j.pce.2018.02.011
-UR  - https://doi.org/10.1016/j.pce.2018.02.011
-N1  - Level: A; Score: 52; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Variation of soil nutrients and particle size under different vegetation types in the Yellow River Delta
-AU  - Shuying Jiao
-AU  - Min Zhang
-AU  - Yamei Wang
-AU  - Junqing Liu
-AU  - Yiongqiang Li
-JO  - Acta Ecologica Sinica
-PY  - 2014
-DO  - 10.1016/j.chnaes.2014.03.003
-UR  - https://doi.org/10.1016/j.chnaes.2014.03.003
-N1  - Level: A; Score: 51; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Assessment of soil microbial communities and diversity in typical coastal wetlands along a succession gradient: Implications for reconstructing the long-term evolution of coastal wetlands
-AU  - Xiao Huang
-AU  - Ze He
-AU  - Ying Wang
-AU  - Fenghua Wang
-AU  - Ziying Zheng
-AU  - Yutao Zuo
-AU  - Yihang Cao
-AU  - Xiaomeng Yao
-AU  - Zijing She
-AU  - Yawen Ge
-AU  - Yuecong Li
-JO  - Environmental Technology & Innovation
-PY  - 2025
-DO  - 10.1016/j.eti.2025.104263
-UR  - https://doi.org/10.1016/j.eti.2025.104263
-N1  - Level: A; Score: 49; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Sulfur-Oxidizing Bacteria Dominate Soil Microbial Interactions in Chinese Coastal Wetlands
-AU  - Lun Wang
-AU  - Kexin Zhang
-AU  - Jiqiu Li
-AU  - Xiaofeng Lin
-JO  - Journal of Ocean University of China
-PY  - 2026
-DO  - 10.1007/s11802-026-6420-7
-UR  - https://doi.org/10.1007/s11802-026-6420-7
-N1  - Level: A; Score: 49; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Composition and structural characteristics of soil microbial communities in Yancheng typical coastal wetlands
-AU  - 王钰祺，任玉蓉，廖安邦，董倩，刘茂松 WANG Yuqi
-JO  - Acta Ecologica Sinica
-PY  - 2023
-DO  - 10.5846/stxb202202280470
-UR  - https://doi.org/10.5846/stxb202202280470
-N1  - Level: A; Score: 49; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Multifractal characteristics of soil particle distribution under different vegetation types in the Yellow River Delta chenier of China
-AU  - Jiangbao Xia
-AU  - Ranran Ren
-AU  - Yinping Chen
-AU  - Jia Sun
-AU  - Ximei Zhao
-AU  - Shuyong Zhang
-JO  - Geoderma
-PY  - 2020
-DO  - 10.1016/j.geoderma.2020.114311
-UR  - https://doi.org/10.1016/j.geoderma.2020.114311
-N1  - Level: A; Score: 47; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Linking soil bacterial and fungal communities to vegetation succession following agricultural abandonment
-AU  - Kerong Zhang
-AU  - Xiaoli Cheng
-AU  - Xiao Shu
-AU  - Yi Liu
-AU  - Quanfa Zhang
-JO  - Plant and Soil
-PY  - 2018
-DO  - 10.1007/s11104-018-3743-1
-UR  - https://doi.org/10.1007/s11104-018-3743-1
-N1  - Level: B; Score: 47; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Salinity and nutrients shape soil microbial communities and functions in wetlands: Implications for conservation
-AU  - Meiqing Jia
-AU  - Wenjing Feng
-AU  - Xiuwen Zhang
-AU  - Xuefeng Hu
-AU  - Yinglong Xu
-AU  - Yuntao Gu
-AU  - Duanyin Zhang
-AU  - Tongchen Wang
-AU  - Jing Li
-AU  - Guogang Zhang
-AU  - Yidong Wang
-JO  - Global Ecology and Conservation
-PY  - 2025
-DO  - 10.1016/j.gecco.2025.e03779
-UR  - https://doi.org/10.1016/j.gecco.2025.e03779
-N1  - Level: A; Score: 47; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Plant-plant interactions and N fertilization shape soil bacterial and fungal communities
-AU  - Qingxue Guo
-AU  - Lijuan Yan
-AU  - Helena Korpelainen
-AU  - Ülo Niinemets
-AU  - Chunyang Li
-JO  - Soil Biology and Biochemistry
-PY  - 2019
-DO  - 10.1016/j.soilbio.2018.10.018
-UR  - https://doi.org/10.1016/j.soilbio.2018.10.018
-N1  - Level: B; Score: 44; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Properties of saline-alkaline soil under different land use types in Yellow River Delta
-AU  - Qing-Mei LI
-AU  - Long-Yu HOU
-AU  - Yan LIU
-AU  - Feng-Yun MA
-JO  - Chinese Journal of Eco-Agriculture
-PY  - 2009
-DO  - 10.3724/sp.j.1011.2009.01132
-UR  - https://doi.org/10.3724/sp.j.1011.2009.01132
-N1  - Level: A; Score: 43; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Biological interactions control bacterial but not fungal β diversity during vegetation degradation in saline–alkaline soil
-AU  - Miao Liu
-AU  - Xianguo Lv
-AU  - Wenguang Zhang
-AU  - Ming Jiang
-AU  - Lei Tian
-AU  - Lei Qin
-AU  - Yuanchun Zou
-JO  - Science of The Total Environment
+TI  - Soil fungal and bacterial communities reflect differently tundra vegetation state transitions and soil physico‐chemical properties
+AU  - Karoliina Huusko
+AU  - Outi H. Manninen
+AU  - Eero Myrsky
+AU  - Sari Stark
+JO  - New Phytologist
 PY  - 2024
-DO  - 10.1016/j.scitotenv.2024.170826
-UR  - https://doi.org/10.1016/j.scitotenv.2024.170826
-N1  - Level: B; Score: 43; Source: Crossref
+DO  - 10.1111/nph.19808
+UR  - https://doi.org/10.1111/nph.19808
+AB  - Summary Strong disturbances may induce ecosystem transitions into new alternative states that sustain through plant–soil interactions, such as the transition of dwarf shrub‐dominated into graminoid‐dominated vegetation by herbivory in tundra. Little evidence exists on soil microbial communities in alternative states, and along the slow process of ecosystem return into the predisturbance state. We analysed vegetation, soil microbial communities and activities as well as soil physico‐chemical properties in historical reindeer enclosures in northernmost Finland in the following plot types: control heaths in the surrounding tundra; graminoid‐dominated; ‘shifting’; and recovered dwarf shrub‐dominated vegetation inside enclosures. Soil fungal communities followed changes in vegetation, whereas bacterial communities were more affected by soil physico‐chemical properties. Graminoid plots were characterized by moulds, pathotrophs and dark septate endophytes. Ericoid mycorrhizal and saprotrophic fungi were typical for control and recovered plots. Soil microbial communities inside the enclosures showed historical contingency, as their spatial variation was high in recovered plots despite the vegetation being more homogeneous. Self‐maintaining feedback loops between plant functional types, soil microbial communities, and carbon and nutrient mineralization act effectively to stabilize alternative vegetation states, but once predisturbance vegetation reestablishes itself, soil microbial communities and physico‐chemical properties return back towards their predisturbance state.
+N1  - Level: B; Score: 94; Source: Crossref
 ER  -
 
 TY  - JOUR
-TI  - Tree Removal from an Encroached Coastal Grassland Restores Soil Bacterial Communities Before Fungal Communities
-AU  - Ka Ki Law
-DO  - 10.31979/etd.kf9j-dus6
-UR  - https://doi.org/10.31979/etd.kf9j-dus6
-N1  - Level: B; Score: 39; Source: Crossref
+TI  - Environmental Controls on Soil Microbial Communities in a Seasonally Dry Tropical Forest
+AU  - Silvia Pajares
+AU  - Julio Campo
+AU  - Brendan J. M. Bohannan
+AU  - Jorge D. Etchevers
+JO  - Applied and Environmental Microbiology
+PY  - 2018
+DO  - 10.1128/aem.00342-18
+UR  - https://doi.org/10.1128/aem.00342-18
+AB  - Understanding the response of soil microbial communities to environmental factors is important for predicting the contribution of forest ecosystems to global environmental change. Seasonally dry tropical forests are characterized by receiving less than 1,800 mm of rain per year in alternating wet and dry seasons and by high heterogeneity in plant diversity and soil chemistry. For these reasons, N deposition may affect their soils differently than those in humid tropical forests. This study documents the influence of rainfall seasonality, soil heterogeneity, and N deposition on soil chemical and microbiological properties in a seasonally dry tropical forest. Our findings suggest that soil heterogeneity and rainfall seasonality are likely the main factors controlling soil bacterial community structure and function in this tropical forest. Nitrogen enrichment was likely too low to induce significant short-term effects on soil properties, because this tropical forest is not N limited.
+N1  - Level: B; Score: 76; Source: Crossref
 ER  -
 
 TY  - JOUR
-TI  - [Soil Microbial Diversity and Its Response to Heavy Metals in Yuncheng Salt Lake Wetland].
-AU  - Y. Li
-AU  - Haijian Yang
-AU  - Q. Yu
-AU  - Dong-Gang Guo
-AU  - Q. Zhang
-JO  - Huan jing ke xue= Huanjing kexue
-PY  - 2025
-DO  - 10.13227/j.hjkx.202405153
-UR  - https://www.semanticscholar.org/paper/d5ee27cc4d34cfcf826820f549b9fa8d43949b85
-N1  - Level: B; Score: 39; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Microbial functional genes reveal selection of microbial community by PAHs in polluted soils
-AU  - Zhenyi Zhang
-AU  - Xuan Zhao
-AU  - Yuting Liang
-AU  - Guanghe Li
-AU  - Jizhong Zhou
-JO  - Environmental Chemistry Letters
-PY  - 2013
-DO  - 10.1007/s10311-012-0370-6
-UR  - https://doi.org/10.1007/s10311-012-0370-6
-N1  - Level: A; Score: 38; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Dynamic Response of Phragmites australis and Suaeda salsa to Climate Change in the Liaohe Delta Wetland
-AU  - Yushu Zhang
-AU  - Wenying Yu
-AU  - Ruipeng Ji
-AU  - Yijun Zhao
-AU  - Rui Feng
-AU  - Qingyu Jia
-AU  - Jinwen Wu
-JO  - Journal of Meteorological Research
-PY  - 2021
-DO  - 10.1007/s13351-021-0016-3
-UR  - https://doi.org/10.1007/s13351-021-0016-3
-N1  - Level: A; Score: 36; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Table 3: Soil fungal diversity indexes of different revegetation types.
-DO  - 10.7717/peerj.6251/table-3
-UR  - https://doi.org/10.7717/peerj.6251/table-3
-N1  - Level: A; Score: 35; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Alpine wetland degradation affects carbon cycle function genes but does not reduce soil microbial diversity
-AU  - Menghan Yuan
-AU  - Xia Wang
-AU  - Yazhen Li
-AU  - Ziyang Niu
-AU  - Jia Li
-AU  - Y. Zhao
-AU  - Jieyi Xia
-AU  - Xusheng Zhang
-AU  - Fei Wang
-JO  - CATENA
-PY  - 2025
-DO  - 10.1016/j.catena.2024.108637
-UR  - https://www.semanticscholar.org/paper/5baedefbf0971aa9f8b44a2032237914d55faf04
-N1  - Level: B; Score: 35; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Effect of land use conversion on the soil aggregate-associated microbial necromass carbon in estuarine wetland of the Pearl River in China
-AU  - Chun Liu
-AU  - Zhinan Wu
-AU  - Chunhuan He
-AU  - Bin Huang
-AU  - Yuheng Zhang
-AU  - Ping Li
-AU  - Weijia Huang
-JO  - CATENA
-PY  - 2024
-DO  - 10.1016/j.catena.2023.107761
-UR  - https://www.semanticscholar.org/paper/6b02c61959191a3201400fd6adc3106762a3984b
-N1  - Level: A; Score: 31; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Microbial habitat specificity largely affects microbial co-occurrence patterns and functional profiles in wetland soils
-AU  - Chi Liu
-AU  - Xiangzhen Li
-AU  - Felipe R.P. Mansoldo
-AU  - Jiaxing An
-AU  - Yongping Kou
-AU  - Xiao Zhang
-AU  - Junming Wang
-AU  - Jianxiong Zeng
-AU  - Alane B. Vermelho
-AU  - Minjie Yao
-JO  - Geoderma
-PY  - 2022
-DO  - 10.1016/j.geoderma.2022.115866
-UR  - https://doi.org/10.1016/j.geoderma.2022.115866
-N1  - Level: B; Score: 30; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Plant Species–Driven Distribution of Individual Clades of Comammox Nitrospira in a Subtropical Estuarine Wetland
-AU  - Yongxin Lin
-AU  - Guiping Ye
-AU  - Hangwei Hu
-AU  - Ping Yang
-AU  - Song Wan
-AU  - Mengmeng Feng
-AU  - Zi-Yang He
-AU  - Ji‐Zheng He
-JO  - Microbial Ecology
-PY  - 2022
-DO  - 10.1007/s00248-021-01940-3
-UR  - https://www.semanticscholar.org/paper/cce264ce2ca7a90ab33cb2fdbacb53fbb1620023
-N1  - Level: A; Score: 28; Source: Semantic Scholar
-ER  -
-
-TY  - JOUR
-TI  - Microbial Diversity and Functional Profiles Reveal Contrasting Carbon Storage and Remineralization Processes Across Mangrove and Terrestrial Soils
-AU  - Mayukhmita Ghose
-AU  - Ashutosh Shankar Parab
-AU  - Cathrine Sumathi Manohar
-JO  - Journal of Soil Science and Plant Nutrition
-PY  - 2026
-DO  - 10.1007/s42729-026-03217-5
-UR  - https://doi.org/10.1007/s42729-026-03217-5
-N1  - Level: B; Score: 23; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Microbial diversity drives pyrene dissipation in soil
-AU  - Xia Wang
-AU  - Ying Teng
-AU  - Xiaomi Wang
-AU  - Xiufen Li
-AU  - Yongming Luo
-JO  - Science of The Total Environment
-PY  - 2022
-DO  - 10.1016/j.scitotenv.2022.153082
-UR  - https://doi.org/10.1016/j.scitotenv.2022.153082
-N1  - Level: B; Score: 19; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Table 2: Soil community diversity among four different vegetation types.
-DO  - 10.7717/peerj.12098/table-2
-UR  - https://doi.org/10.7717/peerj.12098/table-2
-N1  - Level: B; Score: 19; Source: Crossref
+TI  - Environmental filtering by pH and soil nutrients drives community assembly in fungi at fine spatial scales
+AU  - Sydney I. Glassman
+AU  - Ian J. Wang
+AU  - Thomas D. Bruns
+JO  - Molecular Ecology
+PY  - 2017
+DO  - 10.1111/mec.14414
+UR  - https://doi.org/10.1111/mec.14414
+AB  - Abstract Whether niche processes, like environmental filtering, or neutral processes, like dispersal limitation, are the primary forces driving community assembly is a central question in ecology. Here, we use a natural experimental system of isolated tree “islands” to test whether environment or geography primarily structures fungal community composition at fine spatial scales. This system consists of isolated pairs of two distantly related, congeneric pine trees established at varying distances from each other and the forest edge, allowing us to disentangle the effects of geographic distance vs. host and edaphic environment on associated fungal communities. We identified fungal community composition with Illumina sequencing of ITS amplicons, measured all relevant environmental parameters for each tree—including tree age, size and soil chemistry—and calculated geographic distances from each tree to all others and to the nearest forest edge. We applied generalized dissimilarity modelling to test whether total and ectomycorrhizal fungal ( EMF ) communities were primarily structured by geographic or environmental filtering. Our results provide strong evidence that as in many other organisms, niche and neutral processes both contribute significantly to turnover in community composition in fungi, but environmental filtering plays the dominant role in structuring both free‐living and symbiotic fungal communities at fine spatial scales. In our study system, we found pH and organic matter primarily drive environmental filtering in total soil fungal communities and that pH and cation exchange capacity—and, surprisingly, not host species—were the largest factors affecting EMF community composition. These findings support an emerging paradigm that pH may play a central role in the assembly of all soil‐mediated systems.
+N1  - Level: B; Score: 63; Source: Crossref
 ER  -

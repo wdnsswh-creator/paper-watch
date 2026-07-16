@@ -6,6 +6,9 @@ document_focus:
   - coastal inland gradient soil microbial community
   - distance from coastline soil microbial diversity
   - vegetation type soil bacterial fungal community
+  - two sampling sites three vegetation types soil microbial community
+  - site vegetation interaction bacterial fungal community
+  - coastal and inland sampling sites wetland soil microorganisms
 
 study_region_and_ecosystem:
   - Yellow River Delta
@@ -70,6 +73,11 @@ environmental_drivers:
   - site vegetation interaction microbial community
 
 analysis_methods:
+  - Good's coverage
+  - Sobs
+  - Shannon
+  - Simpson
+  - Chao1
   - alpha diversity
   - beta diversity
   - PCoA
@@ -81,6 +89,22 @@ analysis_methods:
   - ANOSIM microbial community
   - two-way ANOVA vegetation site soil microbial community
   - correlation heatmap soil microbial community
+  - LEfSe
+  - LDA score
+  - cladogram
+  - random forest soil microbial community
+
+figure_sequence_targets:
+  - soil physicochemical properties EC pH salinity bar plot
+  - soil electrical conductivity pH salt content vegetation site
+  - alpha diversity Sobs Shannon Simpson Chao1 Good's coverage
+  - shared unique OTUs UpSet Venn bacteria fungi
+  - PCoA NMDS PERMANOVA beta diversity bacterial fungal community
+  - phylum composition stacked barplot bacteria fungi
+  - LEfSe LDA cladogram differential taxa soil microbial community
+  - correlation heatmap environmental factors bacterial fungal phyla
+  - random forest environmental drivers microbial community
+  - FAPROTAX FUNGuild functional prediction bacterial fungal community
 
 functional_prediction:
   - FAPROTAX
@@ -125,3 +149,6 @@ seed_titles:
   - FAPROTAX and FUNGuild reveal microbial functional profiles in wetland soils
   - distance from coastline drives soil microbial diversity in coastal wetlands
   - soil bacterial and fungal diversity in saline wetlands with different vegetation types
+  - site and vegetation jointly shape soil bacterial and fungal communities in coastal wetlands
+  - environmental factors and vegetation types drive microbial community assembly in saline wetlands
+  - LEfSe and random forest identify environmental drivers of wetland soil microbial communities

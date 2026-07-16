@@ -25,6 +25,28 @@ description: 根据用户论文查重版本，检索、筛选并整理黄河三�
 - Ascomycota、Basidiomycota、Chytridiomycota、Rozellomycota；
 - FAPROTAX、FUNGuild、Saprotroph、Pathotroph、Symbiotroph、Pathogen。
 
+# 用户当前实验维度
+
+优先寻找与以下实验维度相似的文献：
+
+- 两个距海远近不同的采样点，或 coastal-inland gradient、distance from coastline、salinity gradient 等空间梯度设计；
+- 三种植物或多种湿地植被类型比较；
+- 同时研究土壤细菌和真菌，或至少对其中一类微生物群落有完整分析；
+- 能够把土壤理化性质与微生物群落结构、多样性、差异类群或功能预测联系起来。
+
+# 优先参考的图件结构
+
+优先保留具有下列图件或分析类型的文献。这些图件不要求每篇文献全部具备，但相似的部分必须尽量像用户论文的分析方法。比如，如果文献用于参考 beta diversity，就最好同样使用 PCoA/NMDS/PERMANOVA/ANOSIM；如果用于参考功能预测，就最好同样使用 FAPROTAX 或 FUNGuild。
+
+1. Figure 1：土壤理化性质图。EC、pH、Salt 或 salinity/salt content 的柱状图，用于交代环境梯度。
+2. Figure 2：测序信息或 alpha diversity 图。Good's coverage、Sobs、Shannon、Simpson、Chao1 等。
+3. Figure 3：OTU 共享图。细菌和真菌 shared/unique OTUs，UpSet 或 Venn。
+4. Figure 4：beta diversity 图。PCoA、NMDS、Bray-Curtis、PERMANOVA 或 ANOSIM。
+5. Figure 5：门水平群落组成图。细菌和真菌 phylum composition 堆叠柱状图。
+6. Figure 6：LEfSe 差异类群图。LDA bar plot 或 cladogram。
+7. Figure 7：环境因子驱动分析图。pH、EC、Salt 与主要门的相关性热图，以及 random forest 等环境驱动分析。
+8. Figure 8：功能预测图。细菌 FAPROTAX 和真菌 FUNGuild 营养型/功能类群。
+
 # 检索关键词
 
 优先使用以下英文关键词组合：
@@ -37,10 +59,14 @@ description: 根据用户论文查重版本，检索、筛选并整理黄河三�
 - salinity gradient soil microbial community
 - soil electrical conductivity microbial community
 - Tamarix chinensis Suaeda salsa Phragmites australis soil microbial community
+- two sampling sites three vegetation types bacterial fungal community
+- coastal inland sampling sites vegetation soil microbial community
 - bacterial and fungal communities coastal wetland soil
 - FAPROTAX FUNGuild wetland soil microbial community
 - fungal trophic mode coastal wetland soil
 - 16S ITS sequencing saline wetland soil microbial community
+- LEfSe LDA cladogram wetland soil microbial community
+- correlation heatmap random forest environmental drivers soil microbial community
 
 # 文献相关度分级
 
@@ -53,8 +79,11 @@ description: 根据用户论文查重版本，检索、筛选并整理黄河三�
 - 直接研究黄河三角洲、滨海湿地、盐沼或河口湿地土壤细菌/真菌群落；
 - 同时涉及植被类型或距海/盐度梯度与土壤微生物群落；
 - 同时涉及土壤理化因子和细菌/真菌群落结构、多样性或优势类群；
+- 同时包含 alpha diversity、beta diversity、群落组成、环境因子相关性或功能预测中的多个分析环节；
+- 研究设计或图件结构可直接对标用户的 Figure 1-8 框架；
 - 直接使用 FAPROTAX、FUNGuild 或类似方法解释滨海湿地土壤微生物功能预测；
 - 研究对象包括 Tamarix chinensis、Suaeda salsa、Phragmites australis 等典型滨海湿地植被，并分析土壤微生物。
+- 期刊规格较好，或至少为本领域常见、可正常引用的生态学、微生物学、环境科学、土壤科学期刊。
 
 ## B 类：建议阅读
 
@@ -73,6 +102,7 @@ description: 根据用户论文查重版本，检索、筛选并整理黄河三�
 - 只涉及湿地生态背景，但微生物部分较弱；
 - 与盐度、植被或功能预测有间接关系；
 - 可用于论文引言、方法或背景部分。
+- 研究方法相似但期刊质量、摘要完整度或主题贴合度一般。
 
 ## D 类：排除
 
@@ -84,6 +114,7 @@ description: 根据用户论文查重版本，检索、筛选并整理黄河三�
 - 只研究作物产量或农业生产，不涉及土壤微生物群落；
 - 与湿地、盐碱土、植被梯度、细菌/真菌群落或功能预测无关；
 - 没有 DOI、摘要或基本出处信息。
+- 期刊来源明显不适合作为硕士论文重点引用文献，除非方法与用户论文高度一致且只作为方法参考。
 
 # Zotero 分类规则
 

@@ -62,6 +62,14 @@ SEED_TITLES = [
     "Soil bacterial and fungal diversity in saline wetlands with different vegetation types",
     "Environmental factors shape soil microbial community composition in coastal wetlands",
     "Tamarix chinensis Suaeda salsa Phragmites australis soil microbial community",
+    "Site and vegetation jointly shape soil bacterial and fungal communities in coastal wetlands",
+    "LEfSe and random forest identify environmental drivers of wetland soil microbial communities",
+    "Shifts in Soil Microbial Community Composition Function and Co-occurrence Network of Phragmites australis in the Yellow River Delta",
+    "Variations in Soil Fungal Community Composition Along A Salinity Gradient in Yellow River Delta China",
+    "Environmental Filtering by pH and Salinity Jointly Drives Prokaryotic Community Assembly in Coastal Wetland Sediments",
+    "Shifts in Microbial Community Structure and Co-occurrence Network along a Wide Soil Salinity Gradient",
+    "Salinity-driven differentiation of bacterial and fungal communities in coastal wetlands",
+    "Effects of Polycyclic Aromatic Hydrocarbons on the Composition of the Soil Bacterial Communities in the Tidal Flat Wetlands of the Yellow River Delta of China",
 ]
 
 
@@ -108,6 +116,8 @@ EXCLUDE_TERMS = [
     "costus igneus",
     "summer snowflake",
     "microbacterium algeriense",
+    "wood-inhabiting",
+    "wood decomposition",
 ]
 
 
@@ -197,6 +207,8 @@ def build_queries(keywords: List[str], max_queries: int = 60) -> List[str]:
         "distance from coastline soil microbial diversity coastal wetland",
         "salinity gradient bacterial fungal community coastal wetland soil",
         "FAPROTAX FUNGuild wetland soil microbial community",
+        "two sampling sites three vegetation types soil bacterial fungal community",
+        "site vegetation interaction bacterial fungal community coastal wetland",
 
         # Core topic
         "soil bacterial fungal community vegetation type saline wetland",
@@ -237,12 +249,18 @@ def build_queries(keywords: List[str], max_queries: int = 60) -> List[str]:
         "soil physicochemical properties bacterial fungal community",
         "vegetation salinity interaction soil microbial community",
         "site vegetation interaction soil microbial community",
+        "coastal inland sampling sites vegetation soil microbial community",
 
         # Community statistics and functional prediction
+        "Good's coverage Sobs Shannon Simpson Chao1 soil microbial community",
         "alpha diversity beta diversity soil microbial community coastal wetland",
         "PCoA NMDS Bray-Curtis soil microbial community wetland",
         "PERMANOVA ANOSIM soil microbial community vegetation wetland",
         "UpSet Venn OTU bacterial fungal community wetland soil",
+        "phylum composition stacked barplot bacterial fungal community wetland soil",
+        "LEfSe LDA cladogram soil microbial community wetland",
+        "correlation heatmap environmental factors bacterial fungal phyla wetland",
+        "random forest environmental drivers soil microbial community",
         "FAPROTAX predicted bacterial function wetland soil",
         "FUNGuild fungal trophic mode wetland soil",
         "saprotroph pathotroph symbiotroph coastal wetland soil fungi",
@@ -470,6 +488,76 @@ def search_crossref_by_title(title: str, limit: int = 5) -> List[Dict]:
                 "abstract": clean_text(item.get("abstract") or ""),
                 "url": item.get("URL") or "",
                 "query": title,
+                "source": "Crossref",
+            }
+        )
+
+    return records
+
+
+def search_crossref_by_query(query: str, days: int, limit: int) -> List[Dict]:
+    """
+    Crossref fallback search by general query.
+    It is less semantically rich than OpenAlex/Semantic Scholar, but stable.
+    """
+
+    from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    params = {
+        "query.bibliographic": query,
+        "filter": f"from-pub-date:{from_date},type:journal-article",
+        "rows": min(limit, 20),
+        "sort": "relevance",
+        "order": "desc",
+        "select": "title,author,published-print,published-online,published,container-title,DOI,abstract,URL",
+    }
+
+    url = "https://api.crossref.org/works"
+
+    try:
+        response = requests.get(url, params=params, timeout=45)
+        response.raise_for_status()
+    except Exception as exc:
+        print(f"Warning: Crossref query failed: {query}")
+        print(f"Reason: {exc}")
+        return []
+
+    items = response.json().get("message", {}).get("items", [])
+    records = []
+
+    for item in items:
+        titles = item.get("title") or []
+        record_title = clean_text(titles[0]) if titles else ""
+        if not record_title:
+            continue
+
+        journal_list = item.get("container-title") or []
+        journal = clean_text(journal_list[0]) if journal_list else ""
+
+        year = ""
+        for key in ["published-print", "published-online", "published"]:
+            date_parts = item.get(key, {}).get("date-parts")
+            if date_parts and date_parts[0]:
+                year = str(date_parts[0][0])
+                break
+
+        authors = []
+        for a in item.get("author", []) or []:
+            given = a.get("given", "")
+            family = a.get("family", "")
+            name = clean_text(f"{given} {family}")
+            if name:
+                authors.append(name)
+
+        records.append(
+            {
+                "title": record_title,
+                "authors": authors,
+                "year": year,
+                "journal": journal,
+                "doi": normalize_doi(item.get("DOI")),
+                "abstract": clean_text(item.get("abstract") or ""),
+                "url": item.get("URL") or "",
+                "query": query,
                 "source": "Crossref",
             }
         )
@@ -727,6 +815,65 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "rozellomycota",
     ]
 
+    figure_terms = [
+        "physicochemical properties",
+        "electrical conductivity",
+        "salinity",
+        "salt content",
+        "alpha diversity",
+        "good's coverage",
+        "sobs",
+        "shannon",
+        "simpson",
+        "chao1",
+        "otu",
+        "otus",
+        "upset",
+        "venn",
+        "shared",
+        "unique",
+        "beta diversity",
+        "pcoa",
+        "nmds",
+        "bray-curtis",
+        "permanova",
+        "anosim",
+        "phylum",
+        "phyla",
+        "community composition",
+        "lefse",
+        "lda",
+        "cladogram",
+        "correlation heatmap",
+        "random forest",
+        "environmental drivers",
+        "faprotax",
+        "funguild",
+        "trophic mode",
+        "functional prediction",
+    ]
+
+    design_terms = [
+        "two sites",
+        "two sampling sites",
+        "site 1",
+        "site 2",
+        "sampling sites",
+        "distance from coastline",
+        "coastal-inland",
+        "coastal inland",
+        "salinity gradient",
+        "vegetation type",
+        "vegetation types",
+        "three vegetation",
+        "three plant",
+        "tamarix",
+        "suaeda",
+        "phragmites",
+        "bacterial and fungal",
+        "bacteria and fungi",
+    ]
+
     counts = {
         "seed": sum(1 for term in seed_signal_terms if term in text),
         "ecosystem": sum(1 for term in ecosystem_terms if term in text),
@@ -739,6 +886,8 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         "network": sum(1 for term in network_terms if term in text),
         "environment": sum(1 for term in environment_terms if term in text),
         "taxa": sum(1 for term in taxa_terms if term in text),
+        "figure": sum(1 for term in figure_terms if term in text),
+        "design": sum(1 for term in design_terms if term in text),
     }
 
     score = (
@@ -752,6 +901,8 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
         + counts["soil"] * 3
         + counts["taxa"] * 2
         + counts["network"] * 2
+        + counts["figure"] * 2
+        + counts["design"] * 3
         + counts["nitrogen"] * 1
         + counts["addition"] * 1
     )
@@ -776,8 +927,158 @@ def score_record(record: Dict) -> Tuple[int, Dict[str, int]]:
     return score, counts
 
 
+def infer_figure_matches(record: Dict) -> List[str]:
+    text = " ".join(
+        [
+            record.get("title", ""),
+            record.get("abstract", ""),
+            record.get("journal", ""),
+        ]
+    ).lower()
+
+    checks = [
+        (
+            "Figure 1 理化性质：EC/pH/Salt 或 salinity/salt content",
+            ["electrical conductivity", "soil ec", "salinity", "salt content", "ph", "physicochemical properties"],
+        ),
+        (
+            "Figure 2 测序信息/alpha diversity：Good's coverage、Sobs、Shannon、Simpson、Chao1",
+            ["alpha diversity", "good's coverage", "sobs", "shannon", "simpson", "chao1", "richness"],
+        ),
+        (
+            "Figure 3 OTU 共享：shared/unique OTUs、UpSet、Venn",
+            ["otu", "otus", "shared", "unique", "upset", "venn"],
+        ),
+        (
+            "Figure 4 beta diversity：PCoA、NMDS、Bray-Curtis、PERMANOVA、ANOSIM",
+            ["beta diversity", "pcoa", "nmds", "bray-curtis", "permanova", "anosim", "ordination"],
+        ),
+        (
+            "Figure 5 门水平组成：bacterial/fungal phylum composition",
+            ["phylum", "phyla", "community composition", "proteobacteria", "ascomycota", "basidiomycota"],
+        ),
+        (
+            "Figure 6 LEfSe 差异类群：LDA、cladogram、biomarker taxa",
+            ["lefse", "lda", "cladogram", "biomarker"],
+        ),
+        (
+            "Figure 7 环境驱动：相关性热图、random forest、environmental drivers",
+            ["correlation heatmap", "random forest", "environmental driver", "environmental drivers", "mantel"],
+        ),
+        (
+            "Figure 8 功能预测：FAPROTAX、FUNGuild、trophic mode",
+            ["faprotax", "funguild", "trophic mode", "functional prediction", "saprotroph", "pathotroph", "symbiotroph"],
+        ),
+    ]
+
+    matches = []
+    for label, terms in checks:
+        if any(term in text for term in terms):
+            matches.append(label)
+
+    return matches
+
+
+def journal_quality_note(record: Dict) -> Tuple[int, str]:
+    journal = clean_text(record.get("journal", "")).lower()
+    doi = normalize_doi(record.get("doi", ""))
+    abstract = clean_text(record.get("abstract", ""))
+
+    strong_journals = [
+        "science of the total environment",
+        "environmental research",
+        "environmental pollution",
+        "journal of environmental management",
+        "environmental microbiology",
+        "applied and environmental microbiology",
+        "fems microbiology ecology",
+        "soil biology and biochemistry",
+        "applied soil ecology",
+        "geoderma",
+        "catena",
+        "ecological indicators",
+        "ecological engineering",
+        "microbiome",
+        "isme journal",
+        "new phytologist",
+        "molecular ecology",
+        "frontiers in microbiology",
+        "journal of environmental sciences",
+        "land degradation & development",
+        "total environment research themes",
+    ]
+
+    acceptable_journals = [
+        "frontiers in marine science",
+        "chinese geographical science",
+        "canadian journal of microbiology",
+        "wetlands",
+        "estuarine coastal and shelf science",
+        "marine pollution bulletin",
+        "spanish journal of soil science",
+    ]
+
+    caution_journals = [
+        "microorganisms",
+        "plants",
+    ]
+
+    weak_signals = [
+        "supplement",
+        "supporting information",
+        "data in brief",
+        "conference",
+        "proceedings",
+        "preprint",
+    ]
+
+    if not journal:
+        return -8, "期刊信息缺失，建议仅作临时线索。"
+    if not abstract:
+        return -5, "摘要缺失，导入 Zotero 后需要人工核对。"
+    if any(term in journal for term in weak_signals) or doi.endswith(".s001"):
+        return -12, "疑似补充材料、会议或数据附件条目，不建议作为重点引用。"
+    if any(name in journal for name in strong_journals):
+        return 10, "期刊规格较好，适合作为重点参考候选。"
+    if any(name in journal for name in acceptable_journals):
+        return 4, "期刊可用，建议结合主题贴合度筛选。"
+    if any(name in journal for name in caution_journals):
+        return -6, "期刊争议度较高，建议只作为补充线索，不作为优先核心引用。"
+    return 0, "期刊质量需人工核对，先按主题和方法相似度暂存。"
+
+
+def metadata_exclusion_reason(record: Dict) -> str:
+    title = clean_text(record.get("title", ""))
+    title_lower = title.lower()
+    doi = normalize_doi(record.get("doi", ""))
+    journal = clean_text(record.get("journal", ""))
+
+    if re.match(r"^(figure|fig\.?|table)\s+\d*", title_lower):
+        return "排除：这是图、表或补充条目的 DOI，不是可正常引用的论文条目。"
+    if re.search(r"/(fig|figure|table)-?\d*$", doi) or doi.endswith(".s001"):
+        return "排除：疑似图、表或 supporting information DOI，不适合作为 Zotero 主文献。"
+    if not journal:
+        return "排除：期刊信息缺失，元数据不完整。"
+    return ""
+
+
 def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
     score, counts = score_record(record)
+    quality_bonus, quality_note = journal_quality_note(record)
+    figure_matches = infer_figure_matches(record)
+    score += quality_bonus + min(len(figure_matches), 5) * 3
+    counts["figure_match"] = len(figure_matches)
+    counts["journal_quality"] = quality_bonus
+
+    metadata_reason = metadata_exclusion_reason(record)
+    if metadata_reason:
+        return (
+            "D",
+            metadata_reason,
+            "08_低相关暂存",
+            score,
+            counts,
+        )
 
     if score < 0:
         return (
@@ -788,15 +1089,26 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
             counts,
         )
 
+    abstract = clean_text(record.get("abstract", ""))
+    has_usable_abstract = len(abstract) >= 80
+    if not has_usable_abstract and quality_bonus < 10:
+        return (
+            "D",
+            "排除：摘要缺失或过短，且期刊质量代理分不足，不适合作为本轮 Zotero 重点导入文献。",
+            "08_低相关暂存",
+            score,
+            counts,
+        )
+
     # A 类：与种子文献或研究主题高度相似
     core_topic_signal = (
         counts.get("ecosystem", 0) >= 2
         or counts.get("vegetation", 0) >= 1
         or counts.get("seed", 0) >= 2
-        or counts.get("function", 0) >= 2
     )
-
-    if score >= 22 and core_topic_signal:
+    method_similarity_signal = counts.get("figure_match", 0) >= 2 or counts.get("design", 0) >= 2
+    quality_ok = quality_bonus >= 0
+    if score >= 35 and core_topic_signal and method_similarity_signal and quality_ok and has_usable_abstract:
         collection = "01_黄河三角洲滨海湿地"
         if counts.get("function", 0) >= 2:
             collection = "06_FAPROTAX和功能预测"
@@ -806,7 +1118,8 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
             collection = "03_盐度EC和环境因子"
         return (
             "A",
-            "高度相关：与当前论文在黄河三角洲/滨海湿地、植被类型、盐度或距海梯度、土壤细菌/真菌群落、多样性或功能预测等方向高度相似，建议优先阅读。",
+            "高度相关：与当前论文在研究对象或分析方法上相似，尤其贴近植被/距海梯度、细菌/真菌群落、环境因子或 Figure 1-8 分析链条。"
+            + quality_note,
             collection,
             score,
             counts,
@@ -823,7 +1136,8 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
             collection = "03_盐度EC和环境因子"
         return (
             "B",
-            "中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似，可用于讨论或补充阅读。",
+            "中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似。"
+            + quality_note,
             collection,
             score,
             counts,
@@ -833,7 +1147,8 @@ def classify_record(record: Dict) -> Tuple[str, str, str, int, Dict[str, int]]:
     if score >= 8:
         return (
             "C",
-            "间接相关：与湿地环境、土壤微生物群落、植被、盐度梯度或功能预测有一定联系，可作为背景文献暂存。",
+            "间接相关：与湿地环境、土壤微生物群落、植被、盐度梯度或功能预测有一定联系。"
+            + quality_note,
             "08_低相关暂存",
             score,
             counts,
@@ -917,6 +1232,13 @@ def write_markdown(records: List[Dict], all_count: int) -> None:
             lines.append(f"- 触发检索词：{r.get('query', '')}")
             lines.append(f"- 建议 Zotero collection：{r.get('collection', '')}")
             lines.append(f"- 推荐理由：{r.get('reason', '')}")
+            if r.get("figure_matches"):
+                lines.append("- 可参考图件/方法：")
+                for item in r.get("figure_matches", []):
+                    lines.append(f"  - {item}")
+            else:
+                lines.append("- 可参考图件/方法：未从标题或摘要中识别到明确的 Figure 1-8 对应方法，需人工核对全文。")
+            lines.append(f"- 期刊质量提示：{r.get('journal_quality_note', '')}")
             lines.append(f"- 命中维度：{r.get('score_detail', {})}")
 
             abstract = r.get("abstract", "")
@@ -990,10 +1312,20 @@ def main() -> None:
     print("Searching seed titles through Crossref...")
     for title in SEED_TITLES:
         all_records.extend(search_crossref_by_title(title, limit=5))
-        time.sleep(0.3)
+        time.sleep(0.8)
 
     # 2. OpenAlex + Semantic Scholar
     for query in queries:
+        print(f"Searching Crossref: {query}")
+        try:
+            records = search_crossref_by_query(query, args.days, args.limit)
+            all_records.extend(records)
+        except Exception as exc:
+            print(f"Warning: Crossref failed query: {query}")
+            print(f"Reason: {exc}")
+
+        time.sleep(0.8)
+
         print(f"Searching OpenAlex: {query}")
         try:
             records = search_openalex(query, args.mailto, args.days, args.limit)
@@ -1002,7 +1334,7 @@ def main() -> None:
             print(f"Warning: OpenAlex failed query: {query}")
             print(f"Reason: {exc}")
 
-        time.sleep(0.3)
+        time.sleep(1.2)
 
         print(f"Searching Semantic Scholar: {query}")
         try:
@@ -1012,7 +1344,7 @@ def main() -> None:
             print(f"Warning: Semantic Scholar failed query: {query}")
             print(f"Reason: {exc}")
 
-        time.sleep(0.6)
+        time.sleep(1.5)
 
     all_records = deduplicate_records(all_records)
 
@@ -1030,6 +1362,9 @@ def main() -> None:
         record["collection"] = collection
         record["score"] = score
         record["score_detail"] = score_detail
+        record["figure_matches"] = infer_figure_matches(record)
+        _, journal_note = journal_quality_note(record)
+        record["journal_quality_note"] = journal_note
 
         if level != "D":
             new_records.append(record)

@@ -47,6 +47,8 @@ python scripts/search_papers.py --days 3650 --limit 20 --max-queries 40 --mailto
 - `output/daily_papers.ris`：可导入 Zotero 的 RIS 文件；
 - `output/seen_dois.txt`：已见 DOI，用于下次去重。
 
+`daily_papers.md` 现在会额外标出每篇文献可参考的图件/方法类型，例如 EC/pH/Salt 理化性质图、alpha diversity、UpSet/Venn、PCoA/NMDS/PERMANOVA、门水平组成、LEfSe、环境因子相关性/随机森林、FAPROTAX/FUNGuild 等，并给出期刊质量提示。A 类会优先保留主题、方法和期刊规格都更合适的文献。
+
 ## 导入 Zotero
 
 1. 打开 Zotero。
