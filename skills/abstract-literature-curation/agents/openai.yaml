@@ -1,0 +1,4 @@
+interface:
+  display_name: "摘要文献筛选"
+  short_description: "筛选支撑硕士论文摘要背景问题方法意义写作逻辑的相关文献摘要素材"
+  default_prompt: "根据我的论文主题和摘要草稿，查找可支撑背景、问题、对象方法和意义表达的相关文献摘要。"
