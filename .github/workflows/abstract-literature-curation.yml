@@ -1,0 +1,94 @@
+name: 摘要文献策展
+
+on:
+  workflow_dispatch:
+    inputs:
+      abstract_text:
+        description: "摘要草稿；可不填，不填时使用黄河三角洲滨海湿地默认模板"
+        required: false
+        type: string
+      mailto:
+        description: "你的邮箱；建议填写，方便 OpenAlex 识别正常学术使用"
+        required: false
+        default: "wdnsswh@gmail.com"
+        type: string
+      days:
+        description: "检索最近多少天；3650 约等于 10 年"
+        required: true
+        default: "3650"
+        type: string
+      limit:
+        description: "每个检索词每个数据库最多返回多少条"
+        required: true
+        default: "10"
+        type: string
+      max_queries:
+        description: "最多使用多少个检索词；越大越慢"
+        required: true
+        default: "24"
+        type: string
+      keep_seen:
+        description: "是否启用 abstract_seen_dois.txt 去重，避免重复旧 DOI"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  abstract-literature-curation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Search abstract support papers
+        env:
+          ABSTRACT_TEXT: ${{ inputs.abstract_text }}
+          MAILTO: ${{ inputs.mailto }}
+          DAYS: ${{ inputs.days }}
+          LIMIT: ${{ inputs.limit }}
+          MAX_QUERIES: ${{ inputs.max_queries }}
+          KEEP_SEEN: ${{ inputs.keep_seen }}
+        run: |
+          if [ "$KEEP_SEEN" = "true" ]; then
+            KEEP_SEEN_ARG="--keep-seen"
+          else
+            KEEP_SEEN_ARG=""
+          fi
+
+          if [ -n "$ABSTRACT_TEXT" ]; then
+            python scripts/search_abstract_papers.py \
+              --abstract-text "$ABSTRACT_TEXT" \
+              --days "$DAYS" \
+              --limit "$LIMIT" \
+              --max-queries "$MAX_QUERIES" \
+              --mailto "$MAILTO" \
+              $KEEP_SEEN_ARG
+          else
+            python scripts/search_abstract_papers.py \
+              --days "$DAYS" \
+              --limit "$LIMIT" \
+              --max-queries "$MAX_QUERIES" \
+              --mailto "$MAILTO" \
+              $KEEP_SEEN_ARG
+          fi
+
+      - name: Commit abstract literature outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/abstract_papers.md output/abstract_papers.ris output/abstract_seen_dois.txt
+          git commit -m "Update abstract literature curation outputs" || echo "No changes to commit"
+          git push

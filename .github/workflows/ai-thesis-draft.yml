@@ -2,6 +2,12 @@ name: AI Thesis Draft
 
 on:
   workflow_dispatch:
+    inputs:
+      openai_model:
+        description: "OpenAI model used to generate the thesis draft"
+        required: true
+        default: "gpt-5"
+        type: string
 
 permissions:
   contents: write
@@ -26,7 +32,7 @@ jobs:
       - name: Generate AI thesis draft
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5.5
+          OPENAI_MODEL: ${{ inputs.openai_model }}
         run: |
           python scripts/generate_thesis_draft.py
 

@@ -62,6 +62,13 @@ SEED_QUERIES = [
 ]
 
 
+CLEAN_DEFAULT_ABSTRACT_DRAFT = """
+黄河三角洲滨海湿地受陆海相互作用影响显著，形成了明显的盐分、水分和植被空间梯度，这些环境差异可能深刻影响土壤微生物群落组成及其生态功能。
+土壤细菌和真菌是湿地养分循环、植物适应和生态系统稳定的重要参与者，但不同盐生植物生境及海陆位置变化下微生物群落结构、功能和共现关系的响应机制仍不清楚。
+因此，本研究以黄河三角洲典型盐生植物柽柳、碱蓬和芦苇根际土壤为对象，采用高通量测序技术分析不同生境下土壤细菌和真菌群落多样性、组成结构、潜在功能及共现网络变化特征。
+"""
+
+
 EXCLUDE_TERMS = [
     "human",
     "patient",
@@ -532,7 +539,7 @@ def load_draft(args: argparse.Namespace) -> str:
         return Path(args.abstract_file).read_text(encoding="utf-8")
     if args.abstract_text:
         return args.abstract_text
-    return DEFAULT_ABSTRACT_DRAFT
+    return CLEAN_DEFAULT_ABSTRACT_DRAFT
 
 
 def main() -> None:
