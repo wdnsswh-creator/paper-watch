@@ -69,6 +69,13 @@ CLEAN_DEFAULT_ABSTRACT_DRAFT = """
 """
 
 
+LATEST_ABSTRACT_DRAFT = """
+黄河三角洲滨海湿地是陆海相互作用强烈的典型生态过渡区，受潮汐、盐分、水分和植被分布等因素共同影响，土壤环境具有明显的空间异质性。
+土壤微生物作为连接植物生长、养分循环和湿地生态功能的重要生物因子，对环境梯度变化十分敏感，但目前关于不同盐生植物及其空间位置共同作用下细菌和真菌群落结构、潜在功能及互作网络变化的认识仍较有限。
+基于此，本研究选取黄河三角洲滨海湿地中三种典型盐生植物柽柳、碱蓬和芦苇，比较其不同空间位置根际土壤细菌和真菌群落组成、功能预测及共现网络特征，以揭示滨海湿地微生物群落对不同生境条件的响应规律。
+"""
+
+
 EXCLUDE_TERMS = [
     "human",
     "patient",
@@ -412,6 +419,47 @@ def classify_record(record: dict) -> tuple[str, str, str, int, dict]:
     return "D", "排除：与摘要主题和写作逻辑的关联较弱。", "08_低相关暂存", score, counts
 
 
+def classify_record_v2(record: dict) -> tuple[str, str, str, int, dict]:
+    exclusion = metadata_exclusion_reason(record)
+    if exclusion:
+        score, counts = score_record(record)
+        return "D", f"排除：{exclusion}", "08_低相关暂存", score, counts
+
+    score, counts = score_record(record)
+    support = detect_sentence_support(record)
+    quality, quality_note = journal_quality_score(record)
+    text = " ".join([record.get("title", ""), record.get("abstract", ""), record.get("journal", "")]).lower()
+
+    topic_ok = counts["topic"] >= 2 and counts["microbe"] >= 2
+    abstract_ok = len(support) >= 3
+    method_ok = counts["method"] >= 1
+    core_topic_ok = any(
+        term in text
+        for term in [
+            "yellow river delta",
+            "coastal wetland",
+            "salt marsh",
+            "estuarine",
+            "tidal flat",
+            "salinity",
+            "saline",
+            "halophyte",
+            "tamarix",
+            "suaeda",
+            "phragmites",
+            "rhizosphere",
+        ]
+    )
+
+    if score >= 65 and topic_ok and core_topic_ok and abstract_ok and quality >= 0:
+        return "A", f"高度适合摘要写作支撑：研究区、盐生植物/生境梯度、微生物对象和方法表达均较接近。{quality_note}", "01_摘要核心支撑文献", score, counts
+    if score >= 38 and (topic_ok or method_ok or quality >= 10):
+        return "B", f"可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。{quality_note}", "02_摘要背景与方法文献", score, counts
+    if score >= 25:
+        return "C", f"间接相关：可暂存为句式或背景参考，不建议作为核心引用。{quality_note}", "08_低相关暂存", score, counts
+    return "D", "排除：与摘要主题和写作逻辑的关联较弱。", "08_低相关暂存", score, counts
+
+
 def dedupe(records: list[dict]) -> list[dict]:
     seen = set()
     output = []
@@ -539,7 +587,7 @@ def load_draft(args: argparse.Namespace) -> str:
         return Path(args.abstract_file).read_text(encoding="utf-8")
     if args.abstract_text:
         return args.abstract_text
-    return CLEAN_DEFAULT_ABSTRACT_DRAFT
+    return LATEST_ABSTRACT_DRAFT
 
 
 def main() -> None:
@@ -588,7 +636,7 @@ def main() -> None:
         doi = normalize_doi(record.get("doi"))
         if doi and doi in seen_dois:
             continue
-        level, reason, collection, score, detail = classify_record(record)
+        level, reason, collection, score, detail = classify_record_v2(record)
         record["level"] = level
         record["reason"] = reason
         record["collection"] = collection

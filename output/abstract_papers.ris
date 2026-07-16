@@ -33,7 +33,7 @@ ER  -
 
 TY  - JOUR
 TI  - Environmental Filtering by pH and Salinity Jointly Drives Prokaryotic Community Assembly in Coastal Wetland Sediments
-AU  - Yu Huang
+AU  - Huang Yu
 AU  - Qiuping Zhong
 AU  - Yisheng Peng
 AU  - Xiafei Zheng
@@ -48,25 +48,9 @@ AU  - Zhili He
 JO  - Frontiers in Marine Science
 PY  - 2022
 DO  - 10.3389/fmars.2021.792294
-UR  - https://openalex.org/W4205538299
+UR  - https://doi.org/10.3389/fmars.2021.792294
 AB  - Understanding the microbial community assembly is an essential topic in microbial ecology. Coastal wetlands are an important blue carbon sink, where microbes play a key role in biogeochemical cycling of nutrients and energy transformation. However, the drivers controlling the distribution patterns and assembly of bacterial and archaeal communities in coastal wetland are unclear. Here we examined the diversity, co-occurrence network, assembly processes and environmental drivers of bacterial and archaeal communities from inshore to offshore sediments by the sequencing of 16S rRNA gene amplicons. The value of α- and β-diversity of bacterial and archaeal communities generally did not change significantly ( P > 0.05) between offshore sites, but changed significantly ( P < 0.05) among inshore sites. Sediment pH and salinity showed significant effects on the diversity and keystone taxa of bacterial and archaeal communities. The bacterial and archaeal co-occurrence networks were inextricably linked with pH and salinity to formed the large network nodes, suggesting that they were the key factors to drive the prokaryotic community. We also identified that heterogeneous and homogeneous selection drove the bacterial and archaeal community assembly, while the two selections became weaker from offshore sites to inshore sites, suggesting that deterministic processes were more important in offshore sites. Overall, these results suggested that the environmental filtering of pH and salinity jointly governed the assembly of prokaryotic community in offshore sediments. This study advances our understanding of microbial community assembly in coastal wetland ecosystems.
-N1  - Level: A; Score: 87; Abstract support: 背景句, 问题句, 方法句, 意义句; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Soil bacterial and fungal response to wildfires in the Canadian boreal forest across a burn severity gradient
-AU  - Thea Whitman
-AU  - Ellen Whitman
-AU  - Jamie Woolet
-AU  - Mike Flannigan
-AU  - Dan K. Thompson
-AU  - Marc‐André Parisien
-JO  - Soil Biology and Biochemistry
-PY  - 2019
-DO  - 10.1016/j.soilbio.2019.107571
-UR  - https://openalex.org/W2969864881
-AB  - Global fire regimes are changing, with increases in wildfire frequency and severity expected for many North American forests over the next 100 years. Fires can result in dramatic changes to carbon (C) stocks and can restructure plant and microbial communities, with long-lasting effects on ecosystem functions. We investigated wildfire effects on soil microbial communities (bacteria and fungi) in an extreme fire season in the northwestern Canadian boreal forest, using field surveys, remote sensing, and high-throughput amplicon sequencing in upland and wetland sites. We hypothesized that vegetation community and soil pH would be the most important determinants of microbial community composition, while the effect of fire might not be significant, and found that fire occurrence, along with vegetation community, moisture regime, pH, total carbon, and soil texture are all significant predictors of soil microbial community composition. Burned communities become increasingly dissimilar to unburned communities with increasingly severe burns, and the burn severity index (an index of the fractional area of consumed organic soils and exposed mineral soils) best predicted total bacterial community composition, while whether a site was burned or not was the best predictor for fungi. Globally abundant taxa were identified as significant positive fire responders in this system, including the bacteria Massilia sp. (64 × more abundant with fire) and Arthrobacter sp. (35 × ), and the fungi Penicillium sp. (22 × ) and Fusicladium sp. (12 × ). Bacterial and fungal co-occurrence network modules were characterized by fire responsiveness as well as pH and moisture regime. Building on the efforts of previous studies, our results consider a particularly wide range of soils, vegetation, and burn severities, and we identify specific fire-responsive microbial taxa and suggest that accounting for burn severity improves our understanding of microbial response to fires.
-N1  - Level: A; Score: 85; Abstract support: 对象句, 方法句, 意义句; Source: OpenAlex
+N1  - Level: A; Score: 87; Abstract support: 背景句, 问题句, 方法句, 意义句; Source: Crossref
 ER  -
 
 TY  - JOUR
@@ -182,22 +166,6 @@ N1  - Level: B; Score: 61; Abstract support: 背景句, 问题句, 方法句, �
 ER  -
 
 TY  - JOUR
-TI  - Contrasting Patterns in Diversity and Community Assembly of Phragmites australis Root-Associated Bacterial Communities from Different Seasons
-AU  - Rujia He
-AU  - Jin Zeng
-AU  - Dayong Zhao
-AU  - Rui Huang
-AU  - Zhongbo Yu
-AU  - Qinglong L. Wu
-JO  - Applied and Environmental Microbiology
-PY  - 2020
-DO  - 10.1128/aem.00379-20
-UR  - https://openalex.org/W3021047659
-AB  - Understanding the composition and assembly mechanisms of root-associated microbial communities of plants is crucial for understanding the interactions between plants and soil. Most previous studies of the plant root-associated microbiome focused on model and economic plants, with fewer temporal or seasonal investigations. The assembly mechanisms of root-associated bacterial communities in different seasons remain poorly known, especially for the aquatic macrophytes. In this study, we compared the diversity, composition, and relative importance of two different assembly processes (stochastic and deterministic processes) of bacterial communities associated with bulk sediment and the rhizosphere and endosphere of Phragmites australis in summer and winter. While we found apparent differences in composition, diversity, and assembly processes of bacterial communities among different compartments, season played important roles in determining BCCs and their diversity patterns and assemblages. We also found that endosphere bacteria mainly originated from the rhizosphere. The results add new knowledge regarding the plant-microbe interactions in aquatic ecosystems.
-N1  - Level: B; Score: 61; Abstract support: 问题句, 对象句, 意义句; Source: OpenAlex
-ER  -
-
-TY  - JOUR
 TI  - Bacterial and fungal diversities examined through high-throughput sequencing in response to lead contamination of tea garden soil
 AU  - Ziyan Zhang
 AU  - Qingmei Deng
@@ -242,18 +210,6 @@ DO  - 10.3390/plants13081091
 UR  - https://doi.org/10.3390/plants13081091
 AB  - As carriers of direct contact between plants and the atmospheric environment, the microbiomes of phyllosphere microorganisms are increasingly recognized as an important area of study. Salt secretion triggered by salt-secreting halophytes elicits changes in the community structure and functions of phyllosphere microorganisms, and often provides positive feedback to the individual plant/community environment. In this study, the contents of Na+ and K+ in the rhizosphere, plant and phyllosphere of Tamarix chinensis were increased under 200 mmol/L NaCl stress. The increase in electrical conductivity, Na+ and K+ in the phyllosphere not only decreased the diversity of bacterial and fungal communities, but also decreased the relative abundance of Actinobacteriota and Basidiomycota. Influenced by electrical conductivity and Na+, the bacteria–fungus co-occurrence network under salt stress has higher complexity. Changes in the structure of the phyllosphere microbial community further resulted in a significant increase in the relative abundance of the bacterial energy source and fungal pathotrophic groups. The relative abundance of Actinobacteriota and Acidobacteriota in rhizosphere showed a decreasing trend under salt stress, while the complexity of the rhizosphere co-occurrence network was higher than that of the control. In addition, the relative abundances of functional groups of rhizosphere bacteria in the carbon cycle and phosphorus cycle increased significantly under stress, and were significantly correlated with electrical conductivity and Na+. This study investigated the effects of salinity on the structure and physicochemical properties of phyllosphere and rhizosphere microbial communities of halophytes, and highlights the role of phyllosphere microbes as ecological indicators in plant responses to stressful environments.
 N1  - Level: B; Score: 57; Abstract support: 对象句, 方法句, 意义句; Source: Crossref
-ER  -
-
-TY  - JOUR
-TI  - Archaeal and bacterial communities assembly and co-occurrence networks in subtropical mangrove sediments under Spartina alterniflora invasion
-AU  - Weidong Chen
-AU  - Donghui Wen
-JO  - Environmental Microbiome
-PY  - 2021
-DO  - 10.1186/s40793-021-00377-y
-UR  - https://openalex.org/W3159021597
-AB  - BACKGROUND: Mangrove ecosystems are vulnerable due to the exotic Spartina alterniflora (S. alterniflora) invasion in China. However, little is known about mangrove sediment microbial community assembly processes and interactions under S. alterniflora invasion. Here, we investigated the assembly processes and co-occurrence networks of the archaeal and bacterial communities under S. alterniflora invasion along the coastlines of Fujian province, southeast China. RESULTS: Assembly of overall archaeal and bacterial communities was driven predominantly by stochastic processes, and the relative role of stochasticity was stronger for bacteria than archaea. Co-occurrence network analyses showed that the network structure of bacteria was more complex than that of the archaea. The keystone taxa often had low relative abundances (conditionally rare taxa), suggesting low abundance taxa may significantly contribute to network stability. Moreover, S. alterniflora invasion increased bacterial and archaeal drift process (part of stochastic processes), and improved archaeal network complexity and stability, but decreased the network complexity and stability of bacteria. This could be attributed to S. alterniflora invasion influenced microbial communities diversity and dispersal ability, as well as soil environmental conditions. CONCLUSIONS: This study fills a gap in the community assembly and co-occurrence patterns of both archaea and bacteria in mangrove ecosystem under S. alterniflora invasion. Thereby provides new insights of the plant invasion on mangrove microbial biogeographic distribution and co-occurrence network patterns.
-N1  - Level: B; Score: 56; Abstract support: 问题句, 方法句, 意义句; Source: OpenAlex
 ER  -
 
 TY  - JOUR
@@ -412,27 +368,6 @@ N1  - Level: B; Score: 41; Abstract support: 对象句, 方法句, 意义句; So
 ER  -
 
 TY  - JOUR
-TI  - Distribution of carbon, nitrogen and phosphorus in coastal wetland soil related land use in the Modern Yellow River Delta
-AU  - Junbao Yu
-AU  - Chao Zhan
-AU  - Yunzhao Li
-AU  - Di Zhou
-AU  - Yuqin Fu
-AU  - Xiaojing Chu
-AU  - Qinghui Xing
-AU  - Guangxuan Han
-AU  - Guangmei Wang
-AU  - Bo Guan
-AU  - Qing Wang
-JO  - Scientific Reports
-PY  - 2016
-DO  - 10.1038/srep37940
-UR  - https://openalex.org/W2557799707
-AB  - Abstract The delivery and distribution of nutrients in coastal wetland ecosystems is much related to the land use. The spatial variations of TOC, TN, NH 4 + -N, NO 3 − -N and TP and associated soil salinity with depth in 9 kinds land uses in coastal zone of the modern Yellow River Delta (YRD) was evaluated based on monitoring data in field from 2009 to 2015. The results showed that the average contents of soil TOC, TN, NO 3 − -N, NH 4 + -N and TP were 4.21 ± 2.40 g kg −1 , 375.91 ± 213.44, 5.36 ± 9.59 and 7.20 ± 5.58 and 591.27 ± 91.16 mg kg −1 , respectively. The high N and C contents were found in cropland in southern part and low values in natural wetland, while TP was relatively stable both in profiles and in different land uses. The land use, land formation age and salinity were important factors influencing distributions of TOC and N. Higher contents of TOC and N were observed in older formation age lands in whole study region, while the opposite regulation were found in new-born natural wetland, indicating that the anthropogenic activities could greatly alter the original distribution regulations of nutrients in coastal natural wetlands by changing the regional land use.
-N1  - Level: C; Score: 37; Abstract support: 背景句, 意义句; Source: OpenAlex
-ER  -
-
-TY  - JOUR
 TI  - Microbial diversity in intensively farmed lake sediment contaminated by heavy metals and identification of microbial taxa bioindicators of environmental quality
 AU  - María Custodio
 AU  - Ciro Espinoza
@@ -447,38 +382,4 @@ DO  - 10.1038/s41598-021-03949-7
 UR  - https://openalex.org/W4206266090
 AB  - The cumulative effects of anthropogenic stress on freshwater ecosystems are becoming increasingly evident and worrisome. In lake sediments contaminated by heavy metals, the composition and structure of microbial communities can change and affect nutrient transformation and biogeochemical cycling of sediments. In this study, bacterial and archaeal communities of lake sediments under fish pressure contaminated with heavy metals were investigated by the Illumina MiSeq platform. Despite the similar content of most of the heavy metals in the lagoon sediments, we found that their microbial communities were different in diversity and composition. This difference would be determined by the resilience or tolerance of the microbial communities to the heavy metal enrichment gradient. Thirty-two different phyla and 66 different microbial classes were identified in sediment from the three lagoons studied. The highest percentages of contribution in the differentiation of microbial communities were presented by the classes Alphaproteobacteria (19.08%), Cyanophyceae (14.96%), Betaproteobacteria (9.01%) y Actinobacteria (7.55%). The bacteria that predominated in sediments with high levels of Cd and As were Deltaproteobacteria, Actinobacteria, Coriobacteriia, Nitrososphaeria and Acidobacteria (Pomacocha), Alphaproteobacteria, Chitinophagia, Nitrospira and Clostridia (Tipicocha) and Betaproteobacteria (Tranca Grande). Finally, the results allow us to expand the current knowledge of microbial diversity in lake sediments contaminated with heavy metals and to identify bioindicators taxa of environmental quality that can be used in the monitoring and control of heavy metal contamination.
 N1  - Level: C; Score: 37; Abstract support: 意义句; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - Comparison of biochar properties from 5 kinds of halophyte produced by slow pyrolysis at 500 °C
-AU  - Hongyang Xiao
-AU  - Qimei Lin
-AU  - Guitong Li
-AU  - Xiaorong Zhao
-AU  - Jianzhong Li
-AU  - Erzhen Li
-JO  - Biochar
-PY  - 2022
-DO  - 10.1007/s42773-022-00141-6
-UR  - https://openalex.org/W4213229866
-AB  - Abstract Glycophyte biomass-derived biochars are currently concerned in most studies. However, little attention is given to the characteristics of halophyte-derived biochars. In this study, five typical halophytes of euhalophytes ( Suaeda altissima , Suaeda salsa , and Kalidium foliatum ), recretohalophytes ( Phragmites australis ), and pseudohalophytes ( Tamarix chinensis ) which are widely distributed in the arid and semiarid regions of northwestern China were selected for producing biochars with a slow pyrolysis process at 500 °C for 1 h. The harvested biochars were characterized in elemental content, pores, surface area, and surface charges, and then their potential value as a soil conditioner was evaluated. The results showed that the halophyte-derived biochars had variable ash and Na + contents, ranging from 7.26 to 23.64% and 1.06 to 33.93 g kg −1 respectively. The EC value of the biochars ranged from 1.76 to 23.45 mS cm −1 . The biochar derived from Suaeda altissima had a very low specific surface area (SSA), 3.50 m 2 g −1 , while that derived from Phragmites australis (B PA ) had a very high SSA, 344.02 m 2 g −1 . All the biochars carried both positive and negative charges. Kalidium foliatum biochar (B KF ) possessed more negative charges, while Suaeda altissima biochar (B SA ) contained more positive charges. In general, the halophyte biochars had a higher ash content and lower point of zero net charge (PZNC) value, compared with the biochars derived from glycophytes, which would imply their higher potential value as an acidic soil conditioner.
-N1  - Level: C; Score: 27; Abstract support: 对象句; Source: OpenAlex
-ER  -
-
-TY  - JOUR
-TI  - The global soil community and its influence on biogeochemistry
-AU  - Thomas W. Crowther
-AU  - Johan van den Hoogen
-AU  - Joe Wan
-AU  - Melanie A. Mayes
-AU  - Ashley D. Keiser
-AU  - Lidong Mo
-AU  - Colin Averill
-AU  - Daniel S. Maynard
-JO  - Science
-PY  - 2019
-DO  - 10.1126/science.aav0550
-UR  - https://openalex.org/W2969523923
-AB  - Soil organisms represent the most biologically diverse community on land and govern the turnover of the largest organic matter pool in the terrestrial biosphere. The highly complex nature of these communities at local scales has traditionally obscured efforts to identify unifying patterns in global soil biodiversity and biogeochemistry. As a result, environmental covariates have generally been used as a proxy to represent the variation in soil community activity in global biogeochemical models. Yet over the past decade, broad-scale studies have begun to see past this local heterogeneity to identify unifying patterns in the biomass, diversity, and composition of certain soil groups across the globe. These unifying patterns provide new insights into the fundamental distribution and dynamics of organic matter on land.
-N1  - Level: C; Score: 25; Abstract support: 方法句; Source: OpenAlex
 ER  -

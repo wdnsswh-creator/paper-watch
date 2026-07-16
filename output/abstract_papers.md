@@ -2,15 +2,15 @@
 
 检索日期：2026-07-16
 
-检索去重后文献总数：323
-写入结果文献数：30
-A 类文献数量：5
-B 类文献数量：21
-C 类文献数量：4
+检索去重后文献总数：259
+写入结果文献数：24
+A 类文献数量：4
+B 类文献数量：19
+C 类文献数量：1
 
 ## 用户摘要草稿
 
-黄河三角洲滨海湿地受陆海相互作用影响显著，形成了明显的盐分、水分和植被空间梯度，这些环境差异可能深刻影响土壤微生物群落组成及其生态功能。 土壤细菌和真菌是湿地养分循环、植物适应和生态系统稳定的重要参与者，但不同盐生植物生境及海陆位置变化下微生物群落结构、功能和共现关系的响应机制仍不清楚。 因此，本研究以黄河三角洲典型盐生植物柽柳、碱蓬和芦苇根际土壤为对象，采用高通量测序技术分析不同生境下土壤细菌和真菌群落多样性、组成结构、潜在功能及共现网络变化特征。
+黄河三角洲滨海湿地是陆海相互作用强烈的典型生态过渡区，受潮汐、盐分、水分和植被分布等因素共同影响，土壤环境具有明显的空间异质性。 土壤微生物作为连接植物生长、养分循环和湿地生态功能的重要生物因子，对环境梯度变化十分敏感，但目前关于不同盐生植物及其空间位置共同作用下细菌和真菌群落结构、潜在功能及互作网络变化的认识仍较有限。 基于此，本研究选取黄河三角洲滨海湿地中三种典型盐生植物柽柳、碱蓬和芦苇，比较其不同空间位置根际土壤细菌和真菌群落组成、功能预测及共现网络特征，以揭示滨海湿地微生物群落对不同生境条件的响应规律。
 
 ## 可直接支撑摘要逻辑的 A 类文献
 
@@ -20,7 +20,7 @@ C 类文献数量：4
 - 来源：OpenAlex
 - 相似度得分：108
 - 摘要类型：背景句, 问题句, 对象句, 方法句, 意义句
-- 与用户摘要的相似点：高度适合摘要写作支撑：研究对象、摘要逻辑和方法表达均较接近。期刊需人工核对。
+- 与用户摘要的相似点：高度适合摘要写作支撑：研究区、盐生植物/生境梯度、微生物对象和方法表达均较接近。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 对象句, 方法句, 意义句
 - Zotero collection 建议：01_摘要核心支撑文献
 - 期刊质量提示：期刊需人工核对。
@@ -36,7 +36,7 @@ Soil microorganisms play the important role in driving biogeochemical cycles. Ho
 - 来源：OpenAlex
 - 相似度得分：107
 - 摘要类型：背景句, 问题句, 对象句, 方法句
-- 与用户摘要的相似点：高度适合摘要写作支撑：研究对象、摘要逻辑和方法表达均较接近。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：高度适合摘要写作支撑：研究区、盐生植物/生境梯度、微生物对象和方法表达均较接近。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 对象句, 方法句
 - Zotero collection 建议：01_摘要核心支撑文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -48,43 +48,27 @@ Soil microorganisms play vital roles in regulating biogeochemical processes. The
 
 ### 3. Environmental Filtering by pH and Salinity Jointly Drives Prokaryotic Community Assembly in Coastal Wetland Sediments
 
-- 作者/年份/期刊/DOI：Yu Huang, Qiuping Zhong, Yisheng Peng, Xiafei Zheng, Fanshu Xiao, Bo Wu；2022；Frontiers in Marine Science；10.3389/fmars.2021.792294
-- 来源：OpenAlex
+- 作者/年份/期刊/DOI：Huang Yu, Qiuping Zhong, Yisheng Peng, Xiafei Zheng, Fanshu Xiao, Bo Wu；2022；Frontiers in Marine Science；10.3389/fmars.2021.792294
+- 来源：Crossref
 - 相似度得分：87
 - 摘要类型：背景句, 问题句, 方法句, 意义句
-- 与用户摘要的相似点：高度适合摘要写作支撑：研究对象、摘要逻辑和方法表达均较接近。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：高度适合摘要写作支撑：研究区、盐生植物/生境梯度、微生物对象和方法表达均较接近。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 方法句, 意义句
 - Zotero collection 建议：01_摘要核心支撑文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
-- 触发检索词：high-throughput sequencing bacterial fungal communities saline wetland
-- URL：https://openalex.org/W4205538299
+- 触发检索词：Environmental Filtering by pH and Salinity Jointly Drives Prokaryotic Community Assembly in Coastal Wetland Sediments
+- URL：https://doi.org/10.3389/fmars.2021.792294
 - 摘要核心内容：
 
 Understanding the microbial community assembly is an essential topic in microbial ecology. Coastal wetlands are an important blue carbon sink, where microbes play a key role in biogeochemical cycling of nutrients and energy transformation. However, the drivers controlling the distribution patterns and assembly of bacterial and archaeal communities in coastal wetland are unclear. Here we examined the diversity, co-occurrence network, assembly processes and environmental drivers of bacterial and archaeal communities from inshore to offshore sediments by the sequencing of 16S rRNA gene amplicons. The value of α- and β-diversity of bacterial and archaeal communities generally did not change significantly ( P > 0.05) between offshore sites, but changed significantly ( P < 0.05) among inshore sites. Sediment pH and salinity showed significant effects on the diversity and keystone taxa of bacterial and archaeal communities. The bacterial and archaeal co-occurrence networks were inextricably linked with pH and salinity to formed the large network nodes, suggesting that they were the key factors to drive the prokaryotic community. We also identified that heterogeneous and homogeneous selection drove the bacterial and archaeal community assembly, while the two selections became weaker from offshore sites to inshore sites, suggesting that deterministic processes were more important in off...
 
-### 4. Soil bacterial and fungal response to wildfires in the Canadian boreal forest across a burn severity gradient
-
-- 作者/年份/期刊/DOI：Thea Whitman, Ellen Whitman, Jamie Woolet, Mike Flannigan, Dan K. Thompson, Marc‐André Parisien；2019；Soil Biology and Biochemistry；10.1016/j.soilbio.2019.107571
-- 来源：OpenAlex
-- 相似度得分：85
-- 摘要类型：对象句, 方法句, 意义句
-- 与用户摘要的相似点：高度适合摘要写作支撑：研究对象、摘要逻辑和方法表达均较接近。期刊规格较好，可作为重点候选。
-- 可支撑用户摘要中的哪一句：对象句, 方法句, 意义句
-- Zotero collection 建议：01_摘要核心支撑文献
-- 期刊质量提示：期刊规格较好，可作为重点候选。
-- 触发检索词：soil moisture wetland microbial community
-- URL：https://openalex.org/W2969864881
-- 摘要核心内容：
-
-Global fire regimes are changing, with increases in wildfire frequency and severity expected for many North American forests over the next 100 years. Fires can result in dramatic changes to carbon (C) stocks and can restructure plant and microbial communities, with long-lasting effects on ecosystem functions. We investigated wildfire effects on soil microbial communities (bacteria and fungi) in an extreme fire season in the northwestern Canadian boreal forest, using field surveys, remote sensing, and high-throughput amplicon sequencing in upland and wetland sites. We hypothesized that vegetation community and soil pH would be the most important determinants of microbial community composition, while the effect of fire might not be significant, and found that fire occurrence, along with vegetation community, moisture regime, pH, total carbon, and soil texture are all significant predictors of soil microbial community composition. Burned communities become increasingly dissimilar to unburned communities with increasingly severe burns, and the burn severity index (an index of the fractional area of consumed organic soils and exposed mineral soils) best predicted total bacterial community composition, while whether a site was burned or not was the best predictor for fungi. Globally abundant taxa were identified as significant positive fire responders in this system, including the ba...
-
-### 5. Shifts in the soil bacterial community along a salinity gradient in the Yellow River Delta
+### 4. Shifts in the soil bacterial community along a salinity gradient in the Yellow River Delta
 
 - 作者/年份/期刊/DOI：Qingqing Zhao, Junhong Bai, Yongchao Gao, Haixiao Zhao, Guangliang Zhang, Baoshan Cui；2020；Land Degradation & Development；10.1002/ldr.3594
 - 来源：Crossref
 - 相似度得分：79
 - 摘要类型：背景句, 方法句, 意义句
-- 与用户摘要的相似点：高度适合摘要写作支撑：研究对象、摘要逻辑和方法表达均较接近。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：高度适合摘要写作支撑：研究区、盐生植物/生境梯度、微生物对象和方法表达均较接近。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：背景句, 方法句, 意义句
 - Zotero collection 建议：01_摘要核心支撑文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -102,7 +86,7 @@ Abstract Soil salinization has rapidly encroached from the coastline to inland a
 - 来源：OpenAlex
 - 相似度得分：83
 - 摘要类型：背景句, 问题句, 对象句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊争议度较高，建议作为补充线索。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊争议度较高，建议作为补充线索。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 对象句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊争议度较高，建议作为补充线索。
@@ -118,7 +102,7 @@ Polycyclic aromatic hydrocarbons (PAHs) are pervasive organic pollutants in coas
 - 来源：Crossref
 - 相似度得分：75
 - 摘要类型：背景句, 问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊争议度较高，建议作为补充线索。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊争议度较高，建议作为补充线索。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊争议度较高，建议作为补充线索。
@@ -134,7 +118,7 @@ The response of microbiomes to salinity has been clarified in different geograph
 - 来源：Crossref
 - 相似度得分：71
 - 摘要类型：问题句, 对象句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊争议度较高，建议作为补充线索。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊争议度较高，建议作为补充线索。
 - 可支撑用户摘要中的哪一句：问题句, 对象句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊争议度较高，建议作为补充线索。
@@ -150,7 +134,7 @@ Although microorganisms play a key role in the carbon cycle of the Poyang Lake w
 - 来源：OpenAlex
 - 相似度得分：66
 - 摘要类型：问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：问题句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -166,7 +150,7 @@ Soil microbes regulate the carbon cycle and affect the formation and stabilizati
 - 来源：Crossref
 - 相似度得分：64
 - 摘要类型：对象句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：对象句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -182,7 +166,7 @@ Ice-free soils in the McMurdo Dry Valleys select for taxa able to cope with chal
 - 来源：Crossref
 - 相似度得分：61
 - 摘要类型：背景句, 问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -192,29 +176,13 @@ Ice-free soils in the McMurdo Dry Valleys select for taxa able to cope with chal
 
 Salinity acts as a critical environmental filter on microbial communities in natural systems, negatively affecting microbial diversity. However, how salinity affects microbial community assembly remains unclear. This study used Wendeng multi-pond saltern as a model to evaluate the prokaryotic community composition and diversity and quantify the relative importance of ecological processes across salinity gradients. The results showed that low-saline salterns (45–80 g/L) exhibited higher bacterial diversity than high-saline salterns (175–265 g/L). The relative abundance of taxa assigned to Halomicrobiaceae, Rhodobacteraceae, Saprospiraceae, and Thiotrichaceae exhibited a hump-shaped dependence on increasing salinity. Salinity and pH were the primary environmental factors that directly or indirectly determined the composition and diversity of prokaryotic communities. Microbial co-occurrence network dynamics were more complex in the sediment than in the water of salterns. An infer Community Assembly Mechanisms by Phylogenetic-bin-based null model analysis (iCAMP) showed that microbial community assembly in sediment and water differed. Our findings provide more information about microbial community structure and the importance of various ecological processes in controlling microbial community diversity and succession along salinity gradients in water and sediment.
 
-### 7. Contrasting Patterns in Diversity and Community Assembly of Phragmites australis Root-Associated Bacterial Communities from Different Seasons
-
-- 作者/年份/期刊/DOI：Rujia He, Jin Zeng, Dayong Zhao, Rui Huang, Zhongbo Yu, Qinglong L. Wu；2020；Applied and Environmental Microbiology；10.1128/aem.00379-20
-- 来源：OpenAlex
-- 相似度得分：61
-- 摘要类型：问题句, 对象句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
-- 可支撑用户摘要中的哪一句：问题句, 对象句, 意义句
-- Zotero collection 建议：02_摘要背景与方法文献
-- 期刊质量提示：期刊规格较好，可作为重点候选。
-- 触发检索词：Phragmites australis soil microbial community
-- URL：https://openalex.org/W3021047659
-- 摘要核心内容：
-
-Understanding the composition and assembly mechanisms of root-associated microbial communities of plants is crucial for understanding the interactions between plants and soil. Most previous studies of the plant root-associated microbiome focused on model and economic plants, with fewer temporal or seasonal investigations. The assembly mechanisms of root-associated bacterial communities in different seasons remain poorly known, especially for the aquatic macrophytes. In this study, we compared the diversity, composition, and relative importance of two different assembly processes (stochastic and deterministic processes) of bacterial communities associated with bulk sediment and the rhizosphere and endosphere of Phragmites australis in summer and winter. While we found apparent differences in composition, diversity, and assembly processes of bacterial communities among different compartments, season played important roles in determining BCCs and their diversity patterns and assemblages. We also found that endosphere bacteria mainly originated from the rhizosphere. The results add new knowledge regarding the plant-microbe interactions in aquatic ecosystems.
-
-### 8. Bacterial and fungal diversities examined through high-throughput sequencing in response to lead contamination of tea garden soil
+### 7. Bacterial and fungal diversities examined through high-throughput sequencing in response to lead contamination of tea garden soil
 
 - 作者/年份/期刊/DOI：Ziyan Zhang, Qingmei Deng, Hui Ye, Gaofei Ge；2023；Frontiers in Microbiology；10.3389/fmicb.2023.1121199
 - 来源：Crossref
 - 相似度得分：60
 - 摘要类型：方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -224,13 +192,13 @@ Understanding the composition and assembly mechanisms of root-associated microbi
 
 Several studies have indicated that the heavy-metal content in tea is increasing gradually. Researchers examining the soil of more than 100 tea gardens in China have observed that lead content was higher in some soils. The effect of lead contamination on soil microorganisms in tea gardens was studied to determine the effect of lead on the essential functions of microorganisms in a tea garden soil ecosystem. Previous studies on pot experiments adopted the method of adding a single instance of pollution, which failed to comprehensively simulate the characteristics of the slow accumulation of heavy metals in soil. This study designed with two pollution modes (multistage and single instance) determined the content of soil lead in different forms according to the European Community Bureau of Reference extraction procedure. The community structure, species diversity and functional abundance of soil bacteria and fungi were examined by high-throughput sequencing. We observed that the content of four forms of lead was higher in the multistage contamination mode than in the single instance contamination mode. The effects of lead contamination on bacteria differed significantly ( p < 0.05), and the abundance and diversity of bacteria were higher in the multistage contamination mode than in the single instance contamination mode. The community structure of fungi was more affected by lead t...
 
-### 9. Soil Microbial Community Structure and Diversity around the Aging Oil Sludge in Yellow River Delta as Determined by High-Throughput Sequencing
+### 8. Soil Microbial Community Structure and Diversity around the Aging Oil Sludge in Yellow River Delta as Determined by High-Throughput Sequencing
 
 - 作者/年份/期刊/DOI：Shaoping Kuang, Yaqing Su, Huihui Wang, Wenjuan Yu, Qiaolin Lang, Ravichandra Matangi；2018；Archaea；10.1155/2018/7861805
 - 来源：OpenAlex
 - 相似度得分：59
 - 摘要类型：背景句, 方法句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 方法句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -240,13 +208,13 @@ Several studies have indicated that the heavy-metal content in tea is increasing
 
 Microorganisms are sensitive indicators of edaphic environmental variation. The Illumina MiSeq sequencing technology was used to analyze soil bacterial community diversity around an aging oil sludge in the Yellow River Delta. The alpha diversity index of soil bacterial community results (Ace, Chao, Shannon, and Simpson) determined that bacterial community diversity sampling within the scope of a 20 cm radius from the center of an aging oil sludge spot showed the most abundant diversity. The level of diversity distributed symmetrically with radial direction from the center of the aging oil sludge spot. Over the distance of 100 m from the center, bacterial community diversity tends to be monotonous, with small differences especially in the horizontal direction underground. The alpha-diversity indicators also showed that the bacterial diversity of samples were close under the aging oil sludge. In addition, the aging oil sludge inhibited the growth of bacteria compared with the referenced unpolluted soil sample and also increased the diversities of soil bacteria. At the phylum level, the Proteobacteria , Chloroflexi , and Actinobacteria existing in the aging oil sludge-contaminated wetland soil constituted a larger proportion of the community, while the proportion of Firmicute was relatively less. On the contrary, Firmicute showed the highest content of 63.8% in the referenced soil...
 
-### 10. Response of Phyllosphere and Rhizosphere Microbial Communities to Salt Stress of Tamarix chinensis
+### 9. Response of Phyllosphere and Rhizosphere Microbial Communities to Salt Stress of Tamarix chinensis
 
 - 作者/年份/期刊/DOI：Xuan Qu, Yaqing Pan, Peiqin Wang, Lele Ran, Guifei Qin, Qunfang Li；2024；Plants；10.3390/plants13081091
 - 来源：Crossref
 - 相似度得分：57
 - 摘要类型：对象句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊争议度较高，建议作为补充线索。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊争议度较高，建议作为补充线索。
 - 可支撑用户摘要中的哪一句：对象句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊争议度较高，建议作为补充线索。
@@ -256,29 +224,13 @@ Microorganisms are sensitive indicators of edaphic environmental variation. The 
 
 As carriers of direct contact between plants and the atmospheric environment, the microbiomes of phyllosphere microorganisms are increasingly recognized as an important area of study. Salt secretion triggered by salt-secreting halophytes elicits changes in the community structure and functions of phyllosphere microorganisms, and often provides positive feedback to the individual plant/community environment. In this study, the contents of Na+ and K+ in the rhizosphere, plant and phyllosphere of Tamarix chinensis were increased under 200 mmol/L NaCl stress. The increase in electrical conductivity, Na+ and K+ in the phyllosphere not only decreased the diversity of bacterial and fungal communities, but also decreased the relative abundance of Actinobacteriota and Basidiomycota. Influenced by electrical conductivity and Na+, the bacteria–fungus co-occurrence network under salt stress has higher complexity. Changes in the structure of the phyllosphere microbial community further resulted in a significant increase in the relative abundance of the bacterial energy source and fungal pathotrophic groups. The relative abundance of Actinobacteriota and Acidobacteriota in rhizosphere showed a decreasing trend under salt stress, while the complexity of the rhizosphere co-occurrence network was higher than that of the control. In addition, the relative abundances of functional groups of rhizo...
 
-### 11. Archaeal and bacterial communities assembly and co-occurrence networks in subtropical mangrove sediments under Spartina alterniflora invasion
-
-- 作者/年份/期刊/DOI：Weidong Chen, Donghui Wen；2021；Environmental Microbiome；10.1186/s40793-021-00377-y
-- 来源：OpenAlex
-- 相似度得分：56
-- 摘要类型：问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
-- 可支撑用户摘要中的哪一句：问题句, 方法句, 意义句
-- Zotero collection 建议：02_摘要背景与方法文献
-- 期刊质量提示：期刊需人工核对。
-- 触发检索词：co-occurrence network bacterial fungal community coastal wetland
-- URL：https://openalex.org/W3159021597
-- 摘要核心内容：
-
-BACKGROUND: Mangrove ecosystems are vulnerable due to the exotic Spartina alterniflora (S. alterniflora) invasion in China. However, little is known about mangrove sediment microbial community assembly processes and interactions under S. alterniflora invasion. Here, we investigated the assembly processes and co-occurrence networks of the archaeal and bacterial communities under S. alterniflora invasion along the coastlines of Fujian province, southeast China. RESULTS: Assembly of overall archaeal and bacterial communities was driven predominantly by stochastic processes, and the relative role of stochasticity was stronger for bacteria than archaea. Co-occurrence network analyses showed that the network structure of bacteria was more complex than that of the archaea. The keystone taxa often had low relative abundances (conditionally rare taxa), suggesting low abundance taxa may significantly contribute to network stability. Moreover, S. alterniflora invasion increased bacterial and archaeal drift process (part of stochastic processes), and improved archaeal network complexity and stability, but decreased the network complexity and stability of bacteria. This could be attributed to S. alterniflora invasion influenced microbial communities diversity and dispersal ability, as well as soil environmental conditions. CONCLUSIONS: This study fills a gap in the community assembly and co...
-
-### 12. Effects of Spartina alterniflora Invasion on Soil Microbial Community Structure and Ecological Functions
+### 10. Effects of Spartina alterniflora Invasion on Soil Microbial Community Structure and Ecological Functions
 
 - 作者/年份/期刊/DOI：Minmin Cao, Lina Cui, Huimin Sun, Xiaomian Zhang, Xiang Zheng, Jiang Jiang；2021；Microorganisms；10.3390/microorganisms9010138
 - 来源：OpenAlex
 - 相似度得分：54
 - 摘要类型：问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊争议度较高，建议作为补充线索。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊争议度较高，建议作为补充线索。
 - 可支撑用户摘要中的哪一句：问题句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊争议度较高，建议作为补充线索。
@@ -288,13 +240,13 @@ BACKGROUND: Mangrove ecosystems are vulnerable due to the exotic Spartina altern
 
 It has been reported that the invasion of Spartina alterniflora changed the soil microbial community in the mangrove ecosystem in China, especially the bacterial community, although the response of soil fungal communities and soil microbial ecological functions to the invasion of Spartina alterniflora remains unclear. In this study, we selected three different communities (i.e., Spartina alterniflora community (SC), Spartina alterniflora–mangrove mixed community (TC), and mangrove community (MC)) in the Zhangjiangkou Mangrove Nature Reserve in China. High-throughput sequencing technology was used to analyze the impact of Spartina alterniflora invasion on mangrove soil microbial communities. Our results indicate that the invasion of Spartina alterniflora does not cause significant changes in microbial diversity, but it can alter the community structure of soil bacteria. The results of the LEfSe (LDA Effect Size) analysis show that the relative abundance of some bacterial taxa is not significantly different between the MC and SC communities, but different changes have occurred during the invasion process (i.e., TC community). Different from the results of the bacterial community, the invasion of Spartina alterniflora only cause a significant increase in few fungal taxa during the invasion process, and these taxa are at some lower levels (such as family, genus, and species) and cl...
 
-### 13. Prokaryotic Community Distribution along an Ecological Gradient of Salinity in Surface and Subsurface Saline Soils
+### 11. Prokaryotic Community Distribution along an Ecological Gradient of Salinity in Surface and Subsurface Saline Soils
 
 - 作者/年份/期刊/DOI：Kehui Xie, Yong Deng, Shaocun Zhang, Wenhao Zhang, Jianrong Liu, Yu‐Long Xie；2017；Scientific Reports；10.1038/s41598-017-13608-5
 - 来源：OpenAlex
 - 相似度得分：53
 - 摘要类型：背景句, 问题句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 问题句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -304,13 +256,13 @@ It has been reported that the invasion of Spartina alterniflora changed the soil
 
 Salinity effects on microbial communities in saline soils is still unclear, and little is known about subsurface soil microbial communities especially in saline or hypersaline ecosystems. Here we presented the survey of the prokaryotic community in saline soils along a salinity gradient (17.3-148.3 dS/m) in surface (0-10 cm) and subsurface (15-30 cm) saline soils of Qarhan Salt Lake, China. Moreover, we compared them with three paired nonsaline normal soils. Using the high-throughput sequencing technology and several statistical methods, we observed no significant community difference between surface soils and subsurface soils. For environmental factors, we found that TOC was the primary driver of the prokaryotic community distribution in surface saline soils, so was pH in subsurface saline soils. Salinity had more effects on the prokaryotic community in subsurface saline soils than in surface saline soils and played a less important role in saline soils than in saline waters or saline sediments. Our research provided references for the prokaryotic community distribution along a salinity gradient in both surface and subsurface saline soils of arid playa areas.
 
-### 14. Effects of Invasive Plant Diversity on Soil Microbial Communities
+### 12. Effects of Invasive Plant Diversity on Soil Microbial Communities
 
 - 作者/年份/期刊/DOI：Xiaoyan Wang, Xue Wang, Wei Wang, Jiang Wang, Feihai Yu；2022；Diversity；10.3390/d14110992
 - 来源：Crossref
 - 相似度得分：52
 - 摘要类型：问题句, 方法句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：问题句, 方法句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -320,13 +272,13 @@ Salinity effects on microbial communities in saline soils is still unclear, and 
 
 Native plant communities can be invaded by different numbers of alien plant species or by the same number of alien plant species with different levels of evenness. However, little is known about how alien invasive plant species richness and evenness affect soil microbial communities. We constructed native herbaceous plant communities invaded by exotic plants with different richness (1, 2, 4 and 8 species) and evenness (high and low) and analyzed soil physico-chemical properties and the diversity and composition of soil fungal and bacterial communities by high-throughput Illumina sequencing. Overall, the species richness and evenness of invasive plants had no significant effect on bacterial and fungal alpha diversity (OTUs, Shannon, Simpson, Chao1 and ACE) or the soil physico-chemical properties. However, invasive species richness had a significant impact on the relative abundance of the most dominant fungi, Ascomycota and Bipolaris, and the dominant bacteria, Actinobacteriota, which increased with increasing invasive species richness. The relative abundance of the dominant microbial groups was significantly correlated with the relative abundance of some specific invasive plants in the community. This study sheds new light on the effects of plant co-invasion on soil microbial communities, which may help us understand the underlying mechanisms of multiple alien plant invasion pro...
 
-### 15. Soil fungal and bacterial communities reflect differently tundra vegetation state transitions and soil physico‐chemical properties
+### 13. Soil fungal and bacterial communities reflect differently tundra vegetation state transitions and soil physico‐chemical properties
 
 - 作者/年份/期刊/DOI：Karoliina Huusko, Outi H. Manninen, Eero Myrsky, Sari Stark；2024；New Phytologist；10.1111/nph.19808
 - 来源：Crossref
 - 相似度得分：51
 - 摘要类型：对象句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：对象句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -336,13 +288,13 @@ Native plant communities can be invaded by different numbers of alien plant spec
 
 Summary Strong disturbances may induce ecosystem transitions into new alternative states that sustain through plant–soil interactions, such as the transition of dwarf shrub‐dominated into graminoid‐dominated vegetation by herbivory in tundra. Little evidence exists on soil microbial communities in alternative states, and along the slow process of ecosystem return into the predisturbance state. We analysed vegetation, soil microbial communities and activities as well as soil physico‐chemical properties in historical reindeer enclosures in northernmost Finland in the following plot types: control heaths in the surrounding tundra; graminoid‐dominated; ‘shifting’; and recovered dwarf shrub‐dominated vegetation inside enclosures. Soil fungal communities followed changes in vegetation, whereas bacterial communities were more affected by soil physico‐chemical properties. Graminoid plots were characterized by moulds, pathotrophs and dark septate endophytes. Ericoid mycorrhizal and saprotrophic fungi were typical for control and recovered plots. Soil microbial communities inside the enclosures showed historical contingency, as their spatial variation was high in recovered plots despite the vegetation being more homogeneous. Self‐maintaining feedback loops between plant functional types, soil microbial communities, and carbon and nutrient mineralization act effectively to stabilize alter...
 
-### 16. Spatial distribution of prokaryotic communities in hypersaline soils
+### 14. Spatial distribution of prokaryotic communities in hypersaline soils
 
 - 作者/年份/期刊/DOI：Blanca Vera‐Gargallo, Taniya Roy Chowdhury, Joseph Brown, Sarah Fansler, Ana Durán‐Viseras, Cristina Sánchez‐Porro；2019；Scientific Reports；10.1038/s41598-018-38339-z
 - 来源：OpenAlex
 - 相似度得分：51
 - 摘要类型：方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -352,13 +304,13 @@ Summary Strong disturbances may induce ecosystem transitions into new alternativ
 
 Abstract Increasing salinization in wetland systems is a major threat to ecosystem services carried out by microbial communities. Thus, it is paramount to understand how salinity drives both microbial community structures and their diversity. Here we evaluated the structure and diversity of the prokaryotic communities from a range of highly saline soils (EC 1:5 from 5.96 to 61.02 dS/m) from the Odiel Saltmarshes and determined their association with salinity and other soil physicochemical features by analyzing 16S rRNA gene amplicon data through minimum entropy decomposition (MED). We found that these soils harbored unique communities mainly composed of halophilic and halotolerant taxa from the phyla Euryarchaeota , Proteobacteria , Balneolaeota, Bacteroidetes and Rhodothermaeota . In the studied soils, several site-specific properties were correlated with community structure and individual abundances of particular sequence variants. Salinity had a secondary role in shaping prokaryotic communities in these highly saline samples since the dominant organisms residing in them were already well-adapted to a wide range of salinities. We also compared ESV-based results with OTU-clustering derived ones, showing that, in this dataset, no major differences in ecological outcomes were obtained by the employment of one or the other method.
 
-### 17. Effect of Mixed Forests on Soil Bacterial Community Structure and Functional Characteristics in the Yellow River Delta
+### 15. Effect of Mixed Forests on Soil Bacterial Community Structure and Functional Characteristics in the Yellow River Delta
 
 - 作者/年份/期刊/DOI：Tianlong Yan, Yifei Wu, Ruyan Jing, Qi Wang, Xinjing Ding；2026；Sustainability；10.3390/su18031347
 - 来源：Crossref
 - 相似度得分：49
 - 摘要类型：背景句, 方法句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 方法句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -368,13 +320,13 @@ Abstract Increasing salinization in wetland systems is a major threat to ecosyst
 
 To investigate the effects of mixed forests on soil bacterial characteristics in the Yellow River Delta, pure forests of Ailanthus altissima, Ulmus pumila, Robinia pseudoacacia, and Fraxinus velutina (hereafter Aa, Up, Rp, and Fv, respectively) and mixed forests of Aa-Rp, Up-Rp, Fv-Rp, and Ma (Melia azedarach)-Fv were selected as the research objects. High-throughput sequencing technology was employed to analyze the structure, diversity, and function of bacterial communities in this region. The results showed that Acidobacteria, Proteobacteria, and Actinobacteria were the dominant microbial groups. The relative abundance of Acidobacteria was reduced by mixed patterns of Up-Rp, Fv-Rp and Ma-Fv, and the abundance of Proteobacteria was increased in Ma-Fv. The Chao1, ACE and Shannon indices of Aa-Rp and Fv-Rp were increased, while the Chao1 and ACE indices of Up-Rp and Ma-Fv were decreased. Functional prediction revealed that chemoheterotrophic and aerobic chemoheterotrophic bacteria had the highest abundance, with mixed forests exerting variable effects on different functional bacterial groups. In conclusion, mixed forest management exerts a significant influence on shaping bacterial community structure, regulating its diversity, and facilitating the directional enrichment of functional bacteria, which is conducive to enhancing the stability and sustainability of plantations.
 
-### 18. Environmental microbial diversity and water pollution characteristics resulted from 150 km coastline in Quanzhou Bay offshore area
+### 16. Environmental microbial diversity and water pollution characteristics resulted from 150 km coastline in Quanzhou Bay offshore area
 
 - 作者/年份/期刊/DOI：Siqi Ding, Jiamin Chang, Wenzhou Zhang, Shouping Ji, Yulang Chi；2024；Frontiers in Microbiology；10.3389/fmicb.2024.1438133
 - 来源：Crossref
 - 相似度得分：44
 - 摘要类型：方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -384,13 +336,13 @@ To investigate the effects of mixed forests on soil bacterial characteristics in
 
 As a typical transitional area between the land and sea, the offshore area is subjected to the triple synergistic pressure from the ocean, land, and atmosphere at the same time, and has obvious characteristics such as complex and diverse chemical, physical, and biological processes, coupled and changeable environmental factors, and sensitive and fragile ecological environment. With the deepening of the urbanization process, the offshore area has gradually become the final receptions of pollutants produced by industry, agriculture, and service industries, and plays a key role in the global environmental geochemical cycle of pollutants. In this study, the Quanzhou Bay offshore area was selected as the research object. Sediment and water samples were collected from 8 sampling points within about 150 km of coastline in the Quanzhou Bay offshore area. 16s rDNA high-throughput sequencing method was used to investigate the variation rule of microbial diversity in the offshore area, and multi-parameter water quality analysis was carried out at the same time. The results showed that the distribution characteristics of microbial communities and water quality in the Quanzhou Bay offshore area showed significant differences in different latitudes and longitudes. This difference is closely related to the complexity of offshore area. This study can provide scientific support for protecting a...
 
-### 19. Environmental filtering by pH and soil nutrients drives community assembly in fungi at fine spatial scales
+### 17. Environmental filtering by pH and soil nutrients drives community assembly in fungi at fine spatial scales
 
 - 作者/年份/期刊/DOI：Sydney I. Glassman, Ian J. Wang, Thomas D. Bruns；2017；Molecular Ecology；10.1111/mec.14414
 - 来源：Crossref
 - 相似度得分：44
 - 摘要类型：方法句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊规格较好，可作为重点候选。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊规格较好，可作为重点候选。
 - 可支撑用户摘要中的哪一句：方法句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊规格较好，可作为重点候选。
@@ -400,13 +352,13 @@ As a typical transitional area between the land and sea, the offshore area is su
 
 Abstract Whether niche processes, like environmental filtering, or neutral processes, like dispersal limitation, are the primary forces driving community assembly is a central question in ecology. Here, we use a natural experimental system of isolated tree “islands” to test whether environment or geography primarily structures fungal community composition at fine spatial scales. This system consists of isolated pairs of two distantly related, congeneric pine trees established at varying distances from each other and the forest edge, allowing us to disentangle the effects of geographic distance vs. host and edaphic environment on associated fungal communities. We identified fungal community composition with Illumina sequencing of ITS amplicons, measured all relevant environmental parameters for each tree—including tree age, size and soil chemistry—and calculated geographic distances from each tree to all others and to the nearest forest edge. We applied generalized dissimilarity modelling to test whether total and ectomycorrhizal fungal ( EMF ) communities were primarily structured by geographic or environmental filtering. Our results provide strong evidence that as in many other organisms, niche and neutral processes both contribute significantly to turnover in community composition in fungi, but environmental filtering plays the dominant role in structuring both free‐living an...
 
-### 20. Linking bacterial community composition to soil salinity along environmental gradients
+### 18. Linking bacterial community composition to soil salinity along environmental gradients
 
 - 作者/年份/期刊/DOI：Kristin Rath, Noah Fierer, Daniel V. Murphy, Johannes Rousk；2018；The ISME Journal；10.1038/s41396-018-0313-8
 - 来源：OpenAlex
 - 相似度得分：42
 - 摘要类型：背景句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：背景句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -416,13 +368,13 @@ Abstract Whether niche processes, like environmental filtering, or neutral proce
 
 Salinization is recognized as a threat to soil fertility worldwide. A challenge in understanding the effects of salinity on soil microbial communities is the fact that it can be difficult to disentangle the effects of salinity from those of other variables that may co-vary with salinity. Here we use a trait-based approach to identify direct effects of salinity on soil bacterial communities across two salinity gradients. Through dose-response relationships between salinity and bacterial growth, we quantified distributions of the trait salt tolerance within the communities. Community salt tolerance was closely correlated with soil salinity, indicating a strong filtering effect of salinity on the bacterial communities. Accompanying the increases in salt tolerance were consistent shifts in bacterial community composition. We identified specific bacterial taxa that increased in relative abundances with community salt tolerance, which could be used as bioindicators for high community salt tolerance. A strong filtering effect was also observed for pH across the gradients, with pH tolerance of bacterial communities correlated to soil pH. We propose phenotypic trait distributions aggregated at the community level as a useful approach to study the role of environmental factors as filters of microbial community composition.
 
-### 21. The Effects of Suaeda salsa/Zea mays L. Intercropping on Plant Growth and Soil Chemical Characteristics in Saline Soil
+### 19. The Effects of Suaeda salsa/Zea mays L. Intercropping on Plant Growth and Soil Chemical Characteristics in Saline Soil
 
 - 作者/年份/期刊/DOI：Shoule Wang, Zhenyong Zhao, Shaoqing Ge, Ke Zhang, Changyan Tian, Wenxuan Mai；2022；Agriculture；10.3390/agriculture12010107
 - 来源：Crossref
 - 相似度得分：41
 - 摘要类型：对象句, 方法句, 意义句
-- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构或主题相似。期刊需人工核对。
+- 与用户摘要的相似点：可用于摘要背景、方法或意义表达：与用户摘要有部分结构、环境梯度或方法相似，但主题贴合度低于 A 类。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：对象句, 方法句, 意义句
 - Zotero collection 建议：02_摘要背景与方法文献
 - 期刊质量提示：期刊需人工核对。
@@ -434,29 +386,13 @@ Halophytes possess the capacity to uptake high levels of salt through physiologi
 
 ## 仅作背景暂存的 C 类文献
 
-### 1. Distribution of carbon, nitrogen and phosphorus in coastal wetland soil related land use in the Modern Yellow River Delta
-
-- 作者/年份/期刊/DOI：Junbao Yu, Chao Zhan, Yunzhao Li, Di Zhou, Yuqin Fu, Xiaojing Chu；2016；Scientific Reports；10.1038/srep37940
-- 来源：OpenAlex
-- 相似度得分：37
-- 摘要类型：背景句, 意义句
-- 与用户摘要的相似点：间接相关：可暂存为句式或背景参考。期刊需人工核对。
-- 可支撑用户摘要中的哪一句：背景句, 意义句
-- Zotero collection 建议：08_低相关暂存
-- 期刊质量提示：期刊需人工核对。
-- 触发检索词：Yellow River Delta coastal wetland soil microbial community
-- URL：https://openalex.org/W2557799707
-- 摘要核心内容：
-
-Abstract The delivery and distribution of nutrients in coastal wetland ecosystems is much related to the land use. The spatial variations of TOC, TN, NH 4 + -N, NO 3 − -N and TP and associated soil salinity with depth in 9 kinds land uses in coastal zone of the modern Yellow River Delta (YRD) was evaluated based on monitoring data in field from 2009 to 2015. The results showed that the average contents of soil TOC, TN, NO 3 − -N, NH 4 + -N and TP were 4.21 ± 2.40 g kg −1 , 375.91 ± 213.44, 5.36 ± 9.59 and 7.20 ± 5.58 and 591.27 ± 91.16 mg kg −1 , respectively. The high N and C contents were found in cropland in southern part and low values in natural wetland, while TP was relatively stable both in profiles and in different land uses. The land use, land formation age and salinity were important factors influencing distributions of TOC and N. Higher contents of TOC and N were observed in older formation age lands in whole study region, while the opposite regulation were found in new-born natural wetland, indicating that the anthropogenic activities could greatly alter the original distribution regulations of nutrients in coastal natural wetlands by changing the regional land use.
-
-### 2. Microbial diversity in intensively farmed lake sediment contaminated by heavy metals and identification of microbial taxa bioindicators of environmental quality
+### 1. Microbial diversity in intensively farmed lake sediment contaminated by heavy metals and identification of microbial taxa bioindicators of environmental quality
 
 - 作者/年份/期刊/DOI：María Custodio, Ciro Espinoza, Richard Peñaloza, Tessy Peralta‐Ortiz, Héctor Suárez, Alberto Ordinola‐Zapata；2022；Scientific Reports；10.1038/s41598-021-03949-7
 - 来源：OpenAlex
 - 相似度得分：37
 - 摘要类型：意义句
-- 与用户摘要的相似点：间接相关：可暂存为句式或背景参考。期刊需人工核对。
+- 与用户摘要的相似点：间接相关：可暂存为句式或背景参考，不建议作为核心引用。期刊需人工核对。
 - 可支撑用户摘要中的哪一句：意义句
 - Zotero collection 建议：08_低相关暂存
 - 期刊质量提示：期刊需人工核对。
@@ -465,38 +401,6 @@ Abstract The delivery and distribution of nutrients in coastal wetland ecosystem
 - 摘要核心内容：
 
 The cumulative effects of anthropogenic stress on freshwater ecosystems are becoming increasingly evident and worrisome. In lake sediments contaminated by heavy metals, the composition and structure of microbial communities can change and affect nutrient transformation and biogeochemical cycling of sediments. In this study, bacterial and archaeal communities of lake sediments under fish pressure contaminated with heavy metals were investigated by the Illumina MiSeq platform. Despite the similar content of most of the heavy metals in the lagoon sediments, we found that their microbial communities were different in diversity and composition. This difference would be determined by the resilience or tolerance of the microbial communities to the heavy metal enrichment gradient. Thirty-two different phyla and 66 different microbial classes were identified in sediment from the three lagoons studied. The highest percentages of contribution in the differentiation of microbial communities were presented by the classes Alphaproteobacteria (19.08%), Cyanophyceae (14.96%), Betaproteobacteria (9.01%) y Actinobacteria (7.55%). The bacteria that predominated in sediments with high levels of Cd and As were Deltaproteobacteria, Actinobacteria, Coriobacteriia, Nitrososphaeria and Acidobacteria (Pomacocha), Alphaproteobacteria, Chitinophagia, Nitrospira and Clostridia (Tipicocha) and Betaproteobac...
-
-### 3. Comparison of biochar properties from 5 kinds of halophyte produced by slow pyrolysis at 500 °C
-
-- 作者/年份/期刊/DOI：Hongyang Xiao, Qimei Lin, Guitong Li, Xiaorong Zhao, Jianzhong Li, Erzhen Li；2022；Biochar；10.1007/s42773-022-00141-6
-- 来源：OpenAlex
-- 相似度得分：27
-- 摘要类型：对象句
-- 与用户摘要的相似点：间接相关：可暂存为句式或背景参考。期刊需人工核对。
-- 可支撑用户摘要中的哪一句：对象句
-- Zotero collection 建议：08_低相关暂存
-- 期刊质量提示：期刊需人工核对。
-- 触发检索词：Tamarix chinensis Suaeda salsa Phragmites australis soil microbial community
-- URL：https://openalex.org/W4213229866
-- 摘要核心内容：
-
-Abstract Glycophyte biomass-derived biochars are currently concerned in most studies. However, little attention is given to the characteristics of halophyte-derived biochars. In this study, five typical halophytes of euhalophytes ( Suaeda altissima , Suaeda salsa , and Kalidium foliatum ), recretohalophytes ( Phragmites australis ), and pseudohalophytes ( Tamarix chinensis ) which are widely distributed in the arid and semiarid regions of northwestern China were selected for producing biochars with a slow pyrolysis process at 500 °C for 1 h. The harvested biochars were characterized in elemental content, pores, surface area, and surface charges, and then their potential value as a soil conditioner was evaluated. The results showed that the halophyte-derived biochars had variable ash and Na + contents, ranging from 7.26 to 23.64% and 1.06 to 33.93 g kg −1 respectively. The EC value of the biochars ranged from 1.76 to 23.45 mS cm −1 . The biochar derived from Suaeda altissima had a very low specific surface area (SSA), 3.50 m 2 g −1 , while that derived from Phragmites australis (B PA ) had a very high SSA, 344.02 m 2 g −1 . All the biochars carried both positive and negative charges. Kalidium foliatum biochar (B KF ) possessed more negative charges, while Suaeda altissima biochar (B SA ) contained more positive charges. In general, the halophyte biochars had a higher ash content...
-
-### 4. The global soil community and its influence on biogeochemistry
-
-- 作者/年份/期刊/DOI：Thomas W. Crowther, Johan van den Hoogen, Joe Wan, Melanie A. Mayes, Ashley D. Keiser, Lidong Mo；2019；Science；10.1126/science.aav0550
-- 来源：OpenAlex
-- 相似度得分：25
-- 摘要类型：方法句
-- 与用户摘要的相似点：间接相关：可暂存为句式或背景参考。期刊需人工核对。
-- 可支撑用户摘要中的哪一句：方法句
-- Zotero collection 建议：08_低相关暂存
-- 期刊质量提示：期刊需人工核对。
-- 触发检索词：soil moisture wetland microbial community
-- URL：https://openalex.org/W2969523923
-- 摘要核心内容：
-
-Soil organisms represent the most biologically diverse community on land and govern the turnover of the largest organic matter pool in the terrestrial biosphere. The highly complex nature of these communities at local scales has traditionally obscured efforts to identify unifying patterns in global soil biodiversity and biogeochemistry. As a result, environmental covariates have generally been used as a proxy to represent the variation in soil community activity in global biogeochemical models. Yet over the past decade, broad-scale studies have begun to see past this local heterogeneity to identify unifying patterns in the biomass, diversity, and composition of certain soil groups across the globe. These unifying patterns provide new insights into the fundamental distribution and dynamics of organic matter on land.
 
 ## 可借鉴的摘要句式
 
