@@ -49,6 +49,28 @@ python scripts/search_papers.py --days 3650 --limit 20 --max-queries 40 --mailto
 
 `daily_papers.md` 现在会额外标出每篇文献可参考的图件/方法类型，例如 EC/pH/Salt 理化性质图、alpha diversity、UpSet/Venn、PCoA/NMDS/PERMANOVA、门水平组成、LEfSe、环境因子相关性/随机森林、FAPROTAX/FUNGuild 等，并给出期刊质量提示。A 类会优先保留主题、方法和期刊规格都更合适的文献。
 
+## 按摘要草稿检索文献摘要
+
+如果目标是写论文摘要，而不是普通找文献，运行：
+
+```bash
+python scripts/search_abstract_papers.py --days 3650 --limit 10 --max-queries 24 --mailto your-email@example.com
+```
+
+默认会使用黄河三角洲滨海湿地、柽柳/碱蓬/芦苇、土壤细菌和真菌群落、高通量测序、共现网络和功能预测这一摘要模板。
+
+如果你有自己的摘要草稿，先保存成 UTF-8 文本文件，例如 `work/abstract_draft.txt`，再运行：
+
+```bash
+python scripts/search_abstract_papers.py --abstract-file work/abstract_draft.txt --days 3650 --limit 10 --max-queries 24 --mailto your-email@example.com
+```
+
+输出文件：
+
+- `output/abstract_papers.md`：按“背景句、问题句、对象句、方法句、意义句”标注文献摘要能支撑哪一部分。
+- `output/abstract_papers.ris`：可导入 Zotero 的文献摘要 RIS。
+- `output/abstract_seen_dois.txt`：摘要文献检索去重记录。
+
 ## 导入 Zotero
 
 1. 打开 Zotero。
