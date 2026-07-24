@@ -1,17 +1,72 @@
 TY  - JOUR
-TI  - Microbiome structure and function in rhizosphere of Jerusalem artichoke grown in saline land.
-AU  - Yang Yue
-AU  - Tianyun Shao
-AU  - X. Long
-AU  - Tengfei He
-AU  - Xiumei Gao
-AU  - Zhaosheng Zhou
-AU  - Zhao-pu Liu
-AU  - Z. Rengel
-JO  - Science of the Total Environment
-PY  - 2020
-DO  - 10.1016/j.scitotenv.2020.138259
-UR  - https://www.semanticscholar.org/paper/a7a51a7e2c89ddd70311bf0eb21eaa6da9d43a95
-AB  - The improvement and development of saline-alkali soils is currently a hot economic and scientific issue, and exploring the correlation between rhizosphere microorganisms of plants growing on saline-alkali soils and their salt tolerance has become the key point of related research. In our study, the community structure of microorganism and various properties of saline soils were characterized in which Jerusalem artichoke grown along a soil salinity gradient. A variety of basic soil properties were measured and the amplicon was performed as well as metagenomic sequencing on coastal saline soils using various techniques (such as RDA analysis and the assembly of genomes) to evaluate microbial functions. In addition, WGCNA (Weighted gene coexpression network analysis) method was used to identify the species related to salt stress and the sequence binning to assemble two enriched putative bacterial genomes. The research showed the cultivation of Jerusalem artichoke on saline soil changed soil physico-chemical and enzymatic properties; most of the rapidly changing as well as the long-term stable properties differed significantly between the rhizosphere and bulk soils. The amplicon and metagenomic sequencing revealed the function and structure of microorganisms varied between the rhizosphere and bulk soils, with greater microbial diversity in the rhizosphere. Catalase activity and the moisture content were the factors with the greatest impact on microorganisms. The putative genomes of two species of microorganisms (belong to Nitrospira and Gemmatimonas) were assembled, identified microbial species that were highly responsive to salt stress and that may play a key role in saline soil, stressed the important role of archaea in microbial communities in response to salt stress. The study provides a comprehensive understanding of the microbial community structure in the rhizosphere of Jerusalem artichoke to enable the improvement and economic development of saline land.
-N1  - Level: B; Score: 154; Source: Semantic Scholar
+TI  - Microbial community of Flaveria bidentis (L.) Kuntze rhizosphere and non-rhizosphere soils in the Yellow River delta
+AU  - Yunpeng Liu
+AU  - Na Li
+AU  - Yanzhao Li
+AU  - Lei Li
+AU  - Zaiwang Zhang
+AU  - Jingmei Li
+AU  - Jun Wang
+AU  - Wen Du
+AU  - Shuai Shang
+JO  - Pakistan journal of botany
+PY  - 2024
+DO  - 10.30848/pjb2025-1(38)
+UR  - https://www.semanticscholar.org/paper/2e7a0ebb127bd33edfdd025d9cb652aafd6215d6
+AB  - Invasive plants have become an environmental issue of common global concern, posing a significant threat to environmental protection. As one of the invasive species, Flaveria bidentis (L.) Kuntze has seriously affected the ecological preservation of the invaded area. In recent years, most research on the invasion of F. bidentis to soil ecosystems has focused on soil nutrient content, bacterial and fungal community diversity. In comparison, the effect of the invasive plant on the Yellow River Delta (YRD) was still unknown. We obtained the soil microorganisms under F. bidentis invasion in the present study. At the phylum level, two groups including the rhizosphere soil bacteria samples of F. bidentis (HDJ) and the bulk soils samples of F. bidentis BSK groups were dominated with the Proteobacteria, Acidobacteriota, Gemmatimonadota, and Actinobacteriota. At the genus level, two groups were dominated with the Ascomycota and Basidiomycota . 1418 bacterial OTUs and 1192 fungal OTUs were observed in two groups. The SourceTracker analysis found that the average 49.27% bacterial community of BKS groups was from HDJ groups, and a middle 62.2% fungal community of BKS groups was from HDJ. Compared with the bacteria, the F. bidentis invasion had a more significant effect on the fungal community of the invasive soil. In conclusion, our results provided new insight into monitoring biodiversity protection in the YRD.
+N1  - Level: A; Score: 185; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Combination of Phytoextraction and Biochar Improves Available Potassium and Alters Microbial Community Structure in Soils
+AU  - Panpan Dong
+AU  - Zhenming Zhang
+AU  - Mingxiang Zhang
+JO  - Water
+PY  - 2023
+DO  - 10.3390/w16010118
+UR  - https://www.semanticscholar.org/paper/1817548879de15839d0c9e8fd755fb9939a5589d
+AB  - This study aimed to assess the effectiveness of combining phytoextraction and biochar for metal-polluted wetland soils by exploring the changes in soil biochemical properties, especially compared to the outcomes of single phytoremediation or biochar application. Soil biochemical properties serve as reliable indicators of soil quality and exhibit a high sensitivity to microbial community dynamics. Phytoextraction is via the native plants Phragmites australis (P. australis) and Suaeda salsa (S. salsa). The addition of biochar significantly increased the total organic carbon (TOC) and available potassium (AK) contents in the rhizosphere soil of P. australis and more in that of S. salsa. The effects of the combined remediation on the composition of the main classes of bacteria are uncertain, and the abundance of the main fungal classes decreased. At the level of OTU, no significant differences were observed in the richness and diversity of microbial communities between the single and combined remediation approaches. On a genus level, the combined remediation of biochar and S. salsa had the highest specificity of soil bacteria, while the single biochar remediation gave the highest specificity of soil fungi. At the class level, the four most abundant classes of bacteria were actinobacteria, alphaproteobacteria, gammaproteobacteria, and bacterricilineae. Biochar addition decreased the abundance of actinobacteria in P. australis rhizosphere soil but increased the abundance of actinobacteria in S. salsa rhizosphere soil. The sordariomycetes and eurotiomycetes were the dominant fungal classes. The combined remediation reduced the abundance of sordariomycetes, and the abundance of eurotiomycetes decreased after single phytoextraction, biochar, and combined remediation.
+N1  - Level: A; Score: 125; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Maize/peanut intercropping improves nutrient uptake of side-row maize and system microbial community diversity
+AU  - Xinhua Zhao
+AU  - Qiqi Dong
+AU  - Yi Han
+AU  - Kezhao Zhang
+AU  - Xiaolong Shi
+AU  - Xu Yang
+AU  - Yang Yuan
+AU  - Dong‐Ying Zhou
+AU  - Kai Wang
+AU  - Xiaoguang Wang
+AU  - Chunji Jiang
+AU  - Xibo Liu
+AU  - He Zhang
+AU  - Zhimeng Zhang
+AU  - Haiqiu Yu
+JO  - BMC Microbiology
+PY  - 2022
+DO  - 10.1186/s12866-021-02425-6
+UR  - https://openalex.org/W4205437166
+AB  - BACKGROUND: Intercropping, a diversified planting pattern, increases land use efficiency and farmland ecological diversity. We explored the changes in soil physicochemical properties, nutrient uptake and utilization, and microbial community composition in wide-strip intercropping of maize and peanut. RESULTS: The results from three treatments, sole maize, sole peanut and intercropping of maize and peanut, showed that intercropped maize had a marginal advantage and that the nutrient content of roots, stems and grains in side-row maize was better than that in the middle row of intercropped maize and sole maize. The yield of intercropped maize was higher than that of sole cropping. The interaction between crops significantly increased soil peroxidase activity, and significantly decreased protease and dehydrogenase activities in intercropped maize and intercropped peanut. The diversity and richness of bacteria and fungi decreased in intercropped maize rhizosphere soil, whereas the richness of fungi increased intercropped peanut. RB41, Candidatus-udaeobacter, Stropharia, Fusarium and Penicillium were positively correlated with soil peroxidase activity, and negatively correlated with soil protease and dehydrogenase activities. In addition, intercropping enriched the functional diversity of the bacterial community and reduced pathogenic fungi. CONCLUSION: Intercropping changed the composition and diversity of the bacterial and fungal communities in rhizosphere soil, enriched beneficial microbes, increased the nitrogen content of intercropped maize and provided a scientific basis for promoting intercropping in northeastern China.
+N1  - Level: A; Score: 115; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Soil salinity is the main factor influencing the soil bacterial community assembly process under long-term drip irrigation in Xinjiang, China
+AU  - Dongwei Li
+AU  - Husen Qiu
+AU  - Guangli Tian
+AU  - Yulong Zhao
+AU  - Xinguo Zhou
+AU  - Shuai He
+JO  - Frontiers in Microbiology
+PY  - 2023
+DO  - 10.3389/fmicb.2023.1291962
+UR  - https://doi.org/10.3389/fmicb.2023.1291962
+AB  - Identifying the potential factors associated with the impact of long-term drip irrigation (DI) on soil ecosystems is essential for responding to the environmental changes induced by extensive application of DI technology in arid regions. Herein, we examined the effects of the length of time that DI lasts in years (N DI ) on soil bacterial diversity as well as the soil bacterial community assembly process and the factors influencing it. The results showed that long-term DI substantially reduced soil salinity and increased soil bacterial diversity while affecting the soil bacterial community structure distinctly. Null model results showed that the soil bacterial community assembly transitioned from stochastic processes to deterministic processes, as N DI increased. Homogeneous selection, a deterministic process, emerged as the dominant process when N DI exceeded 15 years. Both random forest and structural equation models showed that soil salinity was the primary factor affecting the bacterial community assembly process. In summary, this study suggested that soil bacteria respond differently to long-term DI and depends on the N DI , influencing the soil bacterial community assembly process under long-term DI.
+N1  - Level: B; Score: 87; Source: Crossref
 ER  -
