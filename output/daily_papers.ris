@@ -1,17 +1,32 @@
 TY  - JOUR
-TI  - Variations in the diversity of the soil microbial community and structure under various categories of degraded wetland in Sanjiang Plain, northeastern China
-AU  - Yining Wu
-AU  - N. Xu
-AU  - He Wang
-AU  - Jinbo Li
-AU  - H. Zhong
-AU  - Haiyan Dong
-AU  - Zhaowen Zeng
-AU  - Cheng Zong
-JO  - Land Degradation and Development
-PY  - 2021
-DO  - 10.1002/ldr.3872
-UR  - https://www.semanticscholar.org/paper/ffc95f4431667563ecff7956358105f221a3b916
-AB  - Understanding the changes in microbial community composition in wetlands affected by different types of degradation can help enrich theoretical knowledge about wetland degradation. However, studies of the relative role of microorganisms under different types of degradation of wetlands are rare in wetland ecology. Because of agricultural development, a large volume of groundwater has been extracted from the Sanjiang Plain over the last few decades, which has caused wetland degradation. To provide information for the development and protection of this wetland ecosystem, investigations into the processes of wetland degradation are important. The aim of the present work was to assess the impacts of wetland degradation on soil microbial communities under four different types of wetlands degradation in the Sanjiang Plain: swamp meadow (SW), meadow wetland (MW), paddy farmland (PF), and cropland (CL). Both 16S and ITS rRNA gene amplicon sequencing were used to evaluate the diversity and composition of bacteria and fungi. A total of 638,758 effective 16S rRNA and 916,211 valid internal transcribed spacer rRNA gene sequences were obtained, which were classified into 11 fungal and 40 bacterial phyla. The dominant fungal and bacterial phyla were Ascomycota and Proteobacteria, respectively. In addition, wetland degradation increased the relative abundances of Chloroflexi and Gemmatimonadetes, but the relative abundances of Proteobacteria and Verrucomicrobia significantly decreased. The bacterial Shannon index of SW was lower than those of the other investigated sites. Fungal diversity showed no significant differences for different types of degraded wetlands. In addition to wetland degradation, different reactions of the dominant microbial phyla and their diversity were clearly coorelated with total phosphorus (TP), total potassium (TK), available potassium (AK), and soil organic matter (SOM), which formed essential criteria that influenced the soil microbial communities. Wetland degradation resulted in the decrease of soil nutrient and the decline of the abundance of dominant phylum in soil bacterial and fungal communities. These changes can be used as an early warning signal for the degrading wetland of the Sanjiang Plain.
-N1  - Level: A; Score: 178; Source: Semantic Scholar
+TI  - Composition and Diversity of Soil Microbial Community Associated With Land Use Types in the Agro–Pastoral Area in the Upper Yellow River Basin
+AU  - Shiliang Liu
+AU  - Yongxiu Sun
+AU  - Fangning Shi
+AU  - Yixuan Liu
+AU  - Fangfang Wang
+AU  - Shikui Dong
+AU  - Mingqi Li
+JO  - Frontiers in Plant Science
+PY  - 2022
+DO  - 10.3389/fpls.2022.819661
+UR  - https://openalex.org/W4224440250
+AB  - The microorganisms of soil are sensitive to their living microenvironment, and their community structure and function will change with the environmental conditions. In the agro-pastoral area on the Qinghai-Tibet Plateau, revealing the diversity of the soil microbial communities and its response to different soil physicochemical properties and environmental factors are important for ecosystem management. The microbial (bacteria and archaea) community composition and diversity under different land use types (cultivated land, grazing grassland and planted forest) were analyzed by 16S rRNA (V4 region) method in a typical agro-pastoral region in the upper Yellow River basin. Also, the soil nutrients were studied and correlated with the microbial community. The results showed that the soil nutrient contents in grassland were low, but the available nutrients were relatively high. There was a great spatial variability under different distances to the river. The microbial community diversity was lower in the grassland than the cultivated land and forest land closer to the river. For all land uses, the dominant phyla of soil microorganisms included Proteobacteria, Actinobacteria, and Bacteroidetes, while the abundance of Clostridia was significantly higher than that of the other groups, indicating that Clostridia dominated the Firmicutes and affected soil microbial community composition. The linear discriminant analysis (LDA) effect size (LefSe) analysis showed different biomarkers were more abundant in grassland than other land use types, suggesting that the structure and diversity of soil microorganisms in grassland were significantly different compared with cultivated land and forest land. The distance-based redundancy analysis (db-RDA) results showed that the total phosphorus (TP) and calcium (Ca) were the key environmental factors affecting the diversity and abundance of the soil microbial community in cultivated land and forestland, respectively. However, the microbial diversity in grassland was more related to spatial distance of the river. These results provided a theoretical basis for the changes in the composition, structure, and function of soil microbial communities in agro-pastoral areas.
+N1  - Level: B; Score: 146; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Rare Taxa Drive the Response of Soil Fungal Guilds to Soil Salinization in the Taklamakan Desert
+AU  - Litao Lin
+AU  - Xin Jing
+AU  - Manuel Esteban Lucas‐Borja
+AU  - Congcong Shen
+AU  - Yugang Wang
+AU  - Wenting Feng
+JO  - Frontiers in Microbiology
+PY  - 2022
+DO  - 10.3389/fmicb.2022.862245
+UR  - https://openalex.org/W4281293304
+AB  - Salinization poses great threats to soil fungal communities that would cause the losses of ecosystems services. Soil fungal communities are composed of different functional guilds such as saprotrophic, symbiotrophic, and pathotrophic fungi, and each guild includes many rare taxa and a few abundant taxa. Despite of low abundance, rare taxa may be crucial in determining the responses of entire soil fungal communities to salinization. However, it remains poorly understood how rare taxa mediate the impacts of soil salinization on soil fungal community structure. Here, we took advantage of a salinity gradient in a desert ecosystem ranging from 0.60 to 31.09 g kg −1 that was created by a 12-year saline-water irrigation and assessed how the rare vs. abundant taxa of soil saprotrophic, symbiotrophic, and pathotrophic fungi respond to soil salinization through changes in the community biodiversity and composition. We found that the rare taxa of soil saprotrophic, symbiotrophic, and pathographic fungi were more sensitive to changes in soil salinity compared to the abundant taxa. In addition, the community composition of rare taxa of the saprotrophic and pathotrophic fungi not the symbiotrophic fungi was positively associated with soil salinity change. However, the symbiotrophic fungi showed greater variations in the species richness along the salinity gradient. These findings highlight the importance to differentiate rare taxa in predicting how the biodiversity and functional groups of soil fungal communities respond to soil salinization.
+N1  - Level: A; Score: 108; Source: OpenAlex
 ER  -
