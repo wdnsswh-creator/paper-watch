@@ -1,32 +1,54 @@
 TY  - JOUR
-TI  - Composition and Diversity of Soil Microbial Community Associated With Land Use Types in the Agro–Pastoral Area in the Upper Yellow River Basin
-AU  - Shiliang Liu
-AU  - Yongxiu Sun
-AU  - Fangning Shi
-AU  - Yixuan Liu
-AU  - Fangfang Wang
-AU  - Shikui Dong
-AU  - Mingqi Li
-JO  - Frontiers in Plant Science
-PY  - 2022
-DO  - 10.3389/fpls.2022.819661
-UR  - https://openalex.org/W4224440250
-AB  - The microorganisms of soil are sensitive to their living microenvironment, and their community structure and function will change with the environmental conditions. In the agro-pastoral area on the Qinghai-Tibet Plateau, revealing the diversity of the soil microbial communities and its response to different soil physicochemical properties and environmental factors are important for ecosystem management. The microbial (bacteria and archaea) community composition and diversity under different land use types (cultivated land, grazing grassland and planted forest) were analyzed by 16S rRNA (V4 region) method in a typical agro-pastoral region in the upper Yellow River basin. Also, the soil nutrients were studied and correlated with the microbial community. The results showed that the soil nutrient contents in grassland were low, but the available nutrients were relatively high. There was a great spatial variability under different distances to the river. The microbial community diversity was lower in the grassland than the cultivated land and forest land closer to the river. For all land uses, the dominant phyla of soil microorganisms included Proteobacteria, Actinobacteria, and Bacteroidetes, while the abundance of Clostridia was significantly higher than that of the other groups, indicating that Clostridia dominated the Firmicutes and affected soil microbial community composition. The linear discriminant analysis (LDA) effect size (LefSe) analysis showed different biomarkers were more abundant in grassland than other land use types, suggesting that the structure and diversity of soil microorganisms in grassland were significantly different compared with cultivated land and forest land. The distance-based redundancy analysis (db-RDA) results showed that the total phosphorus (TP) and calcium (Ca) were the key environmental factors affecting the diversity and abundance of the soil microbial community in cultivated land and forestland, respectively. However, the microbial diversity in grassland was more related to spatial distance of the river. These results provided a theoretical basis for the changes in the composition, structure, and function of soil microbial communities in agro-pastoral areas.
-N1  - Level: B; Score: 146; Source: OpenAlex
+TI  - Analyses of Rhizosphere Soil Physicochemical Properties and Microbial Community Structure in Cerasus humilis Orchards with Different Planting Years
+AU  - X. Mu
+AU  - Jing Wang
+AU  - Hao Qin
+AU  - Jiashun Ding
+AU  - Xiaoyan Mou
+AU  - Shan Liu
+AU  - Li Wang
+AU  - Shuai Zhang
+AU  - Jiancheng Zhang
+AU  - Pengfei Wang
+JO  - Horticulturae
+PY  - 2024
+DO  - 10.3390/horticulturae10101102
+UR  - https://www.semanticscholar.org/paper/005a0e899ddac38046b618d019b6b71e0153f735
+AB  - Cerasus humilis has been widely used as a key ecological improvement plant species in barren lands in Northern China; however, the soil improvement effects of long-term C. humilis planting have rarely been reported. Our study aimed to determine the effects of planting C. humilis after 3, 6, and 10 years on the physicochemical properties and microbial community structures of the rhizosphere soil. pH decreased significantly with increasing time. Organic matter (OM), total phosphorus (TP), available phosphorus (AP), total potassium (TK), and available potassium (AK) increased gradually from 3 to 10 years. Alkaline and total nitrogen increased significantly and peaked at 6 years. Alkaline phosphatase, urease, sucrase, and hydrogen peroxide activities peaked at 6 years and decreased. Significant differences occurred in C. humilis rhizosphere bacterial and fungal community diversity and richness. Ace, Chaol, Shannon, and Simpson indices indicated diversity and richness of bacterial and fungal communities peaked at 3 and 10 years, respectively. Soil physicochemical properties, except pH, were positively significantly correlated with microbial community structure. AK and TK were the main factors for bacteria and fungi, respectively, with time. Increases in C. humilis rhizosphere soil microbial community relative abundance may be attributed to beneficial bacteria (Acidobacteria, Proteobacteria, and Actinobacteria) and fungi (Ascomycota, Mortierellomycota, and Basidiomycota). Physicochemical and soil and microbial community structure properties gradually improved; however, with time, adequate nutritional supplementation was needed to prevent decreased microbial community richness and diversity.
+N1  - Level: A; Score: 139; Source: Semantic Scholar
 ER  -
 
 TY  - JOUR
-TI  - Rare Taxa Drive the Response of Soil Fungal Guilds to Soil Salinization in the Taklamakan Desert
-AU  - Litao Lin
-AU  - Xin Jing
-AU  - Manuel Esteban Lucas‐Borja
-AU  - Congcong Shen
-AU  - Yugang Wang
-AU  - Wenting Feng
-JO  - Frontiers in Microbiology
-PY  - 2022
-DO  - 10.3389/fmicb.2022.862245
-UR  - https://openalex.org/W4281293304
-AB  - Salinization poses great threats to soil fungal communities that would cause the losses of ecosystems services. Soil fungal communities are composed of different functional guilds such as saprotrophic, symbiotrophic, and pathotrophic fungi, and each guild includes many rare taxa and a few abundant taxa. Despite of low abundance, rare taxa may be crucial in determining the responses of entire soil fungal communities to salinization. However, it remains poorly understood how rare taxa mediate the impacts of soil salinization on soil fungal community structure. Here, we took advantage of a salinity gradient in a desert ecosystem ranging from 0.60 to 31.09 g kg −1 that was created by a 12-year saline-water irrigation and assessed how the rare vs. abundant taxa of soil saprotrophic, symbiotrophic, and pathotrophic fungi respond to soil salinization through changes in the community biodiversity and composition. We found that the rare taxa of soil saprotrophic, symbiotrophic, and pathographic fungi were more sensitive to changes in soil salinity compared to the abundant taxa. In addition, the community composition of rare taxa of the saprotrophic and pathotrophic fungi not the symbiotrophic fungi was positively associated with soil salinity change. However, the symbiotrophic fungi showed greater variations in the species richness along the salinity gradient. These findings highlight the importance to differentiate rare taxa in predicting how the biodiversity and functional groups of soil fungal communities respond to soil salinization.
-N1  - Level: A; Score: 108; Source: OpenAlex
+TI  - Soil properties, bacterial and fungal community compositions and the key factors after 5-year continuous monocropping of three minor crops
+AU  - Pu Yang
+AU  - Yan Luo
+AU  - Yang Gao
+AU  - Xiao-li Gao
+AU  - Jinfeng Gao
+AU  - Pengke Wang
+AU  - B. Feng
+JO  - PLoS ONE
+PY  - 2020
+DO  - 10.1371/journal.pone.0237164
+UR  - https://www.semanticscholar.org/paper/7eafc200acf574ce5d7f8709b8b12fd344beaedb
+AB  - Minor grain crops are widely cultivated in northwest China and played important roles in local economic. Soil microbes play a central role in ecological function and biological stability and related to soil quality. In order to uncover the soil microbial composition differences and the factors under 5-year continuous monocropping of three minor crops (Proso millet, Common bean and Common buckwheat) in Guan-Zhong Plain, six soil nutrimental parameters, soil pH, soil moisture content, and four soil enzyme activities were analyzed and soil microbial composition were sequenced. The results showed that after 5-years of continuous monocropping, different cover crops influenced most of soil physicochemical properties, expect soil moisture content (P < 0.05), the available nutrients were significant higher in proso millet soil, and the pH was significantly higher in common buckwheat soil. soil ALP, catalase and urease activities were significantly different between soils (P< 0.01), in which soil catalase activities were significantly lower and soil ALP and urease activities were significantly higher than that of proso millet and common buckwheat. A total of 171439 sequences, 9468 OTUs and 29 phylum for bacteria, 128920 sequences, 544 OTUs and 27 phylum for fungi were obtained. In addition, no significantly difference obtained in diversity and richness between soils (P < 0.05). According to relative abundance, Proteobacteria, Chloroflexi, Gemmatimonadetes and Acidobacteria were the dominant bacterial phylum in all samples, moreover, the relative abundance of Caldiserica was significantly different between soils (P < 0.05). Ascomycota (79.04%-90.21%) was dominant phylum in fungal community and phylum Phragmoplastophyta (P < 0.01) and Glomeromycota (P < 0.05) were significantly different between soils. Redundancy analysis indicated that available nutrients Nitrogen and Potassium are the strongest predictors in both bacterial and fungal community. In conclusion, different cover crops influenced soil nutrient properties, soil pH and soil microbial composition, and continuous monocropping decreased soil fertility condition. Moreover, Common bean and Common buckwheat were more sensitive to monocropping treatment.
+N1  - Level: B; Score: 122; Source: Semantic Scholar
+ER  -
+
+TY  - JOUR
+TI  - Effects of Auricularia auricula Residue on Soil Physicochemical Properties, Microbial Community Composition, Diversity, and Rice Yield
+AU  - Weidong Yuan
+AU  - Tingxuan Zong
+AU  - Bin Yu
+AU  - Ya Xin
+AU  - Jia Lu
+AU  - Qin Qiu
+AU  - Lin Ma
+AU  - Ji-Ling Song
+JO  - Agronomy
+PY  - 2025
+DO  - 10.3390/agronomy15102313
+UR  - https://www.semanticscholar.org/paper/1f0fe83c06a161a0f809ca1b5e9837f20ac5de4f
+AB  - The return of mushroom residue to the field is an effective measure to improve soil fertility and maintain agroecosystem productivity. We investigated the effects of returning Auricularia auricula residue to the field on the soil nutrients, enzyme activities, and microbial communities in rice–A. auricula rotation farmland. The return of 67.5 ton/ha A. auricula residue to the field significantly increased the contents of ammonium nitrogen, total nitrogen, total potassium, total phosphorus, available potassium (QK), available phosphorus, and organic matter by 180.49%, 70.41%, 16.3%, 54.35%, 137.33%, 38.84%, and 59.29%, respectively. The activities of urease, sucrase, β-glucosidase (β-GC), and acetyl-β-d-glucosidase significantly increased by 32.98%, 407.78%, 206.85%, and 186.26%, respectively; catalase and leucine aminopeptidase activities increased by 244.42% and 130.90% with the return of 54 ton/ha residue. Mushroom residue return increased the Chao1 and Shannon indices of the bacterial community but decreased the diversity of the fungal community. Redundancy analysis showed that QK, β-GC, and urease were closely associated with shifts in microbial community structure. Therefore, returning 67.5 ton/ha (149,925 bags) A. auricula residue to the field can enhance soil ecological functions by improving soil nutrients, enzyme activities, and microbial community structure.
+N1  - Level: B; Score: 111; Source: Semantic Scholar
 ER  -
