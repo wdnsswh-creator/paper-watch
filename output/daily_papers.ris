@@ -1,11 +1,18 @@
 TY  - JOUR
-TI  - Change detection of wetland vegetation under contrasting water-level scenarios in coastal marshes of eastern Georgian Bay
-AU  - Prabha Amali Rupasinghe
-AU  - Patricia Chow-Fraser
-JO  - Landscape Ecology
-PY  - 2024
-DO  - 10.1007/s10980-024-01829-9
-UR  - https://doi.org/10.1007/s10980-024-01829-9
-AB  - Abstract Context Global climate change has resulted in extreme water-level (WL) fluctuations in Eastern Georgian Bay (EGB) and has affected its high-quality wetlands. Beginning in 1999, EGB experienced 14 years of extremely low water levels (Period 1), followed by 6 years of rapidly increasing water levels starting from 2014 (Period 2). During Period 1, trees and shrubs invaded the high marsh, but with inundation, they died out and transitioned into the novel Dead Tree (DT) Zone (DTZ) during Period 2. Objectives We related long-term changes in wetlands vegetation zonation to different levels of anthropogenic impacts and the Vulnerability Index (VI) scores and wetland sensitivity to WL extremes. Methods We used images acquired in 2002–2003 (IKONOS) and 2019 (KOMPSAT-3 and Pleiades-1A/1B) for four areas (19 wetlands) in EGB with varying anthropogenic impact. We used object-based classification to map land cover in two periods, followed by change detection. We related the percent areal cover of DT in wetlands to corresponding VI scores. Results We obtained > 85% overall and > 70% DT mapping accuracies. Wetlands with the least anthropogenic impact had the smallest DTZ. Percentage areal cover of the DTZ was significantly and positively correlated with wetland VI. Without exception, the amount of meadow marsh in wetlands was significantly reduced in Period 2. Conclusions Wetlands with higher VI scores and anthropogenic impact were associated with greater changes in wetland zonation and conversion into DTZ following extremes in water levels. This study provides important insights into how coastal marshes in EGB are responding to extreme water-level fluctuations induced by climate change.
-N1  - Level: B; Score: 40; Source: Crossref
+TI  - Rhizosphere and Soil Depth Differentially Shape Microbial Community Composition and Assembly in Phragmites australis Salt-Marsh Soils
+AU  - Lei Wang
+AU  - Junzhe Shi
+AU  - Liwen Li
+AU  - Kaipeng Jiang
+AU  - Jingwei Lian
+AU  - Dezong Sui
+AU  - Sian Liu
+AU  - Yingdan Yuan
+AU  - Yingzhou Tang
+JO  - Microorganisms
+PY  - 2026
+DO  - 10.3390/microorganisms14091891
+UR  - https://doi.org/10.3390/microorganisms14091891
+AB  - Common reed (Phragmites australis) is a native dominant plant in many coastal wetlands. To determine how rhizosphere effects and soil depth shape microbial communities, we sampled the rhizosphere and three bulk-soil layers (0–15, 15–30, and 30–45 cm) in a monodominant common-reed stand in a coastal salt marsh. Soil physicochemical properties and bacterial and fungal α-diversity, community composition, and assembly processes were evaluated using one-way ANOVA, principal coordinates analysis (PCoA), permutational multivariate analysis of variance (PERMANOVA), neutral community models, and phylogenetic null models. Rhizosphere pH was lower than that of 0–15 cm bulk soil (mean 8.434 vs. 8.712) but remained alkaline; soil organic matter, total nitrogen, hydrolyzable nitrogen, and total phosphorus were greatest in the rhizosphere. Neither bacterial nor fungal richness or Shannon diversity differed significantly among compartments (p > 0.05); fungal Shannon means ranged from 2.083 to 3.077, with relatively higher Bacteroidota and lower Acidobacteriota abundance in the rhizosphere. Fungal composition did not differ significantly (pseudo-F = 0.609, R2 = 0.102, p = 0.9112), although Mucoromycota and Rozellomycota were relatively more abundant in the rhizosphere. Phylogenetic null models indicated predominantly deterministic bacterial assembly, with 10% dispersal limitation in the 15–30 cm layer. Fungal assembly was predominantly stochastic in bulk soils, whereas the rhizosphere was an exception: heterogeneous selection accounted for 60% of pairwise comparisons and median βNTI exceeded +2. The Mantel test identified only the association between total phosphorus and bacterial diversity as significant (0.01 < p < 0.05). These results show that rhizosphere filtering strongly structured bacterial composition and imposed deterministic selection on rhizosphere fungi.
+N1  - Level: B; Score: 183; Source: Crossref
 ER  -
