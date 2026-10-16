@@ -1,28 +1,9 @@
 TY  - JOUR
-TI  - Landscape Mapping Reveals Depth‐Dependent Regional Heterogeneity in Soil Microbial Diversity
-AU  - Xiongfeng Du
-AU  - Songsong Gu
-AU  - Linlin Wang
-AU  - Yuqi Zhou
-AU  - Zheng Zhang
-AU  - Zhicheng Ju
-AU  - Yingcheng Wang
-AU  - Chengliang Yan
-AU  - Tong Li
-AU  - Danrui Wang
-AU  - Bo Zhao
-AU  - Xingsheng Yang
-AU  - Chenchen Zhang
-AU  - Ping Liu
-AU  - Shuzhen Li
-AU  - Zhaojing Zhang
-AU  - Kai Feng
-AU  - Mengting Yuan
-AU  - Ye Deng
-JO  - Diversity and Distributions
-PY  - 2026
-DO  - 10.1111/ddi.70276
-UR  - https://openalex.org/W7221689921
-AB  - ABSTRACT Aim To identify microbial hotspots and investigate the spatial distribution and assembly mechanisms of soil bacterial and archaeal communities across a coastal ecosystem, and to assess implications for biodiversity conservation and sustainable land management. Location Yellow River Delta, China (YRD, ~13,680 km 2 coastal plain). Methods A total of 112 sites were sampled across diverse land‐use types along strong gradients of salinity, moisture and nutrients. At each site, soils were collected from three depth intervals (0–20, 20–40 and 40–100 cm), yielding a total of 336 samples for analysis. Microbial community composition and diversity were analysed using high‐throughput sequencing, and spatial patterns were evaluated using diversity mapping, distance–decay relationships (DDR) and community assembly modelling. Results Hotspot analysis revealed that microbial diversity exhibited marked spatial heterogeneity, with these hotspots primarily located in agricultural and grassland soils characterized by high soil organic matter (SOM) and low salinity. Hotspots became increasingly fragmented with depth. DDR analysis revealed weak but significant patterns: community turnover in the surface layer was primarily associated with nestedness (i.e., species loss), whereas in subsoils, turnover showed a weak positive association with species replacement. Community assembly was consistently shaped by a mixture of homogeneous selection (~40%), dispersal limitation (30%–31%) and drift (22%–24%), but the dominant environmental drivers transitioned from nutrient‐based filtering in topsoil to more complex multivariate constraints in deeper layers. Main Conclusions Spatially structured and depth‐dependent microbial processes reveal that surface‐layer diversity hotspots, though accounting for only 7%–13% of the region, harbour up to 40% of microbial taxa and 83% of total abundance. These findings, based on taxonomic diversity, highlight the need for depth‐resolved conservation planning that considers both hotspots and the unique taxa in peripheral areas to sustain microbial contributions to ecosystem functions in coastal systems undergoing rapid environmental change.
-N1  - Level: A; Score: 120; Source: OpenAlex
+TI  - Assessing diatom community composition and structure in palaeosediments of a southern Cape coastal wetland
+AU  - Tshiamo Tsholofelo Sepato
+JO  - Nelson Mandela University Research Repository
+PY  - 2023
+UR  - https://openalex.org/W7220819521
+AB  - Palaeoenvironmental studies are important as they aid in reconstructing histories of past landscapes and provide key long-term information for the conservation and management of ecosystems. The southern Cape coast is a focus area for palaeoenvironmental research due to its high botanical and climatic importance. A three-metre sediment core was retrieved from Whale Rock wetland (Plettenberg Bay, southern Cape Coast) and spanned ~8000 years – a large proportion of the Holocene epoch. Diatom data preserved in palaeosediments of the Whale Rock wetland are presented within this study. A total of 48 diatom species was identified. Based on the multivariate statistical analysis, the diatom assemblages were divided into three zones: Zone WR-1-A (~7200 – 6450 cal yr BP); Zone WR-1- B (~6450 – 6250 cal yr BP) and Zone WR-1-C (~250 cal yr BP – to present). Two diatom preservation hiatus periods were observed at ~8000 – 7200 cal yr BP and ~6400 – 230 cal yr BP. The results indicated that benthic diatom species were significantly dominant throughout the Whale Rock record. The diatom evidence revealed that the Whale Rock wetland system freshened over time as diatom species identified in Zone WR-1-A and Zone WR-1- B indicated marine influences whereas Zone WR-1-C displayed a dominance of species that thrive in freshwater conditions. A transitional phase occurred at ~6400 cal yr BP where abrupt changes began prior to the significant ~6400 – 230 cal yr BP diatom preservation hiatus period. Principal Component Analysis showed that salinity was the main environmental driver of change impacting the species abundance and diversity of diatom communities within the wetland system throughout the Holocene. When compared with regional palaeoenvironmental and palaeolimnological data, it is evident that several other wetland systems moved from a marine/brackish favoured system to a freshwater system with the transitional phase occurring at different periods within the Holocene. This study indicated that diatoms are powerful biological proxies of environmental change. It is recommended that the site be revisited to investigate further the hiatus phases to further explore the lack of diatom preservation for these periods and to also contribute more palaeoenvironmental proxy evidence as well as modern hydrological information.
+N1  - Level: A; Score: 79; Source: OpenAlex
 ER  -
