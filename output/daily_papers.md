@@ -1,14 +1,14 @@
 # 今日文献追踪结果
 
-检索日期：2026-10-18
+检索日期：2026-10-19
 
-检索去重后文献总数：1190
+检索去重后文献总数：1191
 
-写入结果文献数：1
+写入结果文献数：2
 
 A 类文献数量：1
 
-B 类文献数量：0
+B 类文献数量：1
 
 C 类文献数量：0
 
@@ -36,7 +36,23 @@ C 类文献数量：0
 
 ## B 类：建议阅读
 
-今日暂无。
+### 1. Seasonal Precipitation Drives Shifts in Arbuscular Mycorrhizal Fungal Communities and Soil Physicochemical Properties in Songnen Saline-Alkali Grassland
+
+- 来源：OpenAlex
+- 相似度得分：44
+- 作者：Yixin Huang, Yajie Liu, Na Li, Menghui Yang, Yang ChunXue
+- 年份：2026
+- 期刊：Phyton
+- DOI：10.32604/phyton.2026.083767
+- URL：https://openalex.org/W7222567039
+- 触发检索词：Good's coverage Sobs Shannon Simpson Chao1 soil microbial community
+- 建议 Zotero collection：03_盐度EC和环境因子
+- 推荐理由：中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似。期刊质量需人工核对，先按主题和方法相似度暂存。
+- 可参考图件/方法：
+  - Figure 1 理化性质：EC/pH/Salt 或 salinity/salt content
+- 期刊质量提示：期刊质量需人工核对，先按主题和方法相似度暂存。
+- 命中维度：{'seed': 0, 'ecosystem': 2, 'soil': 1, 'microbe': 2, 'nitrogen': 0, 'addition': 0, 'function': 0, 'vegetation': 0, 'network': 0, 'environment': 3, 'taxa': 0, 'figure': 1, 'design': 0, 'figure_match': 1, 'journal_quality': 0}
+- 摘要核心内容：Arbuscular mycorrhizal fungi (AMF) play important roles in plant adaptation and ecosystem functioning in saline-alkali grasslands. However, the responses of AMF communities to seasonal precipitation remain poorly understood. ... | Find, read and cite all the research you need on Tech Science Press
 
 ## C 类：可选阅读
 
