@@ -1,4 +1,80 @@
 TY  - JOUR
+TI  - Effect of Microbial Inoculants on Rhizosphere Soil Microbial Community Structure in Melon
+AU  - Jian Sun
+AU  - Meixia Liang
+AU  - Mingmei Zhai
+AU  - Qi Wang
+AU  - Yuansha He
+AU  - Chunmei Zhao
+AU  - Jianqun Lin
+AU  - Jianming Yang
+AU  - Zhaobao Wang
+JO  - Life
+PY  - 2026
+DO  - 10.3390/life16111810
+UR  - https://doi.org/10.3390/life16111810
+AB  - The rhizosphere microbial community of melon (Cucumis melo L.) plays an important role in soil nutrient transformation and plant growth. The application of microbial inoculants is an effective approach for regulating rhizosphere microecology and improving soil nutrient availability. In this study, Bacillus altitudinis and Rhodopseudomonas palustris were applied to melon plants during the vine extension stage. Soil physicochemical analysis and metagenomic sequencing of rhizosphere soil microorganisms using the DNBSEQ-T7 sequencing platform were conducted to investigate the effects of microbial inoculants on soil nutrients, bacterial community diversity, and community structure. The results showed that microbial inoculant application effectively altered soil physicochemical properties and affected rhizosphere bacterial diversity and community structure, while not substantially changing the overall composition of dominant bacterial phyla. Redundancy analysis indicated that bacterial community structure was positively associated with AK and NO3−-N, but negatively associated with Cl− following microbial inoculant application. Metagenomic analysis revealed that the microbial inoculants used in this study did not substantially alter the overall functional structure of the microbial community, but only showed the potential to modulate specific functions. In summary, this study provides a theoretical basis for improving the physicochemical properties of melon rhizosphere soil and regulating rhizosphere microbial community structure through the application of microbial inoculants.
+N1  - Level: A; Score: 121; Source: Crossref
+ER  -
+
+TY  - JOUR
+TI  - Bacterial Community Shifts in Casing Soil Before and After the Cultivation of Oudemansiella raphanipes
+AU  - Wentao Qin
+AU  - Juan Zhao
+AU  - Yu Liu
+AU  - Qi Gao
+AU  - Shuang Song
+AU  - Shouxian Wang
+AU  - Bing Zhang
+JO  - Journal of soil science and plant nutrition
+PY  - 2022
+DO  - 10.1007/s42729-022-01011-7
+UR  - https://openalex.org/W4306409555
+AB  - Abstract Casing soil is a key step in the production of Oudemansiella raphanipes. Bacterial community in casing soil plays key roles in the growth and development of edible fungi. However, a knowledge gap remains regarding the bacterial community shifts in casing soil before and after the cultivation of O. raphanipes (CSBACO). Casing soil samples before and after the cultivation of O. raphanipes (CSBC and CSAC) were collected and examined by high-throughput 16S rRNA gene sequencing technology. Actinobacteria, Proteobacteria, Chloroflexi, and Acidobacteria were dominant phyla in casing soil of O. raphanipes, which accounted for 77.32% of the total abundance. After the cultivation of O. raphanipes, the alpha diversity of bacterial community and the relative abundance of some beneficial genera such as Marmoricola, Nocardioides, Sphingomonas, and Streptomyces decreased, while that of bacteria belonging to the candidate class MB-A2-108 tolerant to adverse environment significantly increased. Meanwhile, physicochemical properties of casing soil changed significantly in CSBACO. Soil ammonium nitrogen and organic matter greatly decreased in CSAC and they mainly influenced bacterial community before the cultivation of O. raphanipes. In contrast, available potassium and pH significantly increased in CSAC and mainly affected bacterial community after the cultivation of O. raphanipes. Furthermore, the relative abundance of bacteria with the function of amino acid and lipid metabolism decreased, while that of bacteria functions related to parasites and pathogens increased, which further revealed the significance of bacterial community in casing soil. Diversity, composition, and the potential function of bacterial community shifted dramatically in CSBACO. The results deepen the understanding of the bacterial community and its microecological mechanism in casing soil of O. raphanipes.
+N1  - Level: B; Score: 103; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Effects of soil texture and nitrogen fertilisation on soil bacterial community structure and nitrogen uptake in flue-cured tobacco
+AU  - Meiying Zheng
+AU  - Zhu Pei
+AU  - Jiayu Zheng
+AU  - Lin Xue
+AU  - Qifa Zhu
+AU  - Xianjie Cai
+AU  - Sen Cheng
+AU  - Zhongfeng Zhang
+AU  - Fanyu Kong
+AU  - Jiguang Zhang
+JO  - Scientific Reports
+PY  - 2021
+DO  - 10.1038/s41598-021-01957-1
+UR  - https://openalex.org/W3216137155
+AB  - Abstract We tested the hypothesis that soil texture and nitrogen (N) fertilisation are the primary factors regulating the N cycle and soil bacterial community structure. The response of soil bacterial communities to N fertilisation in different textured soils might help in identifying the specific underlying mechanism and hence management of N fertiliser application in fields. We examined how N fertiliser accumulates in flue-cured tobacco and influences soil bacterial community structure in different textured soils. We conducted plot and micro-plot experimental measurements of N content in soil and tobacco samples using the KNO315N isotope technique. Soil bacterial community structure was determined using high-throughput sequencing of 16S rRNA. Nitrogen absorption and utilisation by tobacco plants were highest in sandy loam soils, followed by loam soil and clay loam. The ability of clay loam to supply N was weak during the plant growth period. Absence of fertilisation could reduce bacterial abundance in soils to various degrees. Bacterial diversity was higher in sandy loam soil than in loam soil and clay loam. Soil texture and N fertilisation significantly affected soil bacterial community structure and diversity. Proteobacteria, Acidobacteria, Firmicutes, Bacteroidetes, Actinobacteria, and Chloroflexi were the dominant bacterial phyla, while Bacillus, Nitrobacter, Nitrosospira, Nitrospira, and Rhizobium were the primary N transformation bacteria at the genus level in all treatments. However, relative abundances differed with N fertiliser application, which could lead to differential N availability and N use efficiency of tobacco among soil types. We conclude that both soil texture and N fertilisation influence N accumulation and distribution in flue-cured tobacco and thus regulate soil bacterial communities. N fertiliser application in sandy loam soil should be strictly controlled for its higher N use efficiency, soil bacterial abundance, and diversity.
+N1  - Level: B; Score: 99; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Diversity characteristics of arbuscular mycorrhizal fungi communities in the soil along successional altitudes of Helan Mountain, arid, and semi-arid regions of China
+AU  - Peixuan Yan
+AU  - Hui Hou
+AU  - Yingze Lv
+AU  - Haiying Zhang
+AU  - Jia Li
+AU  - Leilei Shao
+AU  - Qinmi Xie
+AU  - Yongliang Liang
+AU  - Jingyao Li
+AU  - Xilu Ni
+JO  - Frontiers in Microbiology
+PY  - 2023
+DO  - 10.3389/fmicb.2023.1099131
+UR  - https://openalex.org/W4322773629
+AB  - Introduction Arbuscular mycorrhizal fungi (AMF) perform a vital role in terrestrial ecosystems. Methods To investigate the diversity of AMF communities on the western slope of Helan Mountain at different altitudes and their influence factors, high-throughput sequencing was used to study the structure and diversity of soil AMF communities under different environments and their interrelationships between AMF and environmental factors. Results The results revealed that there were significant differences (p < 0.05) in the physical and chemical properties of the soil along the different altitudes. A total of 1,145 OTUs were obtained by high-throughput sequencing, belonging to 1 phylum, 4 class, 6 orders, 13 families, 18 genera and 135 species, with the dominant genus being Glomus, which accounted for 75.27% of the relative abundance of the community. Soil AMF community structure was shown to be variable at the generic level according to NMDS analysis. Correlation analysis showed that soil pH, water content (WC), organic matter (OM), available K, available P and N were significantly correlated with AMF community diversity and species abundance (p < 0.05, p < 0.01). Based on redundancy analysis (RDA) and Monte Carlo test results, soil pH, WC and OM had highly significant effects (p < 0.01) on AMF community diversity and species abundance. Discussion This study investigates the relationship between AMF community structure and diversity and soil physicochemical properties at different elevations on the western slope of Helan Mountain, which is of great significance to the study of the Helan Mountain ecosystem.
+N1  - Level: B; Score: 97; Source: OpenAlex
+ER  -
+
+TY  - JOUR
 TI  - Assessing diatom community composition and structure in palaeosediments of a southern Cape coastal wetland
 AU  - Tshiamo Tsholofelo Sepato
 JO  - Nelson Mandela University Research Repository
@@ -6,4 +82,25 @@ PY  - 2023
 UR  - https://openalex.org/W7220819521
 AB  - Palaeoenvironmental studies are important as they aid in reconstructing histories of past landscapes and provide key long-term information for the conservation and management of ecosystems. The southern Cape coast is a focus area for palaeoenvironmental research due to its high botanical and climatic importance. A three-metre sediment core was retrieved from Whale Rock wetland (Plettenberg Bay, southern Cape Coast) and spanned ~8000 years – a large proportion of the Holocene epoch. Diatom data preserved in palaeosediments of the Whale Rock wetland are presented within this study. A total of 48 diatom species was identified. Based on the multivariate statistical analysis, the diatom assemblages were divided into three zones: Zone WR-1-A (~7200 – 6450 cal yr BP); Zone WR-1- B (~6450 – 6250 cal yr BP) and Zone WR-1-C (~250 cal yr BP – to present). Two diatom preservation hiatus periods were observed at ~8000 – 7200 cal yr BP and ~6400 – 230 cal yr BP. The results indicated that benthic diatom species were significantly dominant throughout the Whale Rock record. The diatom evidence revealed that the Whale Rock wetland system freshened over time as diatom species identified in Zone WR-1-A and Zone WR-1- B indicated marine influences whereas Zone WR-1-C displayed a dominance of species that thrive in freshwater conditions. A transitional phase occurred at ~6400 cal yr BP where abrupt changes began prior to the significant ~6400 – 230 cal yr BP diatom preservation hiatus period. Principal Component Analysis showed that salinity was the main environmental driver of change impacting the species abundance and diversity of diatom communities within the wetland system throughout the Holocene. When compared with regional palaeoenvironmental and palaeolimnological data, it is evident that several other wetland systems moved from a marine/brackish favoured system to a freshwater system with the transitional phase occurring at different periods within the Holocene. This study indicated that diatoms are powerful biological proxies of environmental change. It is recommended that the site be revisited to investigate further the hiatus phases to further explore the lack of diatom preservation for these periods and to also contribute more palaeoenvironmental proxy evidence as well as modern hydrological information.
 N1  - Level: A; Score: 79; Source: OpenAlex
+ER  -
+
+TY  - JOUR
+TI  - Metagenomic analysis of the soil microbial composition and salt tolerance mechanism in Yuncheng Salt Lake, Shanxi Province
+AU  - Feifeng Zeng
+AU  - Yonghong Zhu
+AU  - Dongling Zhang
+AU  - Zengqiang Zhao
+AU  - Quansheng Li
+AU  - Panpan Ma
+AU  - Guoli Zhang
+AU  - Yuan Wang
+AU  - Shenjie Wu
+AU  - Sandui Guo
+AU  - Guoqing Sun
+JO  - Frontiers in Microbiology
+PY  - 2022
+DO  - 10.3389/fmicb.2022.1004556
+UR  - https://openalex.org/W4297238555
+AB  - The soil in Yuncheng Salt Lake has serious salinization and the biogeographic environment affects the composition and distribution of special halophilic and salt-tolerant microbial communities in this area. Therefore, this study collected soils at distances of 15, 30, and 45 m from the Salt Lake and used non-saline soil (60 m) as a control to explore the microbial composition and salt tolerance mechanisms using metagenomics technology. The results showed that the dominant species and abundance of salt-tolerant microorganisms changed gradually with distance from Salt Lake. The salt-tolerant microorganisms can increase the expression of the Na + /H + antiporter by upregulating the Na + /H + antiporter subunit mnhA-G to respond to salt stress, simultaneously upregulating the genes in the betaine/proline transport system to promote the conversion of choline into betaine, while also upregulating the trehalose/maltose transport system encode genes to promote the synthesis of trehalose to resist a high salt environment.
+N1  - Level: B; Score: 61; Source: OpenAlex
 ER  -
