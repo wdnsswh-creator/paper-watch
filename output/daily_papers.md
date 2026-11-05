@@ -1,8 +1,8 @@
 # 今日文献追踪结果
 
-检索日期：2026-11-04
+检索日期：2026-11-05
 
-检索去重后文献总数：1197
+检索去重后文献总数：796
 
 写入结果文献数：1
 
@@ -23,7 +23,7 @@ C 类文献数量：0
 - 期刊：Nelson Mandela University Research Repository
 - DOI：
 - URL：https://openalex.org/W7220819521
-- 触发检索词：Site and vegetation jointly shape soil bacterial and fungal communities in coastal wetlands
+- 触发检索词：Salinity-driven differentiation of bacterial and fungal communities in coastal wetlands
 - 建议 Zotero collection：03_盐度EC和环境因子
 - 推荐理由：高度相关：与当前论文在研究对象或分析方法上相似，尤其贴近植被/距海梯度、细菌/真菌群落、环境因子或 Figure 1-8 分析链条。期刊质量需人工核对，先按主题和方法相似度暂存。
 - 可参考图件/方法：
