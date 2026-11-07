@@ -1,14 +1,14 @@
 # 今日文献追踪结果
 
-检索日期：2026-11-06
+检索日期：2026-11-07
 
-检索去重后文献总数：1246
+检索去重后文献总数：1193
 
-写入结果文献数：1
+写入结果文献数：2
 
 A 类文献数量：1
 
-B 类文献数量：0
+B 类文献数量：1
 
 C 类文献数量：0
 
@@ -36,7 +36,24 @@ C 类文献数量：0
 
 ## B 类：建议阅读
 
-今日暂无。
+### 1. Geographic Environment Outweighs Halophyte Identity in Shaping Nitrogen-Cycling Microbial Communities in Coastal Saline Soils
+
+- 来源：OpenAlex
+- 相似度得分：145
+- 作者：Yanjing Song, Xiangyu Wang, Jie Wang, Yan Shan, Rao Fu, Xiaoyan Liang
+- 年份：2026
+- 期刊：Microorganisms
+- DOI：10.3390/microorganisms14112537
+- URL：https://openalex.org/W7225242015
+- 触发检索词：halophyte rhizosphere soil microbial community
+- 建议 Zotero collection：06_FAPROTAX和功能预测
+- 推荐理由：中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似。期刊争议度较高，建议只作为补充线索，不作为优先核心引用。
+- 可参考图件/方法：
+  - Figure 1 理化性质：EC/pH/Salt 或 salinity/salt content
+  - Figure 4 beta diversity：PCoA、NMDS、Bray-Curtis、PERMANOVA、ANOSIM
+- 期刊质量提示：期刊争议度较高，建议只作为补充线索，不作为优先核心引用。
+- 命中维度：{'seed': 1, 'ecosystem': 5, 'soil': 3, 'microbe': 7, 'nitrogen': 1, 'addition': 0, 'function': 4, 'vegetation': 3, 'network': 1, 'environment': 3, 'taxa': 0, 'figure': 2, 'design': 1, 'figure_match': 2, 'journal_quality': -6}
+- 摘要核心内容：Halophytes are thought to recruit nitrogen (N)-cycling microorganisms that alleviate nutrient limitation in coastal saline soils, yet the relative importance of geographic environment versus halophyte identity in structuring these communities remains unclear. We sampled rhizosphere soils of eight plant species (18 species × site combinations) at four coastal sites in the Yellow River Delta and Laizhou Bay, China. Two sites had low salinity (0.56–0.71‰) and two had high salinity (8.48–11.40‰). The abundances of ammonia-oxidizing archaea (AOA, arch-amoA gene) and bacteria (AOB, amoA gene) and denitrifiers (nirS, nirK, nosZ) were quantified via qPCR. AOA, AOB, and nosZ-type denitrifier communities were profiled using amplicon sequencing. The geographic location significantly structured all three communities (PERMANOVA R2 = 0.65–0.68, p < 0.01), whereas plant traits did not; salinity, moisture, pH, and total carbon were the main correlates. High-salinity sites harbored ~14-fold more nirS copies and higher AOA diversity than low-salinity sites, with dominance shifting from Nitrososphaera to Nitrosopumilus in AOA and from Nitrosovibrio to Nitrosospira in AOB. Plant-associated effects wer...
 
 ## C 类：可选阅读
 

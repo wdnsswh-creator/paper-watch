@@ -1,4 +1,24 @@
 TY  - JOUR
+TI  - Geographic Environment Outweighs Halophyte Identity in Shaping Nitrogen-Cycling Microbial Communities in Coastal Saline Soils
+AU  - Yanjing Song
+AU  - Xiangyu Wang
+AU  - Jie Wang
+AU  - Yan Shan
+AU  - Rao Fu
+AU  - Xiaoyan Liang
+AU  - Chi Zhang
+AU  - Junlin Li
+AU  - Lan Ma
+AU  - Zhihua Qiao
+JO  - Microorganisms
+PY  - 2026
+DO  - 10.3390/microorganisms14112537
+UR  - https://openalex.org/W7225242015
+AB  - Halophytes are thought to recruit nitrogen (N)-cycling microorganisms that alleviate nutrient limitation in coastal saline soils, yet the relative importance of geographic environment versus halophyte identity in structuring these communities remains unclear. We sampled rhizosphere soils of eight plant species (18 species × site combinations) at four coastal sites in the Yellow River Delta and Laizhou Bay, China. Two sites had low salinity (0.56–0.71‰) and two had high salinity (8.48–11.40‰). The abundances of ammonia-oxidizing archaea (AOA, arch-amoA gene) and bacteria (AOB, amoA gene) and denitrifiers (nirS, nirK, nosZ) were quantified via qPCR. AOA, AOB, and nosZ-type denitrifier communities were profiled using amplicon sequencing. The geographic location significantly structured all three communities (PERMANOVA R2 = 0.65–0.68, p < 0.01), whereas plant traits did not; salinity, moisture, pH, and total carbon were the main correlates. High-salinity sites harbored ~14-fold more nirS copies and higher AOA diversity than low-salinity sites, with dominance shifting from Nitrososphaera to Nitrosopumilus in AOA and from Nitrosovibrio to Nitrosospira in AOB. Plant-associated effects were weaker and limited to gene abundance and α-diversity. Secretohalophytes harbored the highest AOA abundance, and perennials had ~10-fold more nosZ copies than annuals. Our results contribute to improving knowledge on different effects of geographic environment and host plant traits on the N-cycling microbial assembly in coastal saline soils.
+N1  - Level: B; Score: 145; Source: OpenAlex
+ER  -
+
+TY  - JOUR
 TI  - Assessing diatom community composition and structure in palaeosediments of a southern Cape coastal wetland
 AU  - Tshiamo Tsholofelo Sepato
 JO  - Nelson Mandela University Research Repository
