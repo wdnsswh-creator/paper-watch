@@ -1,14 +1,14 @@
 # 今日文献追踪结果
 
-检索日期：2026-11-10
+检索日期：2026-11-11
 
-检索去重后文献总数：1206
+检索去重后文献总数：1204
 
-写入结果文献数：2
+写入结果文献数：1
 
 A 类文献数量：1
 
-B 类文献数量：1
+B 类文献数量：0
 
 C 类文献数量：0
 
@@ -36,24 +36,7 @@ C 类文献数量：0
 
 ## B 类：建议阅读
 
-### 1. Soil bacterial and fungal communities show within field heterogeneity that varies by land management and distance metric
-
-- 来源：OpenAlex
-- 相似度得分：108
-- 作者：Fiona M. Seaton, Robert Iwan Griffiths, Tim Goodall, Inma Lebron, Lisa Norton
-- 年份：2022
-- 期刊：Soil Biology and Biochemistry
-- DOI：10.1016/j.soilbio.2022.108920
-- URL：https://openalex.org/W4311711208
-- 触发检索词：two sampling sites three vegetation types soil bacterial fungal community
-- 建议 Zotero collection：03_盐度EC和环境因子
-- 推荐理由：中等相关：与当前论文在土壤微生物、滨海/盐碱环境、植被影响、盐度 EC 或群落分析方法中的部分方向相似。期刊规格较好，适合作为重点参考候选。
-- 可参考图件/方法：
-  - Figure 1 理化性质：EC/pH/Salt 或 salinity/salt content
-  - Figure 4 beta diversity：PCoA、NMDS、Bray-Curtis、PERMANOVA、ANOSIM
-- 期刊质量提示：期刊规格较好，适合作为重点参考候选。
-- 命中维度：{'seed': 1, 'ecosystem': 0, 'soil': 1, 'microbe': 7, 'nitrogen': 0, 'addition': 0, 'function': 0, 'vegetation': 0, 'network': 1, 'environment': 2, 'taxa': 0, 'figure': 2, 'design': 1, 'figure_match': 2, 'journal_quality': 10}
-- 摘要核心内容：Abstract Increasing interest in the use of microbial metrics to evaluate soil health raises the issue of how fine-scale heterogeneity can affect microbial community measurements. Here we analyse bacterial and fungal communities of over 100 soil samples across 17 pasture farms and evaluate beta diversity at different scales. We find large variation in microbial communities between different points in the same field, and if Aitchison distance is used we find that within-field variation is as high as between-farm variation. However, if Bray-Curtis or Jaccard distance are used this variation is partially explained by differences in soil pH and vegetation and is higher under mob grazing for fungi. Hence, field scale variation in microbial communities can impact the evaluation of soil health.
+今日暂无。
 
 ## C 类：可选阅读
 

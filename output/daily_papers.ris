@@ -1,19 +1,4 @@
 TY  - JOUR
-TI  - Soil bacterial and fungal communities show within field heterogeneity that varies by land management and distance metric
-AU  - Fiona M. Seaton
-AU  - Robert Iwan Griffiths
-AU  - Tim Goodall
-AU  - Inma Lebron
-AU  - Lisa Norton
-JO  - Soil Biology and Biochemistry
-PY  - 2022
-DO  - 10.1016/j.soilbio.2022.108920
-UR  - https://openalex.org/W4311711208
-AB  - Abstract Increasing interest in the use of microbial metrics to evaluate soil health raises the issue of how fine-scale heterogeneity can affect microbial community measurements. Here we analyse bacterial and fungal communities of over 100 soil samples across 17 pasture farms and evaluate beta diversity at different scales. We find large variation in microbial communities between different points in the same field, and if Aitchison distance is used we find that within-field variation is as high as between-farm variation. However, if Bray-Curtis or Jaccard distance are used this variation is partially explained by differences in soil pH and vegetation and is higher under mob grazing for fungi. Hence, field scale variation in microbial communities can impact the evaluation of soil health.
-N1  - Level: B; Score: 108; Source: OpenAlex
-ER  -
-
-TY  - JOUR
 TI  - Assessing diatom community composition and structure in palaeosediments of a southern Cape coastal wetland
 AU  - Tshiamo Tsholofelo Sepato
 JO  - Nelson Mandela University Research Repository
